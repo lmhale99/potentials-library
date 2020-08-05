@@ -28,6 +28,8 @@ Usage
 The directory for the potentials-library repository should correspond to the
 library directory set for the potentials package:
 
+.. code-block:: python
+
     import potentials
     settings = potentials.Settings()
     
@@ -35,7 +37,7 @@ library directory set for the potentials package:
     print(settings.library_directory)
     
     # Change the library directory (optional)
-    settings.set_library_directory(<PATH>)
+    settings.set_library_directory(PATH)
 
 Once the records are in the library directory, the potentials.Database class
 should be able to find and load them.
