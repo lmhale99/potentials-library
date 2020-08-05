@@ -1,0 +1,29 @@
+{
+    "potential-LAMMPS": {
+        "key": "21b80d17-4747-4500-a026-d649e635ecb4", 
+        "id": "2015--Borovikov-V--fictional-Cu-1--LAMMPS--ipr1", 
+        "potential": {
+            "key": "55983346-a7f7-4709-bbd7-fcd553392ddf", 
+            "id": "2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-1"
+        }, 
+        "units": "metal", 
+        "atom_style": "atomic", 
+        "atom": {
+            "element": "Cu", 
+            "mass": 63.546
+        }, 
+        "pair_style": {
+            "type": "eam/fs"
+        }, 
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "MCu1_MendelevM_2014.eam.fs"
+                }, 
+                {
+                    "symbols": "true"
+                }
+            ]
+        }
+    }
+}

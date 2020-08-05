@@ -1,0 +1,69 @@
+{
+    "interatomic-potential": {
+        "key": "1167cdc2-85c1-4419-b747-5c9efb8114cc", 
+        "id": "2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-2", 
+        "record-version": "2020-03-05", 
+        "description": {
+            "citation": {
+                "document-type": "journal", 
+                "title": "Effect of stacking fault energy on mechanism of plastic deformation in nanotwinned FCC metals", 
+                "author": [
+                    {
+                        "given-name": "V.", 
+                        "surname": "Borovikov"
+                    }, 
+                    {
+                        "given-name": "M.I.", 
+                        "surname": "Mendelev"
+                    }, 
+                    {
+                        "given-name": "A.H.", 
+                        "surname": "King"
+                    }, 
+                    {
+                        "given-name": "R.", 
+                        "surname": "LeSar"
+                    }
+                ], 
+                "publication-name": "Modelling and Simulation in Materials Science and Engineering", 
+                "publication-date": {
+                    "year": 2015
+                }, 
+                "volume": 23, 
+                "issue": 5, 
+                "abstract": "Starting from a semi-empirical potential designed for Cu, we have developed a series of potentials that provide essentially constant values of all significant (calculated) materials properties except for the intrinsic stacking fault energy, which varies over a range that encompasses the lowest and highest values observed in nature. These potentials were employed in molecular dynamics (MD) simulations to investigate how stacking fault energy affects the mechanical behavior of nanotwinned face-centered cubic (FCC) materials. The results indicate that properties such as yield strength and microstructural stability do not vary systematically with stacking fault energy, but rather fall into two distinct regimes corresponding to 'low' and 'high' stacking fault energies.", 
+                "pages": 55003, 
+                "DOI": "10.1088/0965-0393/23/5/055003", 
+                "bibtex": "@article{Borovikov_2015,\n abstract = {Starting from a semi-empirical potential designed for Cu, we have developed a series of potentials that provide essentially constant values of all significant (calculated) materials properties except for the intrinsic stacking fault energy, which varies over a range that encompasses the lowest and highest values observed in nature. These potentials were employed in molecular dynamics (MD) simulations to investigate how stacking fault energy affects the mechanical behavior of nanotwinned face-centered cubic (FCC) materials. The results indicate that properties such as yield strength and microstructural stability do not vary systematically with stacking fault energy, but rather fall into two distinct regimes corresponding to 'low' and 'high' stacking fault energies.},\n author = {Valery Borovikov and Mikhail I Mendelev and Alexander H King and Richard LeSar},\n doi = {10.1088/0965-0393/23/5/055003},\n journal = {Modelling and Simulation in Materials Science and Engineering},\n month = {may},\n number = {5},\n pages = {055003},\n publisher = {IOP Publishing},\n title = {Effect of stacking fault energy on mechanism of plastic deformation in nanotwinned FCC metals},\n url = {https://doi.org/10.1088%2F0965-0393%2F23%2F5%2F055003},\n volume = {23},\n year = {2015}\n}\n\n"
+            }, 
+            "notes": {
+                "text": "This listing is for the MCu2 parameterization listed in the reference. The reference information was updated on 13 June 2015. Dr. Mendelev noted that these \"are fictional potentials. MCu3 is a realistic potential for Cu; it is the same as <a href=\"https://www.ctcms.nist.gov/potentials/entry/2013--Mendelev-M-I-King-A-H--Cu/\">2013--Mendelev-M-I-King-A-H--Cu</a> The rest of potentials were developed using exactly the same fitting procedure except of the target value for the stacking fault energy (SFE) which was varied. The potentials are designed to study the effect of SFE on the mechanical behavior of fcc metals. I also attached a table with the some properties by these potentials.\" The table is in PotentialProperties_MCu.pdf."
+            }
+        }, 
+        "implementation": {
+            "key": "ca8ce0a2-2e16-4f54-b5cd-15f44f977129", 
+            "id": "2015--Borovikov-V--fictional-Cu-2--LAMMPS--ipr1", 
+            "status": "active", 
+            "date": "2014-11-24", 
+            "type": "LAMMPS pair_style eam/fs", 
+            "notes": {
+                "text": "These files were sent by M.I. Mendelev (Ames Laboratory) on 24 Nov. 2014 and posted with his permission."
+            }, 
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-2/1/MCu2_MendelevM_2014.eam.fs", 
+                        "link-text": "MCu2_MendelevM_2014.eam.fs"
+                    }
+                }, 
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Borovikov-V-Mendelev-M-I-King-A-H-LeSar-R--fictional-Cu-2/1/PotentialProperties_MCu.pdf", 
+                        "link-text": "PotentialProperties_MCu.pdf"
+                    }
+                }
+            ]
+        }, 
+        "fictional-element": "Cu"
+    }
+}

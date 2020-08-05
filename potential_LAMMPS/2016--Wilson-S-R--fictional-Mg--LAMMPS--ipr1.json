@@ -1,0 +1,29 @@
+{
+    "potential-LAMMPS": {
+        "key": "1b0bef92-580f-4a3b-9a96-ee0e1205abb5", 
+        "id": "2016--Wilson-S-R--fictional-Mg--LAMMPS--ipr1", 
+        "potential": {
+            "key": "a1f4f48b-f340-4ae4-877d-330385a99b81", 
+            "id": "2016--Wilson-S-R-Mendelev-M-I--fictional-Mg"
+        }, 
+        "units": "metal", 
+        "atom_style": "atomic", 
+        "atom": {
+            "element": "Mg", 
+            "mass": 24.305
+        }, 
+        "pair_style": {
+            "type": "eam/fs"
+        }, 
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "Mg1-prime.eam.fs"
+                }, 
+                {
+                    "symbols": "true"
+                }
+            ]
+        }
+    }
+}

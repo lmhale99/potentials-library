@@ -1,0 +1,39 @@
+{
+    "potential-LAMMPS": {
+        "key": "9efb8ab7-a991-4747-86a3-3567f2de7e07", 
+        "id": "2013--Smirnova-D-E--U-Mo-Xe--LAMMPS--ipr2", 
+        "potential": {
+            "key": "fc5a9a34-b8be-4935-aa63-aa02a15d93b8", 
+            "id": "2013--Smirnova-D-E-Kuksin-A-Y-Starikov-S-V-et-al--U-Mo-Xe"
+        }, 
+        "units": "metal", 
+        "atom_style": "atomic", 
+        "atom": [
+            {
+                "element": "U", 
+                "mass": 238.03
+            }, 
+            {
+                "element": "Mo", 
+                "mass": 95.94
+            }, 
+            {
+                "element": "Xe", 
+                "mass": 131.3
+            }
+        ], 
+        "pair_style": {
+            "type": "eam/alloy"
+        }, 
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "U_Mo_Xe.2013.eam.alloy"
+                }, 
+                {
+                    "symbols": "true"
+                }
+            ]
+        }
+    }
+}

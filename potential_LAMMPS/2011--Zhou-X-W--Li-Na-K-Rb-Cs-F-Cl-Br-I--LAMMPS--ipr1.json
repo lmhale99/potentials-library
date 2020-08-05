@@ -1,0 +1,67 @@
+{
+    "potential-LAMMPS": {
+        "key": "61b4794b-9cff-41e0-84cf-f9437f365648", 
+        "id": "2011--Zhou-X-W--Li-Na-K-Rb-Cs-F-Cl-Br-I--LAMMPS--ipr1", 
+        "potential": {
+            "key": "49f401da-b208-401f-a629-0ed1cababd20", 
+            "id": "2011--Zhou-X-W-Doty-F-P-Yang-P--Li-Na-K-Rb-Cs-F-Cl-Br-I"
+        }, 
+        "units": "metal", 
+        "atom_style": "atomic", 
+        "atom": [
+            {
+                "element": "Li", 
+                "mass": 6.941
+            }, 
+            {
+                "element": "Na", 
+                "mass": 22.99
+            }, 
+            {
+                "element": "K", 
+                "mass": 39.1
+            }, 
+            {
+                "element": "Rb", 
+                "mass": 85.47
+            }, 
+            {
+                "element": "Cs", 
+                "mass": 132.9
+            }, 
+            {
+                "element": "F", 
+                "mass": 19.0
+            }, 
+            {
+                "element": "Cl", 
+                "mass": 35.45
+            }, 
+            {
+                "element": "Br", 
+                "mass": 79.9
+            }, 
+            {
+                "symbol": "Id", 
+                "element": "I", 
+                "mass": 126.9
+            }
+        ], 
+        "pair_style": {
+            "type": "eim"
+        }, 
+        "pair_coeff": {
+            "term": [
+                {
+                    "symbolsList": "true"
+                }, 
+                {
+                    "file": "ffield.eim"
+                }, 
+                {
+                    "symbols": "true"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "interatomic-potential": {
+        "key": "92dfd6c7-21ec-4357-927f-acf3d7ad896c", 
+        "id": "2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta", 
+        "record-version": "2019-10-18", 
+        "description": {
+            "citation": {
+                "document-type": "journal", 
+                "title": "Spectral neighbor analysis method for automated generation of quantum-accurate interatomic potentials", 
+                "author": [
+                    {
+                        "given-name": "A.P.", 
+                        "surname": "Thompson"
+                    }, 
+                    {
+                        "given-name": "L.P.", 
+                        "surname": "Swiler"
+                    }, 
+                    {
+                        "given-name": "C.R.", 
+                        "surname": "Trott"
+                    }, 
+                    {
+                        "given-name": "S.M.", 
+                        "surname": "Foiles"
+                    }, 
+                    {
+                        "given-name": "G.J.", 
+                        "surname": "Tucker"
+                    }
+                ], 
+                "publication-name": "Journal of Computational Physics", 
+                "publication-date": {
+                    "year": 2015
+                }, 
+                "volume": 285, 
+                "abstract": "We present a new interatomic potential for solids and liquids called Spectral Neighbor Analysis Potential (SNAP). The SNAP potential has a very general form and uses machine-learning techniques to reproduce the energies, forces, and stress tensors of a large set of small configurations of atoms, which are obtained using high-accuracy quantum electronic structure (QM) calculations. The local environment of each atom is characterized by a set of bispectrum components of the local neighbor density projected onto a basis of hyperspherical harmonics in four dimensions. The bispectrum components are the same bond-orientational order parameters employed by the GAP potential [1]. The SNAP potential, unlike GAP, assumes a linear relationship between atom energy and bispectrum components. The linear SNAP coefficients are determined using weighted least-squares linear regression against the full QM training set. This allows the SNAP potential to be fit in a robust, automated manner to large QM data sets using many bispectrum components. The calculation of the bispectrum components and the SNAP potential are implemented in the LAMMPS parallel molecular dynamics code. We demonstrate that a previously unnoticed symmetry property can be exploited to reduce the computational cost of the force calculations by more than one order of magnitude. We present results for a SNAP potential for tantalum, showing that it accurately reproduces a range of commonly calculated properties of both the crystalline solid and the liquid phases. In addition, unlike simpler existing potentials, SNAP correctly predicts the energy barrier for screw dislocation migration in BCC tantalum.", 
+                "pages": "316-330", 
+                "DOI": "10.1016/j.jcp.2014.12.018", 
+                "bibtex": "@article{Thompson_2015,\n abstract = {We present a new interatomic potential for solids and liquids called Spectral Neighbor Analysis Potential (SNAP). The SNAP potential has a very general form and uses machine-learning techniques to reproduce the energies, forces, and stress tensors of a large set of small configurations of atoms, which are obtained using high-accuracy quantum electronic structure (QM) calculations. The local environment of each atom is characterized by a set of bispectrum components of the local neighbor density projected onto a basis of hyperspherical harmonics in four dimensions. The bispectrum components are the same bond-orientational order parameters employed by the GAP potential [1]. The SNAP potential, unlike GAP, assumes a linear relationship between atom energy and bispectrum components. The linear SNAP coefficients are determined using weighted least-squares linear regression against the full QM training set. This allows the SNAP potential to be fit in a robust, automated manner to large QM data sets using many bispectrum components. The calculation of the bispectrum components and the SNAP potential are implemented in the LAMMPS parallel molecular dynamics code. We demonstrate that a previously unnoticed symmetry property can be exploited to reduce the computational cost of the force calculations by more than one order of magnitude. We present results for a SNAP potential for tantalum, showing that it accurately reproduces a range of commonly calculated properties of both the crystalline solid and the liquid phases. In addition, unlike simpler existing potentials, SNAP correctly predicts the energy barrier for screw dislocation migration in BCC tantalum.},\n author = {A.P. Thompson and L.P. Swiler and C.R. Trott and S.M. Foiles and G.J. Tucker},\n doi = {10.1016/j.jcp.2014.12.018},\n journal = {Journal of Computational Physics},\n month = {mar},\n pages = {316--330},\n publisher = {Elsevier BV},\n title = {Spectral neighbor analysis method for automated generation of quantum-accurate interatomic potentials},\n url = {https://doi.org/10.1016%2Fj.jcp.2014.12.018},\n volume = {285},\n year = {2015}\n}"
+            }
+        }, 
+        "implementation": [
+            {
+                "key": "07a82558-c855-46cd-9275-260b50bd5eaf", 
+                "id": "2015--Thompson-A-P--Ta--LAMMPS--ipr1", 
+                "status": "active", 
+                "date": "2019-10-18", 
+                "type": "LAMMPS pair_style hybrid/overlay zbl snap", 
+                "notes": {
+                    "text": "These files were taken from the 5 Sept 2018 LAMMPS distribution and are compatible with LAMMPS versions between 8 Oct 2014 and 30 May 2017. Ta06A.snap outlines the LAMMPS pair_style and pair_coeff lines to use."
+                }, 
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta/1/Ta06A.snap", 
+                            "link-text": "Ta06A.snap"
+                        }
+                    }, 
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta/1/Ta06A.snapcoeff", 
+                            "link-text": "Ta06A.snapcoeff"
+                        }
+                    }, 
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta/1/Ta06A.snapparam", 
+                            "link-text": "Ta06A.snapparam"
+                        }
+                    }
+                ]
+            }, 
+            {
+                "key": "71db92c9-e355-4646-a289-4be4ad354889", 
+                "id": "2015--Thompson-A-P--Ta--LAMMPS--ipr2", 
+                "status": "active", 
+                "date": "2019-10-18", 
+                "type": "LAMMPS pair_style hybrid/overlay zbl snap", 
+                "notes": {
+                    "text": "These files were taken from the 8 Feb 2019 LAMMPS distribution.  The parameter files Ta06A.snapcoeff and Ta06A.snapparam are compatible with LAMMPS versions between 30 May 2017 and 12 June 2019.  Ta06A.snap outlines the LAMMPS pair_style and pair_coeff lines to use for LAMMPS versions after 3 Dec 2018.  For earlier LAMMPS verions, use Ta06A.snap from the above potential version."
+                }, 
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta/2/Ta06A.snap", 
+                            "link-text": "Ta06A.snap"
+                        }
+                    }, 
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta/2/Ta06A.snapcoeff", 
+                            "link-text": "Ta06A.snapcoeff"
+                        }
+                    }, 
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta/2/Ta06A.snapparam", 
+                            "link-text": "Ta06A.snapparam"
+                        }
+                    }
+                ]
+            }, 
+            {
+                "key": "3a68a830-5550-4326-8b1e-aa88e300fb95", 
+                "id": "2015--Thompson-A-P--Ta--LAMMPS--ipr3", 
+                "status": "active", 
+                "date": "2019-10-18", 
+                "type": "LAMMPS pair_style hybrid/overlay zbl snap", 
+                "notes": {
+                    "text": "These files were taken from the 7 Aug 2019 LAMMPS distribution and are compatible with LAMMPS versions starting with 12 June 2019. Ta06A.snap outlines the LAMMPS pair_style and pair_coeff lines to use."
+                }, 
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta/3/Ta06A.snap", 
+                            "link-text": "Ta06A.snap"
+                        }
+                    }, 
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta/3/Ta06A.snapcoeff", 
+                            "link-text": "Ta06A.snapcoeff"
+                        }
+                    }, 
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta/3/Ta06A.snapparam", 
+                            "link-text": "Ta06A.snapparam"
+                        }
+                    }
+                ]
+            }
+        ], 
+        "element": "Ta"
+    }
+}

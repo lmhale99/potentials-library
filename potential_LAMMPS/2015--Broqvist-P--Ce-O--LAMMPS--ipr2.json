@@ -1,0 +1,69 @@
+{
+    "potential-LAMMPS": {
+        "key": "e5ed3ebc-d8bc-49fd-856d-266eb708f269", 
+        "id": "2015--Broqvist-P--Ce-O--LAMMPS--ipr2", 
+        "potential": {
+            "key": "898da38c-c94b-4254-b480-35f3b1ab22ac", 
+            "id": "2015--Broqvist-P-Kullgren-J-Wolf-M-J-et-al--Ce-O"
+        }, 
+        "units": "metal", 
+        "atom_style": "charge", 
+        "atom": [
+            {
+                "element": "Ce", 
+                "mass": 140.1
+            }, 
+            {
+                "element": "O", 
+                "mass": 15.999
+            }
+        ], 
+        "pair_style": {
+            "type": "reax/c", 
+            "term": {
+                "option": "NULL"
+            }
+        }, 
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "ffield_Ce-O"
+                }, 
+                {
+                    "symbols": "true"
+                }
+            ]
+        }, 
+        "command": {
+            "term": [
+                {
+                    "option": "fix"
+                }, 
+                {
+                    "option": "qeq_fix"
+                }, 
+                {
+                    "option": "all"
+                }, 
+                {
+                    "option": "qeq/reax"
+                }, 
+                {
+                    "parameter": 1
+                }, 
+                {
+                    "parameter": 0.0
+                }, 
+                {
+                    "parameter": 10.0
+                }, 
+                {
+                    "parameter": 1e-06
+                }, 
+                {
+                    "option": "reax/c"
+                }
+            ]
+        }
+    }
+}
