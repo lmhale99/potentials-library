@@ -1,0 +1,35 @@
+{
+    "potential-LAMMPS": {
+        "key": "f8f52d2e-597d-435a-926a-09f38094b1da", 
+        "id": "2021--Wang-G--Au-Rh--LAMMPS--ipr1", 
+        "potential": {
+            "key": "ccd7fceb-a257-40df-812b-b1326955bff1", 
+            "id": "2021--Wang-G-Xu-Y-Qian-P-Su-Y--Au-Rh"
+        }, 
+        "units": "metal", 
+        "atom_style": "atomic", 
+        "atom": [
+            {
+                "element": "Au", 
+                "mass": 196.9666
+            }, 
+            {
+                "element": "Rh", 
+                "mass": 102.9055
+            }
+        ], 
+        "pair_style": {
+            "type": "adp"
+        }, 
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "AuRh.adp.txt"
+                }, 
+                {
+                    "symbols": "true"
+                }
+            ]
+        }
+    }
+}
