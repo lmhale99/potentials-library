@@ -1,0 +1,76 @@
+{
+    "interatomic-potential": {
+        "key": "0d7cef74-4ff2-41a8-96c9-290a351cf116",
+        "id": "2020--Miraz-A-S-M-Dhariwal-N-Meng-W-J-et-al--Cu-N-Ti",
+        "record-version": "2020-09-24",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Development and application of interatomic potentials to study the stability and shear strength of Ti/TiN and Cu/TiN interfaces",
+                "author": [
+                    {
+                        "given-name": "A.S.M.",
+                        "surname": "Miraz"
+                    },
+                    {
+                        "given-name": "N.",
+                        "surname": "Dhariwal"
+                    },
+                    {
+                        "given-name": "W.J.",
+                        "surname": "Meng"
+                    },
+                    {
+                        "given-name": "B.R.",
+                        "surname": "Ramachandran"
+                    },
+                    {
+                        "given-name": "C.D.",
+                        "surname": "Wick"
+                    }
+                ],
+                "publication-name": "Materials & Design",
+                "publication-date": {
+                    "year": 2020
+                },
+                "volume": 196,
+                "abstract": "A modified embedded atom method interatomic potential was developed to study semi-coherent metal/ceramic interfaces involving Cu, Ti and N. A genetic algorithm was used to fit the model parameters to the physical properties of the materials. To accurately describe interfacial interactions and shear, two-dimensional generalized stacking fault energy profiles for relevant slip systems were selected as one of the major parameterization targets for the models. The models were applied to study semi-coherent Ti(0001)/TiN(111) and Cu(111)/TiN(111) systems. Ti/TiN was stable with misfits accommodated away from the interface. Cu/TiN, in contrast, was more stable with misfits at the interface. A spiral pattern in the misfit dislocation networks was observed away from the Cu/TiN interface, similar to the metal/metal (111) semi-coherent interfaces. The theoretical shear strength calculated for Ti/TiN when the misfits were several layers away from the interface and for Cu/TiN with the misfit at the chemical interface, had reasonable agreement with experiment.",
+                "pages": "109123",
+                "DOI": "10.1016/j.matdes.2020.109123",
+                "bibtex": "@article{Miraz_2020,\n abstract = {A modified embedded atom method interatomic potential was developed to study semi-coherent metal/ceramic interfaces involving Cu, Ti and N. A genetic algorithm was used to fit the model parameters to the physical properties of the materials. To accurately describe interfacial interactions and shear, two-dimensional generalized stacking fault energy profiles for relevant slip systems were selected as one of the major parameterization targets for the models. The models were applied to study semi-coherent Ti(0001)/TiN(111) and Cu(111)/TiN(111) systems. Ti/TiN was stable with misfits accommodated away from the interface. Cu/TiN, in contrast, was more stable with misfits at the interface. A spiral pattern in the misfit dislocation networks was observed away from the Cu/TiN interface, similar to the metal/metal (111) semi-coherent interfaces. The theoretical shear strength calculated for Ti/TiN when the misfits were several layers away from the interface and for Cu/TiN with the misfit at the chemical interface, had reasonable agreement with experiment.},\n author = {Abu Shama Mohammad Miraz and Nisha Dhariwal and W.J. Meng and Bala R. Ramachandran and Collin D. Wick},\n doi = {10.1016/j.matdes.2020.109123},\n journal = {Materials & Design},\n month = {nov},\n pages = {109123},\n publisher = {Elsevier BV},\n title = {Development and application of interatomic potentials to study the stability and shear strength of Ti/TiN and Cu/TiN interfaces},\n url = {https://doi.org/10.1016%2Fj.matdes.2020.109123},\n volume = {196},\n year = {2020}\n}\n\n"
+            },
+            "notes": {
+                "text": "Abu Shama M Miraz notes: \"Our potential is mainly focused on the mechanical response of semi-coherent Ti/TiN and Cu/TiN metal/ceramic interfacial systems.  We have separately parameterized to pure Cu and Ti first. So the models are good to use for these pure elements alone, if one wishes. Next, the binary Cu-Ti, Ti-N and Cu-N were fit to the model. And finally, the ternary Cu-Ti-N potential was fit to Cu/TiN metal/ceramic interfacial systems of different orientation relations. The properties that were fit can be found in the paper.\""
+            }
+        },
+        "implementation": {
+            "key": "2ba28fde-d5be-460f-8434-8a1e5d5a4372",
+            "id": "2020--Miraz-A-S-M--Cu-N-Ti--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2020-09-24",
+            "type": "LAMMPS pair_style meam",
+            "notes": {
+                "text": "These files were provided by Abu Shama M Miraz (Louisiana Tech) on Sept. 18, 2020 and posted with his permission."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2020--Miraz-A-S-M-Dhariwal-N-Meng-W-J-et-al--Cu-N-Ti/1/library.meam.0",
+                        "link-text": "library.meam.0"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2020--Miraz-A-S-M-Dhariwal-N-Meng-W-J-et-al--Cu-N-Ti/1/CuNTi.meam.0",
+                        "link-text": "CuNTi.meam.0"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Cu",
+            "N",
+            "Ti"
+        ]
+    }
+}

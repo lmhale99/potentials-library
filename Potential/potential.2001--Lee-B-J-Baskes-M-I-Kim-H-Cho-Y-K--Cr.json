@@ -1,0 +1,81 @@
+{
+    "interatomic-potential": {
+        "key": "3c8ff676-bf37-4e3e-a766-a90fb7b3f3cb",
+        "id": "2001--Lee-B-J-Baskes-M-I-Kim-H-Cho-Y-K--Cr",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Second nearest-neighbor modified embedded atom method potentials for bcc transition metals",
+                "author": [
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    },
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Baskes"
+                    },
+                    {
+                        "given-name": "H.",
+                        "surname": "Kim"
+                    },
+                    {
+                        "given-name": "Y.K.",
+                        "surname": "Cho"
+                    }
+                ],
+                "publication-name": "Physical Review B",
+                "publication-date": {
+                    "year": 2001
+                },
+                "volume": 64,
+                "issue": 18,
+                "abstract": "The second nearest-neighbor modified embedded atom method (MEAM) [Phys. Rev. B 62, 8564 (2000)], developed in order to solve problems of the original first nearest-neighbor MEAM on bcc metals, has now been applied to all bcc transition metals, Fe, Cr, Mo, W, V, Nb, and Ta. The potential parameters could be determined empirically by fitting to (<i>\u2202B/\u2202P</i>), elastic constants, structural energy differences among bcc, fcc and hcp structures, vacancy-formation energy, and surface energy. Various physical properties of individual elements, including elastic constants, structural properties, point-defect properties, surface properties, and thermal properties were calculated and compared with experiments or high level calculations so that the reliability of the present empirical atomic-potential formalism can be evaluated. It is shown that the present potentials reasonably reproduce nonfitted properties of the bcc transition metals, as well as the fitted properties. The effect of the size of radial cutoff distance on the calculation and the compatibility with the original first nearest-neighbor MEAM that has been successful for fcc, hcp, and other structures are also discussed.",
+                "DOI": "10.1103/physrevb.64.184102",
+                "bibtex": "@article{Lee_2001,\n abstract = {The second nearest-neighbor modified embedded atom method (MEAM) [Phys. Rev. B 62, 8564 (2000)], developed in order to solve problems of the original first nearest-neighbor MEAM on bcc metals, has now been applied to all bcc transition metals, Fe, Cr, Mo, W, V, Nb, and Ta. The potential parameters could be determined empirically by fitting to (<i>\u2202B/\u2202P</i>), elastic constants, structural energy differences among bcc, fcc and hcp structures, vacancy-formation energy, and surface energy. Various physical properties of individual elements, including elastic constants, structural properties, point-defect properties, surface properties, and thermal properties were calculated and compared with experiments or high level calculations so that the reliability of the present empirical atomic-potential formalism can be evaluated. It is shown that the present potentials reasonably reproduce nonfitted properties of the bcc transition metals, as well as the fitted properties. The effect of the size of radial cutoff distance on the calculation and the compatibility with the original first nearest-neighbor MEAM that has been successful for fcc, hcp, and other structures are also discussed.},\n author = {Byeong-Joo Lee and M.I. Baskes and Hanchul Kim and Yang Koo Cho},\n doi = {10.1103/physrevb.64.184102},\n journal = {Physical Review B},\n month = {oct},\n number = {18},\n publisher = {American Physical Society (APS)},\n title = {Second nearest-neighbor modified embedded atom method potentials for bcc transition metals},\n url = {https://doi.org/10.1103%2Fphysrevb.64.184102},\n volume = {64},\n year = {2001}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "6451a5c7-216e-4273-826c-a3e948c1cb40",
+                "id": "2001--Lee-B-J--Cr--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2001--Lee-B-J-Baskes-M-I-Kim-H-Cho-Y-K--Cr/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2001--Lee-B-J-Baskes-M-I-Kim-H-Cho-Y-K--Cr/1/Cr.meam",
+                            "link-text": "Cr.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": "Cr"
+    }
+}

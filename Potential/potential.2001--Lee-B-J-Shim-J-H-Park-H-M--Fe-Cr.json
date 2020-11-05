@@ -1,0 +1,81 @@
+{
+    "interatomic-potential": {
+        "key": "a0a2079e-a38f-4081-b734-b55a95f6f68d",
+        "id": "2001--Lee-B-J-Shim-J-H-Park-H-M--Fe-Cr",
+        "record-version": "2020-10-23",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "A semi-empirical atomic potential for the Fe-Cr binary system",
+                "author": [
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    },
+                    {
+                        "given-name": "J.-H.",
+                        "surname": "Shim"
+                    },
+                    {
+                        "given-name": "H.M.",
+                        "surname": "Park"
+                    }
+                ],
+                "publication-name": "Calphad",
+                "publication-date": {
+                    "year": 2001
+                },
+                "volume": 25,
+                "issue": 4,
+                "abstract": "A semi-empirical atomic potential, the second nearest-neighbor MEAM, has been applied to obtain an atomic potential for the Fe-Cr system, based on the previously developed potentials for pure Fe and Cr. The procedure for the determination of potential parameter values and the performance of the assessed alloy potential were also presented. It was shown that the potential describes the basic thermodynamic property and alloy behavior in the bcc solid solution successfully, as well as many physical properties of pure Fe and Cr. The limit in the applicability of the present potential is also discussed.",
+                "pages": "527-534",
+                "DOI": "10.1016/s0364-5916(02)00005-6",
+                "bibtex": "@article{Lee_2001,\n abstract = {A semi-empirical atomic potential, the second nearest-neighbor MEAM, has been applied to obtain an atomic potential for the Fe-Cr system, based on the previously developed potentials for pure Fe and Cr. The procedure for the determination of potential parameter values and the performance of the assessed alloy potential were also presented. It was shown that the potential describes the basic thermodynamic property and alloy behavior in the bcc solid solution successfully, as well as many physical properties of pure Fe and Cr. The limit in the applicability of the present potential is also discussed.},\n author = {Byeong-Joo Lee and Jae-Hyeok Shim and Hyun Min Park},\n doi = {10.1016/s0364-5916(02)00005-6},\n journal = {Calphad},\n month = {dec},\n number = {4},\n pages = {527--534},\n publisher = {Elsevier BV},\n title = {A semi-empirical atomic potential for the Fe-Cr binary system},\n url = {https://doi.org/10.1016%2Fs0364-5916%2802%2900005-6},\n volume = {25},\n year = {2001}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "186328cd-8e55-409f-9ffc-8931b32b66a5",
+                "id": "2001--Lee-B-J--Fe-Cr--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-23",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "The meam files were generated using the kissmd_to_lammps.xslt found at http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2001--Lee-B-J-Shim-J-H-Park-H-M--Fe-Cr/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2001--Lee-B-J-Shim-J-H-Park-H-M--Fe-Cr/1/FeCr.meam",
+                            "link-text": "FeCr.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-23",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "Fe",
+            "Cr"
+        ]
+    }
+}

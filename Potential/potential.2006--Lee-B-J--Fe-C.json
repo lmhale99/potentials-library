@@ -1,0 +1,73 @@
+{
+    "interatomic-potential": {
+        "key": "4d6e8340-7311-4368-9006-0ed174cc88ba",
+        "id": "2006--Lee-B-J--Fe-C",
+        "record-version": "2019-05-06",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "A modified embedded-atom method interatomic potential for the Fe\u2013C system",
+                "author": [
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Acta Materialia",
+                "publication-date": {
+                    "year": 2006
+                },
+                "volume": 54,
+                "issue": 3,
+                "abstract": "A modified embedded-atom method (MEAM) interatomic potential for the Fe\u2013C binary system has been developed using previous MEAM potentials of Fe and C. The potential parameters were determined by fitting to experimental information on the dilute heat of solution of  carbon, the vacancy\u2013carbon binding energy and its configuration, the location of  interstitial carbon atoms and the migration energy of carbon atoms in body-centered  cubic (bcc) Fe, and to a first-principles calculation result for the cohesive energy  of a hypothetical NaCl-type FeC. The potential reproduces the known physical properties of carbon as an interstitial solute element in bcc Fe and face-centered cubic Fe very  well. The applicability of this potential to atomistic approaches for investigating  interactions between carbon interstitial solute atoms and other defects such as  vacancies, dislocations and grain boundaries, and also for investigating the effects of  carbon on various deformation and mechanical behaviors of iron is demonstrated.",
+                "pages": "701-711",
+                "DOI": "10.1016/j.actamat.2005.09.034",
+                "bibtex": "@article{Lee_2006,\n abstract = {A modified embedded-atom method (MEAM) interatomic potential for the Fe\u2013C binary system has been developed using previous MEAM potentials of Fe and C. The potential parameters were determined by fitting to experimental information on the dilute heat of solution of  carbon, the vacancy\u2013carbon binding energy and its configuration, the location of  interstitial carbon atoms and the migration energy of carbon atoms in body-centered  cubic (bcc) Fe, and to a first-principles calculation result for the cohesive energy  of a hypothetical NaCl-type FeC. The potential reproduces the known physical properties of carbon as an interstitial solute element in bcc Fe and face-centered cubic Fe very  well. The applicability of this potential to atomistic approaches for investigating  interactions between carbon interstitial solute atoms and other defects such as  vacancies, dislocations and grain boundaries, and also for investigating the effects of  carbon on various deformation and mechanical behaviors of iron is demonstrated.},\n author = {Byeong-Joo Lee},\n doi = {10.1016/j.actamat.2005.09.034},\n journal = {Acta Materialia},\n month = {feb},\n number = {3},\n pages = {701--711},\n publisher = {Elsevier BV},\n title = {A modified embedded-atom method interatomic potential for the Fe\u2013C system},\n url = {https://doi.org/10.1016%2Fj.actamat.2005.09.034},\n volume = {54},\n year = {2006}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "cdeb2979-256f-478e-8bb6-bf575b4d60c4",
+                "id": "2006--Lee-B-J--Fe-C--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2019-05-06",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These potential files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2006--Lee-B-J--Fe-C/1/FeC-para.meam",
+                            "link-text": "FeC-para.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2006--Lee-B-J--Fe-C/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "Fe",
+            "C"
+        ]
+    }
+}

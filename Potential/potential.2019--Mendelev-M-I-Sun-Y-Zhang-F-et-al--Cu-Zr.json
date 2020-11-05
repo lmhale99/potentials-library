@@ -1,0 +1,98 @@
+{
+    "interatomic-potential": {
+        "key": "2e5ed18c-5fb4-46e4-ae7a-5f50d9429d95",
+        "id": "2019--Mendelev-M-I-Sun-Y-Zhang-F-et-al--Cu-Zr",
+        "record-version": "2019-10-17",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Development of a semi-empirical potential suitable for molecular dynamics simulation of vitrification in Cu-Zr alloys",
+                "author": [
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Mendelev"
+                    },
+                    {
+                        "given-name": "Y.",
+                        "surname": "Sun"
+                    },
+                    {
+                        "given-name": "F.",
+                        "surname": "Zhang"
+                    },
+                    {
+                        "given-name": "C.Z.",
+                        "surname": "Wang"
+                    },
+                    {
+                        "given-name": "K.M.",
+                        "surname": "Ho"
+                    }
+                ],
+                "publication-name": "The Journal of Chemical Physics",
+                "publication-date": {
+                    "year": 2019
+                },
+                "volume": 151,
+                "issue": 21,
+                "abstract": "The fast increase in available computation power allowed us to decrease the cooling rate in molecular dynamics (MD) simulation of vitrification by several orders of magnitude. While the reliability of the MD simulation should obviously benefit from this increase in the computational power, in some cases, it led to unexpected results. In particular, Ryltsev <i>et al</i>. [J. Chem. Phys. <b>149</b>, 164502 (2018)] found that the most popular potentials for the Cu-Zr and Cu-Zr-Al alloys from Mendelev <i>et al</i>. [Philos. Mag. <b>89</b>, 967 (2009)] and Cheng <i>et al</i>. [Phys. Rev. Lett. <b>102</b>, 245501 (2009)] do not actually describe good glass forming systems but in contradiction with experiment predict rather fast crystallization of the Cu<sub>64.5</sub>Zr<sub>35.5</sub> alloy which is the well-known example of bulk metallic glasses. In this paper, we present a new Cu-Zr semiempirical potential suitable to simulate vitrification. No crystal nucleation was observed in MD simulation using this potential in the concentration range from 75% to 5% of Zr. Since the new potential leads to about the same liquid structure and viscosity as the Cu-Zr potential from Mendelev <i>et al</i>. [Philos. Mag. <b>89</b>, 967 (2009)] which failed to describe the good glass formability, our study clearly shows that no reliable conclusions about the glass formability can be deduced based solely on the analysis of the liquid properties and a nucleation/crystal growth study should be performed to address this question.",
+                "pages": "214502",
+                "DOI": "10.1063/1.5131500",
+                "bibtex": "@article{Mendelev_2019,\n abstract = {The fast increase in available computation power allowed us to decrease the cooling rate in molecular dynamics (MD) simulation of vitrification by several orders of magnitude. While the reliability of the MD simulation should obviously benefit from this increase in the computational power, in some cases, it led to unexpected results. In particular, Ryltsev <i>et al</i>. [J. Chem. Phys. <b>149</b>, 164502 (2018)] found that the most popular potentials for the Cu-Zr and Cu-Zr-Al alloys from Mendelev <i>et al</i>. [Philos. Mag. <b>89</b>, 967 (2009)] and Cheng <i>et al</i>. [Phys. Rev. Lett. <b>102</b>, 245501 (2009)] do not actually describe good glass forming systems but in contradiction with experiment predict rather fast crystallization of the Cu<sub>64.5</sub>Zr<sub>35.5</sub> alloy which is the well-known example of bulk metallic glasses. In this paper, we present a new Cu-Zr semiempirical potential suitable to simulate vitrification. No crystal nucleation was observed in MD simulation using this potential in the concentration range from 75% to 5% of Zr. Since the new potential leads to about the same liquid structure and viscosity as the Cu-Zr potential from Mendelev <i>et al</i>. [Philos. Mag. <b>89</b>, 967 (2009)] which failed to describe the good glass formability, our study clearly shows that no reliable conclusions about the glass formability can be deduced based solely on the analysis of the liquid properties and a nucleation/crystal growth study should be performed to address this question.},\n author = {M. I. Mendelev and Y. Sun and F. Zhang and C. Z. Wang and K. M. Ho},\n doi = {10.1063/1.5131500},\n journal = {The Journal of Chemical Physics},\n month = {dec},\n number = {21},\n pages = {214502},\n publisher = {AIP Publishing},\n title = {Development of a semi-empirical potential suitable for molecular dynamics simulation of vitrification in Cu-Zr alloys},\n url = {https://doi.org/10.1063%2F1.5131500},\n volume = {151},\n year = {2019}\n}\n\n"
+            },
+            "notes": {
+                "text": "Dr. Mendelev describes this potential as \"an improved version of <a href=\"https://www.ctcms.nist.gov/potentials/entry/2009--Mendelev-M-I-Kramer-M-J-Ott-R-T-et-al--Cu-Zr/\">2009--Mendelev-M-I-Kramer-M-J-Ott-R-T-et-al--Cu-Zr</a>. It was designed to fix the problem with artificially stable Laves phases. The potential should be used to study the verification and glass properties.\" Update Oct. 8, 2020: The publication information has been added and the ID has been updated from 2019--Mendelev-M-I--Cu-Zr."
+            }
+        },
+        "implementation": [
+            {
+                "key": "73d03486-1b34-4a24-b1d2-4da253abdda0",
+                "id": "2019--Mendelev-M-I--Cu-Zr--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2019-10-17",
+                "type": "LAMMPS pair_style eam/fs",
+                "notes": {
+                    "text": "This file was provided by Mikhail Mendelev (Ames Laboratory) on 8 October 2019."
+                },
+                "artifact": {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2019--Mendelev-M-I--Cu-Zr/1/Cu-Zr_4.eam.fs",
+                        "link-text": "Cu-Zr_4.eam.fs"
+                    }
+                }
+            },
+            {
+                "key": "585c04c9-4292-4a08-b4b8-cfb9ac8e1617",
+                "id": "EAM_Mendelev_2019_CuZr__MO_945018740343_000",
+                "status": "active",
+                "date": "2020-10-08",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org. This KIM potential is implemented from the analytical expressions rather than a tabulated parameter file."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/EAM_Mendelev_2019_CuZr__MO_945018740343_000",
+                    "link-text": "EAM_Mendelev_2019_CuZr__MO_945018740343_000"
+                }
+            },
+            {
+                "key": "27eb4895-ced6-4fa4-8a6e-7f3fea483848",
+                "id": "EAM_Dynamo_MendelevSunZhang_2019_CuZr__MO_609260676108_000",
+                "status": "active",
+                "date": "2020-10-08",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org.  This KIM potential is based on the files from 2019--Mendelev-M-I--Cu-Zr--LAMMPS--ipr1."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/EAM_Dynamo_MendelevSunZhang_2019_CuZr__MO_609260676108_000",
+                    "link-text": "EAM_Dynamo_MendelevSunZhang_2019_CuZr__MO_609260676108_000"
+                }
+            }
+        ],
+        "element": [
+            "Cu",
+            "Zr"
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "interatomic-potential": {
+        "key": "54b2ae02-0a5b-4835-a2f7-7522dc6cb27f",
+        "id": "2018--Jeong-G-U-Park-C-S-Do-H-S-et-al--Pd-Ti",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Second nearest-neighbor modified embedded-atom method interatomic potentials for the Pd-M (M\u202f=\u202fAl, Co, Cu, Fe, Mo, Ni, Ti) binary systems",
+                "author": [
+                    {
+                        "given-name": "G.-U.",
+                        "surname": "Jeong"
+                    },
+                    {
+                        "given-name": "C.S.",
+                        "surname": "Park"
+                    },
+                    {
+                        "given-name": "H.-S.",
+                        "surname": "Do"
+                    },
+                    {
+                        "given-name": "S.-M.",
+                        "surname": "Park"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Calphad",
+                "publication-date": {
+                    "year": 2018
+                },
+                "volume": 62,
+                "abstract": "Palladium (Pd) has attracted attention as one of the major components of noble metal catalysts due to its excellent reactivity to a wide range of catalytic reactions. It is important to predict and control the atomic arrangement in catalysts because their properties are known to be affected by it. Therefore, to enable atomistic simulations for investigating the atomic scale structural evolution, we have developed interatomic potentials for Pd-M (M\u202f=\u202fAl, Co, Cu, Fe, Mo, Ni, Ti) binary systems based on the second nearest-neighbor modified embedded-atom method formalism. These potentials reproduce various fundamental properties of the alloys (the structural, elastic and thermodynamic properties of compound and solution phases, and order-disorder transition temperature) in reasonable agreements with experimental data, first-principles calculations and CALPHAD assessments. Herein, we propose that these potentials can be applied to the design of robust bimetallic catalysts by predicting the shape and atomic arrangement of Pd bimetallic nanoparticles.",
+                "pages": "172-186",
+                "DOI": "10.1016/j.calphad.2018.06.006",
+                "bibtex": "@article{Jeong_2018,\n abstract = {Palladium (Pd) has attracted attention as one of the major components of noble metal catalysts due to its excellent reactivity to a wide range of catalytic reactions. It is important to predict and control the atomic arrangement in catalysts because their properties are known to be affected by it. Therefore, to enable atomistic simulations for investigating the atomic scale structural evolution, we have developed interatomic potentials for Pd-M (M\u202f=\u202fAl, Co, Cu, Fe, Mo, Ni, Ti) binary systems based on the second nearest-neighbor modified embedded-atom method formalism. These potentials reproduce various fundamental properties of the alloys (the structural, elastic and thermodynamic properties of compound and solution phases, and order-disorder transition temperature) in reasonable agreements with experimental data, first-principles calculations and CALPHAD assessments. Herein, we propose that these potentials can be applied to the design of robust bimetallic catalysts by predicting the shape and atomic arrangement of Pd bimetallic nanoparticles.},\n author = {Ga-Un Jeong and Chang Seo Park and Hyeon-Seok Do and Seul-Mi Park and Byeong-Joo Lee},\n doi = {10.1016/j.calphad.2018.06.006},\n journal = {Calphad},\n month = {sep},\n pages = {172--186},\n publisher = {Elsevier BV},\n title = {Second nearest-neighbor modified embedded-atom method interatomic potentials for the Pd-M (M\u202f=\u202fAl, Co, Cu, Fe, Mo, Ni, Ti) binary systems},\n url = {https://doi.org/10.1016%2Fj.calphad.2018.06.006},\n volume = {62},\n year = {2018}\n}\n\n"
+            }
+        },
+        "implementation": {
+            "key": "069f8fee-57a5-4ec5-a7ae-081e49780a07",
+            "id": "2018--Jeong-G-U--Pd-Ti--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2020-10-13",
+            "type": "LAMMPS pair_style meam",
+            "notes": {
+                "text": "The meam files were generated from the word file which was obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2018--Jeong-G-U-Park-C-S-Do-H-S-et-al--Pd-Ti/1/LAMMPS parameters-Supplement.docx",
+                        "link-text": "LAMMPS parameters-Supplement.docx"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2018--Jeong-G-U-Park-C-S-Do-H-S-et-al--Pd-Ti/1/library.meam",
+                        "link-text": "library.meam"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2018--Jeong-G-U-Park-C-S-Do-H-S-et-al--Pd-Ti/1/PdTi.meam",
+                        "link-text": "PdTi.meam"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Pd",
+            "Ti"
+        ]
+    }
+}

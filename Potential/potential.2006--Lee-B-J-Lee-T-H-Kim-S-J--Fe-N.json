@@ -1,0 +1,81 @@
+{
+    "interatomic-potential": {
+        "key": "483ca193-46cc-41f3-bcc4-1ffeb2561961",
+        "id": "2006--Lee-B-J-Lee-T-H-Kim-S-J--Fe-N",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "A modified embedded-atom method interatomic potential for the Fe\u2013N system: A comparative study with the Fe\u2013C system",
+                "author": [
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    },
+                    {
+                        "given-name": "T.-H.",
+                        "surname": "Lee"
+                    },
+                    {
+                        "given-name": "S.-J.",
+                        "surname": "Kim"
+                    }
+                ],
+                "publication-name": "Acta Materialia",
+                "publication-date": {
+                    "year": 2006
+                },
+                "volume": 54,
+                "issue": 17,
+                "abstract": "A modified embedded-atom method (MEAM) interatomic potential for the Fe\u2013N binary system has been developed using previously developed MEAM potentials of iron and nitrogen. The potential parameters were determined by fitting to the dilute heat of solution and migration energy of nitrogen atoms, the vacancy\u2013nitrogen binding energy and its configuration in body-centered cubic iron, and the enthalpy of formation and lattice parameter of Fe<sub>4</sub>N. The potential reproduces very well the known physical properties of nitrogen as an interstitial solute element in body- and face-centered cubic iron and of various nitrides. The similarity and difference between nitrogen and carbon as equally important interstitial elements in iron are also examined. The applicability of the potential to atomistic approaches for investigating interactions between nitrogen atoms and other defects such as vacancies, dislocations, and grain boundaries, and also for investigating the effects of nitrogen on various deformation and mechanical behaviors of iron is demonstrated.",
+                "pages": "4597-4607",
+                "DOI": "10.1016/j.actamat.2006.06.003",
+                "bibtex": "@article{Lee_2006,\n abstract = {A modified embedded-atom method (MEAM) interatomic potential for the Fe\u2013N binary system has been developed using previously developed MEAM potentials of iron and nitrogen. The potential parameters were determined by fitting to the dilute heat of solution and migration energy of nitrogen atoms, the vacancy\u2013nitrogen binding energy and its configuration in body-centered cubic iron, and the enthalpy of formation and lattice parameter of Fe<sub>4</sub>N. The potential reproduces very well the known physical properties of nitrogen as an interstitial solute element in body- and face-centered cubic iron and of various nitrides. The similarity and difference between nitrogen and carbon as equally important interstitial elements in iron are also examined. The applicability of the potential to atomistic approaches for investigating interactions between nitrogen atoms and other defects such as vacancies, dislocations, and grain boundaries, and also for investigating the effects of nitrogen on various deformation and mechanical behaviors of iron is demonstrated.},\n author = {Byeong-Joo Lee and Tae-Ho Lee and Sung-Joon Kim},\n doi = {10.1016/j.actamat.2006.06.003},\n journal = {Acta Materialia},\n month = {oct},\n number = {17},\n pages = {4597--4607},\n publisher = {Elsevier BV},\n title = {A modified embedded-atom method interatomic potential for the Fe\u2013N system: A comparative study with the Fe\u2013C system},\n url = {https://doi.org/10.1016%2Fj.actamat.2006.06.003},\n volume = {54},\n year = {2006}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "368b4a82-af32-4f17-9759-6376bf653890",
+                "id": "2006--Lee-B-J--Fe-N--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2006--Lee-B-J-Lee-T-H-Kim-S-J--Fe-N/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2006--Lee-B-J-Lee-T-H-Kim-S-J--Fe-N/1/FeN.meam",
+                            "link-text": "FeN.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "Fe",
+            "N"
+        ]
+    }
+}

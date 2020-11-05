@@ -1,0 +1,77 @@
+{
+    "interatomic-potential": {
+        "key": "9fc5b06c-627b-4358-a0af-ca6ded9f04c5",
+        "id": "2008--Sa-I-Lee-B--Fe-Ti",
+        "record-version": "2020-10-15",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Modified embedded-atom method interatomic potentials for the Fe\u2013Nb and Fe\u2013Ti binary systems",
+                "author": [
+                    {
+                        "given-name": "I.",
+                        "surname": "Sa"
+                    },
+                    {
+                        "given-name": "B.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Scripta Materialia",
+                "publication-date": {
+                    "year": 2008
+                },
+                "volume": 59,
+                "issue": 6,
+                "abstract": "A semi-empirical interatomic potential formalism, the second-nearest-neighbor modified embedded-atom method (2NN MEAM), has been applied to obtain interatomic potentials for Fe\u2013Nb and Fe\u2013Ti systems based on the previously developed potentials for pure Fe, Nb and Ti. The present potentials generally reproduce the fundamental physical properties of the Fe\u2013Nb and Fe\u2013Ti systems accurately. The potentials can be easily combined with already-developed MEAM potentials for binary carbide or nitride systems and can be used to describe Fe\u2013(Ti,Nb)\u2013(C,N) multicomponent systems.",
+                "pages": "595-598",
+                "DOI": "10.1016/j.scriptamat.2008.05.007",
+                "bibtex": "@article{SA_2008,\n abstract = {A semi-empirical interatomic potential formalism, the second-nearest-neighbor modified embedded-atom method (2NN MEAM), has been applied to obtain interatomic potentials for Fe\u2013Nb and Fe\u2013Ti systems based on the previously developed potentials for pure Fe, Nb and Ti. The present potentials generally reproduce the fundamental physical properties of the Fe\u2013Nb and Fe\u2013Ti systems accurately. The potentials can be easily combined with already-developed MEAM potentials for binary carbide or nitride systems and can be used to describe Fe\u2013(Ti,Nb)\u2013(C,N) multicomponent systems.},\n author = {I Sa and B Lee},\n doi = {10.1016/j.scriptamat.2008.05.007},\n journal = {Scripta Materialia},\n month = {sep},\n number = {6},\n pages = {595--598},\n publisher = {Elsevier BV},\n title = {Modified embedded-atom method interatomic potentials for the Fe\u2013Nb and Fe\u2013Ti binary systems},\n url = {https://doi.org/10.1016%2Fj.scriptamat.2008.05.007},\n volume = {59},\n year = {2008}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "6476776e-e89d-42c8-95a8-8bab90888cfb",
+                "id": "2008--Sa-I--Fe-Ti--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-15",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2008--Sa-I-Lee-B--Fe-Ti/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2008--Sa-I-Lee-B--Fe-Ti/1/FeTi.meam",
+                            "link-text": "FeTi.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-15",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "Fe",
+            "Ti"
+        ]
+    }
+}

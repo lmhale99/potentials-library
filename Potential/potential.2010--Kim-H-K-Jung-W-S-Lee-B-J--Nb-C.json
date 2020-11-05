@@ -1,0 +1,81 @@
+{
+    "interatomic-potential": {
+        "key": "12379b76-66a9-4caa-801f-22e6059c2c06",
+        "id": "2010--Kim-H-K-Jung-W-S-Lee-B-J--Nb-C",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Modified embedded-atom method interatomic potentials for the Nb-C, Nb-N, Fe-Nb-C, and Fe-Nb-N systems",
+                "author": [
+                    {
+                        "given-name": "H.-K.",
+                        "surname": "Kim"
+                    },
+                    {
+                        "given-name": "W.-S.",
+                        "surname": "Jung"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Journal of Materials Research",
+                "publication-date": {
+                    "year": 2010
+                },
+                "volume": 25,
+                "issue": 7,
+                "abstract": "Modified embedded-atom method (MEAM) interatomic potentials for Nb-C, Nb-N, Fe-Nb-C, and Fe-Nb-N systems have been developed based on the previously developed MEAM potentials for lower order systems. The potentials reproduce various fundamental physical properties (structural properties, elastic properties, thermal properties, and surface properties) of NbC and NbN, and interfacial energy between bcc Fe and NbC or NbN, in generally good agreement with higher-level calculations or experimental information. The applicability of the present potentials to atomic-level investigations to the precipitation behavior of complex-carbonitrides (Nb,Ti)(C,N) as well as NbC and NbN, and their effects on the mechanical properties of steels are also discussed.",
+                "pages": "1288-1297",
+                "DOI": "10.1557/jmr.2010.0182",
+                "bibtex": "@article{Kim_2010,\n abstract = {Modified embedded-atom method (MEAM) interatomic potentials for Nb-C, Nb-N, Fe-Nb-C, and Fe-Nb-N systems have been developed based on the previously developed MEAM potentials for lower order systems. The potentials reproduce various fundamental physical properties (structural properties, elastic properties, thermal properties, and surface properties) of NbC and NbN, and interfacial energy between bcc Fe and NbC or NbN, in generally good agreement with higher-level calculations or experimental information. The applicability of the present potentials to atomic-level investigations to the precipitation behavior of complex-carbonitrides (Nb,Ti)(C,N) as well as NbC and NbN, and their effects on the mechanical properties of steels are also discussed.},\n author = {Hyun-Kyu Kim and Woo-Sang Jung and Byeong-Joo Lee},\n doi = {10.1557/jmr.2010.0182},\n journal = {Journal of Materials Research},\n month = {jul},\n number = {7},\n pages = {1288--1297},\n publisher = {Cambridge University Press (CUP)},\n title = {Modified embedded-atom method interatomic potentials for the Nb-C, Nb-N, Fe-Nb-C, and Fe-Nb-N systems},\n url = {https://doi.org/10.1557%2Fjmr.2010.0182},\n volume = {25},\n year = {2010}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "bc714b74-59c3-45eb-aff7-59925448f0ab",
+                "id": "2010--Kim-H-K--Nb-C--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files are based on files obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2010--Kim-H-K-Jung-W-S-Lee-B-J--Nb-C/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2010--Kim-H-K-Jung-W-S-Lee-B-J--Nb-C/1/NbC.meam",
+                            "link-text": "NbC.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "Nb",
+            "C"
+        ]
+    }
+}

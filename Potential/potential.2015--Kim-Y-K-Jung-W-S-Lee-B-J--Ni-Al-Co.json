@@ -1,0 +1,66 @@
+{
+    "interatomic-potential": {
+        "key": "c2d2a964-e292-42a2-9998-b49148883677", 
+        "id": "2015--Kim-Y-K-Jung-W-S-Lee-B-J--Ni-Al-Co", 
+        "record-version": "2019-05-06", 
+        "description": {
+            "citation": {
+                "document-type": "journal", 
+                "title": "Modified embedded-atom method interatomic potentials for the Ni\u2013Co binary and the Ni\u2013Al\u2013Co ternary systems", 
+                "author": [
+                    {
+                        "given-name": "Y.-K.", 
+                        "surname": "Kim"
+                    }, 
+                    {
+                        "given-name": "W.-S.", 
+                        "surname": "Jung"
+                    }, 
+                    {
+                        "given-name": "B.-J.", 
+                        "surname": "Lee"
+                    }
+                ], 
+                "publication-name": "Modelling and Simulation in Materials Science and Engineering", 
+                "publication-date": {
+                    "year": "2015"
+                }, 
+                "volume": "23", 
+                "issue": "5", 
+                "abstract": "Interatomic potentials for the Ni\u2013Co binary and Ni\u2013Al\u2013Co ternary systems have been developed on the basis of the second nearest-neighbor modified embedded-atom method (2NN MEAM) formalism. The potentials describe structural, thermodynamic, deformation and defect properties of solid solution phases or compound phases in reasonable agreements with experiments or first-principles calculations. The results demonstrate the transferability of the potentials and their applicability to large-scale atomistic simulations to investigate the effect of an alloying element, cobalt, on various microstructural factors related to mechanical properties of Ni-based superalloys on an atomic scale.", 
+                "pages": "055004", 
+                "DOI": "10.1088/0965-0393/23/5/055004", 
+                "bibtex": "@article{Kim_2015,\n abstract = {Interatomic potentials for the Ni\u2013Co binary and Ni\u2013Al\u2013Co ternary systems have been developed on the basis of the second nearest-neighbor modified embedded-atom method (2NN MEAM) formalism. The potentials describe structural, thermodynamic, deformation and defect properties of solid solution phases or compound phases in reasonable agreements with experiments or first-principles calculations. The results demonstrate the transferability of the potentials and their applicability to large-scale atomistic simulations to investigate the effect of an alloying element, cobalt, on various microstructural factors related to mechanical properties of Ni-based superalloys on an atomic scale.},\n author = {Young-Kwang Kim and Woo-Sang Jung and Byeong-Joo Lee},\n doi = {10.1088/0965-0393/23/5/055004},\n journal = {Modelling and Simulation in Materials Science and Engineering},\n month = {may},\n number = {5},\n pages = {055004},\n publisher = {IOP Publishing},\n title = {Modified embedded-atom method interatomic potentials for the Ni\u2013Co binary and the Ni\u2013Al\u2013Co ternary systems},\n url = {https://doi.org/10.1088%2F0965-0393%2F23%2F5%2F055004},\n volume = {23},\n year = {2015}\n}\n\n"
+            }
+        }, 
+        "implementation": {
+            "key": "1f1ebd2f-e7ff-41e2-ac5c-5ab0b2773e56", 
+            "id": "2015--Kim-Y-K--Ni-Al-Co--LAMMPS--ipr1", 
+            "status": "active", 
+            "date": "2019-05-06", 
+            "type": "LAMMPS pair_style meam", 
+            "notes": {
+                "text": "These potential files were obtained from http://cmse.postech.ac.kr/home_2nnmeam, accessed April 5, 2019."
+            }, 
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Kim-Y-K-Jung-W-S-Lee-B-J--Ni-Al-Co/1/NiAlCo.meam", 
+                        "link-text": "NiAlCo.meam"
+                    }
+                }, 
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Kim-Y-K-Jung-W-S-Lee-B-J--Ni-Al-Co/1/library.meam", 
+                        "link-text": "library.meam"
+                    }
+                }
+            ]
+        }, 
+        "element": [
+            "Ni", 
+            "Al", 
+            "Co"
+        ]
+    }
+}

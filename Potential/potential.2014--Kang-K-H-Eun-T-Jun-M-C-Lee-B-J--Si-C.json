@@ -1,0 +1,84 @@
+{
+    "interatomic-potential": {
+        "key": "7636b7b3-65ad-4204-8575-dad9a5e53bd2",
+        "id": "2014--Kang-K-H-Eun-T-Jun-M-C-Lee-B-J--Si-C",
+        "record-version": "2020-10-15",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Governing factors for the formation of 4H or 6H-SiC polytype during SiC crystal growth: An atomistic computational approach",
+                "author": [
+                    {
+                        "given-name": "K.-H.",
+                        "surname": "Kang"
+                    },
+                    {
+                        "given-name": "T.",
+                        "surname": "Eun"
+                    },
+                    {
+                        "given-name": "M.-C.",
+                        "surname": "Jun"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Journal of Crystal Growth",
+                "publication-date": {
+                    "year": 2014
+                },
+                "volume": 389,
+                "abstract": "The effects of various process variables on the formation of polytypes during SiC single crystal growths have been investigated using atomistic simulations based on an empirical potential (the second nearest-neighbor MEAM) and first-principles calculation. It is found out that the main role of process variables (temperature, surface type, growth rate, atmospheric condition, dopant type, etc.) is not to directly change the relative stability of SiC polytypes directly but to change the formation tendency of point defects. The biaxial local strain due to the formation of point defects is found to have an effect on the relative stability of SiC polytypes and is proposed in the present study as a governing factor that affects the selective growth of SiC polytypes. Based on the present local strain scheme, the competitive growth among SiC polytypes, especially the 4H and 6H-SiC, available in literatures can be reasonably explained by interpreting the effect of each process variable in terms of defect formation and the resultant local strain. Those results provide an insight into the selective growth of SiC polytypes and also help us obtain high quality SiC single crystals.",
+                "pages": "120-133",
+                "DOI": "10.1016/j.jcrysgro.2013.12.007",
+                "bibtex": "@article{Kang_2014,\n abstract = {The effects of various process variables on the formation of polytypes during SiC single crystal growths have been investigated using atomistic simulations based on an empirical potential (the second nearest-neighbor MEAM) and first-principles calculation. It is found out that the main role of process variables (temperature, surface type, growth rate, atmospheric condition, dopant type, etc.) is not to directly change the relative stability of SiC polytypes directly but to change the formation tendency of point defects. The biaxial local strain due to the formation of point defects is found to have an effect on the relative stability of SiC polytypes and is proposed in the present study as a governing factor that affects the selective growth of SiC polytypes. Based on the present local strain scheme, the competitive growth among SiC polytypes, especially the 4H and 6H-SiC, available in literatures can be reasonably explained by interpreting the effect of each process variable in terms of defect formation and the resultant local strain. Those results provide an insight into the selective growth of SiC polytypes and also help us obtain high quality SiC single crystals.},\n author = {Kyung-Han Kang and Taihee Eun and Myong-Chul Jun and Byeong-Joo Lee},\n doi = {10.1016/j.jcrysgro.2013.12.007},\n journal = {Journal of Crystal Growth},\n month = {mar},\n pages = {120--133},\n publisher = {Elsevier BV},\n title = {Governing factors for the formation of 4H or 6H-SiC polytype during SiC crystal growth: An atomistic computational approach},\n url = {https://doi.org/10.1016%2Fj.jcrysgro.2013.12.007},\n volume = {389},\n year = {2014}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "e431b165-a2f9-4c87-a7c3-48b3541dbc9e",
+                "id": "2014--Kang-K-H--Si-C--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-15",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2014--Kang-K-H-Eun-T-Jun-M-C-Lee-B-J--Si-C/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2014--Kang-K-H-Eun-T-Jun-M-C-Lee-B-J--Si-C/1/SiC.meam",
+                            "link-text": "SiC.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-15",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "Si",
+            "C"
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "interatomic-potential": {
+        "key": "95ab4ef5-2399-43b7-b187-192245501213",
+        "id": "2008--Do-E-C-Shin-Y-H-Lee-B-J--In",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "A modified embedded-atom method interatomic potential for indium",
+                "author": [
+                    {
+                        "given-name": "E.C.",
+                        "surname": "Do"
+                    },
+                    {
+                        "given-name": "Y.-H.",
+                        "surname": "Shin"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Calphad",
+                "publication-date": {
+                    "year": 2008
+                },
+                "volume": 32,
+                "issue": 1,
+                "abstract": "A semi-empirical interatomic potential for indium has been developed based on the MEAM (modified embedded-atom method) formalism. The potential describes various fundamental physical properties (cohesive energy, lattice parameters, elastic constants, structural energy differences, surface energy and relaxation, vacancy formation and diffusion energy, etc.) of indium in good agreement with relevant experimental data and/or first-principles calculations. The potential also describes bulk properties of non-equilibrium structures (fcc and bcc) of indium in good agreement with first-principles calculations. Because the potential formalism is exactly the same as other previously developed MEAM potentials for a wide range of elements, it can be easily extended to multi-component systems such as In-N, In-As, Ga-In and Ga-In-N.",
+                "pages": "82-88",
+                "DOI": "10.1016/j.calphad.2007.08.004",
+                "bibtex": "@article{Do_2008,\n abstract = {A semi-empirical interatomic potential for indium has been developed based on the MEAM (modified embedded-atom method) formalism. The potential describes various fundamental physical properties (cohesive energy, lattice parameters, elastic constants, structural energy differences, surface energy and relaxation, vacancy formation and diffusion energy, etc.) of indium in good agreement with relevant experimental data and/or first-principles calculations. The potential also describes bulk properties of non-equilibrium structures (fcc and bcc) of indium in good agreement with first-principles calculations. Because the potential formalism is exactly the same as other previously developed MEAM potentials for a wide range of elements, it can be easily extended to multi-component systems such as In-N, In-As, Ga-In and Ga-In-N.},\n author = {Eun Cheol Do and Young-Han Shin and Byeong-Joo Lee},\n doi = {10.1016/j.calphad.2007.08.004},\n journal = {Calphad},\n month = {mar},\n number = {1},\n pages = {82--88},\n publisher = {Elsevier BV},\n title = {A modified embedded-atom method interatomic potential for indium},\n url = {https://doi.org/10.1016%2Fj.calphad.2007.08.004},\n volume = {32},\n year = {2008}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "21317edd-9ba9-4d90-a332-67c96b54b059",
+                "id": "2008--Do-E-C--In--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2008--Do-E-C-Shin-Y-H-Lee-B-J--In/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2008--Do-E-C-Shin-Y-H-Lee-B-J--In/1/In.meam",
+                            "link-text": "In.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": "In"
+    }
+}
