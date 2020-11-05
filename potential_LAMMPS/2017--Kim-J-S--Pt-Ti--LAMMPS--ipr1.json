@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "b5aa8e6b-387d-4cfb-ba34-82878ab1fa1c",
+        "id": "2017--Kim-J-S--Pt-Ti--LAMMPS--ipr1",
+        "potential": {
+            "key": "94d28e50-2d02-4f9e-9c66-78c4b3d39f76",
+            "id": "2017--Kim-J-S-Seol-D-Ji-J-et-al--Pt-Ti"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Pt",
+                "mass": 195.08
+            },
+            {
+                "element": "Ti",
+                "mass": 47.88
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Pt Ti"
+                },
+                {
+                    "file": "PtTi.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

@@ -1,31 +1,31 @@
 {
     "potential-LAMMPS": {
-        "key": "57b83115-a25b-4f20-b99c-97f4d98ba951", 
-        "id": "2019--Chen-Y--W-Ta--LAMMPS--ipr1", 
+        "key": "57b83115-a25b-4f20-b99c-97f4d98ba951",
+        "id": "2019--Chen-Y--W-Ta--LAMMPS--ipr1",
         "potential": {
-            "key": "04391ce1-60cb-4f77-a20b-33c133e2f594", 
+            "key": "04391ce1-60cb-4f77-a20b-33c133e2f594",
             "id": "2019--Chen-Y-Fang-J-Liu-L-et-al--W-Ta"
-        }, 
-        "units": "metal", 
-        "atom_style": "atomic", 
+        },
+        "units": "metal",
+        "atom_style": "atomic",
         "atom": [
             {
-                "element": "W", 
+                "element": "W",
                 "mass": 183.85
-            }, 
+            },
             {
-                "element": "Ta", 
+                "element": "Ta",
                 "mass": 180.9479
             }
-        ], 
+        ],
         "pair_style": {
             "type": "eam/fs"
-        }, 
+        },
         "pair_coeff": {
             "term": [
                 {
                     "file": "WTa.eam.fs"
-                }, 
+                },
                 {
                     "symbols": "true"
                 }

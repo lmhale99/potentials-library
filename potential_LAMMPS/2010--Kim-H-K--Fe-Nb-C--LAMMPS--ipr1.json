@@ -1,0 +1,45 @@
+{
+    "potential-LAMMPS": {
+        "key": "489a8d09-6b60-4832-816c-b34c5846b584",
+        "id": "2010--Kim-H-K--Fe-Nb-C--LAMMPS--ipr1",
+        "potential": {
+            "key": "ae67fec5-4c03-4541-b4e4-65e0f6c182e4",
+            "id": "2010--Kim-H-K-Jung-W-S-Lee-B-J--Fe-Nb-C"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Nb",
+                "mass": 92.906
+            },
+            {
+                "element": "Fe",
+                "mass": 55.847
+            },
+            {
+                "element": "C",
+                "mass": 12.011
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Nb Fe C"
+                },
+                {
+                    "file": "NbFeC.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

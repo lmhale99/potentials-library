@@ -1,0 +1,35 @@
+{
+    "potential-LAMMPS": {
+        "key": "54eef92a-76dd-4b12-9485-bd1f51528084",
+        "id": "2006--Kim-Y-M--Zr--LAMMPS--ipr1",
+        "potential": {
+            "key": "3ba8c85c-55b7-4ab1-8dc2-70db0a43155b",
+            "id": "2006--Kim-Y-M-Lee-B-J-Baskes-M-I--Zr"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Zr",
+            "mass": 91.22
+        },
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Zr"
+                },
+                {
+                    "file": "Zr.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

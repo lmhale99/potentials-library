@@ -1,81 +1,81 @@
 {
     "potential-LAMMPS": {
-        "key": "d6608123-3432-453e-ab94-b55822e7df12", 
-        "id": "2019--Duan-X--Ta-He--LAMMPS--ipr1", 
+        "key": "d6608123-3432-453e-ab94-b55822e7df12",
+        "id": "2019--Duan-X--Ta-He--LAMMPS--ipr1",
         "potential": {
-            "key": "278faa04-d121-4744-875d-e085f0b0e5da", 
+            "key": "278faa04-d121-4744-875d-e085f0b0e5da",
             "id": "2019--Duan-X-Xie-F-Guo-X-et-al--Ta-He"
-        }, 
-        "units": "metal", 
-        "atom_style": "atomic", 
-        "allsymbols": "true", 
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "allsymbols": "true",
         "atom": [
             {
                 "element": "Ta"
-            }, 
+            },
             {
                 "element": "He"
             }
-        ], 
+        ],
         "pair_style": {
-            "type": "hybrid", 
+            "type": "hybrid",
             "term": {
                 "option": "table linear 1000 eam/alloy"
             }
-        }, 
+        },
         "pair_coeff": [
             {
                 "interaction": {
                     "symbol": [
-                        "He", 
+                        "He",
                         "He"
                     ]
-                }, 
+                },
                 "term": [
                     {
                         "option": "table"
-                    }, 
+                    },
                     {
                         "file": "He.Aziz.table"
-                    }, 
+                    },
                     {
                         "option": "HeHe_Aziz"
                     }
                 ]
-            }, 
+            },
             {
                 "interaction": {
                     "symbol": [
-                        "He", 
+                        "He",
                         "Ta"
                     ]
-                }, 
+                },
                 "term": [
                     {
                         "option": "table"
-                    }, 
+                    },
                     {
                         "file": "TaHe.Juslin.table"
-                    }, 
+                    },
                     {
                         "option": "TaHe_Juslin"
                     }
                 ]
-            }, 
+            },
             {
                 "interaction": {
                     "symbol": [
-                        "Ta", 
+                        "Ta",
                         "Ta"
                     ]
-                }, 
+                },
                 "term": [
                     {
                         "option": "eam/alloy"
-                    }, 
+                    },
                     {
                         "file": "Ta_Zhou04.eam.alloy"
-                    }, 
+                    },
                     {
                         "symbols": "true"
                     }

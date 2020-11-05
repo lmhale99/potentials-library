@@ -1,27 +1,27 @@
 {
     "potential-LAMMPS": {
-        "key": "cfd40828-6e93-446d-b419-fe59118a5683", 
-        "id": "1998--Meyer-R--Fe--ipr-1", 
+        "key": "cfd40828-6e93-446d-b419-fe59118a5683",
+        "id": "1998--Meyer-R--Fe--ipr-1",
         "potential": {
-            "key": "bfd028cc-3a49-4a21-9731-56cee899c095", 
+            "key": "bfd028cc-3a49-4a21-9731-56cee899c095",
             "id": "1998--Meyer-R-Entel-P--Fe"
-        }, 
-        "units": "metal", 
-        "atom_style": "atomic", 
+        },
+        "units": "metal",
+        "atom_style": "atomic",
         "atom": {
-            "element": "Fe", 
+            "element": "Fe",
             "mass": 55.847
-        }, 
+        },
         "pair_style": {
             "type": "eam"
-        }, 
+        },
         "pair_coeff": {
             "interaction": {
                 "symbol": [
-                    "Fe", 
+                    "Fe",
                     "Fe"
                 ]
-            }, 
+            },
             "term": {
                 "file": "Fe_MeyerEntel.eam"
             }

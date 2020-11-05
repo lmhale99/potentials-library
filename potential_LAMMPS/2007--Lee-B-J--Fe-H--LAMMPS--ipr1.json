@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "259b3eed-1954-491f-bf25-753ee4b08975",
+        "id": "2007--Lee-B-J--Fe-H--LAMMPS--ipr1",
+        "potential": {
+            "key": "be665778-e235-4082-8b1e-4a56284d19df",
+            "id": "2007--Lee-B-J-Jang-J-W--Fe-H"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Fe",
+                "mass": 55.847
+            },
+            {
+                "element": "H",
+                "mass": 1.008
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Fe H"
+                },
+                {
+                    "file": "FeH.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

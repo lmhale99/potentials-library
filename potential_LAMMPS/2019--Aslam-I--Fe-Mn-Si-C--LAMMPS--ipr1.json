@@ -1,45 +1,45 @@
 {
     "potential-LAMMPS": {
-        "key": "7e0ed24c-5ad9-4a3a-a5c9-19f6be618bb1", 
-        "id": "2019--Aslam-I--Fe-Mn-Si-C--LAMMPS--ipr1", 
+        "key": "7e0ed24c-5ad9-4a3a-a5c9-19f6be618bb1",
+        "id": "2019--Aslam-I--Fe-Mn-Si-C--LAMMPS--ipr1",
         "potential": {
-            "key": "2f94611f-e4a3-4cf5-a2f1-fa15673a5ad7", 
+            "key": "2f94611f-e4a3-4cf5-a2f1-fa15673a5ad7",
             "id": "2019--Aslam-I-Baskes-M-I-Dickel-D-E-et-al--Fe-Mn-Si-C"
-        }, 
-        "units": "metal", 
-        "atom_style": "atomic", 
+        },
+        "units": "metal",
+        "atom_style": "atomic",
         "atom": [
             {
-                "element": "Fe", 
+                "element": "Fe",
                 "mass": 55.847
-            }, 
+            },
             {
-                "element": "Mn", 
+                "element": "Mn",
                 "mass": 54.938
-            }, 
+            },
             {
-                "element": "Si", 
+                "element": "Si",
                 "mass": 28.0855
-            }, 
+            },
             {
-                "element": "C", 
+                "element": "C",
                 "mass": 12.0111
             }
-        ], 
+        ],
         "pair_style": {
             "type": "meam"
-        }, 
+        },
         "pair_coeff": {
             "term": [
                 {
                     "file": "library.meam"
-                }, 
+                },
                 {
                     "option": "Fe Mn Si C"
-                }, 
+                },
                 {
                     "file": "parameter.meam"
-                }, 
+                },
                 {
                     "symbols": "true"
                 }

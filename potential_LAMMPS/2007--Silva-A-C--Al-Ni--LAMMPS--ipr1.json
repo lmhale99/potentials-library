@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "bcf245c7-eb7a-43b6-b6f8-882be45ba208",
+        "id": "2007--Silva-A-C--Al-Ni--LAMMPS--ipr1",
+        "potential": {
+            "key": "50098a0f-2f8b-488c-8a39-fa5b342e65b2",
+            "id": "2007--Silva-A-C-Agren-J-Clavaguera-Mora-M-T-et-al--Al-Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Al",
+                "mass": 26.982
+            },
+            {
+                "element": "Ni",
+                "mass": 58.69
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Al Ni"
+                },
+                {
+                    "file": "AlNi.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

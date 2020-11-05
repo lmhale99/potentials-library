@@ -1,0 +1,35 @@
+{
+    "potential-LAMMPS": {
+        "key": "3c39464d-f79c-49bf-b724-84b18ef6cb5c",
+        "id": "2006--Kim-Y-M--Ti--LAMMPS--ipr1",
+        "potential": {
+            "key": "87399f21-c1b5-4468-b057-5b3ce28d8d8c",
+            "id": "2006--Kim-Y-M-Lee-B-J-Baskes-M-I--Ti"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ti",
+            "mass": 47.88
+        },
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ti"
+                },
+                {
+                    "file": "Ti.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

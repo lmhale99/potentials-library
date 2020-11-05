@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "745ab923-7e37-435b-8166-24ea1a48b35f",
+        "id": "2009--Kang-K-H--Cu-Ag--LAMMPS--ipr1",
+        "potential": {
+            "key": "11e92c2c-1cdf-4a4e-b403-aaadd3237c7b",
+            "id": "2009--Kang-K-H-Sa-I-Lee-J-C-et-al--Cu-Ag"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ag",
+                "mass": 107.868
+            },
+            {
+                "element": "Cu",
+                "mass": 63.546
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ag Cu"
+                },
+                {
+                    "file": "AgCu.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

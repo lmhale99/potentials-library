@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "58936b1d-b9e0-4fe5-b20c-def2d8395375",
+        "id": "2020--Wang-J--Cu-Mo--LAMMPS--ipr1",
+        "potential": {
+            "key": "33dc09aa-7a21-4291-b572-d0c7304d6030",
+            "id": "2020--Wang-J-Oh-S-H-Lee-B-J--Cu-Mo"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Cu",
+                "mass": 63.546
+            },
+            {
+                "element": "Mo",
+                "mass": 89.96
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Cu Mo"
+                },
+                {
+                    "file": "CuMo.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "85606d14-8972-4282-ac8b-3d0c5acc94d6",
+        "id": "2015--Kim-K-H--Mg-Sn--LAMMPS--ipr1",
+        "potential": {
+            "key": "a58dcca2-3f6c-4e52-a2a4-e5abe1bd7b48",
+            "id": "2015--Kim-K-H-Jeon-J-B-Lee-B-J--Mg-Sn"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Mg",
+                "mass": 24.32
+            },
+            {
+                "element": "Sn",
+                "mass": 118.71
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Mg Sn"
+                },
+                {
+                    "file": "MgSn.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

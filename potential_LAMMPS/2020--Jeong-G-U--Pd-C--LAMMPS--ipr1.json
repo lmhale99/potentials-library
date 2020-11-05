@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "728e2c94-62ea-4a94-bde6-e8e49248c306",
+        "id": "2020--Jeong-G-U--Pd-C--LAMMPS--ipr1",
+        "potential": {
+            "key": "115d7af3-187e-4cc4-aceb-a12c8e3c2272",
+            "id": "2020--Jeong-G-U-Lee-B-J--Pd-C"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Pd",
+                "mass": 106.42
+            },
+            {
+                "element": "C",
+                "mass": 12.011
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Pd C"
+                },
+                {
+                    "file": "PdC.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

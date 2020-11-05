@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "e558679c-5e2b-42c3-9590-16201c435d73",
+        "id": "2017--Choi-W-M--Mn-Ni--LAMMPS--ipr1",
+        "potential": {
+            "key": "6fc9a650-c609-4ff3-a706-cf294de2b9a8",
+            "id": "2017--Choi-W-M-Kim-Y-Seol-D-Lee-B-J--Mn-Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ni",
+                "mass": 58.69
+            },
+            {
+                "element": "Mn",
+                "mass": 54.94
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ni Mn"
+                },
+                {
+                    "file": "NiMn.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

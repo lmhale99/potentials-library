@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "19cbbbd0-e40c-4265-8d49-9b0cac1ed630",
+        "id": "2020--Oh-S-H--Co-Ti--LAMMPS--ipr1",
+        "potential": {
+            "key": "9fa8b3c1-4b68-43be-8277-29c995972146",
+            "id": "2020--Oh-S-H-Seol-D-Lee-B-J--Co-Ti"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Co",
+                "mass": 58.933
+            },
+            {
+                "element": "Ti",
+                "mass": 47.88
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Co Ti"
+                },
+                {
+                    "file": "CoTi.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}
