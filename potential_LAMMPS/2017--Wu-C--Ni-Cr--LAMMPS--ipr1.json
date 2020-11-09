@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "eee195be-4fb1-4673-a2a9-c8c8060c555a",
+        "id": "2017--Wu-C--Ni-Cr--LAMMPS--ipr1",
+        "potential": {
+            "key": "9aca9e91-3024-487c-afb5-032816e5033b",
+            "id": "2017--Wu-C-Lee-B-J-Su-X--Ni-Cr"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ni",
+                "mass": 58.69
+            },
+            {
+                "element": "Cr",
+                "mass": 51.96
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ni Cr"
+                },
+                {
+                    "file": "NiCr.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

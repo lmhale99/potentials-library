@@ -1,0 +1,64 @@
+{
+    "interatomic-potential": {
+        "key": "19ff7d3c-2a19-4483-b110-bf267cc61e5d",
+        "id": "2020--Wang-J-Oh-S-H-Lee-B-J--Cu-Co",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Second-nearest-neighbor modified embedded-atom method interatomic potential for Cu-M (M = Co, Mo) binary systems",
+                "author": [
+                    {
+                        "given-name": "J.",
+                        "surname": "Wang"
+                    },
+                    {
+                        "given-name": "S.-H.",
+                        "surname": "Oh"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2020
+                },
+                "volume": 178,
+                "abstract": "Second-nearest-neighbor modified embedded-atom method (2NN MEAM) interatomic potentials for Cu-M (M = Co, Mo) binary systems have been developed. The Cu-M potentials can be extended to Pt-Cu-M ternary 2NN MEAM potentials being combined with already existing Pt-M potentials and can be utilized for atomistic simulations to design inexpensive and efficient platinum alloy catalysts. The potentials reproduce fundamental material properties such as structural and thermodynamic properties of compound and solution phases in reasonable agreement with experimental data. Herein, the validity of the developed potentials for atomistic simulation is ascertained.",
+                "pages": "109627",
+                "DOI": "10.1016/j.commatsci.2020.109627",
+                "bibtex": "@article{Wang_2020,\n abstract = {Second-nearest-neighbor modified embedded-atom method (2NN MEAM) interatomic potentials for Cu-M (M = Co, Mo) binary systems have been developed. The Cu-M potentials can be extended to Pt-Cu-M ternary 2NN MEAM potentials being combined with already existing Pt-M potentials and can be utilized for atomistic simulations to design inexpensive and efficient platinum alloy catalysts. The potentials reproduce fundamental material properties such as structural and thermodynamic properties of compound and solution phases in reasonable agreement with experimental data. Herein, the validity of the developed potentials for atomistic simulation is ascertained.},\n author = {Jaemin Wang and Sang-Ho Oh and Byeong-Joo Lee},\n doi = {10.1016/j.commatsci.2020.109627},\n journal = {Computational Materials Science},\n month = {jun},\n pages = {109627},\n publisher = {Elsevier BV},\n title = {Second-nearest-neighbor modified embedded-atom method interatomic potential for Cu-M (M = Co, Mo) binary systems},\n url = {https://doi.org/10.1016%2Fj.commatsci.2020.109627},\n volume = {178},\n year = {2020}\n}\n\n"
+            }
+        },
+        "implementation": {
+            "key": "60a1b582-8c46-4827-8a35-57b44de1e609",
+            "id": "2020--Wang-J--Cu-Co--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2020-10-13",
+            "type": "LAMMPS pair_style meam",
+            "notes": {
+                "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2020--Wang-J-Oh-S-H-Lee-B-J--Cu-Co/1/library.meam",
+                        "link-text": "library.meam"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2020--Wang-J-Oh-S-H-Lee-B-J--Cu-Co/1/CuCo.meam",
+                        "link-text": "CuCo.meam"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Cu",
+            "Co"
+        ]
+    }
+}

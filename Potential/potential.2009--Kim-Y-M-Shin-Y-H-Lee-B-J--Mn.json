@@ -1,0 +1,78 @@
+{
+    "interatomic-potential": {
+        "key": "75cc3982-7041-487e-a1d7-547c841ed7be",
+        "id": "2009--Kim-Y-M-Shin-Y-H-Lee-B-J--Mn",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Modified embedded-atom method interatomic potentials for pure Mn and the Fe\u2013Mn system",
+                "author": [
+                    {
+                        "given-name": "Y.-M.",
+                        "surname": "Kim"
+                    },
+                    {
+                        "given-name": "Y.-H.",
+                        "surname": "Shin"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Acta Materialia",
+                "publication-date": {
+                    "year": 2009
+                },
+                "volume": 57,
+                "issue": 2,
+                "abstract": "Modified embedded-atom method (MEAM) interatomic potentials for pure Mn and the Fe\u2013Mn  binary system have been developed using a previously developed MEAM potential for Fe.  The potentials can describe various fundamental physical properties of pure Mn (cohesive energy, structural energy differences, lattice parameters, elastic constants, vacancy formation energy, surface energy, etc.) and alloy behaviors (enthalpy of mixing in face-centered cubic and liquid phases, composition dependency of lattice parameters in various solid solutions) in reasonable agreement with experimental information or  other empirical approaches. The applicability of the potential to atomistic investigations on a wide range of mechanical or deformation properties of the Fe\u2013Mn alloys is demonstrated.",
+                "pages": "474-482",
+                "DOI": "10.1016/j.actamat.2008.09.031",
+                "bibtex": "@article{Kim_2009,\n abstract = {Modified embedded-atom method (MEAM) interatomic potentials for pure Mn and the Fe\u2013Mn  binary system have been developed using a previously developed MEAM potential for Fe.  The potentials can describe various fundamental physical properties of pure Mn (cohesive energy, structural energy differences, lattice parameters, elastic constants, vacancy formation energy, surface energy, etc.) and alloy behaviors (enthalpy of mixing in face-centered cubic and liquid phases, composition dependency of lattice parameters in various solid solutions) in reasonable agreement with experimental information or  other empirical approaches. The applicability of the potential to atomistic investigations on a wide range of mechanical or deformation properties of the Fe\u2013Mn alloys is demonstrated.},\n author = {Young-Min Kim and Young-Han Shin and Byeong-Joo Lee},\n doi = {10.1016/j.actamat.2008.09.031},\n journal = {Acta Materialia},\n month = {jan},\n number = {2},\n pages = {474--482},\n publisher = {Elsevier BV},\n title = {Modified embedded-atom method interatomic potentials for pure Mn and the Fe\u2013Mn system},\n url = {https://doi.org/10.1016%2Fj.actamat.2008.09.031},\n volume = {57},\n year = {2009}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "018bd239-4af0-4f71-abe8-1a502513b8f0",
+                "id": "2009--Kim-Y-M--Mn--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files are based on files obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2009--Kim-Y-M-Shin-Y-H-Lee-B-J--Mn/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2009--Kim-Y-M-Shin-Y-H-Lee-B-J--Mn/1/Mn.meam",
+                            "link-text": "Mn.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": "Mn"
+    }
+}

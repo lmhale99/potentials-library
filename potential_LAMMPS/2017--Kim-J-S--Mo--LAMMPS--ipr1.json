@@ -1,0 +1,35 @@
+{
+    "potential-LAMMPS": {
+        "key": "3e4f037b-e4ea-4a5a-854b-4754a9c61661",
+        "id": "2017--Kim-J-S--Mo--LAMMPS--ipr1",
+        "potential": {
+            "key": "fcb7e4e7-2c94-4fe6-988f-521c62010f34",
+            "id": "2017--Kim-J-S-Seol-D-Ji-J-et-al--Mo"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Mo",
+            "mass": 89.96
+        },
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Mo"
+                },
+                {
+                    "file": "Mo.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

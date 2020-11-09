@@ -1,0 +1,77 @@
+{
+    "interatomic-potential": {
+        "key": "ec9e24ac-f040-42c1-aaf7-087f90989598",
+        "id": "2010--Lee-E-Lee-B-J--Fe-Al",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Modified embedded-atom method interatomic potential for the Fe\u2013Al system",
+                "author": [
+                    {
+                        "given-name": "E.",
+                        "surname": "Lee"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Journal of Physics: Condensed Matter",
+                "publication-date": {
+                    "year": 2010
+                },
+                "volume": 22,
+                "issue": 17,
+                "abstract": "An interatomic potential for the Fe\u2013Al binary system has been developed based on the modified embedded-atom method (MEAM) potential formalism. The potential can describe various fundamental physical properties of Fe\u2013Al binary alloys\u2014structural, elastic and thermodynamic properties, defect formation behavior and interactions between defects\u2014in reasonable agreement with experimental data or higher-level calculations. The applicability of the potential to atomistic investigations of various defect formation behaviors and their effects on the mechanical properties of high aluminum steels as well as Fe\u2013Al binary alloys is demonstrated.",
+                "pages": "175702",
+                "DOI": "10.1088/0953-8984/22/17/175702",
+                "bibtex": "@article{Lee_2010,\n abstract = {An interatomic potential for the Fe\u2013Al binary system has been developed based on the modified embedded-atom method (MEAM) potential formalism. The potential can describe various fundamental physical properties of Fe\u2013Al binary alloys\u2014structural, elastic and thermodynamic properties, defect formation behavior and interactions between defects\u2014in reasonable agreement with experimental data or higher-level calculations. The applicability of the potential to atomistic investigations of various defect formation behaviors and their effects on the mechanical properties of high aluminum steels as well as Fe\u2013Al binary alloys is demonstrated.},\n author = {Eunkoo Lee and Byeong-Joo Lee},\n doi = {10.1088/0953-8984/22/17/175702},\n journal = {Journal of Physics: Condensed Matter},\n month = {apr},\n number = {17},\n pages = {175702},\n publisher = {IOP Publishing},\n title = {Modified embedded-atom method interatomic potential for the Fe\u2013Al system},\n url = {https://doi.org/10.1088%2F0953-8984%2F22%2F17%2F175702},\n volume = {22},\n year = {2010}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "5df69de9-0626-4851-88f5-f6e4d1ca81e8",
+                "id": "2010--Lee-E--Fe-Al--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2010--Lee-E-Lee-B-J--Fe-Al/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2010--Lee-E-Lee-B-J--Fe-Al/1/FeAl.meam",
+                            "link-text": "FeAl.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "Fe",
+            "Al"
+        ]
+    }
+}

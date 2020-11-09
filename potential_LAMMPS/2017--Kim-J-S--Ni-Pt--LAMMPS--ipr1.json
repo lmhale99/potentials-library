@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "34320d0b-69af-4e9b-90e9-8f5d527fd931",
+        "id": "2017--Kim-J-S--Ni-Pt--LAMMPS--ipr1",
+        "potential": {
+            "key": "efe8bd74-d966-4da5-b81f-4f8fd9ca147d",
+            "id": "2017--Kim-J-S-Seol-D-Ji-J-et-al--Ni-Pt"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ni",
+                "mass": 58.69
+            },
+            {
+                "element": "Pt",
+                "mass": 195.08
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ni Pt"
+                },
+                {
+                    "file": "NiPt.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

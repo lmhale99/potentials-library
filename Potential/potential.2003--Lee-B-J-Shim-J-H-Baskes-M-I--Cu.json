@@ -1,0 +1,77 @@
+{
+    "interatomic-potential": {
+        "key": "e2f7ee59-fa26-496a-9463-550f8f7a9011",
+        "id": "2003--Lee-B-J-Shim-J-H-Baskes-M-I--Cu",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Semiempirical atomic potentials for the fcc metals Cu, Ag, Au, Ni, Pd, Pt, Al, and Pb based on first and second nearest-neighbor modified embedded atom method",
+                "author": [
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    },
+                    {
+                        "given-name": "J.-H.",
+                        "surname": "Shim"
+                    },
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Baskes"
+                    }
+                ],
+                "publication-name": "Physical Review B",
+                "publication-date": {
+                    "year": 2003
+                },
+                "volume": 68,
+                "issue": 14,
+                "abstract": "Modified embedded atom method (MEAM) potentials for fcc elements Cu, Ag, Au, Ni, Pd, Pt, Al, and Pb have been newly developed using the original first nearest-neighbor MEAM and the recently developed second nearest-neighbor MEAM formalisms. It was found that the original MEAM potentials for fcc elements show some critical shortcomings such as structural instability and incorrect surface reconstructions on (100), (110), and/or (111) surfaces. The newly developed MEAM potentials solve most of the problems and describe the bulk properties (elastic constants, structural energy differences), point defect properties (vacancy and interstitial formation energy and formation volume, activation energy of vacancy diffusion), planar defect properties (stacking fault energy, surface energy, surface relaxation and reconstruction), and thermal properties (thermal expansion coefficients, specific heat, melting point, heat of melting) of the fcc elements considered, in good agreement with relevant experimental information. It has been shown that in the MEAM the degree of many-body screening (C<sub>min</sub>) is an important material property and that structural stability at finite temperatures should be included as a checkpoint during development of semiempirical potentials.",
+                "DOI": "10.1103/physrevb.68.144112",
+                "bibtex": "@article{Lee_2003,\n abstract = {Modified embedded atom method (MEAM) potentials for fcc elements Cu, Ag, Au, Ni, Pd, Pt, Al, and Pb have been newly developed using the original first nearest-neighbor MEAM and the recently developed second nearest-neighbor MEAM formalisms. It was found that the original MEAM potentials for fcc elements show some critical shortcomings such as structural instability and incorrect surface reconstructions on (100), (110), and/or (111) surfaces. The newly developed MEAM potentials solve most of the problems and describe the bulk properties (elastic constants, structural energy differences), point defect properties (vacancy and interstitial formation energy and formation volume, activation energy of vacancy diffusion), planar defect properties (stacking fault energy, surface energy, surface relaxation and reconstruction), and thermal properties (thermal expansion coefficients, specific heat, melting point, heat of melting) of the fcc elements considered, in good agreement with relevant experimental information. It has been shown that in the MEAM the degree of many-body screening (C<sub>min</sub>) is an important material property and that structural stability at finite temperatures should be included as a checkpoint during development of semiempirical potentials.},\n author = {Byeong-Joo Lee and Jae-Hyeok Shim and M. I. Baskes},\n doi = {10.1103/physrevb.68.144112},\n journal = {Physical Review B},\n month = {oct},\n number = {14},\n publisher = {American Physical Society (APS)},\n title = {Semiempirical atomic potentials for the fcc metals Cu, Ag, Au, Ni, Pd, Pt, Al, and Pb based on first and second nearest-neighbor modified embedded atom method},\n url = {https://doi.org/10.1103%2Fphysrevb.68.144112},\n volume = {68},\n year = {2003}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "d6eca59d-2431-43fc-bb18-40a00cb42014",
+                "id": "2003--Lee-B-J--Cu--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2003--Lee-B-J-Shim-J-H-Baskes-M-I--Cu/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2003--Lee-B-J-Shim-J-H-Baskes-M-I--Cu/1/Cu.meam",
+                            "link-text": "Cu.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": "Cu"
+    }
+}

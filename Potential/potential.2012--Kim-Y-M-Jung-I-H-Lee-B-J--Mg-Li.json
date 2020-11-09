@@ -1,0 +1,81 @@
+{
+    "interatomic-potential": {
+        "key": "dd2e30f7-3360-4334-bb3b-725c5f24ada4", 
+        "id": "2012--Kim-Y-M-Jung-I-H-Lee-B-J--Mg-Li", 
+        "record-version": "2019-05-06", 
+        "description": {
+            "citation": {
+                "document-type": "journal", 
+                "title": "Atomistic modeling of pure Li and Mg\u2013Li system", 
+                "author": [
+                    {
+                        "given-name": "Y.-M.", 
+                        "surname": "Kim"
+                    }, 
+                    {
+                        "given-name": "I.-H.", 
+                        "surname": "Jung"
+                    }, 
+                    {
+                        "given-name": "B.-J.", 
+                        "surname": "Lee"
+                    }
+                ], 
+                "publication-name": "Modelling and Simulation in Materials Science and Engineering", 
+                "publication-date": {
+                    "year": "2012"
+                }, 
+                "volume": "20", 
+                "issue": "3", 
+                "abstract": "Interatomic potentials for pure Li and the Mg\u2013Li binary system have been developed based on the second nearest-neighbor modified embedded-atom method formalism. The potentials can describe various fundamental physical properties of pure Li (bulk, point defect, planar defect and thermal properties) and alloy behaviors (thermodynamic, structural and elastic properties) in reasonable agreement with experimental data or higher-level calculations. The applicability of the potential to atomistic investigations on the deformation behavior of Mg alloys and the effect of Li is demonstrated.", 
+                "pages": "035005", 
+                "DOI": "10.1088/0965-0393/20/3/035005", 
+                "bibtex": "@article{Kim_2012,\n abstract = {Interatomic potentials for pure Li and the Mg\u2013Li binary system have been developed based on the second nearest-neighbor modified embedded-atom method formalism. The potentials can describe various fundamental physical properties of pure Li (bulk, point defect, planar defect and thermal properties) and alloy behaviors (thermodynamic, structural and elastic properties) in reasonable agreement with experimental data or higher-level calculations. The applicability of the potential to atomistic investigations on the deformation behavior of Mg alloys and the effect of Li is demonstrated.},\n author = {Young-Min Kim and In-Ho Jung and Byeong-Joo Lee},\n doi = {10.1088/0965-0393/20/3/035005},\n journal = {Modelling and Simulation in Materials Science and Engineering},\n month = {feb},\n number = {3},\n pages = {035005},\n publisher = {IOP Publishing},\n title = {Atomistic modeling of pure Li and Mg\u2013Li system},\n url = {https://doi.org/10.1088%2F0965-0393%2F20%2F3%2F035005},\n volume = {20},\n year = {2012}\n}\n\n"
+            }
+        }, 
+        "implementation": [
+            {
+                "key": "3df90057-77eb-4150-be0f-6f4ae7aa54ac", 
+                "id": "2012--Kim-Y-M--Mg-Li--LAMMPS--ipr1", 
+                "status": "active", 
+                "date": "2019-05-06", 
+                "type": "LAMMPS pair_style meam", 
+                "notes": {
+                    "text": "These potential files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                }, 
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2012--Kim-Y-M-Jung-I-H-Lee-B-J--Mg-Li/1/LiMg.meam", 
+                            "link-text": "LiMg.meam"
+                        }
+                    }, 
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2012--Kim-Y-M-Jung-I-H-Lee-B-J--Mg-Li/1/library.meam", 
+                            "link-text": "library.meam"
+                        }
+                    }
+                ]
+            }, 
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "Mg", 
+            "Li"
+        ]
+    }
+}

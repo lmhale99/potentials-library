@@ -1,0 +1,82 @@
+{
+    "interatomic-potential": {
+        "key": "94d28e50-2d02-4f9e-9c66-78c4b3d39f76",
+        "id": "2017--Kim-J-S-Seol-D-Ji-J-et-al--Pt-Ti",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Second nearest-neighbor modified embedded-atom method interatomic potentials for the Pt-M (M = Al, Co, Cu, Mo, Ni, Ti, V) binary systems",
+                "author": [
+                    {
+                        "given-name": "J.-S.",
+                        "surname": "Kim"
+                    },
+                    {
+                        "given-name": "D.",
+                        "surname": "Seol"
+                    },
+                    {
+                        "given-name": "J.",
+                        "surname": "Ji"
+                    },
+                    {
+                        "given-name": "H.-S.",
+                        "surname": "Jang"
+                    },
+                    {
+                        "given-name": "Y.",
+                        "surname": "Kim"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Calphad",
+                "publication-date": {
+                    "year": 2017
+                },
+                "volume": 59,
+                "abstract": "Interatomic potentials for Pt-M (M = Al, Co, Cu, Mo, Ni, Ti, V) binary systems have been developed on the basis of the second nearest-neighbor modified embedded-atom method (2NN MEAM) formalism. The parameters of pure Mo have also been newly developed to solve a problem in the previous 2NN MEAM potential in which the sigma and \u03b1-Mn structures become more stable than the bcc structure. The potentials reproduce various materials properties of alloys (structural, thermodynamic and order-disorder transition temperature) in reasonable agreements with relevant experimental data and other calculations. The applicability of the developed potentials to atomistic investigations for the shape and atomic configuration of Pt bimetallic nanoparticles is demonstrated.",
+                "pages": "131-141",
+                "DOI": "10.1016/j.calphad.2017.09.005",
+                "bibtex": "@article{Kim_2017,\n abstract = {Interatomic potentials for Pt-M (M = Al, Co, Cu, Mo, Ni, Ti, V) binary systems have been developed on the basis of the second nearest-neighbor modified embedded-atom method (2NN MEAM) formalism. The parameters of pure Mo have also been newly developed to solve a problem in the previous 2NN MEAM potential in which the sigma and \u03b1-Mn structures become more stable than the bcc structure. The potentials reproduce various materials properties of alloys (structural, thermodynamic and order-disorder transition temperature) in reasonable agreements with relevant experimental data and other calculations. The applicability of the developed potentials to atomistic investigations for the shape and atomic configuration of Pt bimetallic nanoparticles is demonstrated.},\n author = {Jin-Soo Kim and Donghyuk Seol and Joonho Ji and Hyo-Sun Jang and Yongmin Kim and Byeong-Joo Lee},\n doi = {10.1016/j.calphad.2017.09.005},\n journal = {Calphad},\n month = {dec},\n pages = {131--141},\n publisher = {Elsevier BV},\n title = {Second nearest-neighbor modified embedded-atom method interatomic potentials for the Pt-M (M = Al, Co, Cu, Mo, Ni, Ti, V) binary systems},\n url = {https://doi.org/10.1016%2Fj.calphad.2017.09.005},\n volume = {59},\n year = {2017}\n}\n\n"
+            }
+        },
+        "implementation": {
+            "key": "b5aa8e6b-387d-4cfb-ba34-82878ab1fa1c",
+            "id": "2017--Kim-J-S--Pt-Ti--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2020-10-13",
+            "type": "LAMMPS pair_style meam",
+            "notes": {
+                "text": "The meam files were generated from the word file which was obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2017--Kim-J-S-Seol-D-Ji-J-et-al--Pt-Ti/1/LAMMPS parameters -Supplement(revised).docx",
+                        "link-text": "LAMMPS parameters -Supplement(revised).docx"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2017--Kim-J-S-Seol-D-Ji-J-et-al--Pt-Ti/1/library.meam",
+                        "link-text": "library.meam"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2017--Kim-J-S-Seol-D-Ji-J-et-al--Pt-Ti/1/PtTi.meam",
+                        "link-text": "PtTi.meam"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Pt",
+            "Ti"
+        ]
+    }
+}

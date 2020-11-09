@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "8f061850-bff6-4daf-a278-c7165d40292c",
+        "id": "2015--Kim-Y-K--Ni-Co--LAMMPS--ipr1",
+        "potential": {
+            "key": "cf51e684-8bad-427c-89fc-280d457e725c",
+            "id": "2015--Kim-Y-K-Jung-W-S-Lee-B-J--Ni-Co"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ni",
+                "mass": 58.69
+            },
+            {
+                "element": "Co",
+                "mass": 58.933
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ni Co"
+                },
+                {
+                    "file": "NiCo.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

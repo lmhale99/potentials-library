@@ -1,55 +1,55 @@
 {
     "potential-LAMMPS": {
-        "key": "eefc81ea-420c-4d49-8c16-9650cf0305c3", 
-        "id": "2013--Bonny-G--Fe-Cr-W--LAMMPS--ipr2", 
+        "key": "eefc81ea-420c-4d49-8c16-9650cf0305c3",
+        "id": "2013--Bonny-G--Fe-Cr-W--LAMMPS--ipr2",
         "potential": {
-            "key": "d0b8ed5d-d5bf-4e22-acfb-ccf84a87690b", 
+            "key": "d0b8ed5d-d5bf-4e22-acfb-ccf84a87690b",
             "id": "2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W"
-        }, 
-        "units": "metal", 
-        "atom_style": "atomic", 
+        },
+        "units": "metal",
+        "atom_style": "atomic",
         "atom": [
             {
-                "element": "Fe", 
+                "element": "Fe",
                 "mass": 55.845
-            }, 
+            },
             {
-                "element": "Cr", 
+                "element": "Cr",
                 "mass": 51.9961
-            }, 
+            },
             {
-                "element": "W", 
+                "element": "W",
                 "mass": 183.85
             }
-        ], 
+        ],
         "pair_style": {
-            "type": "hybrid/overlay", 
+            "type": "hybrid/overlay",
             "term": {
                 "option": "eam/alloy eam/fs"
             }
-        }, 
+        },
         "pair_coeff": [
             {
                 "term": [
                     {
                         "option": "eam/alloy"
-                    }, 
+                    },
                     {
                         "file": "FeCrW_d.eam.alloy"
-                    }, 
+                    },
                     {
                         "symbols": "true"
                     }
                 ]
-            }, 
+            },
             {
                 "term": [
                     {
                         "option": "eam/fs"
-                    }, 
+                    },
                     {
                         "file": "FeCrW_s.eam.fs"
-                    }, 
+                    },
                     {
                         "symbols": "true"
                     }

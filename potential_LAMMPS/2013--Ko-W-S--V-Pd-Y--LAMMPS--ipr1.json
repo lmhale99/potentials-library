@@ -1,0 +1,45 @@
+{
+    "potential-LAMMPS": {
+        "key": "fbcfe046-df45-45c0-8ce2-2bfb6cf284a7",
+        "id": "2013--Ko-W-S--V-Pd-Y--LAMMPS--ipr1",
+        "potential": {
+            "key": "4fe53261-1724-42f3-9f60-c5ab69ba2cb8",
+            "id": "2013--Ko-W-S-Lee-B-J--V-Pd-Y"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "V",
+                "mass": 50.942
+            },
+            {
+                "element": "Pd",
+                "mass": 106.42
+            },
+            {
+                "element": "Y",
+                "mass": 88.906
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "V Pd Y"
+                },
+                {
+                    "file": "VPdY.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

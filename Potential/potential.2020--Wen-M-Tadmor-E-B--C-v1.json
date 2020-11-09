@@ -1,0 +1,50 @@
+{
+    "interatomic-potential": {
+        "key": "a868f19e-7fe9-457c-a662-cdbc4c0aadfa",
+        "id": "2020--Wen-M-Tadmor-E-B--C-v1",
+        "record-version": "2020-10-08",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Uncertainty quantification in molecular simulations with dropout neural network potentials",
+                "author": [
+                    {
+                        "given-name": "M.",
+                        "surname": "Wen"
+                    },
+                    {
+                        "given-name": "E.B.",
+                        "surname": "Tadmor"
+                    }
+                ],
+                "publication-name": "npj Computational Materials",
+                "publication-date": {
+                    "year": 2020
+                },
+                "volume": 6,
+                "issue": 1,
+                "abstract": "Machine learning interatomic potentials (IPs) can provide accuracy close to that of first-principles methods, such as density functional theory (DFT), at a fraction of the computational cost. This greatly extends the scope of accurate molecular simulations, providing opportunities for quantitative design of materials and devices on scales hitherto unreachable by DFT methods. However, machine learning IPs have a basic limitation in that they lack a physical model for the phenomena being predicted and therefore have unknown accuracy when extrapolating outside their training set. In this paper, we propose a class of Dropout Uncertainty Neural Network (DUNN) potentials that provide rigorous uncertainty estimates that can be understood from both Bayesian and frequentist statistics perspectives. As an example, we develop a DUNN potential for carbon and show how it can be used to predict uncertainty for static and dynamical properties, including stress and phonon dispersion in graphene. We demonstrate two approaches to propagate uncertainty in the potential energy and atomic forces to predicted properties. In addition, we show that DUNN uncertainty estimates can be used to detect configurations outside the training set, and in some cases, can serve as a predictor for the accuracy of a calculation.",
+                "DOI": "10.1038/s41524-020-00390-8",
+                "bibtex": "@article{Wen_2020,\n abstract = {Machine learning interatomic potentials (IPs) can provide accuracy close to that of first-principles methods, such as density functional theory (DFT), at a fraction of the computational cost. This greatly extends the scope of accurate molecular simulations, providing opportunities for quantitative design of materials and devices on scales hitherto unreachable by DFT methods. However, machine learning IPs have a basic limitation in that they lack a physical model for the phenomena being predicted and therefore have unknown accuracy when extrapolating outside their training set. In this paper, we propose a class of Dropout Uncertainty Neural Network (DUNN) potentials that provide rigorous uncertainty estimates that can be understood from both Bayesian and frequentist statistics perspectives. As an example, we develop a DUNN potential for carbon and show how it can be used to predict uncertainty for static and dynamical properties, including stress and phonon dispersion in graphene. We demonstrate two approaches to propagate uncertainty in the potential energy and atomic forces to predicted properties. In addition, we show that DUNN uncertainty estimates can be used to detect configurations outside the training set, and in some cases, can serve as a predictor for the accuracy of a calculation.},\n author = {Mingjian Wen and Ellad B. Tadmor},\n doi = {10.1038/s41524-020-00390-8},\n journal = {npj Computational Materials},\n month = {aug},\n number = {1},\n publisher = {Springer Science and Business Media LLC},\n title = {Uncertainty quantification in molecular simulations with dropout neural network potentials},\n url = {https://doi.org/10.1038%2Fs41524-020-00390-8},\n volume = {6},\n year = {2020}\n}\n\n"
+            },
+            "notes": {
+                "text": "This is the version of the DUNN potential that uses a dropout ratio of 0.1."
+            }
+        },
+        "implementation": {
+            "key": "eeec071b-5054-4014-82ea-e9e4f8422f21",
+            "id": "DUNN_WenTadmor_2019v1_C__MO_584345505904_000",
+            "status": "active",
+            "date": "2020-10-08",
+            "type": "OpenKIM",
+            "notes": {
+                "text": "Listing found at https://openkim.org."
+            },
+            "web-link": {
+                "URL": "https://openkim.org/id/DUNN_WenTadmor_2019v1_C__MO_584345505904_000",
+                "link-text": "DUNN_WenTadmor_2019v1_C__MO_584345505904_000"
+            }
+        },
+        "element": "C"
+    }
+}

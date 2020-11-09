@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "c7ec5801-add4-46b0-8f95-8993cba07a39",
+        "id": "2017--Choi-W-M--Cr-Mn--LAMMPS--ipr1",
+        "potential": {
+            "key": "6b44e026-dba2-4d32-9508-7c7e82a6de68",
+            "id": "2017--Choi-W-M-Kim-Y-Seol-D-Lee-B-J--Cr-Mn"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Cr",
+                "mass": 51.96
+            },
+            {
+                "element": "Mn",
+                "mass": 54.94
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Cr Mn"
+                },
+                {
+                    "file": "CrMn.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

@@ -1,35 +1,35 @@
 {
     "potential-LAMMPS": {
-        "key": "6ea50417-2147-4d53-871c-0a289656f794", 
-        "id": "2020--Starikov-S--Si-Au-Al--LAMMPS--ipr1", 
+        "key": "6ea50417-2147-4d53-871c-0a289656f794",
+        "id": "2020--Starikov-S--Si-Au-Al--LAMMPS--ipr1",
         "potential": {
-            "key": "e5d06433-937f-4deb-916a-531f6cbb9ed6", 
+            "key": "e5d06433-937f-4deb-916a-531f6cbb9ed6",
             "id": "2020--Starikov-S-Gordeev-I-Lysogorskiy-Y-et-al--Si-Au-Al"
-        }, 
-        "units": "metal", 
-        "atom_style": "atomic", 
+        },
+        "units": "metal",
+        "atom_style": "atomic",
         "atom": [
             {
-                "element": "Si", 
+                "element": "Si",
                 "mass": 28.084
-            }, 
+            },
             {
-                "element": "Au", 
+                "element": "Au",
                 "mass": 196.967
-            }, 
+            },
             {
-                "element": "Al", 
+                "element": "Al",
                 "mass": 26.98
             }
-        ], 
+        ],
         "pair_style": {
             "type": "adp"
-        }, 
+        },
         "pair_coeff": {
             "term": [
                 {
                     "file": "Si_Au_Al.adp.txt"
-                }, 
+                },
                 {
                     "symbols": "true"
                 }

@@ -1,0 +1,35 @@
+{
+    "potential-LAMMPS": {
+        "key": "d6eca59d-2431-43fc-bb18-40a00cb42014",
+        "id": "2003--Lee-B-J--Cu--LAMMPS--ipr1",
+        "potential": {
+            "key": "e2f7ee59-fa26-496a-9463-550f8f7a9011",
+            "id": "2003--Lee-B-J-Shim-J-H-Baskes-M-I--Cu"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Cu",
+            "mass": 63.546
+        },
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Cu"
+                },
+                {
+                    "file": "Cu.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

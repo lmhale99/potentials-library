@@ -1,0 +1,60 @@
+{
+    "interatomic-potential": {
+        "key": "115d7af3-187e-4cc4-aceb-a12c8e3c2272",
+        "id": "2020--Jeong-G-U-Lee-B-J--Pd-C",
+        "record-version": "2020-10-15",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Interatomic potentials for Pt-C and Pd-C systems and a study of structure-adsorption relationship in large Pt/graphene system",
+                "author": [
+                    {
+                        "given-name": "G.-U.",
+                        "surname": "Jeong"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2020
+                },
+                "volume": 185,
+                "abstract": "Graphene-supported platinum (Pt) and palladium (Pd) nanoclusters have attracted attention as electrocatalysts for proton exchange membrane fuel cell (PEMFC) because of their high activity and resistance to CO poisoning. However, metal nanoparticles are weakly adsorbed to the graphene and easily migrate on the surface, causing sintering and loss of chemical activity. A thorough understanding of structure-adsorption relationship is important to design robust catalysts with high adsorption ability to stabilize metal nanoparticles, but this relationship is still not well understood, particularly in large scale systems (2\u20135 nm). Therefore, to investigate the structural evolution at atomic scale with atomistic simulations, we have developed interatomic potentials for the Pt-C and Pd-C binary systems, based on the second nearest-neighbor modified embedded-atom method (2NN MEAM) formalism. These potentials reproduce various fundamental properties of the alloy systems in reasonable agreement with the experimental data and first-principles calculations. Molecular dynamics simulations employing the 2NN MEAM potential were carried out to analyse structural factors that have decisive effect on the adsorption energy, by changing the symmetry of the nanoparticles and the configuration of the nanoparticles adsorbed to graphene. These factors were characterized via coordination numbers, number of Pt atoms in contact with the graphene and adsorption site. The results of our study suggest avenues for stabilizing and immobilizing metal clusters on graphene in large systems.",
+                "pages": "109946",
+                "DOI": "10.1016/j.commatsci.2020.109946",
+                "bibtex": "@article{Jeong_2020,\n abstract = {Graphene-supported platinum (Pt) and palladium (Pd) nanoclusters have attracted attention as electrocatalysts for proton exchange membrane fuel cell (PEMFC) because of their high activity and resistance to CO poisoning. However, metal nanoparticles are weakly adsorbed to the graphene and easily migrate on the surface, causing sintering and loss of chemical activity. A thorough understanding of structure-adsorption relationship is important to design robust catalysts with high adsorption ability to stabilize metal nanoparticles, but this relationship is still not well understood, particularly in large scale systems (2\u20135 nm). Therefore, to investigate the structural evolution at atomic scale with atomistic simulations, we have developed interatomic potentials for the Pt-C and Pd-C binary systems, based on the second nearest-neighbor modified embedded-atom method (2NN MEAM) formalism. These potentials reproduce various fundamental properties of the alloy systems in reasonable agreement with the experimental data and first-principles calculations. Molecular dynamics simulations employing the 2NN MEAM potential were carried out to analyse structural factors that have decisive effect on the adsorption energy, by changing the symmetry of the nanoparticles and the configuration of the nanoparticles adsorbed to graphene. These factors were characterized via coordination numbers, number of Pt atoms in contact with the graphene and adsorption site. The results of our study suggest avenues for stabilizing and immobilizing metal clusters on graphene in large systems.},\n author = {Ga-Un Jeong and Byeong-Joo Lee},\n doi = {10.1016/j.commatsci.2020.109946},\n journal = {Computational Materials Science},\n month = {dec},\n pages = {109946},\n publisher = {Elsevier BV},\n title = {Interatomic potentials for Pt-C and Pd-C systems and a study of structure-adsorption relationship in large Pt/graphene system},\n url = {https://doi.org/10.1016%2Fj.commatsci.2020.109946},\n volume = {185},\n year = {2020}\n}\n\n"
+            }
+        },
+        "implementation": {
+            "key": "728e2c94-62ea-4a94-bde6-e8e49248c306",
+            "id": "2020--Jeong-G-U--Pd-C--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2020-10-15",
+            "type": "LAMMPS pair_style meam",
+            "notes": {
+                "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2020--Jeong-G-U-Lee-B-J--Pd-C/1/library.meam",
+                        "link-text": "library.meam"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2020--Jeong-G-U-Lee-B-J--Pd-C/1/PdC.meam",
+                        "link-text": "PdC.meam"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Pd",
+            "C"
+        ]
+    }
+}

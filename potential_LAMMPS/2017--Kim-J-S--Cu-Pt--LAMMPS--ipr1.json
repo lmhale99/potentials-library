@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "cb8a4c57-0c64-468c-97d0-7af10f057a42",
+        "id": "2017--Kim-J-S--Cu-Pt--LAMMPS--ipr1",
+        "potential": {
+            "key": "288af12e-56cb-4a52-b09b-6957a1a3581d",
+            "id": "2017--Kim-J-S-Seol-D-Ji-J-et-al--Cu-Pt"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Cu",
+                "mass": 63.546
+            },
+            {
+                "element": "Pt",
+                "mass": 195.08
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Cu Pt"
+                },
+                {
+                    "file": "CuPt.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

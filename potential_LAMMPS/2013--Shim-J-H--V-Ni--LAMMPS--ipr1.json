@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "76592f8a-7e06-44e8-9da1-d58875f2d005",
+        "id": "2013--Shim-J-H--V-Ni--LAMMPS--ipr1",
+        "potential": {
+            "key": "18f1a9df-1eb5-4da5-a0ec-29754f7bf091",
+            "id": "2013--Shim-J-H-Ko-W-S-Kim-K-H-et-al--V-Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ni",
+                "mass": 58.69
+            },
+            {
+                "element": "V",
+                "mass": 50.942
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ni V"
+                },
+                {
+                    "file": "NiV.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

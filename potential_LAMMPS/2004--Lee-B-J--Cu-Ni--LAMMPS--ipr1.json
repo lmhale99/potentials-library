@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "b36a160c-db24-4b64-9779-b2702fde8a10",
+        "id": "2004--Lee-B-J--Cu-Ni--LAMMPS--ipr1",
+        "potential": {
+            "key": "f945bbd5-8490-457d-a363-cb1bd4267293",
+            "id": "2004--Lee-B-J-Shim-J-H--Cu-Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Cu",
+                "mass": 63.546
+            },
+            {
+                "element": "Ni",
+                "mass": 58.69
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Cu Ni"
+                },
+                {
+                    "file": "NiCu.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

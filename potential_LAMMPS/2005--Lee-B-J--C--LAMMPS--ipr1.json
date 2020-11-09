@@ -1,0 +1,35 @@
+{
+    "potential-LAMMPS": {
+        "key": "1f041a14-77ef-4628-9d30-31f0fef00b01",
+        "id": "2005--Lee-B-J--C--LAMMPS--ipr1",
+        "potential": {
+            "key": "7231c26b-5981-4c34-b2a4-0d719a6d897f",
+            "id": "2005--Lee-B-J-Lee-J-W--C"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "C",
+            "mass": 12.011
+        },
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "C"
+                },
+                {
+                    "file": "C.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

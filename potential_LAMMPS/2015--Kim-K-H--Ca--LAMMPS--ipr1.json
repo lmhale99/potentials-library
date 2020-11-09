@@ -1,0 +1,35 @@
+{
+    "potential-LAMMPS": {
+        "key": "9d8c7e42-8fd8-487e-91d4-04db63c5254f",
+        "id": "2015--Kim-K-H--Ca--LAMMPS--ipr1",
+        "potential": {
+            "key": "a41f9f22-4a69-49ce-8e80-1296b07c6133",
+            "id": "2015--Kim-K-H-Jeon-J-B-Lee-B-J--Ca"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ca",
+            "mass": 40.078
+        },
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ca"
+                },
+                {
+                    "file": "Ca.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

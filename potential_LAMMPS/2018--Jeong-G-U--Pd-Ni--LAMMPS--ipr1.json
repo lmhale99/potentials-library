@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "57984314-ed21-4a21-ae37-412301c19094",
+        "id": "2018--Jeong-G-U--Pd-Ni--LAMMPS--ipr1",
+        "potential": {
+            "key": "b2a06e77-2b5f-4dda-a958-093472cf4da1",
+            "id": "2018--Jeong-G-U-Park-C-S-Do-H-S-et-al--Pd-Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Pd",
+                "mass": 106.42
+            },
+            {
+                "element": "Ni",
+                "mass": 58.69
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Pd Ni"
+                },
+                {
+                    "file": "PdNi.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

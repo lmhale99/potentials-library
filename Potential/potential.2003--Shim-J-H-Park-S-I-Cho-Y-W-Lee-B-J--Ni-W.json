@@ -1,0 +1,85 @@
+{
+    "interatomic-potential": {
+        "key": "8461b43c-c0d4-40da-9719-3485695253b7",
+        "id": "2003--Shim-J-H-Park-S-I-Cho-Y-W-Lee-B-J--Ni-W",
+        "record-version": "2020-10-15",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Modified embedded-atom method calculation for the Ni\u2013W system",
+                "author": [
+                    {
+                        "given-name": "J.-H.",
+                        "surname": "Shim"
+                    },
+                    {
+                        "given-name": "S.I.",
+                        "surname": "Park"
+                    },
+                    {
+                        "given-name": "Y.W.",
+                        "surname": "Cho"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Journal of Materials Research",
+                "publication-date": {
+                    "year": 2003
+                },
+                "volume": 18,
+                "issue": 8,
+                "abstract": "A semi-empirical interatomic potential of the Ni\u2013W system was developed using a modified embedded-atom method (MEAM) formalism including second-nearest-neighbor interactions. The cross potential was determined by fitting physical properties of tetragonal Ni4W available in the literature. The MEAM potential was used to predict phase stabilities, lattice constants, and bulk moduli of nonequilibrium and equilibrium phases in the Ni\u2013W system. The results were in good agreement with experimental information or first-principles calculation.",
+                "pages": "1863-1867",
+                "DOI": "10.1557/jmr.2003.0260",
+                "bibtex": "@article{Shim_2003,\n abstract = {A semi-empirical interatomic potential of the Ni\u2013W system was developed using a modified embedded-atom method (MEAM) formalism including second-nearest-neighbor interactions. The cross potential was determined by fitting physical properties of tetragonal Ni4W available in the literature. The MEAM potential was used to predict phase stabilities, lattice constants, and bulk moduli of nonequilibrium and equilibrium phases in the Ni\u2013W system. The results were in good agreement with experimental information or first-principles calculation.},\n author = {Jae-Hyeok Shim and Sung Il Park and Young Whan Cho and Byeong-Joo Lee},\n doi = {10.1557/jmr.2003.0260},\n journal = {Journal of Materials Research},\n month = {aug},\n number = {8},\n pages = {1863--1867},\n publisher = {Cambridge University Press (CUP)},\n title = {Modified embedded-atom method calculation for the Ni\u2013W system},\n url = {https://doi.org/10.1557%2Fjmr.2003.0260},\n volume = {18},\n year = {2003}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "20ee41f7-3f05-4f8e-b4af-be37c5e4f61e",
+                "id": "2003--Shim-J-H--Ni-W--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-15",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2003--Shim-J-H-Park-S-I-Cho-Y-W-Lee-B-J--Ni-W/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2003--Shim-J-H-Park-S-I-Cho-Y-W-Lee-B-J--Ni-W/1/NiW.meam",
+                            "link-text": "NiW.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-15",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "Ni",
+            "W"
+        ]
+    }
+}

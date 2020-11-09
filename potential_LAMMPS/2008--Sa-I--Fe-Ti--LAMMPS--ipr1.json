@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "6476776e-e89d-42c8-95a8-8bab90888cfb",
+        "id": "2008--Sa-I--Fe-Ti--LAMMPS--ipr1",
+        "potential": {
+            "key": "9fc5b06c-627b-4358-a0af-ca6ded9f04c5",
+            "id": "2008--Sa-I-Lee-B--Fe-Ti"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Fe",
+                "mass": 55.847
+            },
+            {
+                "element": "Ti",
+                "mass": 47.88
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Fe Ti"
+                },
+                {
+                    "file": "FeTi.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

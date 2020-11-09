@@ -1,0 +1,93 @@
+{
+    "interatomic-potential": {
+        "key": "207269a7-4ff9-4152-a9f5-7f4201776564",
+        "id": "2011--Shim-J-H-Lee-Y-S-Fleury-E-et-al--V-H",
+        "record-version": "2020-10-15",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "A modified embedded-atom method interatomic potential for the V\u2013H system",
+                "author": [
+                    {
+                        "given-name": "J.-H.",
+                        "surname": "Shim"
+                    },
+                    {
+                        "given-name": "Y.-S.",
+                        "surname": "Lee"
+                    },
+                    {
+                        "given-name": "E.",
+                        "surname": "Fleury"
+                    },
+                    {
+                        "given-name": "Y.W.",
+                        "surname": "Cho"
+                    },
+                    {
+                        "given-name": "W.-S.",
+                        "surname": "Ko"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Calphad",
+                "publication-date": {
+                    "year": 2011
+                },
+                "volume": 35,
+                "issue": 3,
+                "abstract": "An interatomic potential for the vanadium\u2013hydrogen binary system has been developed based on the second nearest-neighbor modified embedded-atom method (2NN MEAM) potential formalism, in combination with the previously developed potentials for V and H. Also, first-principles calculation has been carried out to provide data on the physical properties of this system, which are necessary for the optimization of the potential parameters. The developed potential reasonably reproduces the fundamental physical properties (thermodynamic, diffusion, elastic and volumetric properties) of V-rich bcc solid solution and some of the vanadium hydride phases. The applicability of this potential to the development of V-based alloys for hydrogen applications is discussed.",
+                "pages": "302-307",
+                "DOI": "10.1016/j.calphad.2011.04.007",
+                "bibtex": "@article{Shim_2011,\n abstract = {An interatomic potential for the vanadium\u2013hydrogen binary system has been developed based on the second nearest-neighbor modified embedded-atom method (2NN MEAM) potential formalism, in combination with the previously developed potentials for V and H. Also, first-principles calculation has been carried out to provide data on the physical properties of this system, which are necessary for the optimization of the potential parameters. The developed potential reasonably reproduces the fundamental physical properties (thermodynamic, diffusion, elastic and volumetric properties) of V-rich bcc solid solution and some of the vanadium hydride phases. The applicability of this potential to the development of V-based alloys for hydrogen applications is discussed.},\n author = {Jae-Hyeok Shim and Young-Su Lee and Eric Fleury and Young Whan Cho and Won-Seok Ko and Byeong-Joo Lee},\n doi = {10.1016/j.calphad.2011.04.007},\n journal = {Calphad},\n month = {sep},\n number = {3},\n pages = {302--307},\n publisher = {Elsevier BV},\n title = {A modified embedded-atom method interatomic potential for the V\u2013H system},\n url = {https://doi.org/10.1016%2Fj.calphad.2011.04.007},\n volume = {35},\n year = {2011}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "c498c990-6055-422f-9b3b-fd39e8359309",
+                "id": "2011--Shim-J-H--V-H--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-15",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam. For consistency, the \"library.meam_alloy\" file for the interaction was renamed here to \"VH.meam\"."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2011--Shim-J-H-Lee-Y-S-Fleury-E-et-al--V-H/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2011--Shim-J-H-Lee-Y-S-Fleury-E-et-al--V-H/1/VH.meam",
+                            "link-text": "VH.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-15",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "V",
+            "H"
+        ]
+    }
+}

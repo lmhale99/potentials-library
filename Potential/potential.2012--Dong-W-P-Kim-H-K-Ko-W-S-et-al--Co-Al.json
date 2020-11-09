@@ -1,0 +1,88 @@
+{
+    "interatomic-potential": {
+        "key": "9291cc7a-6a88-485d-82ab-6f6006b41851",
+        "id": "2012--Dong-W-P-Kim-H-K-Ko-W-S-et-al--Co-Al",
+        "record-version": "2020-10-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Atomistic modeling of pure Co and Co\u2013Al system",
+                "author": [
+                    {
+                        "given-name": "W.-P.",
+                        "surname": "Dong"
+                    },
+                    {
+                        "given-name": "H.-K.",
+                        "surname": "Kim"
+                    },
+                    {
+                        "given-name": "W.-S.",
+                        "surname": "Ko"
+                    },
+                    {
+                        "given-name": "B.-M.",
+                        "surname": "Lee"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Calphad",
+                "publication-date": {
+                    "year": 2012
+                },
+                "volume": 38,
+                "abstract": "Interatomic potentials for pure Co and the Co\u2013Al binary system have been developed based on the second nearest-neighbor modified embedded-atom method (2NN MEAM) potential formalism. The potentials can describe various fundamental physical properties of the relevant materials in good agreement with experimental information. The potential is utilized to an atomistic computation of interfacial properties between fcc-Co (\u03b3) and Co<sub>3</sub>Al (\u03b3\u2032) phases. It is found that the anisotropy in the \u03b3/\u03b3\u2032 interfacial energy is relatively small and leaves a room for further modification by alloying other elements. The applicability of the atomistic approach to an elaborate alloy design of advanced Co-based superalloys through the investigation of the effect of alloying elements on interfacial and elastic properties is discussed.",
+                "pages": "7-16",
+                "DOI": "10.1016/j.calphad.2012.04.001",
+                "bibtex": "@article{Dong_2012,\n abstract = {Interatomic potentials for pure Co and the Co\u2013Al binary system have been developed based on the second nearest-neighbor modified embedded-atom method (2NN MEAM) potential formalism. The potentials can describe various fundamental physical properties of the relevant materials in good agreement with experimental information. The potential is utilized to an atomistic computation of interfacial properties between fcc-Co (\u03b3) and Co<sub>3</sub>Al (\u03b3\u2032) phases. It is found that the anisotropy in the \u03b3/\u03b3\u2032 interfacial energy is relatively small and leaves a room for further modification by alloying other elements. The applicability of the atomistic approach to an elaborate alloy design of advanced Co-based superalloys through the investigation of the effect of alloying elements on interfacial and elastic properties is discussed.},\n author = {Wei-Ping Dong and Hyun-Kyu Kim and Won-Seok Ko and Byeong-Moon Lee and Byeong-Joo Lee},\n doi = {10.1016/j.calphad.2012.04.001},\n journal = {Calphad},\n month = {sep},\n pages = {7--16},\n publisher = {Elsevier BV},\n title = {Atomistic modeling of pure Co and Co\u2013Al system},\n url = {https://doi.org/10.1016%2Fj.calphad.2012.04.001},\n volume = {38},\n year = {2012}\n}\n\n"
+            }
+        },
+        "implementation": [
+            {
+                "key": "c7416b76-c358-4204-8d3b-873317bc5017",
+                "id": "2012--Dong-W-P--Co-Al--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2012--Dong-W-P-Kim-H-K-Ko-W-S-et-al--Co-Al/1/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2012--Dong-W-P-Kim-H-K-Ko-W-S-et-al--Co-Al/1/CoAl.meam",
+                            "link-text": "CoAl.meam"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "c5c99b44-2c98-48e3-af6e-4cfae9efb4aa",
+                "id": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                "status": "active",
+                "date": "2020-10-13",
+                "type": "OpenKIM",
+                "notes": {
+                    "text": "Listing found at https://openkim.org."
+                },
+                "web-link": {
+                    "URL": "https://openkim.org/id/MEAM_2NN_Fe_to_Ga__MO_145522277939_001",
+                    "link-text": "MEAM_2NN_Fe_to_Ga__MO_145522277939_001"
+                }
+            }
+        ],
+        "element": [
+            "Co",
+            "Al"
+        ]
+    }
+}

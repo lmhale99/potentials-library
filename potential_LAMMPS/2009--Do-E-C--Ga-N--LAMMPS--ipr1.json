@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "ce98b4fb-be3f-4a19-9e1c-74db68a3a0e4",
+        "id": "2009--Do-E-C--Ga-N--LAMMPS--ipr1",
+        "potential": {
+            "key": "b004c79c-1b66-42fc-abfb-5850c9aa2ba2",
+            "id": "2009--Do-E-C-Shin-Y-H-Lee-B-J--Ga-N"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ga",
+                "mass": 69.72
+            },
+            {
+                "element": "N",
+                "mass": 14.007
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ga N"
+                },
+                {
+                    "file": "GaN.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

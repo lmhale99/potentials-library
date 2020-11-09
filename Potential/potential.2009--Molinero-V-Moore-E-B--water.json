@@ -1,65 +1,65 @@
 {
     "interatomic-potential": {
-        "key": "d60f3a2b-2274-4763-8ace-57f8e69dd244", 
-        "id": "2009--Molinero-V-Moore-E-B--water", 
-        "record-version": "2020-01-14", 
+        "key": "d60f3a2b-2274-4763-8ace-57f8e69dd244",
+        "id": "2009--Molinero-V-Moore-E-B--water",
+        "record-version": "2020-01-14",
         "description": {
             "citation": {
-                "document-type": "journal", 
-                "title": "Water Modeled As an Intermediate Element between Carbon and Silicon", 
+                "document-type": "journal",
+                "title": "Water Modeled As an Intermediate Element between Carbon and Silicon",
                 "author": [
                     {
-                        "given-name": "V.", 
+                        "given-name": "V.",
                         "surname": "Molinero"
-                    }, 
+                    },
                     {
-                        "given-name": "E.B.", 
+                        "given-name": "E.B.",
                         "surname": "Moore"
                     }
-                ], 
-                "publication-name": "The Journal of Physical Chemistry B", 
+                ],
+                "publication-name": "The Journal of Physical Chemistry B",
                 "publication-date": {
                     "year": 2009
-                }, 
-                "volume": 113, 
-                "issue": 13, 
-                "abstract": "Water and silicon are chemically dissimilar substances with common physical properties. Their liquids display a temperature of maximum density, increased diffusivity on compression, and they form tetrahedral crystals and tetrahedral amorphous phases. The common feature to water, silicon, and carbon is the formation of tetrahedrally coordinated units. We exploit these similarities to develop a coarse-grained model of water (mW) that is essentially an atom with tetrahedrality intermediate between carbon and silicon. mW mimics the hydrogen-bonded structure of water through the introduction of a nonbond angular dependent term that encourages tetrahedral configurations. The model departs from the prevailing paradigm in water modeling: the use of long-ranged forces (electrostatics) to produce short-ranged (hydrogen-bonded) structure. mW has only short-range interactions yet it reproduces the energetics, density and structure of liquid water, and its anomalies and phase transitions with comparable or better accuracy than the most popular atomistic models of water, at less than 1% of the computational cost. We conclude that it is not the nature of the interactions but the connectivity of the molecules that determines the structural and thermodynamic behavior of water. The speedup in computing time provided by mW makes it particularly useful for the study of slow processes in deeply supercooled water, the mechanism of ice nucleation, wetting-drying transitions, and as a realistic water model for coarse-grained simulations of biomolecules and complex materials.", 
-                "pages": "4008-4016", 
-                "DOI": "10.1021/jp805227c", 
+                },
+                "volume": 113,
+                "issue": 13,
+                "abstract": "Water and silicon are chemically dissimilar substances with common physical properties. Their liquids display a temperature of maximum density, increased diffusivity on compression, and they form tetrahedral crystals and tetrahedral amorphous phases. The common feature to water, silicon, and carbon is the formation of tetrahedrally coordinated units. We exploit these similarities to develop a coarse-grained model of water (mW) that is essentially an atom with tetrahedrality intermediate between carbon and silicon. mW mimics the hydrogen-bonded structure of water through the introduction of a nonbond angular dependent term that encourages tetrahedral configurations. The model departs from the prevailing paradigm in water modeling: the use of long-ranged forces (electrostatics) to produce short-ranged (hydrogen-bonded) structure. mW has only short-range interactions yet it reproduces the energetics, density and structure of liquid water, and its anomalies and phase transitions with comparable or better accuracy than the most popular atomistic models of water, at less than 1% of the computational cost. We conclude that it is not the nature of the interactions but the connectivity of the molecules that determines the structural and thermodynamic behavior of water. The speedup in computing time provided by mW makes it particularly useful for the study of slow processes in deeply supercooled water, the mechanism of ice nucleation, wetting-drying transitions, and as a realistic water model for coarse-grained simulations of biomolecules and complex materials.",
+                "pages": "4008-4016",
+                "DOI": "10.1021/jp805227c",
                 "bibtex": "@article{Molinero_2009,\n abstract = {Water and silicon are chemically dissimilar substances with common physical properties. Their liquids display a temperature of maximum density, increased diffusivity on compression, and they form tetrahedral crystals and tetrahedral amorphous phases. The common feature to water, silicon, and carbon is the formation of tetrahedrally coordinated units. We exploit these similarities to develop a coarse-grained model of water (mW) that is essentially an atom with tetrahedrality intermediate between carbon and silicon. mW mimics the hydrogen-bonded structure of water through the introduction of a nonbond angular dependent term that encourages tetrahedral configurations. The model departs from the prevailing paradigm in water modeling: the use of long-ranged forces (electrostatics) to produce short-ranged (hydrogen-bonded) structure. mW has only short-range interactions yet it reproduces the energetics, density and structure of liquid water, and its anomalies and phase transitions with comparable or better accuracy than the most popular atomistic models of water, at less than 1% of the computational cost. We conclude that it is not the nature of the interactions but the connectivity of the molecules that determines the structural and thermodynamic behavior of water. The speedup in computing time provided by mW makes it particularly useful for the study of slow processes in deeply supercooled water, the mechanism of ice nucleation, wetting-drying transitions, and as a realistic water model for coarse-grained simulations of biomolecules and complex materials.},\n author = {Valeria Molinero and Emily B. Moore},\n doi = {10.1021/jp805227c},\n journal = {The Journal of Physical Chemistry B},\n month = {apr},\n number = {13},\n pages = {4008--4016},\n publisher = {American Chemical Society (ACS)},\n title = {Water Modeled As an Intermediate Element between Carbon and Silicon},\n url = {https://doi.org/10.1021%2Fjp805227c},\n volume = {113},\n year = {2009}\n}\n\n"
-            }, 
+            },
             "notes": {
                 "text": "This potential defines a coarse-grained model of water \"mW\", where each particle represents a single water molecule."
             }
-        }, 
+        },
         "implementation": {
-            "key": "e98414d8-07bf-4d30-a825-e30d1f2724b7", 
-            "id": "2009--Molinero-V--water--ipr-1", 
-            "status": "active", 
-            "date": "2020-01-10", 
-            "type": "LAMMPS pair_style sw", 
+            "key": "e98414d8-07bf-4d30-a825-e30d1f2724b7",
+            "id": "2009--Molinero-V--water--ipr-1",
+            "status": "active",
+            "date": "2020-01-10",
+            "type": "LAMMPS pair_style sw",
             "notes": {
                 "text": "The parameter file mW.sw was provided by Rodrigo Freitas (Stanford) on Jan 10, 2020. main.pdf contains computed properties and references that show this LAMMPS implementation to give predictions consistent with what is reported in the original paper."
-            }, 
+            },
             "artifact": [
                 {
                     "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2009--Molinero-V-Moore-E-B--water/1/mW.sw", 
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2009--Molinero-V-Moore-E-B--water/1/mW.sw",
                         "link-text": "mW.sw"
                     }
-                }, 
+                },
                 {
                     "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2009--Molinero-V-Moore-E-B--water/1/main.pdf", 
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2009--Molinero-V-Moore-E-B--water/1/main.pdf",
                         "link-text": "main.pdf"
                     }
                 }
             ]
-        }, 
+        },
         "element": [
-            "H", 
+            "H",
             "O"
-        ], 
+        ],
         "other-element": "water"
     }
 }

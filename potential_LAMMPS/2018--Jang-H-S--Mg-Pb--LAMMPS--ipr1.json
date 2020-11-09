@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "e61b2089-4a6e-4d54-a3b9-d7feedccecbb",
+        "id": "2018--Jang-H-S--Mg-Pb--LAMMPS--ipr1",
+        "potential": {
+            "key": "5d9a561f-ea6a-461a-9ed6-8f7c4ac3a1da",
+            "id": "2017--Kim-K-H-Lee-B-J--Mg-Pb"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Mg",
+                "mass": 24.32
+            },
+            {
+                "element": "Pb",
+                "mass": 207.2
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Mg Pb"
+                },
+                {
+                    "file": "MgPb.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

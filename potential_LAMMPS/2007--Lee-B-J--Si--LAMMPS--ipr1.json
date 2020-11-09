@@ -1,0 +1,35 @@
+{
+    "potential-LAMMPS": {
+        "key": "8adff235-8d05-4a75-92f6-e19e2c77ee43",
+        "id": "2007--Lee-B-J--Si--LAMMPS--ipr1",
+        "potential": {
+            "key": "2140461b-de7d-4065-9b52-9cdc85811d4d",
+            "id": "2007--Lee-B-J--Si"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Si",
+            "mass": 28.086
+        },
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Si"
+                },
+                {
+                    "file": "Si.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

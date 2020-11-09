@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "6fa1f0f0-38ef-4bf2-92df-fc6b34c92b7a",
+        "id": "2008--Kim-Y-M--Cu-Zr--LAMMPS--ipr1",
+        "potential": {
+            "key": "75483860-e510-4433-9de0-ba9a3b44983c",
+            "id": "2008--Kim-Y-M-Lee-B-J--Cu-Zr"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Zr",
+                "mass": 91.22
+            },
+            {
+                "element": "Cu",
+                "mass": 63.546
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Zr Cu"
+                },
+                {
+                    "file": "ZrCu.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

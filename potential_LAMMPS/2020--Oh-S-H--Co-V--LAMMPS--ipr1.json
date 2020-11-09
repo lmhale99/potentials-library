@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "5116f128-2a6d-47b4-ac42-d6cbf033cc81",
+        "id": "2020--Oh-S-H--Co-V--LAMMPS--ipr1",
+        "potential": {
+            "key": "aa4438b2-c192-4375-8ff4-cd7e64ce1489",
+            "id": "2020--Oh-S-H-Seol-D-Lee-B-J--Co-V"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Co",
+                "mass": 58.933
+            },
+            {
+                "element": "V",
+                "mass": 50.942
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Co V"
+                },
+                {
+                    "file": "CoV.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "potential-LAMMPS": {
+        "key": "35bf7953-3cf3-48fb-8d12-78e47c5ae705",
+        "id": "2018--Choi-W-M--Co-Ni-Cr-Fe-Mn--LAMMPS--ipr1",
+        "potential": {
+            "key": "c0d65a51-bcd2-44b8-9053-89f93790fe06",
+            "id": "2018--Choi-W-M-Jo-Y-H-Sohn-S-S-et-al--Co-Ni-Cr-Fe-Mn"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Co",
+                "mass": 58.933
+            },
+            {
+                "element": "Ni",
+                "mass": 58.69
+            },
+            {
+                "element": "Cr",
+                "mass": 51.96
+            },
+            {
+                "element": "Fe",
+                "mass": 55.847
+            },
+            {
+                "element": "Mn",
+                "mass": 54.94
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Co Ni Cr Fe Mn"
+                },
+                {
+                    "file": "CoNiCrFeMn.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "potential-LAMMPS": {
+        "key": "5df69de9-0626-4851-88f5-f6e4d1ca81e8",
+        "id": "2010--Lee-E--Fe-Al--LAMMPS--ipr1",
+        "potential": {
+            "key": "ec9e24ac-f040-42c1-aaf7-087f90989598",
+            "id": "2010--Lee-E-Lee-B-J--Fe-Al"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Fe",
+                "mass": 55.847
+            },
+            {
+                "element": "Al",
+                "mass": 26.982
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Fe Al"
+                },
+                {
+                    "file": "FeAl.meam"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}
