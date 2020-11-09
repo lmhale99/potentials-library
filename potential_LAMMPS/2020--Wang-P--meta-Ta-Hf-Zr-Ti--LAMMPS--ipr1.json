@@ -1,0 +1,29 @@
+{
+    "potential-LAMMPS": {
+        "key": "3ce60717-ee12-4fe0-947c-e2f2ea852a3b",
+        "id": "2020--Wang-P--meta-Ta-Hf-Zr-Ti--LAMMPS--ipr1",
+        "potential": {
+            "key": "f6767938-c162-4b64-8e19-fce722a79e6c",
+            "id": "2020--Wang-P-Bu-Y-Liu-J-et-al--meta-Ta-Hf-Zr-Ti"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "symbol": "meta_TaHfZrTi",
+            "mass": 124.632
+        },
+        "pair_style": {
+            "type": "eam/fs"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "TaHfZrTi.eam.fs"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}
