@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "3f1e128f-6ec9-42b8-a6e1-26b7bb811f3d",
+        "id": "EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_CuTa__MO_950828638160_000",
+        "potential": {
+            "key": "f12498d1-1560-4fcf-af65-7ec9934b0b95",
+            "id": "2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ta-Cu"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ta"
+            },
+            {
+                "element": "Cu"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "df166077-62b0-496a-aeab-c3d122f6fa0c",
+        "id": "EAM_Dynamo_WilliamsMishinHamilton_2006_Ag__MO_131620013077_005",
+        "potential": {
+            "key": "ce32faaf-5d57-4861-a2ec-efbfc63f07e6",
+            "id": "2006--Williams-P-L-Mishin-Y-Hamilton-J-C--Ag"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ag"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

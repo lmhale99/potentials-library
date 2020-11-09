@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "119bd539-4d78-443e-a777-e9bc9be61618",
+        "id": "SW_StillingerWeber_1985_Si__MO_405512056662_005",
+        "potential": {
+            "key": "edc31ad6-2b9a-455c-9b5f-e888a672ecbd",
+            "id": "1985--Stillinger-F-H-Weber-T-A--Si"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Si"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

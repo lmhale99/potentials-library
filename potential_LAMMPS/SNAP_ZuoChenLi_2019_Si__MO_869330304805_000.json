@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "d4b3812c-cff9-4c7f-b05d-37f3cd0e8e3b",
+        "id": "SNAP_ZuoChenLi_2019_Si__MO_869330304805_000",
+        "potential": {
+            "key": "c9c528cd-b023-45a5-8f34-705d6eeac347",
+            "id": "2020--Zuo-Y-Chen-C-Li-X-et-al--Si-SNAP"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Si"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

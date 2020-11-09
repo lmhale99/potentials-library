@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "42e59ad1-9b43-485c-8630-cb32393b8bdb",
+        "id": "Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ag__MO_111986436268_003",
+        "potential": {
+            "key": "ab71e60e-3f45-4eb4-9c92-7feb98f7e168",
+            "id": "1959--Girifalco-L-A-Weizer-V-G--Ag"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ag"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

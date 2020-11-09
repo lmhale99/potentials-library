@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "d7fd7e38-13e9-4875-b4ab-67fe3f737350",
+        "id": "SW_HauchHollandMarder_1999Brittle_Si__MO_119167353542_004",
+        "potential": {
+            "key": "ea531207-cc09-4d62-9ffa-0a3a3089598c",
+            "id": "1999--Hauch-J-A-Holland-D-Marder-M-P-Swinney-H-L--Si"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Si"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

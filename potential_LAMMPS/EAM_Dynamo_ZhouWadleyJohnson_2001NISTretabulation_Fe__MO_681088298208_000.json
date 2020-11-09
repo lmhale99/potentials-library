@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "e00c6170-0c8b-49c3-9523-c6b1307474ca",
+        "id": "EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Fe__MO_681088298208_000",
+        "potential": {
+            "key": "030d9099-cf7f-4623-b597-733e80d214a4",
+            "id": "2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Fe"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Fe"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

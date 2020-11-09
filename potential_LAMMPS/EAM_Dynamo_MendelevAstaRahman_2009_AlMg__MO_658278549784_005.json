@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "988b72a2-cb53-436a-bc7f-b9e4a2aff18a",
+        "id": "EAM_Dynamo_MendelevAstaRahman_2009_AlMg__MO_658278549784_005",
+        "potential": {
+            "key": "e670535a-c524-41ef-a20c-0e150165c790",
+            "id": "2009--Mendelev-M-I-Asta-M-Rahman-M-J-Hoyt-J-J--Al-Mg"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Al"
+            },
+            {
+                "element": "Mg"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

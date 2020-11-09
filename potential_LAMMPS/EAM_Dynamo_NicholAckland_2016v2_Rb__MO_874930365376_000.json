@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "02911ef5-a832-48f9-9d6c-de8cc6d08bc9",
+        "id": "EAM_Dynamo_NicholAckland_2016v2_Rb__MO_874930365376_000",
+        "potential": {
+            "key": "d29d05b2-33eb-402e-98b2-3e52c8d3db9a",
+            "id": "2016--Nichol-A-Ackland-G-J--Rb"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Rb"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

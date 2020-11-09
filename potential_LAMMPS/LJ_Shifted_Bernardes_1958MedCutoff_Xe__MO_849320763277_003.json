@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "3c581fa4-ad07-4034-b543-1b9d89affca0",
+        "id": "LJ_Shifted_Bernardes_1958MedCutoff_Xe__MO_849320763277_003",
+        "potential": {
+            "key": "d6b56970-f7f5-428a-8830-499e8d0e2715",
+            "id": "1958--Bernardes-N--Xe"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Xe"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

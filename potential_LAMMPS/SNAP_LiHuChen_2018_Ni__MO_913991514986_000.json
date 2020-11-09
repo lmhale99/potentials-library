@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "635c59f5-bef8-4fe5-8434-eae05beb46e8",
+        "id": "SNAP_LiHuChen_2018_Ni__MO_913991514986_000",
+        "potential": {
+            "key": "acf1728c-37c6-40c9-98fd-6a7fd52a7084",
+            "id": "2018--Li-X-G-Hu-C-Chen-C-et-al--Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ni"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

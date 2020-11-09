@@ -1,0 +1,39 @@
+{
+    "potential-LAMMPS": {
+        "key": "5dfa6a30-ce53-41cd-a5e3-31a8cefab21f",
+        "id": "Dipole_Umeno_YSZ__MO_394669891912_001",
+        "potential": {
+            "key": "b2299c5a-b606-435f-af30-0172f04119bb",
+            "id": "2013--Umeno-Y-Iskandarov-A-M-Kubo-A-Albina-J-M--O-Y-Zr"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "O"
+            },
+            {
+                "element": "Y"
+            },
+            {
+                "element": "Zr"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

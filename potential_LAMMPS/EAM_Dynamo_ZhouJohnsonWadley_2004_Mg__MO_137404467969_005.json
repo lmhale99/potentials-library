@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "7e15d8aa-66f3-4645-a284-ea9db3e214f4",
+        "id": "EAM_Dynamo_ZhouJohnsonWadley_2004_Mg__MO_137404467969_005",
+        "potential": {
+            "key": "816ed50d-9e0c-4bd2-8a9a-dca83d4e0bb8",
+            "id": "2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Mg"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Mg"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

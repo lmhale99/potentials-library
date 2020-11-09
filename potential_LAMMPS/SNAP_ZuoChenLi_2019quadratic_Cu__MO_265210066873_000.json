@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "3c493b78-938b-4c34-b9b5-431a90399f51",
+        "id": "SNAP_ZuoChenLi_2019quadratic_Cu__MO_265210066873_000",
+        "potential": {
+            "key": "efc90964-6370-452d-aea0-dd91bd0469ca",
+            "id": "2020--Zuo-Y-Chen-C-Li-X-et-al--Cu-qSNAP"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Cu"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

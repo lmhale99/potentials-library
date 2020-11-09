@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "a3e4b293-6386-4ff7-8a73-0257d3e316cd",
+        "id": "SNAP_ThompsonSwilerTrott_2015_Ta__MO_359768485367_000",
+        "potential": {
+            "key": "92dfd6c7-21ec-4357-927f-acf3d7ad896c",
+            "id": "2015--Thompson-A-P-Swiler-L-P-Trott-C-R-et-al--Ta"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ta"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

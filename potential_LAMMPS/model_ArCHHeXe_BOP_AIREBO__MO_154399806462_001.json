@@ -1,0 +1,45 @@
+{
+    "potential-LAMMPS": {
+        "key": "ad57eff6-6a74-4375-9525-74d2e42e2803",
+        "id": "model_ArCHHeXe_BOP_AIREBO__MO_154399806462_001",
+        "potential": {
+            "key": "f5a5b993-0d2f-450e-ba26-59c5b148c700",
+            "id": "2000--Stuart-S-J-Tutein-A-B-Harrison-J-A--H-He-C-Ar-Xe"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "H"
+            },
+            {
+                "element": "He"
+            },
+            {
+                "element": "C"
+            },
+            {
+                "element": "Ar"
+            },
+            {
+                "element": "Xe"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

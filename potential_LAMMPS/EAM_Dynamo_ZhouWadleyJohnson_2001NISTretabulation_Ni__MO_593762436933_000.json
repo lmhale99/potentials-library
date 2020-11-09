@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "0b772e79-4624-4f61-86b4-6e19895c6aa5",
+        "id": "EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Ni__MO_593762436933_000",
+        "potential": {
+            "key": "063c9331-69e4-40e4-bb6c-cee56d576b60",
+            "id": "2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ni"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

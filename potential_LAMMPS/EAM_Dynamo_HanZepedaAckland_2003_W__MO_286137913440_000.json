@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "5131517f-c33c-49e8-9a88-0456dce166d7",
+        "id": "EAM_Dynamo_HanZepedaAckland_2003_W__MO_286137913440_000",
+        "potential": {
+            "key": "4be111f4-c616-4196-8912-6809c97e5ecb",
+            "id": "2003--Han-S-Zepeda-Ruiz-L-A-Ackland-G-J-et-al--W"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "W"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "53909a14-fd53-404a-af9b-e1ff2c5e44fd",
+        "id": "TT_Modified_HellmannBichVogel_2007_He__MO_126942667206_002",
+        "potential": {
+            "key": "d49346a8-e05a-4e6b-89bb-8e8073a0620a",
+            "id": "2007--Hellmann-R-Bich-E-Vogel-E--He"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "He"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

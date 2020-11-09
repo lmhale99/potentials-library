@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "dee74ca4-149d-4e32-8409-17b08e074c0a",
+        "id": "EAM_Dynamo_Mendelev_2003_Fe__MO_546673549085_000",
+        "potential": {
+            "key": "06bf7ccd-ea6a-4744-bfbc-adefa5bcdd60",
+            "id": "2003--Mendelev-M-I-Han-S-Srolovitz-D-J-et-al--Fe-2"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Fe"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

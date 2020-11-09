@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "7c136e92-4fed-4fe6-8d6b-2720cd340ba6",
+        "id": "EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Ni__MO_108408461881_001",
+        "potential": {
+            "key": "3d95a9db-2422-4149-932d-0a32e88e8e34",
+            "id": "1996--Jacobsen-K-W-Stoltze-P-Norskov-J-K--Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ni"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

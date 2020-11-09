@@ -1,0 +1,39 @@
+{
+    "potential-LAMMPS": {
+        "key": "a8b7aca7-3f1b-41cf-af36-3bfdc6d058c2",
+        "id": "EAM_Dynamo_BonnyCastinTerentyev_2013_FeNiCr__MO_763197941039_000",
+        "potential": {
+            "key": "e30ac130-16af-4ca8-8685-eacbd145578d",
+            "id": "2013--Bonny-G-Castin-N-Terentyev-D--Fe-Ni-Cr"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Fe"
+            },
+            {
+                "element": "Ni"
+            },
+            {
+                "element": "Cr"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

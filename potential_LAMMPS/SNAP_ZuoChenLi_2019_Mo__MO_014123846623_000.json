@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "a65b9a76-4176-4e83-b38e-db80f5c09281",
+        "id": "SNAP_ZuoChenLi_2019_Mo__MO_014123846623_000",
+        "potential": {
+            "key": "9945ba71-939f-47ee-808b-aa72ab6d227d",
+            "id": "2020--Zuo-Y-Chen-C-Li-X-et-al--Mo-SNAP"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Mo"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

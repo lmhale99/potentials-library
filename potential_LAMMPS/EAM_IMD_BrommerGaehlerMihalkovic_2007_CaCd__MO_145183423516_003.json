@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "f6386469-3717-418b-8f53-a4a4a4787c0d",
+        "id": "EAM_IMD_BrommerGaehlerMihalkovic_2007_CaCd__MO_145183423516_003",
+        "potential": {
+            "key": "dc6f37b4-e1bb-4a5b-a88e-106f00813678",
+            "id": "2007--Brommer-P-Gahler-F-Mihalkovic̆-M--Ca-Cd"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ca"
+            },
+            {
+                "element": "Cd"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

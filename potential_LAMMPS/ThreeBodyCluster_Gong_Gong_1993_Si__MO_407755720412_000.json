@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "f75c19d3-a2b9-49c1-9cd8-d01dccd4a425",
+        "id": "ThreeBodyCluster_Gong_Gong_1993_Si__MO_407755720412_000",
+        "potential": {
+            "key": "d5010e7c-c26b-4d86-ad5d-e87919725525",
+            "id": "1993--Gong-X-G--Si"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Si"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

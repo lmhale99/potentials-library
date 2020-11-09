@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "07ae96ed-137d-40cf-b427-009890dd944f",
+        "id": "MSMEAM_Gibson_Ti__MO_309653492217_000",
+        "potential": {
+            "key": "623f7b3c-95f4-49c2-b9ab-e497547fda5b",
+            "id": "2016--Gibson-J--Ti"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ti"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

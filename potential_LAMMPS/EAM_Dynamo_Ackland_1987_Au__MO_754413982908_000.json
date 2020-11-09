@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "95ccd8ee-7868-42e0-8590-38944c374bf9",
+        "id": "EAM_Dynamo_Ackland_1987_Au__MO_754413982908_000",
+        "potential": {
+            "key": "25899e46-6992-460a-b1c7-fb2704629e9f",
+            "id": "1987--Ackland-G-J-Tichy-G-Vitek-V-Finnis-M-W--Au"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Au"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

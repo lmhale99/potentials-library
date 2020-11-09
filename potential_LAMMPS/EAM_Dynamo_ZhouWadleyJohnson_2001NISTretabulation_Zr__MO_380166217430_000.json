@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "56a527a5-4a1e-491d-8ec3-09738c8ec14c",
+        "id": "EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Zr__MO_380166217430_000",
+        "potential": {
+            "key": "6ccabaad-9825-4d97-9f9d-3058fca15806",
+            "id": "2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Zr"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Zr"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "potential-LAMMPS": {
+        "key": "4083c6f9-dce9-4b8f-9d7a-23aeb341eb5b",
+        "id": "EAM_Dynamo_SmirnovaKuskinStarikov_2013_UMoXe__MO_679329885632_005",
+        "potential": {
+            "key": "fc5a9a34-b8be-4935-aa63-aa02a15d93b8",
+            "id": "2013--Smirnova-D-E-Kuksin-A-Y-Starikov-S-V-et-al--U-Mo-Xe"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "U"
+            },
+            {
+                "element": "Mo"
+            },
+            {
+                "element": "Xe"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

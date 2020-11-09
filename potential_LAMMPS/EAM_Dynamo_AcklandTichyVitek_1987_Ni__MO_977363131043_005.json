@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "582a950e-66f9-486b-a617-b6bc3923c08b",
+        "id": "EAM_Dynamo_AcklandTichyVitek_1987_Ni__MO_977363131043_005",
+        "potential": {
+            "key": "6fbc40e6-1388-4988-87d5-88805b1b3690",
+            "id": "1987--Ackland-G-J-Tichy-G-Vitek-V-Finnis-M-W--Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ni"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

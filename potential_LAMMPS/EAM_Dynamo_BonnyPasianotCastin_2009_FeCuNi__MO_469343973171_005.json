@@ -1,0 +1,39 @@
+{
+    "potential-LAMMPS": {
+        "key": "fd3219ea-f6cf-4a8f-be46-e83db237246e",
+        "id": "EAM_Dynamo_BonnyPasianotCastin_2009_FeCuNi__MO_469343973171_005",
+        "potential": {
+            "key": "38d0b8d9-5e5d-426a-9d70-b5a7e501528b",
+            "id": "2009--Bonny-G-Pasianot-R-C-Castin-N-Malerba-L--Fe-Cu-Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Fe"
+            },
+            {
+                "element": "Cu"
+            },
+            {
+                "element": "Ni"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

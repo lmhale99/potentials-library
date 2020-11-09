@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "32bf09ba-0df0-424f-baa4-784a0dc4b95d",
+        "id": "Tersoff_LAMMPS_ErhartAlbe_2005SiII_SiC__MO_408791041969_002",
+        "potential": {
+            "key": "b484d453-4f89-44d2-b64f-bbca3eb97d30",
+            "id": "2005--Erhart-P-Albe-K--Si-C-II"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Si"
+            },
+            {
+                "element": "C"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

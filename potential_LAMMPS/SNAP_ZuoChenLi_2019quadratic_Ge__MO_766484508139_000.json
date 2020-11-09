@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "b706ea55-6ac3-4e22-aba2-350e7824e24e",
+        "id": "SNAP_ZuoChenLi_2019quadratic_Ge__MO_766484508139_000",
+        "potential": {
+            "key": "b213aae2-e982-46ce-8899-20e59e709e83",
+            "id": "2020--Zuo-Y-Chen-C-Li-X-et-al--Ge-qSNAP"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ge"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

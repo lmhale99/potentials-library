@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "c00e6155-5551-49e2-bdf1-80093c9a2e4f",
+        "id": "EAM_Dynamo_MarinicaVentelonGilbert_2013EAM2_W__MO_204305659515_000",
+        "potential": {
+            "key": "35eb4e57-5629-4b16-a21d-f87367d10a51",
+            "id": "2013--Marinica-M-C-Ventelon-L-Gilbert-M-R-et-al--W-2"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "W"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "4532953e-2a22-4cf4-bf99-2aad6741382a",
+        "id": "EAM_Dynamo_LiuErcolessiAdams_2004_Al__MO_051157671505_000",
+        "potential": {
+            "key": "8f71b887-b4c5-42c0-b06c-9456153725d9",
+            "id": "2004--Liu-X-Y-Ercolessi-F-Adams-J-B--Al"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Al"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

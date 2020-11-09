@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "e12e1fea-d542-495a-a0c3-0c39050c624b",
+        "id": "EAM_Dynamo_WilsonMendelev_2015_NiZr__MO_306032198193_000",
+        "potential": {
+            "key": "ee7b64fc-4e6e-4b43-8de1-082b8f85bd91",
+            "id": "2015--Wilson-S-R-Mendelev-M-I--Ni-Zr"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ni"
+            },
+            {
+                "element": "Zr"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

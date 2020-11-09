@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "fdc059e7-0b74-4bf1-8c0e-9b5967d37b2a",
+        "id": "LJ_Smoothed_Bernardes_1958_Ar__MO_764178710049_001",
+        "potential": {
+            "key": "24c37060-bdcd-47a9-ba96-33efe0691930",
+            "id": "1958--Bernardes-N--Ar"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ar"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

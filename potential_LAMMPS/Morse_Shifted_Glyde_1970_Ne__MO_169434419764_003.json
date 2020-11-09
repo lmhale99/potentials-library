@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "455d678e-c9fb-41eb-87fc-85b62e5b7662",
+        "id": "Morse_Shifted_Glyde_1970_Ne__MO_169434419764_003",
+        "potential": {
+            "key": "71aee357-27ef-4b79-af47-046b3d8119c8",
+            "id": "1970--Glyde-H-R--Ne"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ne"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

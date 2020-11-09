@@ -1,0 +1,39 @@
+{
+    "potential-LAMMPS": {
+        "key": "b9aed593-3d2e-4355-a340-e674e48dea4e",
+        "id": "EAM_Dynamo_ZhouJohnsonWadley_2004NISTretabulation_CuAgAu__MO_318213562153_000",
+        "potential": {
+            "key": "52da31b9-68f7-4c14-9e82-048f6fbdd145",
+            "id": "2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Cu-Ag-Au"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Cu"
+            },
+            {
+                "element": "Ag"
+            },
+            {
+                "element": "Au"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

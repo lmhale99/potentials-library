@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "f14e6ad2-731e-4262-8c20-6ee424d29055",
+        "id": "EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Ni__MO_258836200237_000",
+        "potential": {
+            "key": "e4cf8356-8b84-4e07-ac2b-580419a21730",
+            "id": "1989--Adams-J-B-Foiles-S-M-Wolfer-W-G--Ni"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ni"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

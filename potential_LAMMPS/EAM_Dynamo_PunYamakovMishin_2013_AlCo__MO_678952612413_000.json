@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "6620b2d5-b357-4570-bc10-0b8c7a81f7e8",
+        "id": "EAM_Dynamo_PunYamakovMishin_2013_AlCo__MO_678952612413_000",
+        "potential": {
+            "key": "71b03297-b66d-4efd-9502-02cf83d9dc38",
+            "id": "2015--Purja-Pun-G-P-Yamakov-V-Mishin-Y--Al-Co"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Al"
+            },
+            {
+                "element": "Co"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

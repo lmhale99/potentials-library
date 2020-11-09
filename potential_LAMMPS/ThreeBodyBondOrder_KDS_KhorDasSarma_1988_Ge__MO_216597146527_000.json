@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "7c06389f-4f6a-44e2-8b20-bfc3422b02f5",
+        "id": "ThreeBodyBondOrder_KDS_KhorDasSarma_1988_Ge__MO_216597146527_000",
+        "potential": {
+            "key": "f41d8b7b-860a-4921-b676-54be79e01a80",
+            "id": "1988--Khor-K-E-Das-Sarma-S--Ge"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ge"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

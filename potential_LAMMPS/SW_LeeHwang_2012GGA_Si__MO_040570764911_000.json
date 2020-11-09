@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "1488fadf-0417-48c9-9ef6-1507b665da68",
+        "id": "SW_LeeHwang_2012GGA_Si__MO_040570764911_000",
+        "potential": {
+            "key": "adf5b065-03bc-4e9e-9b73-cbca6552a242",
+            "id": "2012--Lee-Y-Hwang-G-S--Si-GGA"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Si"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

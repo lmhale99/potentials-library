@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "55feb675-9736-4442-a442-a0e59fe64329",
+        "id": "Morse_QuinticSmoothed_Jelinek_1972_Ar__MO_908645784389_002",
+        "potential": {
+            "key": "8574b9b6-028e-4554-85d9-0c8e3a2e7da9",
+            "id": "1972--Jelinek-G-E--Ar"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ar"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

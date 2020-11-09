@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "c1630053-a361-4a57-b62d-635e476f08e9",
+        "id": "Tersoff_LAMMPS_AlbeNordlundAverback_2002_PtC__MO_500121566391_002",
+        "potential": {
+            "key": "85bae8b0-9254-43b1-a874-a98943bf9ba1",
+            "id": "2002--Albe-K-Nordlund-K-Averback-R-S--Pt-C"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Pt"
+            },
+            {
+                "element": "C"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

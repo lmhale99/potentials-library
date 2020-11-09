@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "8d078cb2-c2d4-46ef-b56e-e4a14b5be263",
+        "id": "LJ_Truncated_Nguyen_2005_Ar__MO_398194508715_001",
+        "potential": {
+            "key": "09bf90c7-df1b-4058-afd2-729e2d9de46b",
+            "id": "2005--Nguyen-T-X-Bhatia-S-K-Nicholson-D--Ar"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ar"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

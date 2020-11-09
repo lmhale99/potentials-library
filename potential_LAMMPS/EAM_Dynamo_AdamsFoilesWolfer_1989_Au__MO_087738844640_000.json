@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "27eb73d9-699f-41d7-bb59-17666d0d50a2",
+        "id": "EAM_Dynamo_AdamsFoilesWolfer_1989_Au__MO_087738844640_000",
+        "potential": {
+            "key": "8018facc-a337-4e34-b13f-b293f36a3458",
+            "id": "1989--Adams-J-B-Foiles-S-M-Wolfer-W-G--Au"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Au"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

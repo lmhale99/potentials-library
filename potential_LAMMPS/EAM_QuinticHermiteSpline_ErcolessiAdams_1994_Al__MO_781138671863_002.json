@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "f664d923-6ff4-48de-83e6-8c1dd16e4325",
+        "id": "EAM_QuinticHermiteSpline_ErcolessiAdams_1994_Al__MO_781138671863_002",
+        "potential": {
+            "key": "2ce1cf6d-9c87-4b29-89d2-9885a928fbe7",
+            "id": "1994--Ercolessi-F-B-Adams-J--Al"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Al"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

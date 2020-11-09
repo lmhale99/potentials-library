@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "6d630f28-140c-48d9-bd90-50a97babeeba",
+        "id": "EAM_Dynamo_BonnyBakaevTerentyev_2017_WRe__MO_234187151804_000",
+        "potential": {
+            "key": "57fe7a02-b8ad-4362-b98f-6439c9ad14dd",
+            "id": "2017--Bonny-G-Bakaev-A-Terentyev-D-Mastrikov-Y-A--W-Re"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "W"
+            },
+            {
+                "element": "Re"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

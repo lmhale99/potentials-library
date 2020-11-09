@@ -1,0 +1,48 @@
+{
+    "potential-LAMMPS": {
+        "key": "2c93448b-55b0-46cb-a0b8-934ec13075e3",
+        "id": "SW_ZhouWardMartin_2013_CdTeZnSeHgS__MO_503261197030_002",
+        "potential": {
+            "key": "95fe0b68-f5a1-4bb6-9a11-f446b361d12b",
+            "id": "2013--Zhou-X-W-Ward-D-K-Martin-J-E-et-al--Zn-Cd-Hg-S-Se-Te"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Zn"
+            },
+            {
+                "element": "Cd"
+            },
+            {
+                "element": "Hg"
+            },
+            {
+                "element": "S"
+            },
+            {
+                "element": "Se"
+            },
+            {
+                "element": "Te"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

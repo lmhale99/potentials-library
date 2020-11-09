@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "368617fd-0cff-48f6-b5cb-79f79c40ebab",
+        "id": "EAM_Dynamo_WilsonMendelev_2016_Mg__MO_574574915905_000",
+        "potential": {
+            "key": "2a6e9260-0a82-4041-852b-88e69bfbd79d",
+            "id": "2016--Wilson-S-R-Mendelev-M-I--Mg"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Mg"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

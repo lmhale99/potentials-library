@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "3d071e56-441a-4d88-9a71-cb88b8894e5b",
+        "id": "ThreeBodyCluster_KP_KaxirasPandey_1988_Si__MO_072486242437_000",
+        "potential": {
+            "key": "32b7d115-fb94-4764-87c8-50a78007b840",
+            "id": "1988--Kaxiras-E-Pandey-K-C--Si"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Si"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

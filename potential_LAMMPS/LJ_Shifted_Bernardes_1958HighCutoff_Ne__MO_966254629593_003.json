@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "39ecda8c-1765-484e-b063-b4ee8b0ccdbd",
+        "id": "LJ_Shifted_Bernardes_1958HighCutoff_Ne__MO_966254629593_003",
+        "potential": {
+            "key": "90c2411b-6b91-41a9-a562-7544e1bea780",
+            "id": "1958--Bernardes-N--Ne"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Ne"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "3d732a14-de7d-4f1a-ad53-7ac0682d7b0f",
+        "id": "EAM_Dynamo_Marinica_2007_Fe__MO_466808877130_000",
+        "potential": {
+            "key": "9155f279-c246-4108-bfe4-1db2fcf21959",
+            "id": "2010--Malerba-L-Marinica-M-C-Anento-N-et-al--Fe"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Fe"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

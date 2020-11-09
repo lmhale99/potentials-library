@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "caee223b-fa7f-455a-ac34-b8b7c7b0c2bd",
+        "id": "EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Cu__MO_145873824897_000",
+        "potential": {
+            "key": "69d9f89a-f9a2-47ef-bd15-415d1bb7a9ba",
+            "id": "1989--Adams-J-B-Foiles-S-M-Wolfer-W-G--Cu"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Cu"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

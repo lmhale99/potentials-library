@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "53be5d59-ca36-4d0a-82d5-5eada0857b87",
+        "id": "EAM_MagneticCubic_MendelevHanSrolovitz_2003_Fe__MO_856295952425_002",
+        "potential": {
+            "key": "06bf7ccd-ea6a-4744-bfbc-adefa5bcdd60",
+            "id": "2003--Mendelev-M-I-Han-S-Srolovitz-D-J-et-al--Fe-2"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Fe"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

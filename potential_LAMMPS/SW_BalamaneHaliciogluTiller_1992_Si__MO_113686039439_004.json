@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "a7e76785-9ea1-4ef6-b3dc-73634723d2c4",
+        "id": "SW_BalamaneHaliciogluTiller_1992_Si__MO_113686039439_004",
+        "potential": {
+            "key": "91d8ddee-80cc-43b2-b06c-d9d427d36d23",
+            "id": "1992--Balamane-H-Halicioglu-T-Tiller-W-A--Si"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Si"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

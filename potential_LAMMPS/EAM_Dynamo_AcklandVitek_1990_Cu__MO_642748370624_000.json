@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "83b3ce6c-aa13-40af-8b0e-fdb5260d00a0",
+        "id": "EAM_Dynamo_AcklandVitek_1990_Cu__MO_642748370624_000",
+        "potential": {
+            "key": "e7b1de06-c5f5-44de-9bfe-1cdf769814dc",
+            "id": "1990--Ackland-G-J-Vitek-V--Cu"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Cu"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

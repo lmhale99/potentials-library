@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "29ce78d0-9217-4981-90e8-85dd1c5b5338",
+        "id": "EAM_Dynamo_HepburnAckland_2008_FeC__MO_143977152728_005",
+        "potential": {
+            "key": "88820775-7b63-43bb-8c1c-026a5264b351",
+            "id": "2008--Hepburn-D-J-Ackland-G-J--Fe-C"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Fe"
+            },
+            {
+                "element": "C"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

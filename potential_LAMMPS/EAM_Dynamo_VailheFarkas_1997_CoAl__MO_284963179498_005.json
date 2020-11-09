@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "e97a639d-c29b-42e6-8b85-3599abdc4e69",
+        "id": "EAM_Dynamo_VailheFarkas_1997_CoAl__MO_284963179498_005",
+        "potential": {
+            "key": "c58451db-440a-4c87-bbc6-4bef483a3a71",
+            "id": "1997--Vailhe-C-Farkas-D--Co-Al"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Co"
+            },
+            {
+                "element": "Al"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

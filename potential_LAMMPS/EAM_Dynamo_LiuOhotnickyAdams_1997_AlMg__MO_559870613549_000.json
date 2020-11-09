@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "935c8abc-1b93-43a8-83ad-1f006e32e6a7",
+        "id": "EAM_Dynamo_LiuOhotnickyAdams_1997_AlMg__MO_559870613549_000",
+        "potential": {
+            "key": "b702ae33-5d66-40fb-84e6-f2840555459a",
+            "id": "1997--Liu-X-Y-Ohotnicky-P-P-Adams-J-B-et-al--Al-Mg"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Al"
+            },
+            {
+                "element": "Mg"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "9504cc5e-e62b-48d8-b1b7-a85a6184885e",
+        "id": "Tersoff_LAMMPS_AlbeNordlundNord_2002_GaAs__MO_799020228312_002",
+        "potential": {
+            "key": "63846fe7-c4b9-4357-86a2-185a431810ad",
+            "id": "2002--Albe-K-Nordlund-K-Nord-J-Kuronen-A--Ga-As"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ga"
+            },
+            {
+                "element": "As"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "eeec071b-5054-4014-82ea-e9e4f8422f21",
+        "id": "DUNN_WenTadmor_2019v1_C__MO_584345505904_000",
+        "potential": {
+            "key": "a868f19e-7fe9-457c-a662-cdbc4c0aadfa",
+            "id": "2020--Wen-M-Tadmor-E-B--C-v1"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "C"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

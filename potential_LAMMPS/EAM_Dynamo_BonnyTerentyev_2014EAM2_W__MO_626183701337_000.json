@@ -1,0 +1,39 @@
+{
+    "potential-LAMMPS": {
+        "key": "d805c52d-798a-425f-ac2f-769774157a85",
+        "id": "EAM_Dynamo_BonnyTerentyev_2014EAM2_W__MO_626183701337_000",
+        "potential": {
+            "key": "60cf81d5-aa01-4f59-aaa0-8ce26fc1395b",
+            "id": "2014--Bonny-G-Grigorev-P-Terentyev-D--W-H-He-2"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "W"
+            },
+            {
+                "element": "H"
+            },
+            {
+                "element": "He"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

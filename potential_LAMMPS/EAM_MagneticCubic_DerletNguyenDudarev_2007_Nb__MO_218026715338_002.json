@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "dd99e665-2ef4-42cc-adf2-a9e14e314067",
+        "id": "EAM_MagneticCubic_DerletNguyenDudarev_2007_Nb__MO_218026715338_002",
+        "potential": {
+            "key": "81935581-5d5e-4a1a-8dc5-e0bfb97bf4b4",
+            "id": "2007--Derlet-P-M-Nguyen-Manh-D-Dudarev-S-L--Nb"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Nb"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

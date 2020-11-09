@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "da23e153-24a7-4e47-b7c7-811c884bd5b6",
+        "id": "EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Pd__MO_786012902615_000",
+        "potential": {
+            "key": "16dde7ea-c8cf-4a23-95b3-494a2b252e9b",
+            "id": "1986--Foiles-S-M-Baskes-M-I-Daw-M-S--Pd"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Pd"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

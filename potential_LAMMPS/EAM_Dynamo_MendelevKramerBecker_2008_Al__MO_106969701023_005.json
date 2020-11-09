@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "295c6b2f-ccc8-4183-a928-6579d409a5ae",
+        "id": "EAM_Dynamo_MendelevKramerBecker_2008_Al__MO_106969701023_005",
+        "potential": {
+            "key": "eb027a17-aeb8-4f91-a58f-0d8830d653f8",
+            "id": "2008--Mendelev-M-I-Kramer-M-J-Becker-C-A-Asta-M--Al"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Al"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

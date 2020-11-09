@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "6f9c05dc-d3a2-40ed-8530-9482a2e1d91e",
+        "id": "EAM_Dynamo_Mendelev_2018_Tb__MO_522239651961_000",
+        "potential": {
+            "key": "ed3a1bb7-3c6c-47f6-b3ca-e05870435610",
+            "id": "2018--Mendelev-M-I-Zhang-F-Song-H-et-al--Tb"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Tb"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

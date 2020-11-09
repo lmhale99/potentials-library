@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "e9f48428-04e5-4665-941a-4383de5eeb54",
+        "id": "EAM_Dynamo_Mendelev_2007_Zr__MO_848899341753_000",
+        "potential": {
+            "key": "bd58ae4c-dc17-40e4-91f0-db3eae46f933",
+            "id": "2007--Mendelev-M-I-Ackland-G-J--Zr-3"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Zr"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

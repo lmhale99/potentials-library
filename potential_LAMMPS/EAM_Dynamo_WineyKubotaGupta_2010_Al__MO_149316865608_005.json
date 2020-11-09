@@ -1,0 +1,31 @@
+{
+    "potential-LAMMPS": {
+        "key": "e10f87a2-0a0b-4808-96c9-4b8083934a26",
+        "id": "EAM_Dynamo_WineyKubotaGupta_2010_Al__MO_149316865608_005",
+        "potential": {
+            "key": "880e9ae4-d244-4333-8d8a-924700c90084",
+            "id": "2009--Winey-J-M-Kubota-A-Gupta-Y-M--Al"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Al"
+        },
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

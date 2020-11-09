@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "ae436ece-e774-4a52-a2ad-5fdca0d7cc11",
+        "id": "EMT_Asap_MetalGlass_PaduraruKenoufiBailey_2007_CuZr__MO_987541074959_001",
+        "potential": {
+            "key": "d05c1f39-89ef-47c7-b263-7bf0145b36ac",
+            "id": "2007--Pǎduraru-A-Kenoufi-A-Bailey-N-P-Schiotz-J--Cu-Zr"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Cu"
+            },
+            {
+                "element": "Zr"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}

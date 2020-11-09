@@ -1,0 +1,36 @@
+{
+    "potential-LAMMPS": {
+        "key": "5671f047-df6e-41ef-bd20-067de6bee2a9",
+        "id": "Tersoff_LAMMPS_ErhartJuslinGoy_2006_ZnO__MO_616776018688_002",
+        "potential": {
+            "key": "75bc55d1-cec4-4e3e-99f4-baa66066147c",
+            "id": "2006--Erhart-P-Juslin-N-Goy-O-et-al--Zn-O"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Zn"
+            },
+            {
+                "element": "O"
+            }
+        ],
+        "pair_style": {
+            "type": "kim",
+            "term": [
+                {
+                    "option": "LAMMPSvirial"
+                },
+                {
+                    "option": "Unset"
+                }
+            ]
+        },
+        "pair_coeff": {
+            "term": {
+                "symbols": "True"
+            }
+        }
+    }
+}
