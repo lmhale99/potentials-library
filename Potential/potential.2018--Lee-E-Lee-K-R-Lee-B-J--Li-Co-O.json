@@ -1,0 +1,71 @@
+{
+    "interatomic-potential": {
+        "key": "9924f866-9216-4525-aad6-7c5832443d87",
+        "id": "2018--Lee-E-Lee-K-R-Lee-B-J--Li-Co-O",
+        "record-version": "2020-11-16",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "An interatomic potential for the Li-Co-O ternary system",
+                "author": [
+                    {
+                        "given-name": "E.",
+                        "surname": "Lee"
+                    },
+                    {
+                        "given-name": "K.-R.",
+                        "surname": "Lee"
+                    },
+                    {
+                        "given-name": "B.-J.",
+                        "surname": "Lee"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2018
+                },
+                "volume": 142,
+                "abstract": "Although large-scale atomistic simulations provide useful insights into various material phenomena, such studies on LiCoO<sub>2</sub>, which is the most widely used cathode material for lithium ion batteries (LIBs), have rarely been undertaken due to difficulties in developing adequate interatomic potentials. In this study, an interatomic potential (2NNMEAM\u202f+\u202fQeq) for the Li-Co-O ternary system is developed to carry out molecular dynamics (MD) simulation studies on lithium cobalt oxides. Potential parameters are optimized so that the potential can successfully reproduce fundamental materials properties (structural, elastic, thermodynamic and migration properties) of various compounds of sub-binary and lithium cobalt ternary oxide systems. Through MD simulations, we investigate lithium diffusion properties (activation energy for lithium migration and diffusion coefficient) in layered Li<sub>1\u2212x</sub>CoO<sub>2</sub> (0\u202f\u2264\u202fx\u202f\u2264\u202f0.5) of various lithium vacancy concentrations. We find that the lithium vacancy concentration has a significant influence on the activation energy for lithium diffusion and the lithium diffusion coefficient in the Li<sub>1\u2212x</sub>CoO<sub>2</sub> cathode. The developed potential can be further utilized for atomistic simulation studies on other materials phenomena (phase transitions, defect formation, lithiation/delithiation, etc.) in LIB cathode materials.",
+                "pages": "47-58",
+                "DOI": "10.1016/j.commatsci.2017.10.010",
+                "bibtex": "@article{Lee_2018,\n abstract = {Although large-scale atomistic simulations provide useful insights into various material phenomena, such studies on LiCoO<sub>2</sub>, which is the most widely used cathode material for lithium ion batteries (LIBs), have rarely been undertaken due to difficulties in developing adequate interatomic potentials. In this study, an interatomic potential (2NNMEAM\u202f+\u202fQeq) for the Li-Co-O ternary system is developed to carry out molecular dynamics (MD) simulation studies on lithium cobalt oxides. Potential parameters are optimized so that the potential can successfully reproduce fundamental materials properties (structural, elastic, thermodynamic and migration properties) of various compounds of sub-binary and lithium cobalt ternary oxide systems. Through MD simulations, we investigate lithium diffusion properties (activation energy for lithium migration and diffusion coefficient) in layered Li<sub>1\u2212x</sub>CoO<sub>2</sub> (0\u202f\u2264\u202fx\u202f\u2264\u202f0.5) of various lithium vacancy concentrations. We find that the lithium vacancy concentration has a significant influence on the activation energy for lithium diffusion and the lithium diffusion coefficient in the Li<sub>1\u2212x</sub>CoO<sub>2</sub> cathode. The developed potential can be further utilized for atomistic simulation studies on other materials phenomena (phase transitions, defect formation, lithiation/delithiation, etc.) in LIB cathode materials.},\n author = {Eunkoo Lee and Kwang-Ryeol Lee and Byeong-Joo Lee},\n doi = {10.1016/j.commatsci.2017.10.010},\n journal = {Computational Materials Science},\n month = {feb},\n pages = {47--58},\n publisher = {Elsevier BV},\n title = {An interatomic potential for the Li-Co-O ternary system},\n url = {https://doi.org/10.1016%2Fj.commatsci.2017.10.010},\n volume = {142},\n year = {2018}\n}\n\n"
+            }
+        },
+        "implementation": {
+            "key": "1e936734-c0bc-485b-b000-7ffbc36b4713",
+            "id": "2018--Lee-E--Li-Co-O--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2020-11-16",
+            "type": "hybrid/overlay coul/streitz meam",
+            "notes": {
+                "text": "These files were obtained from http://cmse.postech.ac.kr/home_2nnmeam, accessed Nov 9, 2020. More information on using the 2NNMEAM-QEQ potentials can be found at https://cmse.postech.ac.kr/lammps/140341."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2018--Lee-E-Lee-K-R-Lee-B-J--Li-Co-O/1/library.meam",
+                        "link-text": "library.meam"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2018--Lee-E-Lee-K-R-Lee-B-J--Li-Co-O/1/library.meam_alloy",
+                        "link-text": "library.meam_alloy"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2018--Lee-E-Lee-K-R-Lee-B-J--Li-Co-O/1/library.streitz",
+                        "link-text": "library.streitz"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Li",
+            "Co",
+            "O"
+        ]
+    }
+}
