@@ -1,0 +1,73 @@
+{
+    "interatomic-potential": {
+        "key": "1a658bd2-715a-41f4-9bda-0f2fdeb4dd9a",
+        "id": "2019--Kavousi-S-Novak-B-R-Baskes-M-I-et-al--Ni-Ti",
+        "record-version": "2020-11-20",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Modified embedded-atom method potential for high-temperature crystal-melt properties of Ti\u2013Ni alloys and its application to phase field simulation of solidification",
+                "author": [
+                    {
+                        "given-name": "S.",
+                        "surname": "Kavousi"
+                    },
+                    {
+                        "given-name": "B.R.",
+                        "surname": "Novak"
+                    },
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Baskes"
+                    },
+                    {
+                        "given-name": "M.A.",
+                        "surname": "Zaeem"
+                    },
+                    {
+                        "given-name": "D.",
+                        "surname": "Moldovan"
+                    }
+                ],
+                "publication-name": "Modelling and Simulation in Materials Science and Engineering",
+                "publication-date": {
+                    "year": 2019
+                },
+                "volume": 28,
+                "issue": 1,
+                "abstract": "We developed new interatomic potentials, based on the second nearest-neighbor modified embedded-atom method (2NN-MEAM) formalism, for Ti, Ni, and the binary Ti\u2013Ni system. These potentials were fit to melting points, latent heats, the binary phase diagrams for the Ti rich and Ni rich regions, and the liquid phase enthalpy of mixing for binary alloys, therefore they are particularly suited for calculations of crystal-melt (CM) interface thermodynamic and transport properties. The accuracy of the potentials for pure Ti and pure Ni were tested against both 0 K and high temperature properties by comparing various properties obtained from experiments or density functional theory calculations including structural properties, elastic constants, point-defect properties, surface energies, temperatures and enthalpies of phase transformations, and diffusivity and viscosity in the liquid phase. The fitted binary potential for Ti\u2013Ni was also tested against various non-fitted properties at 0 K and high temperatures including lattice parameters, formation energies of different intermetallic compounds, and the temperature dependence of liquid density at various concentrations. The CM interfacial free energies obtained from simulations, based on the newly developed Ti\u2013Ni potential, show that the bcc alloys tend to have smaller anisotropy compared with fcc alloys which is consistent with the finding from the previous studies comparing single component bcc and fcc materials. Moreover, the interfacial free energy and its anisotropy for Ti-2 atom% Ni were also used to parameterize a 2D phase field (PF) model utilized in solidification simulations. The PF simulation predictions of microstructure development during solidification are in good agreement with a geometric model for dendrite primary arm spacing.",
+                "pages": "015006",
+                "DOI": "10.1088/1361-651x/ab580c",
+                "bibtex": "@article{Kavousi_2019,\n abstract = {We developed new interatomic potentials, based on the second nearest-neighbor modified embedded-atom method (2NN-MEAM) formalism, for Ti, Ni, and the binary Ti\u2013Ni system. These potentials were fit to melting points, latent heats, the binary phase diagrams for the Ti rich and Ni rich regions, and the liquid phase enthalpy of mixing for binary alloys, therefore they are particularly suited for calculations of crystal-melt (CM) interface thermodynamic and transport properties. The accuracy of the potentials for pure Ti and pure Ni were tested against both 0 K and high temperature properties by comparing various properties obtained from experiments or density functional theory calculations including structural properties, elastic constants, point-defect properties, surface energies, temperatures and enthalpies of phase transformations, and diffusivity and viscosity in the liquid phase. The fitted binary potential for Ti\u2013Ni was also tested against various non-fitted properties at 0 K and high temperatures including lattice parameters, formation energies of different intermetallic compounds, and the temperature dependence of liquid density at various concentrations. The CM interfacial free energies obtained from simulations, based on the newly developed Ti\u2013Ni potential, show that the bcc alloys tend to have smaller anisotropy compared with fcc alloys which is consistent with the finding from the previous studies comparing single component bcc and fcc materials. Moreover, the interfacial free energy and its anisotropy for Ti-2 atom% Ni were also used to parameterize a 2D phase field (PF) model utilized in solidification simulations. The PF simulation predictions of microstructure development during solidification are in good agreement with a geometric model for dendrite primary arm spacing.},\n author = {Sepideh Kavousi and Brian R Novak and Michael I Baskes and Mohsen Asle Zaeem and Dorel Moldovan},\n doi = {10.1088/1361-651x/ab580c},\n journal = {Modelling and Simulation in Materials Science and Engineering},\n month = {dec},\n number = {1},\n pages = {015006},\n publisher = {IOP Publishing},\n title = {Modified embedded-atom method potential for high-temperature crystal-melt properties of Ti\u2013Ni alloys and its application to phase field simulation of solidification},\n url = {https://doi.org/10.1088%2F1361-651x%2Fab580c},\n volume = {28},\n year = {2019}\n}\n\n"
+            }
+        },
+        "implementation": {
+            "key": "3c2c6883-a078-4e87-a9b4-0b4c0aac58dd",
+            "id": "2019--Kavousi-S--Ni-Ti--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2020-11-20",
+            "type": "LAMMPS pair_style meam",
+            "notes": {
+                "text": "This file was sent by Sepideh Kavousi (Colorado School of Mines) on 10 Nov. 2020 and posted with her permission."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2019--Kavousi-S-Novak-B-R-Baskes-M-I-et-al--Ni-Ti/1/NiTi.meam",
+                        "link-text": "NiTi.meam"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2019--Kavousi-S-Novak-B-R-Baskes-M-I-et-al--Ni-Ti/1/library.meam",
+                        "link-text": "library.meam"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Ni",
+            "Ti"
+        ]
+    }
+}
