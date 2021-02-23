@@ -1,0 +1,35 @@
+{
+    "potential-LAMMPS": {
+        "key": "3ea69be1-e464-493a-bbf7-e75bc44ef22d",
+        "id": "2004--Mishin-Y--Ni-Al--LAMMPS--ipr2",
+        "potential": {
+            "key": "13051c1b-48f7-47f5-bad7-fc627fe10376",
+            "id": "2004--Mishin-Y--Ni-Al"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Ni",
+                "mass": 58.71
+            },
+            {
+                "element": "Al",
+                "mass": 26.982
+            }
+        ],
+        "pair_style": {
+            "type": "eam/alloy"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "NiAl_Mishin_2004.eam.alloy"
+                },
+                {
+                    "symbols": "True"
+                }
+            ]
+        }
+    }
+}

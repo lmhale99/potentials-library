@@ -1,0 +1,35 @@
+{
+    "potential-LAMMPS": {
+        "key": "b3b4d3b8-cba4-48db-8553-009f39e1f9a0",
+        "id": "2020--Mori-H--Fe--LAMMPS--ipr1",
+        "potential": {
+            "key": "452f8d27-5d00-4874-93ec-7df62ea02837",
+            "id": "2020--Mori-H-Ozaki-T--Fe"
+        },
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Fe",
+            "mass": 55.845
+        },
+        "pair_style": {
+            "type": "aenet"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "option": "v01"
+                },
+                {
+                    "symbols": "true"
+                },
+                {
+                    "file": "**.10tw-10tw.ann"
+                },
+                {
+                    "symbols": "true"
+                }
+            ]
+        }
+    }
+}

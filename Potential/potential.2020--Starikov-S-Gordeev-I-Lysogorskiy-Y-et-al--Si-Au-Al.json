@@ -40,22 +40,40 @@
                 "bibtex": "@article{Starikov_2020,\n abstract = {Metal-semiconductor nanostructures are key objects for multifunctional electronics and optical design. We report a new interatomic potential for atomistic simulation of a ternary Si-Au-Al system. The development procedure was based on the force-matching method that allowed us to create the potential without use of experimental data at the fitting. Extensive validation including elastic, thermophysical and defect properties demonstrates a wide range of the potential applicability. Special attention was paid to the description of the silicon-metal alloys in liquid and amorphous states. We used the new potential for study of crystallization and glass transition in the undercooled melt. The simulation results revealed the beneficial conditions for the formation of the unique metal-semiconductor nanocrystalline structure, which is highly important for various applications in the field of nanophotonics.},\n author = {S. Starikov and I. Gordeev and Y. Lysogorskiy and L. Kolotova and S. Makarov},\n doi = {10.1016/j.commatsci.2020.109891},\n journal = {Computational Materials Science},\n month = {nov},\n pages = {109891},\n publisher = {Elsevier BV},\n title = {Optimized interatomic potential for study of structure and phase transitions in Si-Au and Si-Al systems},\n url = {https://doi.org/10.1016%2Fj.commatsci.2020.109891},\n volume = {184},\n year = {2020}\n}\n\n"
             }
         },
-        "implementation": {
-            "key": "6ea50417-2147-4d53-871c-0a289656f794",
-            "id": "2020--Starikov-S--Si-Au-Al--LAMMPS--ipr1",
-            "status": "active",
-            "date": "2020-07-01",
-            "type": "LAMMPS pair_style adp",
-            "notes": {
-                "text": "These files were sent by Sergei Starikov (Joint Institute for High Temperatures, Russia) on 30 June 2020 and posted with his permission."
+        "implementation": [
+            {
+                "key": "6ea50417-2147-4d53-871c-0a289656f794",
+                "id": "2020--Starikov-S--Si-Au-Al--LAMMPS--ipr1",
+                "status": "superseded",
+                "date": "2020-07-01",
+                "type": "LAMMPS pair_style adp",
+                "notes": {
+                    "text": "This file was sent by Sergei Starikov (Joint Institute for High Temperatures, Russia) on 30 June 2020 and posted with his permission."
+                },
+                "artifact": {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2020--Starikov-S-Gordeev-I-Lysogorskiy-Y-et-al--Si-Au-Al/1/Si_Au_Al.adp.txt",
+                        "link-text": "Si_Au_Al.adp.txt"
+                    }
+                }
             },
-            "artifact": {
-                "web-link": {
-                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2020--Starikov-S-Gordeev-I-Lysogorskiy-Y-et-al--Si-Au-Al/1/Si_Au_Al.adp.txt",
-                    "link-text": "Si_Au_Al.adp.txt"
+            {
+                "key": "7caf4137-315b-49e4-8b3e-3a03d480bac6",
+                "id": "2020--Starikov-S--Si-Au-Al--LAMMPS--ipr2",
+                "status": "active",
+                "date": "2020-12-14",
+                "type": "LAMMPS pair_style adp",
+                "notes": {
+                    "text": "This file was sent by Sergei Starikov (Joint Institute for High Temperatures, Russia) on 6 Dec 2020. Dr. Starikov notes that \"In the updated version of the potential, I fixed a bug leading to non-physical minima on E-V dependencies at low density of pure Si. The modification of the potential consists of a little change in the slope of the Embedded function F(rho) near rho = 0 for Si. This avoids the appearance of global minima for simulations of extremely expanded crystal lattices.\""
+                },
+                "artifact": {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2020--Starikov-S-Gordeev-I-Lysogorskiy-Y-et-al--Si-Au-Al/2/Si_Au_Al.mod.txt",
+                        "link-text": "Si_Au_Al.mod.txt"
+                    }
                 }
             }
-        },
+        ],
         "element": [
             "Si",
             "Au",
