@@ -32,88 +32,202 @@
                 "bibtex": "@article{Eich_2015,\n abstract = {A new potential for the iron\u2013chromium (Fe\u2013Cr) alloy system was optimized for the embedded-atom method (EAM) within the two-band model (TBM) extension. In contrast to previous works, free model parameters are predominantly adapted to available experimental high-temperature data of the mixing enthalpy. As a major improvement, the metastable \u03b1/\u03b1' miscibility gap is accurately described in agreement with experimental data and a recent CALPHAD parametrization. The potential was also fitted to obtain an enriched solubility for chromium atoms in an iron matrix at 0 K, as it is predicted by several ab initio calculations. Furthermore, it was benchmarked against phonon excess entropies at 300 K and 1600 K demonstrating good agreement with respective results of inelastic neutron scattering.},\n author = {S.M. Eich and D. Beinke and G. Schmitz},\n doi = {10.1016/j.commatsci.2015.03.047},\n journal = {Computational Materials Science},\n month = {jun},\n pages = {185--192},\n publisher = {Elsevier BV},\n title = {Embedded-atom potential for an accurate thermodynamic description of the iron-chromium system},\n url = {https://doi.org/10.1016%2Fj.commatsci.2015.03.047},\n volume = {104},\n year = {2015}\n}\n\n"
             }
         },
-        "implementation": {
-            "key": "e82f23b0-266c-404c-85ed-9e26dc6461df",
-            "id": "2015--Eich-S-M--Fe-Cr--table--ipr1",
-            "status": "active",
-            "date": "2015-08-20",
-            "type": "EAM tabulated functions",
-            "notes": {
-                "text": "These files were sent by S.M. Eich (University of Stuttgart) on 20 Aug. 2015 and posted with his permission. Dr. Eich noted, \"That the provided tables are directly obtained by the fitting process for the Fe-Cr interaction without subsequent transformation into the effective pair format. This was done in the publication for comparison, but the additional rescaling of the electron density for pure components wouldn't describe the energetics of alloys correctly unless the rescaling has been performed before starting the fitting routine (which then would affect the fitting process).\" Dr. Eich noted that the distance units are Angstroms and the energy units are eV."
+        "implementation": [
+            {
+                "key": "e82f23b0-266c-404c-85ed-9e26dc6461df",
+                "id": "2015--Eich-S-M--Fe-Cr--table--ipr1",
+                "status": "superseded",
+                "date": "2015-08-20",
+                "type": "EAM tabulated functions",
+                "notes": {
+                    "text": "These files were sent by S.M. Eich (University of Stuttgart) on 20 Aug. 2015 and posted with his permission. Dr. Eich noted, \"That the provided tables are directly obtained by the fitting process for the Fe-Cr interaction without subsequent transformation into the effective pair format. This was done in the publication for comparison, but the additional rescaling of the electron density for pure components wouldn't describe the energetics of alloys correctly unless the rescaling has been performed before starting the fitting routine (which then would affect the fitting process).\" Dr. Eich noted that the distance units are Angstroms and the energy units are eV."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Cr_Olsson_2005_embed.txt",
+                            "label": "Fe F(&rho;):",
+                            "link-text": "Cr_Olsson_2005_embed.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Cr_Olsson_2005_dens.txt",
+                            "label": "Fe &rho;(r):",
+                            "link-text": "Cr_Olsson_2005_dens.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Cr_Olsson_2005_pair.txt",
+                            "label": "Fe &phi;(r):",
+                            "link-text": "Cr_Olsson_2005_pair.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Ackland_2004_embed.txt",
+                            "label": "Cr F(&rho;):",
+                            "link-text": "Fe_Ackland_2004_embed.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Ackland_2004_dens.txt",
+                            "label": "Cr &rho;(r):",
+                            "link-text": "Fe_Ackland_2004_dens.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Ackland_2004_pair.txt",
+                            "label": "Cr &phi;(r):",
+                            "link-text": "Fe_Ackland_2004_pair.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Cr_Eich_2015_TBM_sembed_Fe.txt",
+                            "label": "Fe Fs(&rho;s):",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_sembed_Fe.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Cr_Eich_2015_TBM_sembed_Cr.txt",
+                            "label": "Cr Fs(&rho;s):",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_sembed_Cr.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Cr_Eich_2015_TBM_sdens.txt",
+                            "label": "Fe-Cr &rho;s(r):",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_sdens.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Cr_Eich_2015_TBM_pair.txt",
+                            "label": "Fe-Cr &phi;(r):",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_pair.txt"
+                        }
+                    }
+                ]
             },
-            "artifact": [
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Cr_Olsson_2005_embed.txt",
-                        "label": "Fe F(&rho;):",
-                        "link-text": "Cr_Olsson_2005_embed.txt"
-                    }
+            {
+                "key": "036fae27-066d-4a1b-a6c8-53fe00b7520f",
+                "id": "2015--Eich-S-M--Fe-Cr--table--ipr2",
+                "status": "active",
+                "date": "2021-03-15",
+                "type": "EAM tabulated functions",
+                "notes": {
+                    "text": "These files were provided by Sebastian Eich (Universit\u00e4t Stuttgart) on March 9, 2021 and posted with his permission.  The new tables contain more grid points and includes values below 0.5 Angstroms."
                 },
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Cr_Olsson_2005_dens.txt",
-                        "label": "Fe &rho;(r):",
-                        "link-text": "Cr_Olsson_2005_dens.txt"
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_embed_1.txt",
+                            "label": "Fe F(\u03c1)",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_embed_1.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_embed_2.txt",
+                            "label": "Cr F(\u03c1)",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_embed_2.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_sembed_1.txt",
+                            "label": "Fe Fs(\u03c1s)",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_sembed_1.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_sembed_1.txt",
+                            "label": "Cr Fs(\u03c1s)",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_sembed_1.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_dens_1.txt",
+                            "label": "Fe \u03c1(r)",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_dens_1.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_dens_2.txt",
+                            "label": "Cr \u03c1(r)",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_dens_2.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_sdens_1_2.txt",
+                            "label": "Fe-Cr \u03c1s(r)",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_sdens_1_2.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_pair_1_1.txt",
+                            "label": "Fe \u03c6(r)",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_pair_1_1.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_pair_2_2.txt",
+                            "label": "Cr \u03c6(r)",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_pair_2_2.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_pair_1_2.txt",
+                            "label": "Fe-Cr \u03c6(r)",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_pair_1_2.txt"
+                        }
                     }
+                ]
+            },
+            {
+                "key": "9f124b15-4eab-4831-9fa8-826cdf6e294c",
+                "id": "2015--Eich-S-M--Fe-Cr--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2021-03-15",
+                "type": "LAMMPS pair_style hybrid/overlay eam/alloy eam/fs",
+                "notes": {
+                    "text": "These files were provided by Sebastian Eich (Universit\u00e4t Stuttgart) on March 9, 2021 and posted with his permission."
                 },
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Cr_Olsson_2005_pair.txt",
-                        "label": "Fe &phi;(r):",
-                        "link-text": "Cr_Olsson_2005_pair.txt"
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_lammps.eam.alloy",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_lammps.eam.alloy"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/Fe_Cr_Eich_2015_TBM_lammps.eam.fs",
+                            "link-text": "Fe_Cr_Eich_2015_TBM_lammps.eam.fs"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/2/README",
+                            "link-text": "README"
+                        }
                     }
-                },
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Ackland_2004_embed.txt",
-                        "label": "Cr F(&rho;):",
-                        "link-text": "Fe_Ackland_2004_embed.txt"
-                    }
-                },
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Ackland_2004_dens.txt",
-                        "label": "Cr &rho;(r):",
-                        "link-text": "Fe_Ackland_2004_dens.txt"
-                    }
-                },
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Ackland_2004_pair.txt",
-                        "label": "Cr &phi;(r):",
-                        "link-text": "Fe_Ackland_2004_pair.txt"
-                    }
-                },
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Cr_Eich_2015_TBM_sembed_Fe.txt",
-                        "label": "Fe Fs(&rho;s):",
-                        "link-text": "Fe_Cr_Eich_2015_TBM_sembed_Fe.txt"
-                    }
-                },
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Cr_Eich_2015_TBM_sembed_Cr.txt",
-                        "label": "Cr Fs(&rho;s):",
-                        "link-text": "Fe_Cr_Eich_2015_TBM_sembed_Cr.txt"
-                    }
-                },
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Cr_Eich_2015_TBM_sdens.txt",
-                        "label": "Fe-Cr &rho;s(r):",
-                        "link-text": "Fe_Cr_Eich_2015_TBM_sdens.txt"
-                    }
-                },
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr/1/Fe_Cr_Eich_2015_TBM_pair.txt",
-                        "label": "Fe-Cr &phi;(r):",
-                        "link-text": "Fe_Cr_Eich_2015_TBM_pair.txt"
-                    }
-                }
-            ]
-        },
+                ]
+            }
+        ],
         "element": [
             "Fe",
             "Cr"
