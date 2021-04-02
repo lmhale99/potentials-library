@@ -1,0 +1,5 @@
+The potentials in LAMMPS are read by the following three commands:
+
+pair_style hybrid/overlay eam/alloy eam/fs
+pair_coeff * * eam/alloy Fe_Cr_Eich_2015_TBM_lammps.eam.alloy Fe Cr
+pair_coeff * * eam/fs Fe_Cr_Eich_2015_TBM_lammps.eam.fs Fe Cr
