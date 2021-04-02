@@ -1,0 +1,57 @@
+{
+    "interatomic-potential": {
+        "key": "99800bb0-cf99-4f04-80a4-70ced3cfc149",
+        "id": "2015--Elliott-R-S-Akerson-A--Cf",
+        "record-version": "2021-03-10",
+        "description": {
+            "citation": {
+                "document-type": "unspecified",
+                "title": "Efficient \"universal\" shifted Lennard-Jones model for all KIM API supported species",
+                "author": [
+                    {
+                        "given-name": "R.S.",
+                        "surname": "Elliott"
+                    },
+                    {
+                        "given-name": "A.",
+                        "surname": "Akerson"
+                    }
+                ],
+                "publication-date": {
+                    "year": "2015"
+                },
+                "bibtex": "@unpublished{2015--Elliott-R-S-Akerson-A,\n author = {Ryan S. Elliott and Andrew Akerson},\n note = {2015--Elliott-R-S-Akerson-A},\n title = {Efficient \"universal\" shifted Lennard-Jones model for all KIM API supported species},\n year = {2015}\n}\n\n"
+            },
+            "notes": {
+                "text": "This is the Cf interaction from the \"Universal\" parameterization for the openKIM LennardJones612 model driver.The parameterization uses a shifted cutoff so that all interactions have a continuous energy function at the cutoff radius. This model was automatically fit using Lorentz-Berthelotmixing rules. It reproduces the dimer equilibrium separation (covalent radii) and the bond dissociation energies. It has not been fitted to other physical properties and its ability to model structures other than dimers is unknown.  See the README and params files on the KIM model page for more details."
+            }
+        },
+        "implementation": {
+            "key": "da76eb36-7ca1-421a-bd64-8f6bdd905b15",
+            "id": "MO_959249795837",
+            "status": "active",
+            "date": "2021-03-10",
+            "type": "OpenKIM",
+            "notes": {
+                "text": "Listing found at https://openkim.org."
+            },
+            "link": [
+                {
+                    "web-link": {
+                        "URL": "https://openkim.org/id/LJ_ElliottAkerson_2015_Universal__MO_959249795837_003",
+                        "label": "KIM page",
+                        "link-text": "LJ_ElliottAkerson_2015_Universal__MO_959249795837_003"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://doi.org/10.25950/962b4967",
+                        "label": "DOI",
+                        "link-text": "10.25950/962b4967"
+                    }
+                }
+            ]
+        },
+        "element": "Cf"
+    }
+}
