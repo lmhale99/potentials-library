@@ -1,0 +1,69 @@
+{
+    "potential-LAMMPS": {
+        "key": "39e4070e-339a-4db6-bcca-1038822a2604",
+        "id": "2021--Huang-X--Hf-Nb-Ta-Ti-Zr--LAMMPS--ipr1",
+        "potential": {
+            "key": "ab12e79c-e837-4eb3-b4a1-15ae5029aa62",
+            "id": "2021--Huang-X-Liu-L-Duan-X-et-al--Hf-Nb-Ta-Ti-Zr",
+            "doi": "10.1016/j.matdes.2021.109560"
+        },
+        "comments": "Potential 2021--Huang-X--Hf-Nb-Ta-Ti-Zr--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2021--Huang-X-Liu-L-Duan-X-et-al--Hf-Nb-Ta-Ti-Zr/2021--Huang-X--Hf-Nb-Ta-Ti-Zr--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Hf",
+                "mass": 178.49
+            },
+            {
+                "element": "Nb",
+                "mass": 92.906
+            },
+            {
+                "element": "Ta",
+                "mass": 180.9
+            },
+            {
+                "element": "Ti",
+                "mass": 47.88
+            },
+            {
+                "element": "Zr",
+                "mass": 91.22
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Hf Nb Ta Ti Zr"
+                },
+                {
+                    "file": "HfNbTaTiZr.meam"
+                },
+                {
+                    "symbols": "true"
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Huang-X-Liu-L-Duan-X-et-al--Hf-Nb-Ta-Ti-Zr/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Huang-X-Liu-L-Duan-X-et-al--Hf-Nb-Ta-Ti-Zr/1/HfNbTaTiZr.meam",
+                    "link-text": "HfNbTaTiZr.meam"
+                }
+            }
+        ]
+    }
+}

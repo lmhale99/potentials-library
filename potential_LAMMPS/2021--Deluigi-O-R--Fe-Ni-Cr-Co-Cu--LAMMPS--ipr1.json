@@ -1,0 +1,55 @@
+{
+    "potential-LAMMPS": {
+        "key": "00976d5c-140b-417f-b0db-694ddc5cf8f2",
+        "id": "2021--Deluigi-O-R--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr1",
+        "potential": {
+            "key": "f9d8adb8-1bcf-442d-9f1c-130a94f32b16",
+            "id": "2021--Deluigi-O-R-Pasianot-R-C-Valencia-F-J-et-al--Fe-Ni-Cr-Co-Cu",
+            "doi": "10.1016/j.actamat.2021.116951"
+        },
+        "comments": "Potential 2021--Deluigi-O-R--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2021--Deluigi-O-R-Pasianot-R-C-Valencia-F-J-et-al--Fe-Ni-Cr-Co-Cu/2021--Deluigi-O-R--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Fe",
+                "mass": 55.8
+            },
+            {
+                "element": "Ni",
+                "mass": 58.7
+            },
+            {
+                "element": "Cr",
+                "mass": 52.0
+            },
+            {
+                "element": "Co",
+                "mass": 59.0
+            },
+            {
+                "element": "Cu",
+                "mass": 63.0
+            }
+        ],
+        "pair_style": {
+            "type": "eam/alloy"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "FeNiCrCoCu-with-ZBL.eam.alloy"
+                },
+                {
+                    "symbols": "true"
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Deluigi-O-R-Pasianot-R-C-Valencia-F-J-et-al--Fe-Ni-Cr-Co-Cu/1/FeNiCrCoCu-with-ZBL.eam.alloy",
+                "link-text": "FeNiCrCoCu-with-ZBL.eam.alloy"
+            }
+        }
+    }
+}
