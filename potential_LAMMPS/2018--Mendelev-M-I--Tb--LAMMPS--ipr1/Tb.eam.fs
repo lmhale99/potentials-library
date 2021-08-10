@@ -1,5 +1,5 @@
 Source: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Thursday, Jan 4, 2018  The potential was taken from v2_7_hcp (in C:\SIMULATION.MD\Tb\Results\v2_7)
 1  Tb  
 10000   3.00000000000000E-0002  10000   8.40000000000000E-0004   8.40000000000000E+0000

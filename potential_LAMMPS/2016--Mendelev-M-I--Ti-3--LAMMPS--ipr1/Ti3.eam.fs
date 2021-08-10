@@ -1,5 +1,5 @@
 Source: M.I. Mendelev, T.L. Underwood and G.J. Ackland, Development of an interatomic potential for the simulation of defects, plasticity, and phase transformations in titanium, J. Chem. Phys. 145, 154102 (2016)
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Friday, Jul 15, 2016  The potential was taken from v5_12_hcp_extended (in C:\SIMULATION.MD\Ti\Results\v5_12)
 1  Ti  
 10000   3.00000000000000E-0002  10000   6.90000000000000E-0004   6.90000000000000E+0000

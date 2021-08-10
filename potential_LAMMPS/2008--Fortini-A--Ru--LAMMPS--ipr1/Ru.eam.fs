@@ -1,5 +1,5 @@
 Sourse: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Thursday, May 15, 2008  The potential was taken from v1_4_hcp (in C:\SIMULATION.MD\Ru\Results\v1_4)
 1  Ru  
 10000   5.00000000000000E-0002  10000   6.40000000000000E-0004   6.40000000000000E+0000

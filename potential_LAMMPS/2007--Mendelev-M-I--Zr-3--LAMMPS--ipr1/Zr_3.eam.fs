@@ -1,5 +1,5 @@
 Sourse: Potential #3 from [M.I. Mendelev and  G.J. Ackland, Phil. Mag. Letters 87, 349-359 (2007).]
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Sunday, Jun 10, 2007  The potential was taken from v3_10_hcp (in C:\SIMULATION.MD\Zr\Results\v3_10)
 1  Zr  
 10000   5.00000000000000E-0002  10000   7.60000000000000E-0004   7.60000000000000E+0000

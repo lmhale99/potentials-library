@@ -1,5 +1,5 @@
 Sourse: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Thursday, May 29, 2008  The potential was taken from v5_14_CuZr_B2 (in C:\SIMULATION.MD\Cu-Zr\v5_14)
 2  Cu  Zr  
 10000   3.00000000000000E-0002  10000   7.60000000000000E-0004   7.60000000000000E+0000

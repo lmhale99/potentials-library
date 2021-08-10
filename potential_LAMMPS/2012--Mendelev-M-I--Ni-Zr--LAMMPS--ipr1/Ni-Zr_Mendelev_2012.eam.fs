@@ -1,5 +1,5 @@
 Source: M.I. Mendelev, M.J. Kramer, S.G. Hao, K.M. Ho and C.Z. Wang, Development of interatomic potentials appropriate for simulation of liquid and glass properties of NiZr2 alloy, Phil. Mag 92, 4454-4469 (2012).
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Thursday, Oct 21, 2010  The potential was taken from v3_13_NiZr2_C16 (in C:\SIMULATION.MD\Ni-Zr\Results\v3_13)
 2  Ni  Zr  
 10000   5.00000000000000E-0002  10000   7.60000000000000E-0004   7.60000000000000E+0000

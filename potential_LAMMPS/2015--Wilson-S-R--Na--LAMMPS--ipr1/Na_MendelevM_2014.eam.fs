@@ -1,5 +1,5 @@
 Source: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Tuesday, Sep 2, 2014  The potential was taken from v1_4_bcc (in C:\SIMULATION.MD\Na\Results\v1_4)
 1  Na  
 10000   1.00000000000000E-0002  10000   9.20000000000000E-0004   9.20000000000000E+0000

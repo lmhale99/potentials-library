@@ -1,0 +1,45 @@
+{
+    "potential-LAMMPS": {
+        "key": "0b2e2029-5fde-4e2f-bd96-4e8ea04f3c3c",
+        "id": "2021--Starikov-S--Fe--LAMMPS--ipr1",
+        "potential": {
+            "key": "48617ddd-9e54-40ad-b65b-3ce6ea580075",
+            "id": "2021--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe",
+            "doi": "10.1103/physrevmaterials.5.063607"
+        },
+        "comments": "Potential 2021--Starikov-S--Fe--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2021--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe/2021--Starikov-S--Fe--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "symbol": "nmFe",
+                "element": "Fe",
+                "mass": 55.845
+            }
+        ],
+        "pair_style": {
+            "type": "adp"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "Fe_nmFe.2021.adp.alloy.txt"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe/1/Fe_nmFe.2021.adp.alloy.txt",
+                "link-text": "Fe_nmFe.2021.adp.alloy.txt"
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "potential-LAMMPS": {
+        "key": "f9f5cd2b-116b-46da-ab68-323810437f0c",
+        "id": "2021--Zhou-H--Bi--LAMMPS--ipr1",
+        "potential": {
+            "key": "0aa1b65e-0641-4845-bab6-ca6b0ed589ce",
+            "id": "2021--Zhou-H-Dickel-D-E-Baskes-M-I-et-al--Bi",
+            "doi": "10.1088/1361-651x/ac095c"
+        },
+        "comments": "Potential 2021--Zhou-H--Bi--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2021--Zhou-H-Dickel-D-E-Baskes-M-I-et-al--Bi/2021--Zhou-H--Bi--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "element": "Bi",
+            "mass": 208.98
+        },
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "Bi.library.meam"
+                },
+                {
+                    "option": "Bi"
+                },
+                {
+                    "file": "Bi.parameter.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Zhou-H-Dickel-D-E-Baskes-M-I-et-al--Bi/1/Bi.parameter.meam",
+                    "link-text": "Bi.parameter.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Zhou-H-Dickel-D-E-Baskes-M-I-et-al--Bi/1/Bi.library.meam",
+                    "link-text": "Bi.library.meam"
+                }
+            }
+        ]
+    }
+}

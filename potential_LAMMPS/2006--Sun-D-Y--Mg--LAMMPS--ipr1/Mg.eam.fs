@@ -1,5 +1,5 @@
 Sourse: D.Y. Sun, M.I. Mendelev, C.A. Becker, K. Kudin, T. Haxhimali, M. Asta, J.J. Hoyt, A. Karma and D.J. Srolovitz, Phys. Rev. B 73, 024116 (2006).
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Sunday, Jun 10, 2007  The potential was taken from v1_11_hcp (in C:\SIMULATION.MD\Mg\Results\V1_11)
 1  Mg  
 10000   5.00000000000000E-0002  10000   7.50000000000000E-0004   7.50000000000000E+0000

@@ -1,5 +1,5 @@
 Sourse: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Tuesday, May 10, 2011  The potential was taken from v3_30_NiZr_B2 (in C:\SIMULATION.MD\Ni-Zr\Results\v3_30)
 2  Ni  Zr  
 10000   5.00000000000000E-0002  10000   7.60000000000000E-0004   7.60000000000000E+0000

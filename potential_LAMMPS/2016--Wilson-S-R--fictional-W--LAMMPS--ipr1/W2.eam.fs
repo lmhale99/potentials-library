@@ -1,5 +1,5 @@
 Source: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Friday, Jul 31, 2015  The potential was taken from v1_11_bcc (in C:\SIMULATION.MD\W\Results\v1_11)
 1  W  
 10000   5.00000000000000E-0002  10000   6.50000000000000E-0004   6.50000000000000E+0000

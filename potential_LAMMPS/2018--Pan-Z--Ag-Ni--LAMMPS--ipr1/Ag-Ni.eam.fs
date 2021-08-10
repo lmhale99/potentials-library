@@ -1,5 +1,5 @@
 Source: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Thursday, Feb 22, 2018  The potential was taken from v5_17_Ag_1Ni (in C:\SIMULATION.MD\Ag-Ni\Ag-Ni\Results\v5_17)
 2  Ag  Ni  
 10000   2.00000000000000E-0002  10000   6.70000000000000E-0004   6.70000000000000E+0000

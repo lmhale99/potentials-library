@@ -1,5 +1,5 @@
 Sourse: The potential parameters were provided by Prof. G.J. Ackland (g.j.ackland@ed.ac.uk). Please, contact him if you have any questions.
-Contact information: mendelev@ameslab.gov
+Contact information: 
 Tuesday, Jun 30, 2009  The potential was taken from bcc (in C:\SIMULATION.MD\LAMMPS\Graeme\W)
 1  W  
 10000   5.00000000000000E-0002  10000   4.11476000000000E-0004   4.11476000000000E+0000

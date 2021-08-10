@@ -1,5 +1,5 @@
 Sourse: Al1 M.I. Mendelev, will be published
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Sunday, Jun 10, 2007  The potential was taken from v2_5_fcc (in C:\SIMULATION.MD\Al\Results\BGB_v2_5)
 1  Al  
 10000   5.00000000000000E-0002  10000   6.50000000000000E-0004   6.50000000000000E+0000

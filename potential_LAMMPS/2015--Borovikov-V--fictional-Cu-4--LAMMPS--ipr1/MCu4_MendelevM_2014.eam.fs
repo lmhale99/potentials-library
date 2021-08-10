@@ -1,5 +1,5 @@
 Sourse: M.I. Mendelev, unpublished. Not designed to simulate the real Cu! (MCu4)
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Tuesday, Dec 20, 2011  The potential was taken from v6_3_fcc (in C:\SIMULATION.MD\Cu\Results\V6_3)
 1  Cu  
 10000   3.00000000000000E-0002  10000   6.00000000000000E-0004   6.00000000000000E+0000

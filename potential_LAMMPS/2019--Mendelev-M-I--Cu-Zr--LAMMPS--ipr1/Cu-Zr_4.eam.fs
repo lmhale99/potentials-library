@@ -1,5 +1,5 @@
 Source: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Tuesday, Oct 8, 2019  The potential was taken from Laves_phase_MgZn2_T=0 (in C:\SIMULATION.MD\Cu-Zr\v10_5\Laves_phases)
 2  Cu  Zr  
 10000   3.00000000000000E-0002  10000   7.60000000000000E-0004   7.60000000000000E+0000

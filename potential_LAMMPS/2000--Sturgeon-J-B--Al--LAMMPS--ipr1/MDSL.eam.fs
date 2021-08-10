@@ -1,5 +1,5 @@
 Sourse: J.B. Sturgeon and B.B. Laird, Phys. Rev. B, 62, 14720 (2000).
-Contact information: mendelev@ameslab.gov
+Contact information: 
 Friday, May 30, 2008  The potential was taken from fcc (in C:\SIMULATION.MD\Al\Results\Mei-Davenport)
 1  Al  
 10000   5.00000000000000E-0002  10000   5.58441000000000E-0004   5.58441000000000E+0000

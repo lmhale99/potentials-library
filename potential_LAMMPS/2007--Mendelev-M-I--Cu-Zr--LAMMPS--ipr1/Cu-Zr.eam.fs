@@ -1,5 +1,5 @@
 Sourse: M.I. Mendelev, D.J. Sordelet and M.J. Kramer, J. Appl. Phys. 102, 043501 (2007)
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Sunday, Jun 10, 2007  The potential was taken from v1_3_Cu (in C:\SIMULATION.MD\Cu-Zr\v1_3)
 2  Cu  Zr  
 10000   3.00000000000000E-0002  10000   7.60000000000000E-0004   7.60000000000000E+0000

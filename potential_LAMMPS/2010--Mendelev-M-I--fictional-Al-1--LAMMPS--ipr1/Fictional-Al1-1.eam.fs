@@ -1,5 +1,5 @@
 Sourse:  Al1' potential. Not designed to simulate the real Al! M.I. Mendelev et. al., unpublished.
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Monday, Mar 29, 2010  The potential was taken from v3_3_fcc (in C:\SIMULATION.MD\Al\Results\BGB_v3_3)
 1  Al  
 10000   5.00000000000000E-0002  10000   6.50000000000000E-0004   6.50000000000000E+0000

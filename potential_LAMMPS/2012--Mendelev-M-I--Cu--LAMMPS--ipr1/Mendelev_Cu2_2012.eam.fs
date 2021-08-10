@@ -1,5 +1,5 @@
 Sourse: M.I. Mendelev and A.H. King, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Thursday, Jun 28, 2012  The potential was taken from v5_16_fcc (in C:\SIMULATION.MD\Cu\Results\v5_16)
 1  Cu  
 10000   3.00000000000000E-0002  10000   6.00000000000000E-0004   6.00000000000000E+0000

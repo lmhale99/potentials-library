@@ -1,5 +1,5 @@
 Sourse: M.I. Mendelev, M. Asta, M.J. Rahman and J.J. Hoyt, Phil. Mag. 89, 3269-3285 (2009).
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Monday, Jul 13, 2009  The potential was taken from v2_18_AlMg3_L12 (in C:\SIMULATION.MD\Al-Mg\Results\v2_18)
 2  Al  Mg  
 10000   5.00000000000000E-0002  10000   7.50000000000000E-0004   7.50000000000000E+0000

@@ -1,5 +1,5 @@
 Source: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Friday, Mar 12, 2021  The potential was taken from v2_18_Al3Sm_2016 (in D:\SIMULATION.MD\Al-Sm\Results\v2_18)
 2  Al  Sm  
 10000   5.00000000000000E-0002  10000   8.00000000000000E-0004   8.00000000000000E+0000

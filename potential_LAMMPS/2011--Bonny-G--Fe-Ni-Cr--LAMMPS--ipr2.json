@@ -1,0 +1,47 @@
+{
+    "potential-LAMMPS": {
+        "key": "fcfb8310-51bd-48dd-81ac-ae54d4b7c319",
+        "id": "2011--Bonny-G--Fe-Ni-Cr--LAMMPS--ipr2",
+        "potential": {
+            "key": "17676f3f-5287-4bb9-892a-0bfe9b1fb160",
+            "id": "2011--Bonny-G-Terentyev-D-Pasianot-R-C-et-al--Fe-Ni-Cr",
+            "doi": "10.1088/0965-0393/19/8/085008"
+        },
+        "comments": "Potential 2011--Bonny-G--Fe-Ni-Cr--LAMMPS--ipr2 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2011--Bonny-G-Terentyev-D-Pasianot-R-C-et-al--Fe-Ni-Cr/2011--Bonny-G--Fe-Ni-Cr--LAMMPS--ipr2.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "element": "Ni",
+                "mass": 58.6934
+            },
+            {
+                "element": "Cr",
+                "mass": 51.9961
+            }
+        ],
+        "pair_style": {
+            "type": "eam/alloy"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "FeNiCr.eam.alloy"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2011--Bonny-G-Terentyev-D-Pasianot-R-C-et-al--Fe-Ni-Cr/3/FeNiCr.eam.alloy",
+                "link-text": "FeNiCr.eam.alloy"
+            }
+        }
+    }
+}

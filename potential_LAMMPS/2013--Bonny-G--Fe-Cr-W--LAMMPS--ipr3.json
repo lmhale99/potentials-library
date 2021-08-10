@@ -1,0 +1,85 @@
+{
+    "potential-LAMMPS": {
+        "key": "471a354a-c37a-4c64-98cb-6d25e020a9ca",
+        "id": "2013--Bonny-G--Fe-Cr-W--LAMMPS--ipr3",
+        "potential": {
+            "key": "d0b8ed5d-d5bf-4e22-acfb-ccf84a87690b",
+            "id": "2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W",
+            "doi": "10.1088/0953-8984/25/31/315401"
+        },
+        "comments": "Potential 2013--Bonny-G--Fe-Cr-W--LAMMPS--ipr3 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/2013--Bonny-G--Fe-Cr-W--LAMMPS--ipr3.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "element": "Cr",
+                "mass": 51.9961
+            },
+            {
+                "element": "W",
+                "mass": 183.85
+            }
+        ],
+        "pair_style": {
+            "type": "hybrid/overlay",
+            "term": {
+                "option": "eam/alloy eam/fs"
+            }
+        },
+        "pair_coeff": [
+            {
+                "term": [
+                    {
+                        "option": "eam/alloy"
+                    },
+                    {
+                        "file": "FeCrW_d.eam.alloy"
+                    },
+                    {
+                        "symbols": true
+                    }
+                ]
+            },
+            {
+                "term": [
+                    {
+                        "option": "eam/fs"
+                    },
+                    {
+                        "file": "FeCrW_s.eam.fs"
+                    },
+                    {
+                        "symbols": true
+                    }
+                ]
+            }
+        ],
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/4/READ_ME.txt",
+                    "label": "Documentation",
+                    "link-text": "READ_ME.txt"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/4/FeCrW_d.eam.alloy",
+                    "label": "d_band",
+                    "link-text": "FeCrW_d.eam.alloy"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2013--Bonny-G-Castin-N-Bullens-J-et-al--Fe-Cr-W/4/FeCrW_s.eam.fs",
+                    "label": "s_band",
+                    "link-text": "FeCrW_s.eam.fs"
+                }
+            }
+        ]
+    }
+}

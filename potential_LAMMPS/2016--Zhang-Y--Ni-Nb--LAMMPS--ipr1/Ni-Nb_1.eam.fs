@@ -1,5 +1,5 @@
 Source: Y. Zhang, R. Ashcraft, M.I. Mendelev, C.Z. Wang, and K.F. Kelton, Experimental and molecular dynamics simulation study of structure of liquid and amorphous Ni62Nb38 alloy, J. Chem. Phys. 145, 204505 (2016)
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Thursday, Sep 1, 2016  The potential was taken from v1_7_B2 (in C:\SIMULATION.MD\Ni-Nb\Results\v1_7)
 2  Ni  Nb  
 10000   3.00000000000000E-0002  10000   6.90000000000000E-0004   6.90000000000000E+0000

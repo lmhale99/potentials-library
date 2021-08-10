@@ -1,5 +1,5 @@
 Sourse: M.I. Mendelev,  S. Han, W. Son,  G.J. Ackland and  D.J. Srolovitz, Phys. Rev. B 76, 214105 (2007).
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Thursday, Apr 24, 2008  The potential was taken from v1_20_V (in C:\SIMULATION.MD\V-Fe\v1_20)
 2  V  Fe  
 10000   5.00000000000000E-0002  10000   5.30000000000000E-0004   5.30000000000000E+0000

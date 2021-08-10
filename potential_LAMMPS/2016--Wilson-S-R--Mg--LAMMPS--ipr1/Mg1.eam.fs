@@ -1,5 +1,5 @@
 Source: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Tuesday, Feb 24, 2015  The potential was taken from v1_12_hcp (in C:\SIMULATION.MD\Mg\Results\v1_12)
 1  Mg  
 10000   5.00000000000000E-0002  10000   7.50000000000000E-0004   7.50000000000000E+0000

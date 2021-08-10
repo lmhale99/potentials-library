@@ -1,5 +1,5 @@
 Source: M.I. Mendelev, unpublished
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Wednesday, Apr 27, 2016  The potential was taken from CuZr_B2 (in C:\SIMULATION.MD\Cu-Zr\Results\v9_7)
 2  Cu  Zr  
 10000   3.00000000000000E-0002  10000   7.60000000000000E-0004   7.60000000000000E+0000

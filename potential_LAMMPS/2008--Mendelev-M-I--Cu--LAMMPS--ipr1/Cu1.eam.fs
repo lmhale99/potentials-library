@@ -1,5 +1,5 @@
 Sourse: Cu1 potential from [M.I. Mendelev,  M.J. Kramer,  C.A. Becker and M. Asta, Phil. Mag. 88,  1723 - 1750 (2008).]
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Wednesday, Oct 13, 2010  The potential was taken from v5_7_fcc (in C:\SIMULATION.MD\Cu\Results\V5_7)
 1  Cu  
 10000   3.00000000000000E-0002  10000   6.00000000000000E-0004   6.00000000000000E+0000

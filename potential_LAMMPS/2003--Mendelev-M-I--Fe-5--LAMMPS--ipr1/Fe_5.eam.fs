@@ -1,5 +1,5 @@
 Sourse: Potential #5 from [M.I. Mendelev, S. Han, D.J. Srolovitz, G.J. Ackland, D.Y. Sun and M. Asta, Phil. Mag. 83, 3977-3994 (2003).]
-Contact information: mendelev@ameslab.gov
+Contact information: mikhail.mendelev@gmail.com
 Friday, Oct 26, 2007  The potential was taken from v3_9_bcc (in C:\SIMULATION.MD\Fe\Results\BGB+Interstitials)
 1  Fe  
 10000   3.00000000000000E-0002  10000   6.00000000000000E-0004   6.00000000000000E+0000

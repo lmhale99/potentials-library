@@ -1,5 +1,5 @@
 Sourse: The potential parameters were provided by Prof. G.J. Ackland (g.j.ackland@ed.ac.uk). Please, contact him if you have any questions.
-Contact information: mendelev@ameslab.gov
+Contact information: 
 Monday, Jun 22, 2009  The potential was taken from fcc (in C:\SIMULATION.MD\LAMMPS\Graeme\Cu)
 1  Cu  
 10000   5.00000000000000E-0002  10000   4.42745281350000E-0004   4.42745281350000E+0000
