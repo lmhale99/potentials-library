@@ -1,0 +1,55 @@
+{
+    "interatomic-potential": {
+        "key": "fa000d07-cf5d-474f-8407-5fa5b41a79f1",
+        "id": "2021--Starikov-S-Smirnova-D--Zr-Nb",
+        "record-version": "2021-05-26",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Optimized interatomic potential for atomistic simulation of Zr-Nb alloy",
+                "author": [
+                    {
+                        "given-name": "S.",
+                        "surname": "Starikov"
+                    },
+                    {
+                        "given-name": "D.",
+                        "surname": "Smirnova"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2021
+                },
+                "volume": 197,
+                "abstract": "We present a new classical interatomic potential for a study of the binary Zr-Nb system, taking into account a wide range of the components concentrations. The potential was developed by virtue of the force-matching method that is capable of ensuring a high accuracy at the description of the complex systems containing diverse crystal phases. At simulation of pure Zr, the potential correctly describes a relative stability of Zr phases (α-Zr, β-Zr and ω-Zr) and qualitatively reproduces the right arrangement of these phases in the phase diagram. It is remarkable that β-Zr phase is found to have a dynamically unstable structure at the low temperature, in agreement with the <i>ab initio</i> calculations. The potential can also play a role in considering the tasks related to the crystal defects in the Zr-Nb system. In support of this statement, we show the simulation results proving adequate representation of a number of key properties of the crystal defects in Zr-Nb system. In particular, the offered potential reproduces formation/solution energies of point defects with well accuracy. To illustrate wide application possibilities for the model, we made a prediction of atomic self-diffusion and impurity diffusion in Zr and Nb. Also, the potential ensures correct description of a screw dislocation in niobium, which is a crucial point for the investigation of plasticity.",
+                "pages": "110581",
+                "DOI": "10.1016/j.commatsci.2021.110581",
+                "bibtex": "@article{Starikov_2021,\n abstract = {We present a new classical interatomic potential for a study of the binary Zr-Nb system, taking into account a wide range of the components concentrations. The potential was developed by virtue of the force-matching method that is capable of ensuring a high accuracy at the description of the complex systems containing diverse crystal phases. At simulation of pure Zr, the potential correctly describes a relative stability of Zr phases (α-Zr, β-Zr and ω-Zr) and qualitatively reproduces the right arrangement of these phases in the phase diagram. It is remarkable that β-Zr phase is found to have a dynamically unstable structure at the low temperature, in agreement with the <i>ab initio</i> calculations. The potential can also play a role in considering the tasks related to the crystal defects in the Zr-Nb system. In support of this statement, we show the simulation results proving adequate representation of a number of key properties of the crystal defects in Zr-Nb system. In particular, the offered potential reproduces formation/solution energies of point defects with well accuracy. To illustrate wide application possibilities for the model, we made a prediction of atomic self-diffusion and impurity diffusion in Zr and Nb. Also, the potential ensures correct description of a screw dislocation in niobium, which is a crucial point for the investigation of plasticity.},\n author = {S. Starikov and D. Smirnova},\n doi = {10.1016/j.commatsci.2021.110581},\n journal = {Computational Materials Science},\n month = {sep},\n pages = {110581},\n publisher = {Elsevier BV},\n title = {Optimized interatomic potential for atomistic simulation of Zr-Nb alloy},\n url = {https://doi.org/10.1016%2Fj.commatsci.2021.110581},\n volume = {197},\n year = {2021}\n}\n\n"
+            },
+            "notes": {
+                "text": "This is an updated parameterization of 2017--Smirnova-D-E-Starikov-S-V--Zr-Nb. Most notably, this new version predicts the correct representation of the relative phase stability of zirconium phases."
+            }
+        },
+        "implementation": {
+            "key": "51eb2d42-0053-44fc-a139-64c4c19571a7",
+            "id": "2021--Starikov-S--Zr-Nb--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2021-05-26",
+            "type": "LAMMPS pair_style adp",
+            "notes": {
+                "text": "This file was provided by Sergei Starikov (Ruhr-University) on May 25, 2021 and posted with his permission."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Starikov-S-Smirnova-D--Zr-Nb/1/Zr_Nb.2021.adp.txt",
+                    "link-text": "Zr_Nb.2021.adp.txt"
+                }
+            }
+        },
+        "element": [
+            "Zr",
+            "Nb"
+        ]
+    }
+}

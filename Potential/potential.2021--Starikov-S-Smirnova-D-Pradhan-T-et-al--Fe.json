@@ -1,0 +1,70 @@
+{
+    "interatomic-potential": {
+        "key": "48617ddd-9e54-40ad-b65b-3ce6ea580075",
+        "id": "2021--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe",
+        "record-version": "2021-07-06",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Angular-dependent interatomic potential for large-scale atomistic simulation of iron: Development and comprehensive comparison with existing interatomic models",
+                "author": [
+                    {
+                        "given-name": "S.",
+                        "surname": "Starikov"
+                    },
+                    {
+                        "given-name": "D.",
+                        "surname": "Smirnova"
+                    },
+                    {
+                        "given-name": "T.",
+                        "surname": "Pradhan"
+                    },
+                    {
+                        "given-name": "Y.",
+                        "surname": "Lysogorskiy"
+                    },
+                    {
+                        "given-name": "H.",
+                        "surname": "Chapman"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Mrovec"
+                    },
+                    {
+                        "given-name": "R.",
+                        "surname": "Drautz"
+                    }
+                ],
+                "publication-name": "Physical Review Materials",
+                "publication-date": {
+                    "year": 2021
+                },
+                "volume": 5,
+                "issue": 6,
+                "abstract": "The development of classical interatomic potential for iron is a quite demanding task with a long history background. A new interatomic potential for simulation of iron was created with a focus on description of crystal defects properties. In contrast with previous studies, here the potential development was based on force-matching method that requires only <i>ab initio</i> data as reference values. To verify our model, we studied various features of body-centered-cubic iron including the properties of point defects (vacancy and self-interstitial atom), the Peierls energy barrier for dislocations (screw and mix types), and the formation energies of planar defects (surfaces, grain boundaries, and stacking fault). The verification also implies thorough comparison of a potential with 11 other interatomic potentials reported in literature. This potential correctly reproduces the largest number of iron characteristics which ensures its advantage and wider applicability range compared to the other considered classical potentials. Here application of the model is illustrated by estimation of self-diffusion coefficients and the calculation of fcc lattice properties at high temperature.",
+                "pages": "063607",
+                "DOI": "10.1103/physrevmaterials.5.063607",
+                "bibtex": "@article{Starikov_2021,\n abstract = {The development of classical interatomic potential for iron is a quite demanding task with a long history background. A new interatomic potential for simulation of iron was created with a focus on description of crystal defects properties. In contrast with previous studies, here the potential development was based on force-matching method that requires only <i>ab initio</i> data as reference values. To verify our model, we studied various features of body-centered-cubic iron including the properties of point defects (vacancy and self-interstitial atom), the Peierls energy barrier for dislocations (screw and mix types), and the formation energies of planar defects (surfaces, grain boundaries, and stacking fault). The verification also implies thorough comparison of a potential with 11 other interatomic potentials reported in literature. This potential correctly reproduces the largest number of iron characteristics which ensures its advantage and wider applicability range compared to the other considered classical potentials. Here application of the model is illustrated by estimation of self-diffusion coefficients and the calculation of fcc lattice properties at high temperature.},\n author = {Sergei Starikov and Daria Smirnova and Tapaswani Pradhan and Yury Lysogorskiy and Harry Chapman and Matous Mrovec and Ralf Drautz},\n doi = {10.1103/physrevmaterials.5.063607},\n journal = {Physical Review Materials},\n month = {jun},\n number = {6},\n pages = {063607},\n publisher = {American Physical Society (APS)},\n title = {Angular-dependent interatomic potential for large-scale atomistic simulation of iron: Development and comprehensive comparison with existing interatomic models},\n url = {https://doi.org/10.1103%2Fphysrevmaterials.5.063607},\n volume = {5},\n year = {2021}\n}\n\n"
+            }
+        },
+        "implementation": {
+            "key": "0b2e2029-5fde-4e2f-bd96-4e8ea04f3c3c",
+            "id": "2021--Starikov-S--Fe--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2021-07-06",
+            "type": "LAMMPS pair_style adp",
+            "notes": {
+                "text": "This file was provided by Sergei Starikov (ICAMS) on July 1, 2021 and posted with his permission.  This file also contains the developed potential for simulation of non-magnetic iron (nmFe) that may be used in spin-dynamics simulation."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe/1/Fe_nmFe.2021.adp.alloy.txt",
+                    "link-text": "Fe_nmFe.2021.adp.alloy.txt"
+                }
+            }
+        },
+        "element": "Fe"
+    }
+}

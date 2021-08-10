@@ -31,10 +31,10 @@
                 },
                 "volume": 91,
                 "issue": 12,
-                "abstract": "We present an Fe\u2013Cr interatomic potential to model high-Cr ferritic alloys. The potential is fitted to thermodynamic and point-defect properties obtained from density functional theory (DFT) calculations and experiments. The developed potential is also benchmarked against other potentials available in literature. It shows particularly good agreement with the DFT obtained mixing enthalpy of the random alloy, the formation energy of intermetallics and experimental excess vibrational entropy and phase diagram. In addition, DFT calculated point-defect properties, both interstitial and substitutional, are well reproduced, as is the screw dislocation core structure. As a first validation of the potential, we study the precipitation hardening of Fe\u2013Cr alloys via static simulations of the interaction between Cr precipitates and screw dislocations. It is concluded that the description of the dislocation core modification near a precipitate might have a significant influence on the interaction mechanisms observed in dynamic simulations.",
+                "abstract": "We present an Fe–Cr interatomic potential to model high-Cr ferritic alloys. The potential is fitted to thermodynamic and point-defect properties obtained from density functional theory (DFT) calculations and experiments. The developed potential is also benchmarked against other potentials available in literature. It shows particularly good agreement with the DFT obtained mixing enthalpy of the random alloy, the formation energy of intermetallics and experimental excess vibrational entropy and phase diagram. In addition, DFT calculated point-defect properties, both interstitial and substitutional, are well reproduced, as is the screw dislocation core structure. As a first validation of the potential, we study the precipitation hardening of Fe–Cr alloys via static simulations of the interaction between Cr precipitates and screw dislocations. It is concluded that the description of the dislocation core modification near a precipitate might have a significant influence on the interaction mechanisms observed in dynamic simulations.",
                 "pages": "1724-1746",
                 "DOI": "10.1080/14786435.2010.545780",
-                "bibtex": "@article{Bonny_2011,\n abstract = {We present an Fe\u2013Cr interatomic potential to model high-Cr ferritic alloys. The potential is fitted to thermodynamic and point-defect properties obtained from density functional theory (DFT) calculations and experiments. The developed potential is also benchmarked against other potentials available in literature. It shows particularly good agreement with the DFT obtained mixing enthalpy of the random alloy, the formation energy of intermetallics and experimental excess vibrational entropy and phase diagram. In addition, DFT calculated point-defect properties, both interstitial and substitutional, are well reproduced, as is the screw dislocation core structure. As a first validation of the potential, we study the precipitation hardening of Fe\u2013Cr alloys via static simulations of the interaction between Cr precipitates and screw dislocations. It is concluded that the description of the dislocation core modification near a precipitate might have a significant influence on the interaction mechanisms observed in dynamic simulations.},\n author = {G. Bonny and R.C. Pasianot and D. Terentyev and L. Malerba},\n doi = {10.1080/14786435.2010.545780},\n journal = {Philosophical Magazine},\n month = {apr},\n number = {12},\n pages = {1724--1746},\n publisher = {Informa UK Limited},\n title = {Iron chromium potential to model high-chromium ferritic alloys},\n url = {https://doi.org/10.1080%2F14786435.2010.545780},\n volume = {91},\n year = {2011}\n}\n\n"
+                "bibtex": "@article{Bonny_2011,\n abstract = {We present an Fe–Cr interatomic potential to model high-Cr ferritic alloys. The potential is fitted to thermodynamic and point-defect properties obtained from density functional theory (DFT) calculations and experiments. The developed potential is also benchmarked against other potentials available in literature. It shows particularly good agreement with the DFT obtained mixing enthalpy of the random alloy, the formation energy of intermetallics and experimental excess vibrational entropy and phase diagram. In addition, DFT calculated point-defect properties, both interstitial and substitutional, are well reproduced, as is the screw dislocation core structure. As a first validation of the potential, we study the precipitation hardening of Fe–Cr alloys via static simulations of the interaction between Cr precipitates and screw dislocations. It is concluded that the description of the dislocation core modification near a precipitate might have a significant influence on the interaction mechanisms observed in dynamic simulations.},\n author = {G. Bonny and R.C. Pasianot and D. Terentyev and L. Malerba},\n doi = {10.1080/14786435.2010.545780},\n journal = {Philosophical Magazine},\n month = {apr},\n number = {12},\n pages = {1724--1746},\n publisher = {Informa UK Limited},\n title = {Iron chromium potential to model high-chromium ferritic alloys},\n url = {https://doi.org/10.1080%2F14786435.2010.545780},\n volume = {91},\n year = {2011}\n}\n\n"
             }
         },
         "implementation": [
@@ -156,11 +156,11 @@
             {
                 "key": "fa45f635-4606-47f7-bab7-69b0a2016a8d",
                 "id": "2011--Bonny-G--Fe-Cr--LAMMPS--ipr2",
-                "status": "active",
+                "status": "superseded",
                 "date": "2020-03-15",
                 "type": "LAMMPS pair_style hybrid/overlay eam/alloy eam/fs",
                 "notes": {
-                    "text": "This is a modification to the above version posted by Lucas Hale on March 15, 2020.  In particular, pair function tables of all zeros were added to the FeCr_s.eam.fs file to make it compatible with versions of LAMMPS 7 Aug 2019."
+                    "text": "This is a modification to the above version posted by Lucas Hale on March 15, 2020.  Missing pair function tables of all zeros were added to the FeCr_s.eam.fs file to make the files compatible with LAMMPS versions after 7 Aug 2019.  Update May 26 2021: This version is not compatible for LAMMPS versions starting with 29 Oct 2020 due to Infinify and NaN values no longer allowed."
                 },
                 "artifact": [
                     {
@@ -187,6 +187,46 @@
                     {
                         "web-link": {
                             "URL": "https://www.ctcms.nist.gov/potentials/Download/2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/3/FeCr_s.eam.fs",
+                            "label": "s_band",
+                            "link-text": "FeCr_s.eam.fs"
+                        }
+                    }
+                ]
+            },
+            {
+                "key": "e442c47b-fa74-4b6f-bba9-2549bfa5eea0",
+                "id": "2011--Bonny-G--Fe-Cr--LAMMPS--ipr3",
+                "status": "active",
+                "date": "2021-05-26",
+                "type": "LAMMPS pair_style hybrid/overlay eam/alloy eam/fs",
+                "notes": {
+                    "text": "This is a modification to the above version posted by Lucas Hale on May 26, 2021. To make the files compatible with LAMMPS versions after 29 Oct 2020, the Infinity and NaN values associated with the Cr elemental tables at r=0 are replaced with 1e+8 and 0.0 values, respectively."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/4/READ_ME.txt",
+                            "label": "Documentation",
+                            "link-text": "READ_ME.txt"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/4/Caution.pdf",
+                            "label": "Documentation",
+                            "link-text": "Caution.pdf"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/4/FeCr_d.eam.alloy",
+                            "label": "d_band",
+                            "link-text": "FeCr_d.eam.alloy"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2011--Bonny-G-Pasianot-R-C-Terentyev-D-Malerba-L--Fe-Cr/4/FeCr_s.eam.fs",
                             "label": "s_band",
                             "link-text": "FeCr_s.eam.fs"
                         }
