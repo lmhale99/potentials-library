@@ -1,1 +1,143 @@
-{"relaxed-crystal": {"key": "82f7d494-81c7-41f7-aa39-ef52d3fb3c15", "method": "box", "standing": "bad", "potential-LAMMPS": {"key": "5f437367-7020-434b-9a50-0256c4dbd1d3", "id": "2017--Beland-L-K--Fe-Ni-Cr--LAMMPS--ipr1", "potential": {"key": "444cdb82-6c02-47da-8a4a-4008888645ec", "id": "2017--Beland-L-K-Tamm-A-Mu-S-et-al--Fe-Ni-Cr"}}, "system-info": {"family": "B3--ZnS--cubic-zinc-blende", "parent_key": "1a26a029-25ed-495e-8f4c-129ed29849ce"}, "atomic-system": {"box": {"avect": {"value": [5.634607961877176, 0.0, 0.0], "unit": "angstrom"}, "bvect": {"value": [0.0, 5.634607961877176, 0.0], "unit": "angstrom"}, "cvect": {"value": [0.0, 0.0, 5.634607961877176], "unit": "angstrom"}, "origin": {"value": [0.0, 0.0, 0.0], "unit": "angstrom"}}, "periodic-boundary-condition": [true, true, true], "atom-type-symbol": ["Cr", "Fe"], "atoms": {"natoms": 8, "property": [{"name": "atype", "data": {"value": [1, 2, 1, 2, 1, 2, 1, 2]}}, {"name": "pos", "data": {"value": [0.0, 0.0, 0.0, 1.4086519904692938, 1.4086519904692938, 4.225955971407877, 0.0, 2.8173039809385876, 2.8173039809385876, 1.4086519904692938, 4.225955971407877, 1.4086519904692938, 2.8173039809385876, 0.0, 2.8173039809385876, 4.225955971407877, 1.4086519904692938, 1.4086519904692938, 2.8173039809385876, 2.8173039809385876, 0.0, 4.225955971407877, 4.225955971407877, 4.225955971407877], "shape": [8, 3], "unit": "angstrom"}}]}}, "cohesive-energy": {"value": -2.50782296884375, "unit": "eV"}}}
+{
+    "relaxed-crystal": {
+        "key": "82f7d494-81c7-41f7-aa39-ef52d3fb3c15",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "5f437367-7020-434b-9a50-0256c4dbd1d3",
+            "id": "2017--Beland-L-K--Fe-Ni-Cr--LAMMPS--ipr1",
+            "potential": {
+                "key": "444cdb82-6c02-47da-8a4a-4008888645ec",
+                "id": "2017--Beland-L-K-Tamm-A-Mu-S-et-al--Fe-Ni-Cr"
+            }
+        },
+        "system-info": {
+            "family": "B3--ZnS--cubic-zinc-blende",
+            "parent_key": "1a26a029-25ed-495e-8f4c-129ed29849ce",
+            "symbol": [
+                "Cr",
+                "Fe"
+            ],
+            "composition": "CrFe",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 5.634607961877176,
+                "b": 5.634607961877176,
+                "c": 5.634607961877176,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        5.634607961877176,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        5.634607961877176,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.634607961877176
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cr",
+                "Fe"
+            ],
+            "atoms": {
+                "natoms": 8,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.4086519904692938,
+                                1.4086519904692938,
+                                4.225955971407877,
+                                0.0,
+                                2.8173039809385876,
+                                2.8173039809385876,
+                                1.4086519904692938,
+                                4.225955971407877,
+                                1.4086519904692938,
+                                2.8173039809385876,
+                                0.0,
+                                2.8173039809385876,
+                                4.225955971407877,
+                                1.4086519904692938,
+                                1.4086519904692938,
+                                2.8173039809385876,
+                                2.8173039809385876,
+                                0.0,
+                                4.225955971407877,
+                                4.225955971407877,
+                                4.225955971407877
+                            ],
+                            "shape": [
+                                8,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.50782296884375,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.50782296884375,
+            "unit": "eV"
+        }
+    }
+}

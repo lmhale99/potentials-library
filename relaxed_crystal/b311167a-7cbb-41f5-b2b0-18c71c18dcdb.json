@@ -1,1 +1,143 @@
-{"relaxed-crystal": {"key": "b311167a-7cbb-41f5-b2b0-18c71c18dcdb", "method": "static", "standing": "good", "potential-LAMMPS": {"key": "9efb8ab7-a991-4747-86a3-3567f2de7e07", "id": "2013--Smirnova-D-E--U-Mo-Xe--LAMMPS--ipr2", "potential": {"key": "fc5a9a34-b8be-4935-aa63-aa02a15d93b8", "id": "2013--Smirnova-D-E-Kuksin-A-Y-Starikov-S-V-et-al--U-Mo-Xe"}}, "system-info": {"family": "oqmd-675537", "parent_key": "da6f808c-0175-49a5-beda-e5a63bbb113f"}, "atomic-system": {"box": {"avect": {"value": [2.8425625678265343, 0.0, 0.0], "unit": "angstrom"}, "bvect": {"value": [0.0, 5.71405910932684, 0.0], "unit": "angstrom"}, "cvect": {"value": [0.0, 0.0, 4.890879138229095], "unit": "angstrom"}, "origin": {"value": [0.0, 0.0, 0.0], "unit": "angstrom"}}, "periodic-boundary-condition": [true, true, true], "atom-type-symbol": "U", "atoms": {"natoms": 4, "property": [{"name": "atype", "data": {"value": [1, 1, 1, 1]}}, {"name": "pos", "data": {"value": [0.0, 0.0, 0.0, 1.4212812839132671, 1.7277468569272196, 2.445439569114547, 1.4212812839132671, 2.85702955466342, 0.0, 0.0, 4.5847764115906395, 2.445439569114547], "shape": [4, 3], "unit": "angstrom"}}, {"name": "atom_id", "data": {"value": [1000.0, 1001.0, 1000.0, 1001.0]}}, {"name": "c_peatom", "data": {"value": [-4.1846481358523695, -4.184648135852369, -4.1846481358523695, -4.184648135852369]}}]}}, "cohesive-energy": {"value": -4.18464813585595, "unit": "eV"}}}
+{
+    "relaxed-crystal": {
+        "key": "b311167a-7cbb-41f5-b2b0-18c71c18dcdb",
+        "method": "static",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "9efb8ab7-a991-4747-86a3-3567f2de7e07",
+            "id": "2013--Smirnova-D-E--U-Mo-Xe--LAMMPS--ipr2",
+            "potential": {
+                "key": "fc5a9a34-b8be-4935-aa63-aa02a15d93b8",
+                "id": "2013--Smirnova-D-E-Kuksin-A-Y-Starikov-S-V-et-al--U-Mo-Xe"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-675537",
+            "parent_key": "da6f808c-0175-49a5-beda-e5a63bbb113f",
+            "symbol": "U",
+            "composition": "U",
+            "cell": {
+                "crystal-family": "orthorhombic",
+                "natypes": 1,
+                "a": 2.8425625678265343,
+                "b": 5.71405910932684,
+                "c": 4.890879138229095,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.8425625678265343,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        5.71405910932684,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.890879138229095
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "U",
+            "atoms": {
+                "natoms": 4,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.4212812839132671,
+                                1.7277468569272196,
+                                2.445439569114547,
+                                1.4212812839132671,
+                                2.85702955466342,
+                                0.0,
+                                0.0,
+                                4.5847764115906395,
+                                2.445439569114547
+                            ],
+                            "shape": [
+                                4,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    },
+                    {
+                        "name": "atom_id",
+                        "data": {
+                            "value": [
+                                1000.0,
+                                1001.0,
+                                1000.0,
+                                1001.0
+                            ]
+                        }
+                    },
+                    {
+                        "name": "c_peatom",
+                        "data": {
+                            "value": [
+                                -4.1846481358523695,
+                                -4.184648135852369,
+                                -4.1846481358523695,
+                                -4.184648135852369
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.18464813585595,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.18464813585595,
+            "unit": "eV"
+        }
+    }
+}

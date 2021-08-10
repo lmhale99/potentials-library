@@ -1,1 +1,143 @@
-{"relaxed-crystal": {"key": "ee1d86dd-db8e-41c7-8878-8cf53531aeb1", "method": "static", "standing": "bad", "potential-LAMMPS": {"key": "bff3bd6f-654a-43e7-8614-aba46cff68df", "id": "2012--Ward-D-K--Cd-Te-Zn--LAMMPS--ipr1", "potential": {"key": "c76b416e-986e-462d-946d-375a5e3fa509", "id": "2012--Ward-D-K-Zhou-X-W-Wong-B-M-et-al--Cd-Te-Zn"}}, "system-info": {"family": "B3--ZnS--cubic-zinc-blende", "parent_key": "3389e703-f464-4d68-95c7-b351b16916b3"}, "atomic-system": {"box": {"avect": {"value": [6.828839402223733, 0.0, 0.0], "unit": "angstrom"}, "bvect": {"value": [0.0, 6.828839402223733, 0.0], "unit": "angstrom"}, "cvect": {"value": [0.0, 0.0, 6.828839402223733], "unit": "angstrom"}, "origin": {"value": [0.0, 0.0, 0.0], "unit": "angstrom"}}, "periodic-boundary-condition": [true, true, true], "atom-type-symbol": ["Cd", "Te"], "atoms": {"natoms": 8, "property": [{"name": "atype", "data": {"value": [1, 2, 1, 2, 1, 2, 1, 2]}}, {"name": "pos", "data": {"value": [0.0, 0.0, 0.0, 1.7072098505559332, 1.7072098505559332, 5.121629551667809, 0.0, 3.4144197011118664, 3.4144197011118664, 1.7072098505559332, 5.121629551667809, 1.7072098505559332, 3.4144197011118664, 0.0, 3.4144197011118664, 5.121629551667809, 1.7072098505559332, 1.7072098505559332, 3.4144197011118664, 3.4144197011118664, 0.0, 5.121629551667809, 5.121629551667809, 5.121629551667809], "shape": [8, 3], "unit": "angstrom"}}]}}, "cohesive-energy": {"value": -2.1731090000262503, "unit": "eV"}}}
+{
+    "relaxed-crystal": {
+        "key": "ee1d86dd-db8e-41c7-8878-8cf53531aeb1",
+        "method": "static",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "bff3bd6f-654a-43e7-8614-aba46cff68df",
+            "id": "2012--Ward-D-K--Cd-Te-Zn--LAMMPS--ipr1",
+            "potential": {
+                "key": "c76b416e-986e-462d-946d-375a5e3fa509",
+                "id": "2012--Ward-D-K-Zhou-X-W-Wong-B-M-et-al--Cd-Te-Zn"
+            }
+        },
+        "system-info": {
+            "family": "B3--ZnS--cubic-zinc-blende",
+            "parent_key": "3389e703-f464-4d68-95c7-b351b16916b3",
+            "symbol": [
+                "Cd",
+                "Te"
+            ],
+            "composition": "CdTe",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 6.828839402223733,
+                "b": 6.828839402223733,
+                "c": 6.828839402223733,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        6.828839402223733,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        6.828839402223733,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        6.828839402223733
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cd",
+                "Te"
+            ],
+            "atoms": {
+                "natoms": 8,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.7072098505559332,
+                                1.7072098505559332,
+                                5.121629551667809,
+                                0.0,
+                                3.4144197011118664,
+                                3.4144197011118664,
+                                1.7072098505559332,
+                                5.121629551667809,
+                                1.7072098505559332,
+                                3.4144197011118664,
+                                0.0,
+                                3.4144197011118664,
+                                5.121629551667809,
+                                1.7072098505559332,
+                                1.7072098505559332,
+                                3.4144197011118664,
+                                3.4144197011118664,
+                                0.0,
+                                5.121629551667809,
+                                5.121629551667809,
+                                5.121629551667809
+                            ],
+                            "shape": [
+                                8,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.1731090000262503,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.1731090000262503,
+            "unit": "eV"
+        }
+    }
+}

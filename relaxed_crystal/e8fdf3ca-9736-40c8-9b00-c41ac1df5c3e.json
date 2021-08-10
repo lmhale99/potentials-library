@@ -1,1 +1,173 @@
-{"relaxed-crystal": {"key": "e8fdf3ca-9736-40c8-9b00-c41ac1df5c3e", "method": "dynamic", "standing": "good", "potential-LAMMPS": {"key": "6a9a08f8-11be-4e37-bfbc-84044f8ecf7a", "id": "2012--Jelinek-B--Al-Si-Mg-Cu-Fe--LAMMPS--ipr2", "potential": {"key": "1515dd80-1984-49de-bc92-d5724059ff56", "id": "2012--Jelinek-B-Groh-S-Horstemeyer-M-F-et-al--Al-Si-Mg-Cu-Fe"}}, "system-info": {"family": "mp-1184444", "parent_key": "2f6e8d03-4956-497d-a689-e99f15e4a19a"}, "atomic-system": {"box": {"avect": {"value": [5.121192080957957, 0.0, 0.0], "unit": "angstrom"}, "bvect": {"value": [-2.56059604047898, 4.435082439769284, 0.0], "unit": "angstrom"}, "cvect": {"value": [0.0, 0.0, 4.33148362590541], "unit": "angstrom"}, "origin": {"value": [0.0, 0.0, 0.0], "unit": "angstrom"}}, "periodic-boundary-condition": [true, true, true], "atom-type-symbol": ["CuS", "FeS"], "atoms": {"natoms": 8, "property": [{"name": "atype", "data": {"value": [1, 1, 1, 1, 1, 1, 2, 2]}}, {"name": "pos", "data": {"value": [0.0, 0.0, 0.0, 2.6627479843616975, 0.0, 0.0, 1.331373992180848, 2.3060073983330382, 0.0, 2.6627479843616975, 1.537338265555359, 2.165741812952705, 4.440892098500626e-16, 1.537338265555359, 2.165741812952705, -1.2292220482981313, 3.666413306991604, 2.165741812952705, 1.3313739921808474, 3.725390759290535, 2.165741812952705, -1.22922204829813, 2.2470299460341074, 0.0], "shape": [8, 3], "unit": "angstrom"}}, {"name": "atom_id", "data": {"value": [3997.0, 3998.0, 3999.0, 4000.0, 4001.0, 4002.0, 4003.0, 4004.0]}}, {"name": "c_peatom", "data": {"value": [-3.8383457680651296, -3.838345774834357, -3.838345771402837, -3.8383457680651243, -3.8383457748343597, -3.8383457714028504, -2.52775452276025, -2.527754522760312]}}]}}, "cohesive-energy": {"value": -3.5106979592671252, "unit": "eV"}}}
+{
+    "relaxed-crystal": {
+        "key": "e8fdf3ca-9736-40c8-9b00-c41ac1df5c3e",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "6a9a08f8-11be-4e37-bfbc-84044f8ecf7a",
+            "id": "2012--Jelinek-B--Al-Si-Mg-Cu-Fe--LAMMPS--ipr2",
+            "potential": {
+                "key": "1515dd80-1984-49de-bc92-d5724059ff56",
+                "id": "2012--Jelinek-B-Groh-S-Horstemeyer-M-F-et-al--Al-Si-Mg-Cu-Fe"
+            }
+        },
+        "system-info": {
+            "family": "mp-1184444",
+            "parent_key": "2f6e8d03-4956-497d-a689-e99f15e4a19a",
+            "symbol": [
+                "CuS",
+                "FeS"
+            ],
+            "composition": "CuS3FeS",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 5.121192080957957,
+                "b": 5.121192080957957,
+                "c": 4.33148362590541,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        5.121192080957957,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -2.56059604047898,
+                        4.435082439769284,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.33148362590541
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "CuS",
+                "FeS"
+            ],
+            "atoms": {
+                "natoms": 8,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                2,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.6627479843616975,
+                                0.0,
+                                0.0,
+                                1.331373992180848,
+                                2.3060073983330382,
+                                0.0,
+                                2.6627479843616975,
+                                1.537338265555359,
+                                2.165741812952705,
+                                4.440892098500626e-16,
+                                1.537338265555359,
+                                2.165741812952705,
+                                -1.2292220482981313,
+                                3.666413306991604,
+                                2.165741812952705,
+                                1.3313739921808474,
+                                3.725390759290535,
+                                2.165741812952705,
+                                -1.22922204829813,
+                                2.2470299460341074,
+                                0.0
+                            ],
+                            "shape": [
+                                8,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    },
+                    {
+                        "name": "atom_id",
+                        "data": {
+                            "value": [
+                                3997.0,
+                                3998.0,
+                                3999.0,
+                                4000.0,
+                                4001.0,
+                                4002.0,
+                                4003.0,
+                                4004.0
+                            ]
+                        }
+                    },
+                    {
+                        "name": "c_peatom",
+                        "data": {
+                            "value": [
+                                -3.8383457680651296,
+                                -3.838345774834357,
+                                -3.838345771402837,
+                                -3.8383457680651243,
+                                -3.8383457748343597,
+                                -3.8383457714028504,
+                                -2.52775452276025,
+                                -2.527754522760312
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.5106979592671252,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.5106979592671252,
+            "unit": "eV"
+        }
+    }
+}

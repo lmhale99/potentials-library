@@ -1,1 +1,143 @@
-{"relaxed-crystal": {"key": "7d96116a-d839-4f42-b0de-602989bb66d5", "method": "box", "standing": "good", "potential-LAMMPS": {"key": "d6608123-3432-453e-ab94-b55822e7df12", "id": "2019--Duan-X--Ta-He--LAMMPS--ipr1", "potential": {"key": "278faa04-d121-4744-875d-e085f0b0e5da", "id": "2019--Duan-X-Xie-F-Guo-X-et-al--Ta-He"}}, "system-info": {"family": "B1--NaCl--rock-salt", "parent_key": "7d1ac41a-548a-47f4-851e-3058aa16e46b"}, "atomic-system": {"box": {"avect": {"value": [4.50506431866387, 0.0, 0.0], "unit": "angstrom"}, "bvect": {"value": [0.0, 4.50506431866387, 0.0], "unit": "angstrom"}, "cvect": {"value": [0.0, 0.0, 4.50506431866387], "unit": "angstrom"}, "origin": {"value": [0.0, 0.0, 0.0], "unit": "angstrom"}}, "periodic-boundary-condition": [true, true, true], "atom-type-symbol": ["He", "Ta"], "atoms": {"natoms": 8, "property": [{"name": "atype", "data": {"value": [1, 2, 1, 2, 1, 2, 1, 2]}}, {"name": "pos", "data": {"value": [0.0, 0.0, 0.0, 2.252532159331935, 0.0, 0.0, 0.0, 2.252532159331935, 2.252532159331935, 2.252532159331935, 2.252532159331935, 2.252532159331935, 2.252532159331935, 0.0, 2.252532159331935, 0.0, 0.0, 2.252532159331935, 2.252532159331935, 2.252532159331935, 0.0, 0.0, 2.252532159331935, 0.0], "shape": [8, 3], "unit": "angstrom"}}]}}, "cohesive-energy": {"value": -2.50722293714775, "unit": "eV"}}}
+{
+    "relaxed-crystal": {
+        "key": "7d96116a-d839-4f42-b0de-602989bb66d5",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "d6608123-3432-453e-ab94-b55822e7df12",
+            "id": "2019--Duan-X--Ta-He--LAMMPS--ipr1",
+            "potential": {
+                "key": "278faa04-d121-4744-875d-e085f0b0e5da",
+                "id": "2019--Duan-X-Xie-F-Guo-X-et-al--Ta-He"
+            }
+        },
+        "system-info": {
+            "family": "B1--NaCl--rock-salt",
+            "parent_key": "7d1ac41a-548a-47f4-851e-3058aa16e46b",
+            "symbol": [
+                "He",
+                "Ta"
+            ],
+            "composition": "HeTa",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 4.50506431866387,
+                "b": 4.50506431866387,
+                "c": 4.50506431866387,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        4.50506431866387,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        4.50506431866387,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.50506431866387
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "He",
+                "Ta"
+            ],
+            "atoms": {
+                "natoms": 8,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.252532159331935,
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.252532159331935,
+                                2.252532159331935,
+                                2.252532159331935,
+                                2.252532159331935,
+                                2.252532159331935,
+                                2.252532159331935,
+                                0.0,
+                                2.252532159331935,
+                                0.0,
+                                0.0,
+                                2.252532159331935,
+                                2.252532159331935,
+                                2.252532159331935,
+                                0.0,
+                                0.0,
+                                2.252532159331935,
+                                0.0
+                            ],
+                            "shape": [
+                                8,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.50722293714775,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.50722293714775,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,1 +1,161 @@
-{"relaxed-crystal": {"key": "a3c45e43-7cdc-4442-bb24-b41f01d1222d", "method": "static", "standing": "bad", "potential-LAMMPS": {"key": "5f437367-7020-434b-9a50-0256c4dbd1d3", "id": "2017--Beland-L-K--Fe-Ni-Cr--LAMMPS--ipr1", "potential": {"key": "444cdb82-6c02-47da-8a4a-4008888645ec", "id": "2017--Beland-L-K-Tamm-A-Mu-S-et-al--Fe-Ni-Cr"}}, "system-info": {"family": "mp-1226232", "parent_key": "b69bf466-5132-45dd-afe7-b23b6002a2d7"}, "atomic-system": {"box": {"avect": {"value": [2.532134354445905, 0.0, 0.0], "unit": "angstrom"}, "bvect": {"value": [-1.2660671772229533, 2.1928926767454637, 0.0], "unit": "angstrom"}, "cvect": {"value": [0.0, 0.0, 12.367206423546484], "unit": "angstrom"}, "origin": {"value": [0.0, 0.0, 0.0], "unit": "angstrom"}}, "periodic-boundary-condition": [true, true, true], "atom-type-symbol": ["Cr", "Ni"], "atoms": {"natoms": 6, "property": [{"name": "atype", "data": {"value": [2, 1, 2, 1, 2, 1]}}, {"name": "pos", "data": {"value": [0.0, 0.0, 0.0, 1.2660671772229524, 0.7309642255818216, 10.306005352955404, 1.2660671772229524, 0.7309642255818216, 4.122402141182162, -8.881784197001252e-16, 1.4619284511636426, 2.0612010705910806, -2.220446049250313e-16, 1.4619284511636423, 8.244804282364322, -4.930380657631324e-32, 2.220446049250313e-16, 6.183603211773242], "shape": [6, 3], "unit": "angstrom"}}, {"name": "atom_id", "data": {"value": [3001.0, 3000.0, 3001.0, 3000.0, 3001.0, 3000.0]}}, {"name": "c_peatom", "data": {"value": [-4.59121091209774, -3.4498019130900297, -4.59121091209774, -3.4498019130900297, -4.59121091209774, -3.4498019130900297]}}]}}, "cohesive-energy": {"value": -4.020506412601001, "unit": "eV"}}}
+{
+    "relaxed-crystal": {
+        "key": "a3c45e43-7cdc-4442-bb24-b41f01d1222d",
+        "method": "static",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "5f437367-7020-434b-9a50-0256c4dbd1d3",
+            "id": "2017--Beland-L-K--Fe-Ni-Cr--LAMMPS--ipr1",
+            "potential": {
+                "key": "444cdb82-6c02-47da-8a4a-4008888645ec",
+                "id": "2017--Beland-L-K-Tamm-A-Mu-S-et-al--Fe-Ni-Cr"
+            }
+        },
+        "system-info": {
+            "family": "mp-1226232",
+            "parent_key": "b69bf466-5132-45dd-afe7-b23b6002a2d7",
+            "symbol": [
+                "Cr",
+                "Ni"
+            ],
+            "composition": "CrNi",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 2.532134354445905,
+                "b": 2.5321343544459056,
+                "c": 12.367206423546484,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.532134354445905,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.2660671772229533,
+                        2.1928926767454637,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        12.367206423546484
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cr",
+                "Ni"
+            ],
+            "atoms": {
+                "natoms": 6,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                2,
+                                1,
+                                2,
+                                1,
+                                2,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.2660671772229524,
+                                0.7309642255818216,
+                                10.306005352955404,
+                                1.2660671772229524,
+                                0.7309642255818216,
+                                4.122402141182162,
+                                -8.881784197001252e-16,
+                                1.4619284511636426,
+                                2.0612010705910806,
+                                -2.220446049250313e-16,
+                                1.4619284511636423,
+                                8.244804282364322,
+                                -4.930380657631324e-32,
+                                2.220446049250313e-16,
+                                6.183603211773242
+                            ],
+                            "shape": [
+                                6,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    },
+                    {
+                        "name": "atom_id",
+                        "data": {
+                            "value": [
+                                3001.0,
+                                3000.0,
+                                3001.0,
+                                3000.0,
+                                3001.0,
+                                3000.0
+                            ]
+                        }
+                    },
+                    {
+                        "name": "c_peatom",
+                        "data": {
+                            "value": [
+                                -4.59121091209774,
+                                -3.4498019130900297,
+                                -4.59121091209774,
+                                -3.4498019130900297,
+                                -4.59121091209774,
+                                -3.4498019130900297
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.020506412601001,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.020506412601001,
+            "unit": "eV"
+        }
+    }
+}

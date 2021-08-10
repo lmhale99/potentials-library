@@ -1,1 +1,119 @@
-{"relaxed-crystal": {"key": "fbc8d3b8-228f-4e80-9059-aea869afced9", "method": "static", "standing": "bad", "potential-LAMMPS": {"key": "62a85d17-508a-406f-aedb-710902e55dd4", "id": "2018--Dickel-D-E--Mg-Al-Zn--LAMMPS--ipr1", "potential": {"key": "826e0c49-18e9-4e72-a526-aae0ff30d20d", "id": "2018--Dickel-D-E-Baskes-M-I-Aslam-I-Barrett-C-D--Mg-Al-Zn"}}, "system-info": {"family": "L1_0--AuCu", "parent_key": "1c45f546-7022-496e-9527-fabde39efea7"}, "atomic-system": {"box": {"avect": {"value": [3.039891360254382, 0.0, 0.0], "unit": "angstrom"}, "bvect": {"value": [0.0, 3.039891360254382, 0.0], "unit": "angstrom"}, "cvect": {"value": [0.0, 0.0, 4.154132768669216], "unit": "angstrom"}, "origin": {"value": [0.0, 0.0, 0.0], "unit": "angstrom"}}, "periodic-boundary-condition": [true, true, true], "atom-type-symbol": ["Mg", "Al"], "atoms": {"natoms": 2, "property": [{"name": "atype", "data": {"value": [1, 2]}}, {"name": "pos", "data": {"value": [0.0, 0.0, 0.0, 1.5199456801271898, 1.5199456801271898, 2.0770663843346067], "shape": [2, 3], "unit": "angstrom"}}]}}, "cohesive-energy": {"value": -2.57245820147505, "unit": "eV"}}}
+{
+    "relaxed-crystal": {
+        "key": "fbc8d3b8-228f-4e80-9059-aea869afced9",
+        "method": "static",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "62a85d17-508a-406f-aedb-710902e55dd4",
+            "id": "2018--Dickel-D-E--Mg-Al-Zn--LAMMPS--ipr1",
+            "potential": {
+                "key": "826e0c49-18e9-4e72-a526-aae0ff30d20d",
+                "id": "2018--Dickel-D-E-Baskes-M-I-Aslam-I-Barrett-C-D--Mg-Al-Zn"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "parent_key": "1c45f546-7022-496e-9527-fabde39efea7",
+            "symbol": [
+                "Mg",
+                "Al"
+            ],
+            "composition": "AlMg",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 3.039891360254382,
+                "b": 3.039891360254382,
+                "c": 4.154132768669216,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.039891360254382,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.039891360254382,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.154132768669216
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Mg",
+                "Al"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5199456801271898,
+                                1.5199456801271898,
+                                2.0770663843346067
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.57245820147505,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.57245820147505,
+            "unit": "eV"
+        }
+    }
+}

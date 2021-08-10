@@ -1,1 +1,143 @@
-{"relaxed-crystal": {"key": "e826f2f5-bffd-4b42-9c6d-bf238adf1d6d", "method": "dynamic", "standing": "good", "potential-LAMMPS": {"key": "c5afa7e8-6b3b-49cd-ad1c-ae3e4329363a", "id": "1986--Foiles-S-M--Ag-Au-Cu-Ni-Pd-Pt--LAMMPS--ipr1", "potential": {"key": "7a1302de-59cf-4efb-900e-cad845b68ee5", "id": "1986--Foiles-S-M-Baskes-M-I-Daw-M-S--Ag-Au-Cu-Ni-Pd-Pt"}}, "system-info": {"family": "mp-1184054", "parent_key": "ec9c792d-6e57-4574-977c-70a55b3efcd5"}, "atomic-system": {"box": {"avect": {"value": [3.5489434594946703, 0.0, 0.0], "unit": "angstrom"}, "bvect": {"value": [0.0, 3.5489434594946703, 0.0], "unit": "angstrom"}, "cvect": {"value": [0.0, 0.0, 7.097813238122491], "unit": "angstrom"}, "origin": {"value": [0.0, 0.0, 0.0], "unit": "angstrom"}}, "periodic-boundary-condition": [true, true, true], "atom-type-symbol": ["Cu", "Ni"], "atoms": {"natoms": 8, "property": [{"name": "atype", "data": {"value": [1, 2, 2, 2, 1, 2, 2, 2]}}, {"name": "pos", "data": {"value": [0.0, 0.0, 0.0, 0.0, 1.7744717297473351, 5.323359928591865, 1.7744717297473351, 0.0, 5.323359928591865, 1.7744717297473351, 1.7744717297473351, 0.0, 1.7744717297473351, 1.7744717297473351, 3.5489066190612437, 1.7744717297473351, 0.0, 1.7744533095306219, 0.0, 1.7744717297473351, 1.7744533095306219, 0.0, 0.0, 3.5489066190612437], "shape": [8, 3], "unit": "angstrom"}}]}}, "cohesive-energy": {"value": -4.207955057190749, "unit": "eV"}}}
+{
+    "relaxed-crystal": {
+        "key": "e826f2f5-bffd-4b42-9c6d-bf238adf1d6d",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "c5afa7e8-6b3b-49cd-ad1c-ae3e4329363a",
+            "id": "1986--Foiles-S-M--Ag-Au-Cu-Ni-Pd-Pt--LAMMPS--ipr1",
+            "potential": {
+                "key": "7a1302de-59cf-4efb-900e-cad845b68ee5",
+                "id": "1986--Foiles-S-M-Baskes-M-I-Daw-M-S--Ag-Au-Cu-Ni-Pd-Pt"
+            }
+        },
+        "system-info": {
+            "family": "mp-1184054",
+            "parent_key": "ec9c792d-6e57-4574-977c-70a55b3efcd5",
+            "symbol": [
+                "Cu",
+                "Ni"
+            ],
+            "composition": "CuNi3",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 3.5489434594946703,
+                "b": 3.5489434594946703,
+                "c": 7.097813238122491,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.5489434594946703,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.5489434594946703,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        7.097813238122491
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cu",
+                "Ni"
+            ],
+            "atoms": {
+                "natoms": 8,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2,
+                                2,
+                                2,
+                                1,
+                                2,
+                                2,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.7744717297473351,
+                                5.323359928591865,
+                                1.7744717297473351,
+                                0.0,
+                                5.323359928591865,
+                                1.7744717297473351,
+                                1.7744717297473351,
+                                0.0,
+                                1.7744717297473351,
+                                1.7744717297473351,
+                                3.5489066190612437,
+                                1.7744717297473351,
+                                0.0,
+                                1.7744533095306219,
+                                0.0,
+                                1.7744717297473351,
+                                1.7744533095306219,
+                                0.0,
+                                0.0,
+                                3.5489066190612437
+                            ],
+                            "shape": [
+                                8,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.207955057190749,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.207955057190749,
+            "unit": "eV"
+        }
+    }
+}
