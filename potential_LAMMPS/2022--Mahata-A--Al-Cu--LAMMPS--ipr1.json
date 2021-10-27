@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "1d3bd9cd-46d1-411a-bebd-ef3dcd3979de",
+        "id": "2022--Mahata-A--Al-Cu--LAMMPS--ipr1",
+        "potential": {
+            "key": "98bc1386-8d7c-40e5-a846-91514963f78a",
+            "id": "2022--Mahata-A-Mukhopadhyay-T-Zaeem-M-A--Al-Cu"
+        },
+        "comments": "Potential 2022--Mahata-A--Al-Cu--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Mahata-A-Mukhopadhyay-T-Zaeem-M-A--Al-Cu/2022--Mahata-A--Al-Cu--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 27.0
+            },
+            {
+                "symbol": "Cu",
+                "element": "Cu",
+                "mass": 63.546
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.AlCu.meam"
+                },
+                {
+                    "option": "Al Cu"
+                },
+                {
+                    "file": "AlCu.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Mahata-A-Mukhopadhyay-T-Zaeem-M-A--Al-Cu/1/AlCu.meam",
+                    "link-text": "AlCu.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Mahata-A-Mukhopadhyay-T-Zaeem-M-A--Al-Cu/1/library.AlCu.meam",
+                    "link-text": "library.AlCu.meam"
+                }
+            }
+        ]
+    }
+}
