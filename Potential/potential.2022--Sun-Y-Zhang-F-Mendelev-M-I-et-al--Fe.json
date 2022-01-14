@@ -1,0 +1,65 @@
+{
+    "interatomic-potential": {
+        "key": "186a42fa-0cef-40ad-96da-f8cc1b820824",
+        "id": "2022--Sun-Y-Zhang-F-Mendelev-M-I-et-al--Fe",
+        "record-version": "2021-07-16",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Two-step nucleation of the Earth's inner core",
+                "author": [
+                    {
+                        "given-name": "Y.",
+                        "surname": "Sun"
+                    },
+                    {
+                        "given-name": "F.",
+                        "surname": "Zhang"
+                    },
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Mendelev"
+                    },
+                    {
+                        "given-name": "R.M.",
+                        "surname": "Wentzcovitch"
+                    },
+                    {
+                        "given-name": "K.-M.",
+                        "surname": "Ho"
+                    }
+                ],
+                "publication-name": "Proceedings of the National Academy of Sciences",
+                "publication-date": {
+                    "year": 2022
+                },
+                "volume": 119,
+                "issue": 2,
+                "abstract": "The Earth's inner core started forming when molten iron cooled below the melting point. However, the nucleation mechanism, which is a necessary step of crystallization, has not been well understood. Recent studies have found that it requires an unrealistic degree of undercooling to nucleate the stable, hexagonal, close-packed (hcp) phase of iron that is unlikely to be reached under core conditions and age. This contradiction is referred to as the inner core nucleation paradox. Using a persistent embryo method and molecular dynamics simulations, we demonstrate that the metastable, body-centered, cubic (bcc) phase of iron has a much higher nucleation rate than does the hcp phase under inner core conditions. Thus, the bcc nucleation is likely to be the first step of inner core formation, instead of direct nucleation of the hcp phase. This mechanism reduces the required undercooling of iron nucleation, which provides a key factor in solving the inner core nucleation paradox. The two-step nucleation scenario of the inner core also opens an avenue for understanding the structure and anisotropy of the present inner core.",
+                "pages": "e2113059119",
+                "DOI": "10.1073/pnas.2113059119",
+                "bibtex": "@article{Sun_2022,\n abstract = {The Earth's inner core started forming when molten iron cooled below the melting point. However, the nucleation mechanism, which is a necessary step of crystallization, has not been well understood. Recent studies have found that it requires an unrealistic degree of undercooling to nucleate the stable, hexagonal, close-packed (hcp) phase of iron that is unlikely to be reached under core conditions and age. This contradiction is referred to as the inner core nucleation paradox. Using a persistent embryo method and molecular dynamics simulations, we demonstrate that the metastable, body-centered, cubic (bcc) phase of iron has a much higher nucleation rate than does the hcp phase under inner core conditions. Thus, the bcc nucleation is likely to be the first step of inner core formation, instead of direct nucleation of the hcp phase. This mechanism reduces the required undercooling of iron nucleation, which provides a key factor in solving the inner core nucleation paradox. The two-step nucleation scenario of the inner core also opens an avenue for understanding the structure and anisotropy of the present inner core.},\n author = {Yang Sun and Feng Zhang and Mikhail I. Mendelev and Renata M. Wentzcovitch and Kai-Ming Ho},\n doi = {10.1073/pnas.2113059119},\n journal = {Proceedings of the National Academy of Sciences},\n month = {jan},\n number = {2},\n pages = {e2113059119},\n publisher = {Proceedings of the National Academy of Sciences},\n title = {Two-step nucleation of the Earth's inner core},\n url = {https://doi.org/10.1073%2Fpnas.2113059119},\n volume = {119},\n year = {2022}\n}\n\n"
+            },
+            "notes": {
+                "text": "This potential was developed to simulate the solidification of Fe under the Earth's inner core conditions. Update Jan 12 2022: Citation information added and id updated from 2021--Mendelev-M-I--Fe."
+            }
+        },
+        "implementation": {
+            "key": "33cbd06c-ab99-4b9b-8900-62b98c98ce10",
+            "id": "2022--Sun-Y--Fe--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2021-07-16",
+            "type": "LAMMPS pair_style eam/fs",
+            "notes": {
+                "text": "This file was provided by Mikhail Mendelev on July 15, 2021 and posted with his permission."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Sun-Y-Zhang-F-Mendelev-M-I-et-al--Fe/1/Fe_Earth_core.eam.fs",
+                    "link-text": "Fe_Earth_core.eam.fs"
+                }
+            }
+        },
+        "element": "Fe"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "interatomic-potential": {
+        "key": "f33fbb2c-82d8-45c1-8199-eac338de6861",
+        "id": "2021--Song-H-Mendelev-M-I--Al-Sm",
+        "record-version": "2021-03-15",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Molecular Dynamics Study of Mechanism of Solid-Liquid Interface Migration and Defect Formation in Al<sub>3</sub>Sm Alloy",
+                "author": [
+                    {
+                        "given-name": "H.",
+                        "surname": "Song"
+                    },
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Mendelev"
+                    }
+                ],
+                "publication-name": "JOM",
+                "publication-date": {
+                    "year": 2021
+                },
+                "volume": 73,
+                "issue": 8,
+                "abstract": "We developed a Finnis-Sinclair potential suitable for molecular dynamics (MD) simulation of solidification of Al<sub>3</sub>Sm alloy. The MD simulation showed a layer-by-layer solid-liquid interface (SLI) motion mechanism in the [001] direction. The SLI migration seems to be satisfactorily described by Wilson-Frenkel theory in the temperature interval from 0.7T<sub>m</sub> to T<sub>m</sub>. It was found that the SLI passes an atomic plane as soon as the Sm sublattice is formed while the Al sublattice keeps forming for a while after that, and high Al diffusivity is observed in the solid phase. Those unsettled Al atoms trapped in solid phase will leave vacancies and form defects.",
+                "pages": "2312-2319",
+                "DOI": "10.1007/s11837-021-04733-8",
+                "bibtex": "@article{Song_2021,\n abstract = {We developed a Finnis-Sinclair potential suitable for molecular dynamics (MD) simulation of solidification of Al<sub>3</sub>Sm alloy. The MD simulation showed a layer-by-layer solid-liquid interface (SLI) motion mechanism in the [001] direction. The SLI migration seems to be satisfactorily described by Wilson-Frenkel theory in the temperature interval from 0.7T<sub>m</sub> to T<sub>m</sub>. It was found that the SLI passes an atomic plane as soon as the Sm sublattice is formed while the Al sublattice keeps forming for a while after that, and high Al diffusivity is observed in the solid phase. Those unsettled Al atoms trapped in solid phase will leave vacancies and form defects.},\n author = {H. Song and M. I. Mendelev},\n doi = {10.1007/s11837-021-04733-8},\n journal = {JOM},\n month = {jun},\n number = {8},\n pages = {2312--2319},\n publisher = {Springer Science and Business Media LLC},\n title = {Molecular Dynamics Study of Mechanism of Solid-Liquid Interface Migration and Defect Formation in Al<sub>3</sub>Sm Alloy},\n url = {https://doi.org/10.1007%2Fs11837-021-04733-8},\n volume = {73},\n year = {2021}\n}\n\n"
+            },
+            "notes": {
+                "text": "Update Jan 14 2022: Citation information added and id updated from 2021--Mendelev-M--Al-Sm."
+            }
+        },
+        "implementation": {
+            "key": "ca128b82-3892-48fd-a8fd-9aa360470042",
+            "id": "2021--Song-H--Al-Sm--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2021-03-15",
+            "type": "LAMMPS pair_style eam/fs",
+            "notes": {
+                "text": "This file was provided by Mikhail Mendelev on March 12, 2021 and posted with his permission. Update 19 July 2021: The contact email in the file's header has been changed. Update Jan 14 2022: Citation information has been updated in the file's header."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Song-H-Mendelev-M-I--Al-Sm/1/v2_18_Al3Sm_2016.eam.fs",
+                    "link-text": "v2_18_Al3Sm_2016.eam.fs"
+                }
+            }
+        },
+        "element": [
+            "Al",
+            "Sm"
+        ]
+    }
+}
