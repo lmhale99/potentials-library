@@ -1,5 +1,5 @@
-Source: M.I. Mendelev, unpublished
-Contact information: mikhail.mendelev@gmail.com
+Source: V. Borovikov, M.I. Mendelev, and A.H. King, Effects of stable and unstable stacking fault energy on dislocation nucleation in nano-crystalline metals, Model Simul Mat Sci Eng, 24(8), 085017 (2016).
+Contact information: mikhail.mendelev@gmail.com      Not designed to simulate the real Cu! (MCu34)
 Wednesday, Jan 14, 2015  The potential was taken from v6_22_fcc (in C:\SIMULATION.MD\Cu\Results\v6_22)
 1  Cu  
 10000   3.00000000000000E-0002  10000   6.00000000000000E-0004   6.00000000000000E+0000

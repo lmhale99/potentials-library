@@ -1,4 +1,4 @@
-Source: M.I. Mendelev, unpublished
+Source: V. Borovikov, M.I. Mendelev, and A.H. King, Effects of stable and unstable stacking fault energy on dislocation nucleation in nano-crystalline metals, Model Simul Mat Sci Eng, 24(8), 085017 (2016).
 Contact information: mikhail.mendelev@gmail.com
 Wednesday, Apr 27, 2016  The potential was taken from CuZr_B2 (in C:\SIMULATION.MD\Cu-Zr\Results\v9_7)
 2  Cu  Zr  

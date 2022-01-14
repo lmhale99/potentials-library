@@ -1,5 +1,5 @@
-Sourse: M.I. Mendelev and A.H. King, Phil. Mag. 93, 1268-1278 (2013). (MCu3)
-Contact information: mikhail.mendelev@gmail.com
+Source: V. Borovikov, M.I. Mendelev, A.H. King, and R. LeSar, Effect of stacking fault energy on mechanism of plastic deformation in nanotwinned FCC metals, Model Simul Mat Sci Eng, 23(5), 055003 (2015).
+Contact information: mikhail.mendelev@gmail.com      Not designed to simulate the real Cu! (MCu3)
 Thursday, Jun 28, 2012  The potential was taken from v5_16_fcc (in C:\SIMULATION.MD\Cu\Results\v5_16)
 1  Cu  
 10000   3.00000000000000E-0002  10000   6.00000000000000E-0004   6.00000000000000E+0000

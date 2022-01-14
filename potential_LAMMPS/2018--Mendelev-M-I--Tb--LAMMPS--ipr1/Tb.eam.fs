@@ -1,4 +1,4 @@
-Source: M.I. Mendelev, unpublished
+Source: M.I. Mendelev, F. Zhang, H. Song, Y. Sun, C.Z. Wang, and K.M. Ho, Molecular dynamics simulation of the solid-liquid interface migration in terbium, J Chem Phys, 148(21), 214705 (2018).
 Contact information: mikhail.mendelev@gmail.com
 Thursday, Jan 4, 2018  The potential was taken from v2_7_hcp (in C:\SIMULATION.MD\Tb\Results\v2_7)
 1  Tb  

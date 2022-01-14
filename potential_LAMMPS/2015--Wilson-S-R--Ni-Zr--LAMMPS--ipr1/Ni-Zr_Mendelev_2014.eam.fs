@@ -1,4 +1,4 @@
-Sourse: M.I. Mendelev, unpublished
+Source: S.R. Wilson, and M.I. Mendelev, Anisotropy of the solid-liquid interface properties of the Ni-Zr B33 phase from molecular dynamics simulation, Phil Mag, 95(2), 224-241 (2015).
 Contact information: mikhail.mendelev@gmail.com
 Tuesday, May 10, 2011  The potential was taken from v3_30_NiZr_B2 (in C:\SIMULATION.MD\Ni-Zr\Results\v3_30)
 2  Ni  Zr  

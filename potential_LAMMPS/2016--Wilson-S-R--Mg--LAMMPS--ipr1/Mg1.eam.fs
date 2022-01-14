@@ -1,4 +1,4 @@
-Source: M.I. Mendelev, unpublished
+Source: S.R. Wilson, and M.I. Mendelev, A unified relation for the solid-liquid interface free energy of pure FCC, BCC, and HCP metals, J Chem Phys, 144(14), 144707 (2016). 
 Contact information: mikhail.mendelev@gmail.com
 Tuesday, Feb 24, 2015  The potential was taken from v1_12_hcp (in C:\SIMULATION.MD\Mg\Results\v1_12)
 1  Mg  

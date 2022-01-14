@@ -1,5 +1,5 @@
-Source: M.I. Mendelev, unpublished
-Contact information: mikhail.mendelev@gmail.com
+Source: S.R. Wilson, K.G.S.H. Gunawardana, and M.I. Mendelev, Solid-liquid interface free energies of pure bcc metals and B2 phases, J Chem Phys, 142(13), 134705 (2015).
+Contact information: mikhail.mendelev@gmail.com      Not designed to simulate the real Na! (Na3)
 Monday, Dec 8, 2014  The potential was taken from v1_9_bcc (in C:\SIMULATION.MD\Na\Results\v1_9)
 1  Na  
 10000   1.00000000000000E-0002  10000   9.20000000000000E-0004   9.20000000000000E+0000

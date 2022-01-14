@@ -1,4 +1,4 @@
-Sourse: M.I. Mendelev, unpublished
+Source: M.I. Mendelev, M.J. Kramer, R.T. Ott, D.J. Sordelet, D. Yagodin, and P. Popel, Development of suitable interatomic potentials for simulation of liquid and amorphous Cu-Zr alloys, Phil Mag, 89(11), 967-987 (2009).
 Contact information: mikhail.mendelev@gmail.com
 Thursday, May 29, 2008  The potential was taken from v5_14_CuZr_B2 (in C:\SIMULATION.MD\Cu-Zr\v5_14)
 2  Cu  Zr  

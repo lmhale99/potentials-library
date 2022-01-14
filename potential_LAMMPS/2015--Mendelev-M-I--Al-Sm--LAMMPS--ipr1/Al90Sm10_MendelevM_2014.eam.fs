@@ -1,4 +1,4 @@
-Source: M.I. Mendelev, unpublished
+Source: M.I. Mendelev, F. Zhang, Z. Ye, Y. Sun, M.C. Nguyen, S.R. Wilson, C.Z. Wang, and K.M. Ho, Development of interatomic potentials appropriate for simulation of devitrification of Al90Sm10alloy, Model Simul Mat Sci Eng, 23(4), 045013 (2015).
 Contact information: mikhail.mendelev@gmail.com
 Wednesday, Jul 31, 2013  The potential was taken from v4_1_Al3Sm (in C:\SIMULATION.MD\Al-Sm\Results\v4_1)
 2  Al  Sm  

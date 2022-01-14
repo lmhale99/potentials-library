@@ -1,4 +1,4 @@
-Source: M.I. Mendelev, unpublished
+Source: Z. Pan, V. Borovikov, M.I. Mendelev, and F. Sansoz, Development of a semi-empirical potential for simulation of Ni solute segregation into grain boundaries in Ag, Model Simul Mat Sci Eng, 26(7), 075004 (2018).
 Contact information: mikhail.mendelev@gmail.com
 Thursday, Feb 22, 2018  The potential was taken from v5_17_Ag_1Ni (in C:\SIMULATION.MD\Ag-Ni\Ag-Ni\Results\v5_17)
 2  Ag  Ni  

@@ -1,5 +1,5 @@
-Source: M.I. Mendelev, unpublished
-Contact information: mikhail.mendelev@gmail.com
+Source: S.R. Wilson, and M.I. Mendelev, A unified relation for the solid-liquid interface free energy of pure FCC, BCC, and HCP metals, J Chem Phys, 144(14), 144707 (2016). 
+Contact information: mikhail.mendelev@gmail.com      Not designed to simulate the real Mg! (Mg')
 Monday, Jun 15, 2015  The potential was taken from v2_15_hcp (in C:\SIMULATION.MD\Mg\Results\v2_15)
 1  Mg  
 10000   2.00000000000000E-0002  10000   7.50000000000000E-0004   7.50000000000000E+0000

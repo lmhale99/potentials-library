@@ -1,4 +1,4 @@
-Source: M.I. Mendelev, unpublished
+Source: M.I. Mendelev, Y. Sun, F. Zhang, C.Z. Wang, and K.M. Ho, Development of a semi-empirical potential suitable for molecular dynamics simulation of vitrification in Cu-Zr alloys, J Chem Phys, 151(21), 214502 (2019).
 Contact information: mikhail.mendelev@gmail.com
 Tuesday, Oct 8, 2019  The potential was taken from Laves_phase_MgZn2_T=0 (in C:\SIMULATION.MD\Cu-Zr\v10_5\Laves_phases)
 2  Cu  Zr  

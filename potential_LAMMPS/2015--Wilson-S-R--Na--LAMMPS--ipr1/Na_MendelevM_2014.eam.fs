@@ -1,4 +1,4 @@
-Source: M.I. Mendelev, unpublished
+Source: S.R. Wilson, K.G.S.H. Gunawardana, and M.I. Mendelev, Solid-liquid interface free energies of pure bcc metals and B2 phases, J Chem Phys, 142(13), 134705 (2015).
 Contact information: mikhail.mendelev@gmail.com
 Tuesday, Sep 2, 2014  The potential was taken from v1_4_bcc (in C:\SIMULATION.MD\Na\Results\v1_4)
 1  Na  

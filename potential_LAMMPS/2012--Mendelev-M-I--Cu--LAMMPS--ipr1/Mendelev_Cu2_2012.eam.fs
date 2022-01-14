@@ -1,4 +1,4 @@
-Sourse: M.I. Mendelev and A.H. King, unpublished
+Source: M.I. Mendelev, and A.H. King, The interactions of self-interstitials with twin boundaries, Phil Mag, 93(10-12), 1268-1278 (2013).
 Contact information: mikhail.mendelev@gmail.com
 Thursday, Jun 28, 2012  The potential was taken from v5_16_fcc (in C:\SIMULATION.MD\Cu\Results\v5_16)
 1  Cu  
