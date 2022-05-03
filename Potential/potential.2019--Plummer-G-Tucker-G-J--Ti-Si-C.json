@@ -1,0 +1,57 @@
+{
+    "interatomic-potential": {
+        "key": "561979df-45bb-4839-aa12-f68649d4dbc9",
+        "id": "2019--Plummer-G-Tucker-G-J--Ti-Si-C",
+        "record-version": "2022-03-11",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Bond-order potentials for the Ti<sub>3</sub>AlC<sub>2</sub> and Ti<sub>3</sub>SiC<sub>2</sub> MAX phases",
+                "author": [
+                    {
+                        "given-name": "G.",
+                        "surname": "Plummer"
+                    },
+                    {
+                        "given-name": "G.J.",
+                        "surname": "Tucker"
+                    }
+                ],
+                "publication-name": "Physical Review B",
+                "publication-date": {
+                    "year": 2019
+                },
+                "volume": 100,
+                "issue": 21,
+                "abstract": "Bond-order potentials have been developed for the Ti<sub>3</sub>AlC<sub>2</sub> and Ti<sub>3</sub>SiC<sub>2</sub> MAX phases within the Tersoff formalism. Parameters were determined by independently considering each interatomic interaction present in the system and fitting them to the relevant structural, elastic, and defect properties for a number of unary, binary, and ternary structures. A number of material properties, including those not used in the fitting procedure, are reproduced with a high degree of accuracy when compared to experiment and ab initio calculations. Additionally, well-documented MAX phase behaviors such as plastic anisotropy and kinking nonlinear elasticity are demonstrated to be captured by the potentials. As a first highly accurate atomistic model for MAX phases, these potentials provide the opportunity to study some of the fundamental mechanisms behind unique MAX phase properties. Additionally, the fitting procedure employed is highly transferable and should be applicable to numerous other MAX phases.",
+                "pages": "214114",
+                "DOI": "10.1103/physrevb.100.214114",
+                "bibtex": "@article{Plummer_2019,\n abstract = {Bond-order potentials have been developed for the Ti<sub>3</sub>AlC<sub>2</sub> and Ti<sub>3</sub>SiC<sub>2</sub> MAX phases within the Tersoff formalism. Parameters were determined by independently considering each interatomic interaction present in the system and fitting them to the relevant structural, elastic, and defect properties for a number of unary, binary, and ternary structures. A number of material properties, including those not used in the fitting procedure, are reproduced with a high degree of accuracy when compared to experiment and ab initio calculations. Additionally, well-documented MAX phase behaviors such as plastic anisotropy and kinking nonlinear elasticity are demonstrated to be captured by the potentials. As a first highly accurate atomistic model for MAX phases, these potentials provide the opportunity to study some of the fundamental mechanisms behind unique MAX phase properties. Additionally, the fitting procedure employed is highly transferable and should be applicable to numerous other MAX phases.},\n author = {Gabriel Plummer and Garritt J. Tucker},\n doi = {10.1103/physrevb.100.214114},\n journal = {Physical Review B},\n month = {dec},\n number = {21},\n pages = {214114},\n publisher = {American Physical Society (APS)},\n title = {Bond-order potentials for the Ti<sub>3</sub>AlC<sub>2</sub> and Ti<sub>3</sub>SiC<sub>2</sub> MAX phases},\n url = {https://doi.org/10.1103%2Fphysrevb.100.214114},\n volume = {100},\n year = {2019}\n}\n\n"
+            },
+            "notes": {
+                "text": "This potential was designed for the study of MAX phases."
+            }
+        },
+        "implementation": {
+            "key": "78e62d8c-f7bd-48bf-b39f-dd84e8f91742",
+            "id": "2019--Plummer-G--Ti-Si-C--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2022-03-11",
+            "type": "LAMMPS pair_style tersoff",
+            "notes": {
+                "text": "This file was taken from the supplementary material of the associated paper and posted with Gabriel Plummer's permission."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2019--Plummer-G-Tucker-G-J--Ti-Si-C/1/TSCBOP.tersoff",
+                    "link-text": "TSCBOP.tersoff"
+                }
+            }
+        },
+        "element": [
+            "Ti",
+            "Si",
+            "C"
+        ]
+    }
+}

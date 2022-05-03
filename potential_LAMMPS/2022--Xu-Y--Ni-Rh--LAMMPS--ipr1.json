@@ -1,0 +1,44 @@
+{
+    "potential-LAMMPS": {
+        "key": "e595ebfc-746c-4c4d-8c1c-6003a7ce4c58",
+        "id": "2022--Xu-Y--Ni-Rh--LAMMPS--ipr1",
+        "potential": {
+            "key": "305f3a4a-c546-442c-a466-4ef29001886d",
+            "id": "2022--Xu-Y-Wang-G-Qian-P-Su-Y--Ni-Rh"
+        },
+        "comments": "Potential 2022--Xu-Y--Ni-Rh--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Xu-Y-Wang-G-Qian-P-Su-Y--Ni-Rh/2022--Xu-Y--Ni-Rh--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.6934
+            },
+            {
+                "symbol": "Rh",
+                "element": "Rh",
+                "mass": 102.9055
+            }
+        ],
+        "pair_style": {
+            "type": "adp"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "NiRh.adp.txt"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Xu-Y-Wang-G-Qian-P-Su-Y--Ni-Rh/1/NiRh.adp.txt",
+                "link-text": "NiRh.adp.txt"
+            }
+        }
+    }
+}

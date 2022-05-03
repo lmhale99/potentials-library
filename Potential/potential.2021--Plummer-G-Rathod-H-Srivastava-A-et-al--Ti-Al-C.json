@@ -1,0 +1,88 @@
+{
+    "interatomic-potential": {
+        "key": "fdf6d929-52c1-4cd2-afd2-363b440dd812",
+        "id": "2021--Plummer-G-Rathod-H-Srivastava-A-et-al--Ti-Al-C",
+        "record-version": "2022-03-11",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "On the origin of kinking in layered crystalline solids",
+                "author": [
+                    {
+                        "given-name": "G.",
+                        "surname": "Plummer"
+                    },
+                    {
+                        "given-name": "H.",
+                        "surname": "Rathod"
+                    },
+                    {
+                        "given-name": "A.",
+                        "surname": "Srivastava"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Radovic"
+                    },
+                    {
+                        "given-name": "T.",
+                        "surname": "Ouisse"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Yildizhan"
+                    },
+                    {
+                        "given-name": "P.O.",
+                        "surname": "Persson"
+                    },
+                    {
+                        "given-name": "K.",
+                        "surname": "Lambrinou"
+                    },
+                    {
+                        "given-name": "M.W.",
+                        "surname": "Barsoum"
+                    },
+                    {
+                        "given-name": "G.J.",
+                        "surname": "Tucker"
+                    }
+                ],
+                "publication-name": "Materials Today",
+                "publication-date": {
+                    "year": 2021
+                },
+                "volume": 43,
+                "abstract": "Kinking is a deformation mechanism ubiquitous to layered systems, ranging from the nanometer scale in layered crystalline solids, to the kilometer scale in geological formations. Herein, we demonstrate its origins in the former through multiscale experiments and atomistic simulations. When compressively loaded parallel to their basal planes, layered crystalline solids first buckle elastically, then nucleate atomic-scale, highly stressed ripplocation boundaries – a process driven by redistributing strain from energetically expensive in-plane bonds to cheaper out-of-plane bonds. The consequences are far reaching as the unique mechanical properties of layered crystalline solids are highly dependent upon their ability to deform by kinking. Moreover, the compressive strength of numerous natural and engineered layered systems depends upon the ease of kinking or lack there of.",
+                "pages": "45-52",
+                "DOI": "10.1016/j.mattod.2020.11.014",
+                "bibtex": "@article{Plummer_2021,\n abstract = {Kinking is a deformation mechanism ubiquitous to layered systems, ranging from the nanometer scale in layered crystalline solids, to the kilometer scale in geological formations. Herein, we demonstrate its origins in the former through multiscale experiments and atomistic simulations. When compressively loaded parallel to their basal planes, layered crystalline solids first buckle elastically, then nucleate atomic-scale, highly stressed ripplocation boundaries – a process driven by redistributing strain from energetically expensive in-plane bonds to cheaper out-of-plane bonds. The consequences are far reaching as the unique mechanical properties of layered crystalline solids are highly dependent upon their ability to deform by kinking. Moreover, the compressive strength of numerous natural and engineered layered systems depends upon the ease of kinking or lack there of.},\n author = {G. Plummer and H. Rathod and A. Srivastava and M. Radovic and T. Ouisse and M. Yildizhan and P.O.Å. Persson and K. Lambrinou and M.W. Barsoum and G.J. Tucker},\n doi = {10.1016/j.mattod.2020.11.014},\n journal = {Materials Today},\n month = {mar},\n pages = {45--52},\n publisher = {Elsevier BV},\n title = {On the origin of kinking in layered crystalline solids},\n url = {https://doi.org/10.1016%2Fj.mattod.2020.11.014},\n volume = {43},\n year = {2021}\n}\n\n"
+            },
+            "notes": {
+                "text": "This potential was designed for studies of MAX phase deformation, with particular attention paid to replicating the characteristics of basal slip. It successfully captures MAX phase plastic anisotropy, predicting deformation by both basal slip and kinking depending on orientation. Note that this is the second iteration of the 2019--Plummer-G-Tucker-G-J--Ti-Al-C potential, developed over both publications. This iteration is more suitable for deformation studies rather than irradiation tolerance."
+            }
+        },
+        "implementation": {
+            "key": "0bed07fe-ec61-4483-9955-b1dad32f0feb",
+            "id": "2021--Plummer-G--Ti-Al-C--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2022-03-11",
+            "type": "LAMMPS pair_style tersoff",
+            "notes": {
+                "text": "This file was provided by Gabriel Plummer on March 2, 2022 and posted with his permission."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Plummer-G-Rathod-H-Srivastava-A-et-al--Ti-Al-C/1/TACBOP2.tersoff",
+                    "link-text": "TACBOP2.tersoff"
+                }
+            }
+        },
+        "element": [
+            "Ti",
+            "Al",
+            "C"
+        ]
+    }
+}

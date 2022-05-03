@@ -1,0 +1,44 @@
+{
+    "potential-LAMMPS": {
+        "key": "a25ddd86-da26-4652-81ee-f5eee5ad4158",
+        "id": "2022--Mendelev-M-I--Ni-Nb--LAMMPS--ipr1",
+        "potential": {
+            "key": "1e4c5579-e3e7-4a37-a3e9-f68cc62fc544",
+            "id": "2022--Mendelev-M-I--Ni-Nb"
+        },
+        "comments": "Potential 2022--Mendelev-M-I--Ni-Nb--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Mendelev-M-I--Ni-Nb/2022--Mendelev-M-I--Ni-Nb--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.6934
+            },
+            {
+                "symbol": "Nb",
+                "element": "Nb",
+                "mass": 92.9064
+            }
+        ],
+        "pair_style": {
+            "type": "eam/fs"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "v1_18_NiNb_B2.eam.fs"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Mendelev-M-I--Ni-Nb/1/v1_18_NiNb_B2.eam.fs",
+                "link-text": "v1_18_NiNb_B2.eam.fs"
+            }
+        }
+    }
+}
