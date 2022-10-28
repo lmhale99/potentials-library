@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "2401db97-a42d-4ce7-97a1-e5860a5f52f0",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2401db97-a42d-4ce7-97a1-e5860a5f52f0",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "b5aa8e6b-387d-4cfb-ba34-82878ab1fa1c",
+            "id": "2017--Kim-J-S--Pt-Ti--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2017--Kim-J-S--Pt-Ti--LAMMPS--ipr1",
+            "potential": {
+                "key": "94d28e50-2d02-4f9e-9c66-78c4b3d39f76",
+                "id": "2017--Kim-J-S-Seol-D-Ji-J-et-al--Pt-Ti",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2017--Kim-J-S-Seol-D-Ji-J-et-al--Pt-Ti"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "dc8983a8-5733-4bd7-97aa-64758c6d06c4",
+            "symbol": [
+                "Pt",
+                "Ti"
+            ],
+            "composition": "PtTi",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 3.180045279227547,
+                "b": 3.180045279227547,
+                "c": 3.180045279227547,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.180045279227547,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.180045279227547,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.180045279227547
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Pt",
+                "Ti"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5900226396137735,
+                                1.5900226396137735,
+                                1.5900226396137735
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -6.2450000004295,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -6.2450000004295,
+            "unit": "eV"
+        }
+    }
+}

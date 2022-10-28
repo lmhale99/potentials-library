@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "6efa1956-85a1-4a3b-98a2-33f0e335a9a8",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/6efa1956-85a1-4a3b-98a2-33f0e335a9a8",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "27736eac-b43a-42fe-9bd3-35137b4b087e",
+            "id": "2021--Starikov-S--Fe--LAMMPS--ipr2",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2021--Starikov-S--Fe--LAMMPS--ipr2",
+            "potential": {
+                "key": "48617ddd-9e54-40ad-b65b-3ce6ea580075",
+                "id": "2021--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "2124f186-4736-4faa-b495-58d45bf4c1e2",
+            "symbol": [
+                "Fe",
+                "nmFe"
+            ],
+            "composition": "FenmFe",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.810228961396735,
+                "b": 2.810228961396735,
+                "c": 7.616529732717601,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.810228961396735,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.810228961396735,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        7.616529732717601
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Fe",
+                "nmFe"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.4051144806983675,
+                                1.4051144806983675,
+                                3.8082648663588006
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -1.0062312650238001,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -1.0062312650238001,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "relaxed-crystal": {
+        "key": "ecda80aa-7bd2-40e0-9b23-478f2970a11b",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/ecda80aa-7bd2-40e0-9b23-478f2970a11b",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_228581001644_004",
+            "id": "Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Mo__MO_228581001644_004",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_228581001644",
+            "potential": {
+                "key": "1b3c2a68-da27-47d1-8844-b0e28f3c3d6c",
+                "id": "1959--Girifalco-L-A-Weizer-V-G--Mo",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1959--Girifalco-L-A-Weizer-V-G--Mo"
+            }
+        },
+        "system-info": {
+            "family": "Ah--alpha-Po--sc",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/Ah--alpha-Po--sc",
+            "parent_key": "2cc62aeb-e630-4235-b103-de8c092a86ac",
+            "symbol": "Mo",
+            "composition": "Mo",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 1,
+                "a": 2.6724882276318773,
+                "b": 2.6724882276318773,
+                "c": 2.6724882276318773,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.6724882276318773,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.6724882276318773,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.6724882276318773
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Mo",
+            "atoms": {
+                "natoms": 1,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": 1
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "shape": [
+                                1,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.6665636277575,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.6665636277575,
+            "unit": "eV"
+        }
+    }
+}

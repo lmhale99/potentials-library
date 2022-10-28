@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "6a8a01eb-da7d-4639-9bf1-151a430e786e",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/6a8a01eb-da7d-4639-9bf1-151a430e786e",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "a1ead210-13f2-4c1e-8c02-4293e8ad0f97",
+            "id": "2018--Farkas-D--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2018--Farkas-D--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr1",
+            "potential": {
+                "key": "78392771-83e9-491c-bf4c-39175befd072",
+                "id": "2018--Farkas-D-Caro-A--Fe-Ni-Cr-Co-Cu",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2018--Farkas-D-Caro-A--Fe-Ni-Cr-Co-Cu"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "c4435905-6be5-4599-8ce1-2c25feac64ff",
+            "symbol": [
+                "Co",
+                "Cr"
+            ],
+            "composition": "CoCr",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 6.697800805259931,
+                "b": 6.697800805259931,
+                "c": 6.697800805259931,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        6.697800805259931,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        6.697800805259931,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        6.697800805259931
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Co",
+                "Cr"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                3.3489004026299654,
+                                3.3489004026299654,
+                                3.3489004026299654
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.1750841128707e-09,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.1750841128707e-09,
+            "unit": "eV"
+        }
+    }
+}

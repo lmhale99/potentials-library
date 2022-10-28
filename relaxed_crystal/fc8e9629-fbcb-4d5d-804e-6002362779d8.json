@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "fc8e9629-fbcb-4d5d-804e-6002362779d8",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/fc8e9629-fbcb-4d5d-804e-6002362779d8",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_763197941039_000",
+            "id": "EAM_Dynamo_BonnyCastinTerentyev_2013_FeNiCr__MO_763197941039_000",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_763197941039",
+            "potential": {
+                "key": "e30ac130-16af-4ca8-8685-eacbd145578d",
+                "id": "2013--Bonny-G-Castin-N-Terentyev-D--Fe-Ni-Cr",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2013--Bonny-G-Castin-N-Terentyev-D--Fe-Ni-Cr"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "2d9922bc-b91f-4aaf-8ffb-055db2c0dbd3",
+            "symbol": [
+                "Cr",
+                "Fe"
+            ],
+            "composition": "CrFe",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.6076553247359002,
+                "b": 2.6076553247359002,
+                "c": 3.3221014160435,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.6076553247359002,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.6076553247359002,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.3221014160435
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cr",
+                "Fe"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.3038276623679501,
+                                1.3038276623679501,
+                                1.66105070802175
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.9613601799866496,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.9613601799866496,
+            "unit": "eV"
+        }
+    }
+}

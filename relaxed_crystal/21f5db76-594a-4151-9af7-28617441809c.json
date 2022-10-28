@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "21f5db76-594a-4151-9af7-28617441809c",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/21f5db76-594a-4151-9af7-28617441809c",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_119135752160_005",
+            "id": "EAM_Dynamo_HoytGarvinWebb_2003_PbCu__MO_119135752160_005",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_119135752160",
+            "potential": {
+                "key": "466022ce-1cac-404c-8d5a-1bdd5b60a7a2",
+                "id": "2003--Hoyt-J-J-Garvin-J-W-Webb-E-B-Asta-M--Cu-Pb",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2003--Hoyt-J-J-Garvin-J-W-Webb-E-B-Asta-M--Cu-Pb"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1229174",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1229174",
+            "parent_key": "b441ae99-1831-4f91-acdf-a517de495e98",
+            "symbol": [
+                "Cu",
+                "Pb"
+            ],
+            "composition": "CuPb",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 3.138990633841963,
+                "b": 3.138990633841963,
+                "c": 4.45108908471817,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.138990633841963,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.5694953169209822,
+                        2.7184456311485565,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.45108908471817
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cu",
+                "Pb"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5694953169209807,
+                                0.9061485437161855,
+                                2.225544542359085
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.6013706373675,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.6013706373675,
+            "unit": "eV"
+        }
+    }
+}

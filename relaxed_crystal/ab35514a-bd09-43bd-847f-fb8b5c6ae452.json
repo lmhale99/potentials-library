@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "ab35514a-bd09-43bd-847f-fb8b5c6ae452",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/ab35514a-bd09-43bd-847f-fb8b5c6ae452",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "39e4070e-339a-4db6-bcca-1038822a2604",
+            "id": "2021--Huang-X--Hf-Nb-Ta-Ti-Zr--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2021--Huang-X--Hf-Nb-Ta-Ti-Zr--LAMMPS--ipr1",
+            "potential": {
+                "key": "ab12e79c-e837-4eb3-b4a1-15ae5029aa62",
+                "id": "2021--Huang-X-Liu-L-Duan-X-et-al--Hf-Nb-Ta-Ti-Zr",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Huang-X-Liu-L-Duan-X-et-al--Hf-Nb-Ta-Ti-Zr"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "1a8e002b-be09-4a73-a497-71f5972d0b6a",
+            "symbol": [
+                "Ti",
+                "Ta"
+            ],
+            "composition": "TaTi",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.9552972983159,
+                "b": 2.9552972983159,
+                "c": 4.01592825669356,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.9552972983159,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.9552972983159,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.01592825669356
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ti",
+                "Ta"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.47764864915795,
+                                1.47764864915795,
+                                2.00796412834678
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -6.4946145005685,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -6.4946145005685,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "94ba7ef9-ca50-4b4f-92ad-fcc769c5ffc3",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/94ba7ef9-ca50-4b4f-92ad-fcc769c5ffc3",
+        "method": "static",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_350526375143_002",
+            "id": "Tersoff_LAMMPS_Tersoff_1989_SiGe__MO_350526375143_002",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_350526375143",
+            "potential": {
+                "key": "866a3898-fa41-42e0-9b2c-7a25beb42604",
+                "id": "1989--Tersoff-J--Si-Ge",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1989--Tersoff-J--Si-Ge"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1229672",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1229672",
+            "parent_key": "6900aefa-82ff-46d7-ae3d-910498cb3835",
+            "symbol": [
+                "Ge",
+                "Si"
+            ],
+            "composition": "GeSi",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 2.7826670641536095,
+                "b": 2.7826670641536095,
+                "c": 4.582726191129447,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.7826670641536095,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.3913335320768054,
+                        2.4098603678312878,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.582726191129447
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ge",
+                "Si"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.3913335320768048,
+                                0.803286789277096,
+                                2.2913630955647233
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.5474787429570003,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.5474787429570003,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "8a48b52b-1f4c-454e-a5e1-6a4abcceb750",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/8a48b52b-1f4c-454e-a5e1-6a4abcceb750",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "ca128b82-3892-48fd-a8fd-9aa360470042",
+            "id": "2021--Song-H--Al-Sm--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2021--Song-H--Al-Sm--LAMMPS--ipr1",
+            "potential": {
+                "key": "f33fbb2c-82d8-45c1-8199-eac338de6861",
+                "id": "2021--Song-H-Mendelev-M-I--Al-Sm",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Song-H-Mendelev-M-I--Al-Sm"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "cb13714f-af5c-4a33-a8c2-cd95a3dac0b4",
+            "symbol": [
+                "Al",
+                "Sm"
+            ],
+            "composition": "AlSm",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 3.26468550728044,
+                "b": 3.26468550728044,
+                "c": 4.51586528568545,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.26468550728044,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.26468550728044,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.51586528568545
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Al",
+                "Sm"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.63234275364022,
+                                1.63234275364022,
+                                2.257932642842725
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.528736601186051,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.528736601186051,
+            "unit": "eV"
+        }
+    }
+}

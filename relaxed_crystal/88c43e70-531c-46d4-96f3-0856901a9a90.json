@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "88c43e70-531c-46d4-96f3-0856901a9a90",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/88c43e70-531c-46d4-96f3-0856901a9a90",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "1088509f-d07b-4596-be0f-3269d28ae74f",
+            "id": "2022--Starikov-S--Fe-Cr-H--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2022--Starikov-S--Fe-Cr-H--LAMMPS--ipr1",
+            "potential": {
+                "key": "226a6b8c-134e-4987-aa4f-0b89c9ac7871",
+                "id": "2022--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe-Cr-H",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2022--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe-Cr-H"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "dd4b418d-48a4-4de8-aba0-d3540207d3f8",
+            "symbol": [
+                "Fe",
+                "H"
+            ],
+            "composition": "FeH",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 2.306451267486684,
+                "b": 2.306451267486684,
+                "c": 2.306451267486684,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.306451267486684,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.306451267486684,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.306451267486684
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Fe",
+                "H"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.153225633743342,
+                                1.153225633743342,
+                                1.153225633743342
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.54390590800735,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.10890590800735,
+            "unit": "eV"
+        }
+    }
+}

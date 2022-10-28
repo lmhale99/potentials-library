@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "3a8f36e2-58a9-4264-840a-65ee2a405f01",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/3a8f36e2-58a9-4264-840a-65ee2a405f01",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_984281096460_004",
+            "id": "LJ_Shifted_Bernardes_1958MedCutoff_Kr__MO_984281096460_004",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_984281096460",
+            "potential": {
+                "key": "e62cbc12-99ba-469b-8d4e-e26ad40cb15a",
+                "id": "1958--Bernardes-N--Kr",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1958--Bernardes-N--Kr"
+            }
+        },
+        "system-info": {
+            "family": "A3--Mg--hcp",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/A3--Mg--hcp",
+            "parent_key": "cea65d92-a3ae-4d95-ad75-62feb3cc7446",
+            "symbol": "Kr",
+            "composition": "Kr",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 3.984578132107366,
+                "b": 3.984578132107366,
+                "c": 6.506918640425081,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.984578132107366,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.9922890660536838,
+                        3.4507458857689253,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        6.506918640425081
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Kr",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -8.876076959395543e-16,
+                                2.3004972571792837,
+                                3.2534593202125395
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -0.11649507300179499,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -0.11649507300179499,
+            "unit": "eV"
+        }
+    }
+}

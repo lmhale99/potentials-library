@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "74510961-d80b-4aa5-b9ea-e2f832d139ed",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/74510961-d80b-4aa5-b9ea-e2f832d139ed",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "9f124b15-4eab-4831-9fa8-826cdf6e294c",
+            "id": "2015--Eich-S-M--Fe-Cr--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2015--Eich-S-M--Fe-Cr--LAMMPS--ipr1",
+            "potential": {
+                "key": "dd645cb8-8065-4cdf-96e0-3b0ca893ef60",
+                "id": "2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2015--Eich-S-M-Beinke-D-Schmitz-G--Fe-Cr"
+            }
+        },
+        "system-info": {
+            "family": "A3--Mg--hcp",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/A3--Mg--hcp",
+            "parent_key": "0257f72d-5569-4252-a1fe-8621c400a5e9",
+            "symbol": "Cr",
+            "composition": "Cr",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 2.6587239713320687,
+                "b": 2.6587239713320687,
+                "c": 4.3416780641722,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.6587239713320687,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.329361985666035,
+                        2.3025225008242205,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.3416780641722
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Cr",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -2.464222889198775e-16,
+                                1.5350150005494805,
+                                2.1708390320861
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.80528135698455,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.80528135698455,
+            "unit": "eV"
+        }
+    }
+}

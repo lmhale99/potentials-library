@@ -1,0 +1,125 @@
+{
+    "relaxed-crystal": {
+        "key": "96159999-30e8-4fa8-a511-1363d99c3a70",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/96159999-30e8-4fa8-a511-1363d99c3a70",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_350526375143_002",
+            "id": "Tersoff_LAMMPS_Tersoff_1989_SiGe__MO_350526375143_002",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_350526375143",
+            "potential": {
+                "key": "866a3898-fa41-42e0-9b2c-7a25beb42604",
+                "id": "1989--Tersoff-J--Si-Ge",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1989--Tersoff-J--Si-Ge"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-30437",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-30437",
+            "parent_key": "900cb5e6-4708-4245-97e4-147d7c3db538",
+            "symbol": "Ge",
+            "composition": "Ge",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 3.996824340325352,
+                "b": 3.996824340325352,
+                "c": 6.541855236834291,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.996824340325352,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.998412170162677,
+                        3.461351413185735,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        6.541855236834291
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Ge",
+            "atoms": {
+                "natoms": 4,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -2.2204460492503146e-16,
+                                4.4408920985006257e-16,
+                                4.095384892998148,
+                                0.0,
+                                2.30756760879049,
+                                0.8244572745810023,
+                                0.0,
+                                2.30756760879049,
+                                3.2709276184171454
+                            ],
+                            "shape": [
+                                4,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.85048130452725,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.85048130452725,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "78f5f172-92f3-486a-995f-efba83f8b7cc",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/78f5f172-92f3-486a-995f-efba83f8b7cc",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "ca128b82-3892-48fd-a8fd-9aa360470042",
+            "id": "2021--Song-H--Al-Sm--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2021--Song-H--Al-Sm--LAMMPS--ipr1",
+            "potential": {
+                "key": "f33fbb2c-82d8-45c1-8199-eac338de6861",
+                "id": "2021--Song-H-Mendelev-M-I--Al-Sm",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Song-H-Mendelev-M-I--Al-Sm"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1228029",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1228029",
+            "parent_key": "beffe0b8-2d25-4f2d-b452-a13ee6106433",
+            "symbol": [
+                "Al",
+                "Sm"
+            ],
+            "composition": "AlSm",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 3.66161974167989,
+                "b": 3.661619741679889,
+                "c": 4.88915298199278,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.66161974167989,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.8308098708399456,
+                        3.1710557152933974,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.88915298199278
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Al",
+                "Sm"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.8308098708399443,
+                                1.057018571764466,
+                                2.44457649099639
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.2515687388555,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.2515687388555,
+            "unit": "eV"
+        }
+    }
+}

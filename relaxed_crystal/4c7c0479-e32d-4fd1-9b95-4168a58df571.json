@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "4c7c0479-e32d-4fd1-9b95-4168a58df571",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/4c7c0479-e32d-4fd1-9b95-4168a58df571",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_159753408472_003",
+            "id": "Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ca__MO_159753408472_003",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_159753408472",
+            "potential": {
+                "key": "5f697b25-c341-4237-9490-5d304682acc4",
+                "id": "1959--Girifalco-L-A-Weizer-V-G--Ca",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1959--Girifalco-L-A-Weizer-V-G--Ca"
+            }
+        },
+        "system-info": {
+            "family": "A3--Mg--hcp",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/A3--Mg--hcp",
+            "parent_key": "40ff1b2d-37cc-47d7-81dc-443642b450e2",
+            "symbol": "Ca",
+            "composition": "Ca",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 3.931034776466476,
+                "b": 3.931034776466476,
+                "c": 6.42114221095691,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.931034776466476,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.9655173882332388,
+                        3.40437597958005,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        6.42114221095691
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Ca",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.220446049250313e-16,
+                                2.2695839863867002,
+                                3.210571105478455
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -1.8561658663205498,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -1.8561658663205498,
+            "unit": "eV"
+        }
+    }
+}

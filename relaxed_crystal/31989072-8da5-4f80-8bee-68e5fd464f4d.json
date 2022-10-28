@@ -1,0 +1,121 @@
+{
+    "relaxed-crystal": {
+        "key": "31989072-8da5-4f80-8bee-68e5fd464f4d",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/31989072-8da5-4f80-8bee-68e5fd464f4d",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_135034229282_002",
+            "id": "EAM_MagneticCubic_DudarevDerlet_2005_Fe__MO_135034229282_002",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_135034229282",
+            "potential": {
+                "key": "340d3301-a6ab-4800-984f-1f3cee9890b2",
+                "id": "2005--Dudarev-S-L-Derlet-P-M--Fe",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2005--Dudarev-S-L-Derlet-P-M--Fe"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-21731",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-21731",
+            "parent_key": "0dea212d-e1d6-4fe6-be45-6972a1ea8845",
+            "symbol": "Fe",
+            "composition": "Fe",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 1,
+                "a": 2.349058602427755,
+                "b": 2.349058602427755,
+                "c": 7.04949601876195,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.349058602427755,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.349058602427755,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        7.04949601876195
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Fe",
+            "atoms": {
+                "natoms": 3,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.353386333713632,
+                                0.0,
+                                0.0,
+                                4.7067726674272645
+                            ],
+                            "shape": [
+                                3,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.342350672475,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.342350672475,
+            "unit": "eV"
+        }
+    }
+}

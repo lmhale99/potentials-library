@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "787280d1-9274-4fcc-b09e-ea114e301396",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/787280d1-9274-4fcc-b09e-ea114e301396",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_950828638160_000",
+            "id": "EAM_Dynamo_ZhouJohnsonWadley_2004NISTretabulation_CuTa__MO_950828638160_000",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_950828638160",
+            "potential": {
+                "key": "f12498d1-1560-4fcf-af65-7ec9934b0b95",
+                "id": "2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ta-Cu",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ta-Cu"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1229192",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1229192",
+            "parent_key": "b997a3c0-6331-4462-90d4-290d11519476",
+            "symbol": [
+                "Cu",
+                "Ta"
+            ],
+            "composition": "CuTa",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 2.753925910495409,
+                "b": 2.7539259104954086,
+                "c": 4.35734468295482,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.753925910495409,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.376962955247705,
+                        2.3849697986292138,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.35734468295482
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cu",
+                "Ta"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -2.30570024092804e-17,
+                                1.589979865752809,
+                                2.17867234147741
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -5.820759122081,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -5.820759122081,
+            "unit": "eV"
+        }
+    }
+}

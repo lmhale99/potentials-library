@@ -1,0 +1,131 @@
+{
+    "relaxed-crystal": {
+        "key": "6365e0e8-d8bd-4135-8b85-abfcf752c063",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/6365e0e8-d8bd-4135-8b85-abfcf752c063",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_042691367780_000",
+            "id": "EAM_Dynamo_FarkasJones_1996_NbTiAl__MO_042691367780_000",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_042691367780",
+            "potential": {
+                "key": "0856888b-57ec-4005-828d-d1b0c331f120",
+                "id": "1996--Farkas-D-Jones-C--Nb-Ti-Al",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1996--Farkas-D-Jones-C--Nb-Ti-Al"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1217571",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1217571",
+            "parent_key": "07f67908-e414-4c60-8932-49a3b04ffec8",
+            "symbol": [
+                "Al",
+                "Ti"
+            ],
+            "composition": "AlTi",
+            "cell": {
+                "crystal-family": "orthorhombic",
+                "natypes": 2,
+                "a": 4.638909506952049,
+                "b": 2.77743285981769,
+                "c": 4.958518635374624,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        4.638909506952049,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.77743285981769,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.958518635374624
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Al",
+                "Ti"
+            ],
+            "atoms": {
+                "natoms": 4,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                2,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.319454753476024,
+                                0.0,
+                                3.3549676021526853,
+                                2.319454753476024,
+                                1.388716429908845,
+                                0.8851985197238629,
+                                0.0,
+                                1.388716429908845,
+                                2.4697690824288223
+                            ],
+                            "shape": [
+                                4,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.380935156511501,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.380935156511501,
+            "unit": "eV"
+        }
+    }
+}

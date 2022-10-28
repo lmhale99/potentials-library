@@ -1,0 +1,125 @@
+{
+    "relaxed-crystal": {
+        "key": "7f4d0f48-07c2-4b8c-bfc0-1e1fdfc81fe8",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/7f4d0f48-07c2-4b8c-bfc0-1e1fdfc81fe8",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_408791041969_002",
+            "id": "Tersoff_LAMMPS_ErhartAlbe_2005SiII_SiC__MO_408791041969_002",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_408791041969",
+            "potential": {
+                "key": "b484d453-4f89-44d2-b64f-bbca3eb97d30",
+                "id": "2005--Erhart-P-Albe-K--Si-C-II",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2005--Erhart-P-Albe-K--Si-C-II"
+            }
+        },
+        "system-info": {
+            "family": "A3'--alpha-La--double-hcp",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/A3'--alpha-La--double-hcp",
+            "parent_key": "b9810f0f-3c14-475c-ae76-bad116d13b5e",
+            "symbol": "Si",
+            "composition": "Si",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 2.782227109397751,
+                "b": 2.782227109397751,
+                "c": 9.15734597072749,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.782227109397751,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.3911135546988762,
+                        2.4094793558361984,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        9.15734597072749
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Si",
+            "atoms": {
+                "natoms": 4,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                4.578672985363745,
+                                -4.2961510072773983e-16,
+                                1.6063195705574655,
+                                2.2893364926818727,
+                                1.391113554698875,
+                                0.8031597852787329,
+                                6.868009478045618
+                            ],
+                            "shape": [
+                                4,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.002137891186,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.002137891186,
+            "unit": "eV"
+        }
+    }
+}

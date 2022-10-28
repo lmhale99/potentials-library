@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "8a36efa1-c5f0-42b4-ab6f-ad7dd3cd9b5d",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/8a36efa1-c5f0-42b4-ab6f-ad7dd3cd9b5d",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "8f061850-bff6-4daf-a278-c7165d40292c",
+            "id": "2015--Kim-Y-K--Ni-Co--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2015--Kim-Y-K--Ni-Co--LAMMPS--ipr1",
+            "potential": {
+                "key": "cf51e684-8bad-427c-89fc-280d457e725c",
+                "id": "2015--Kim-Y-K-Jung-W-S-Lee-B-J--Ni-Co",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2015--Kim-Y-K-Jung-W-S-Lee-B-J--Ni-Co"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1228970",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1228970",
+            "parent_key": "0887710f-517d-4b84-ab1b-e5565c266c06",
+            "symbol": [
+                "Co",
+                "Ni"
+            ],
+            "composition": "CoNi",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 2.4878781137169015,
+                "b": 2.4878781137169015,
+                "c": 4.10954776056603,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.4878781137169015,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.2439390568584512,
+                        2.154565647998147,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.10954776056603
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Co",
+                "Ni"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.2439390568584507,
+                                0.7181885493327156,
+                                2.054773880283015
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.44290289089275,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.44290289089275,
+            "unit": "eV"
+        }
+    }
+}

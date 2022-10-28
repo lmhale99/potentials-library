@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "40f6fb85-161e-42a8-a699-4d8c73b9a986",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/40f6fb85-161e-42a8-a699-4d8c73b9a986",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "5df69de9-0626-4851-88f5-f6e4d1ca81e8",
+            "id": "2010--Lee-E--Fe-Al--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2010--Lee-E--Fe-Al--LAMMPS--ipr1",
+            "potential": {
+                "key": "ec9e24ac-f040-42c1-aaf7-087f90989598",
+                "id": "2010--Lee-E-Lee-B-J--Fe-Al",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2010--Lee-E-Lee-B-J--Fe-Al"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1227986",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1227986",
+            "parent_key": "bcb4ebb7-2d01-40f1-aeb1-817761846ce0",
+            "symbol": [
+                "Al",
+                "Fe"
+            ],
+            "composition": "AlFe",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 2.751267460706641,
+                "b": 2.7512674607066407,
+                "c": 4.11142255027789,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.751267460706641,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.375633730353321,
+                        2.3826675135774553,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.11142255027789
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Al",
+                "Fe"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -4.3018796930792613e-16,
+                                1.5884450090516369,
+                                2.055711275138945
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.9950815908672497,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.9950815908672497,
+            "unit": "eV"
+        }
+    }
+}

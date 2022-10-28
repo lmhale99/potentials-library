@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "4b82b46c-87ed-4195-9d2a-7d1023731eb9",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/4b82b46c-87ed-4195-9d2a-7d1023731eb9",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "b0f914e7-5a8f-417a-b486-83c65818241c",
+            "id": "2013--Shim-J-H--V-Ni-H--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2013--Shim-J-H--V-Ni-H--LAMMPS--ipr1",
+            "potential": {
+                "key": "ed2ee39b-deb9-407a-8ea7-6eb99de197dd",
+                "id": "2013--Shim-J-H-Ko-W-S-Kim-K-H-et-al--V-Ni-H",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2013--Shim-J-H-Ko-W-S-Kim-K-H-et-al--V-Ni-H"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "d033662e-006d-47ad-88e1-ed748f17e302",
+            "symbol": [
+                "V",
+                "Ni"
+            ],
+            "composition": "NiV",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.7344693534841564,
+                "b": 2.7344693534841564,
+                "c": 3.3588742458977308,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.7344693534841564,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.7344693534841564,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.3588742458977308
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "V",
+                "Ni"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.3672346767420782,
+                                1.3672346767420782,
+                                1.6794371229488654
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -5.036543743335,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -5.036543743335,
+            "unit": "eV"
+        }
+    }
+}

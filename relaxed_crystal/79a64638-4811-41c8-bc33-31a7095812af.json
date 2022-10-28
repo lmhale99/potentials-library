@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "79a64638-4811-41c8-bc33-31a7095812af",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/79a64638-4811-41c8-bc33-31a7095812af",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "1cb880e7-0cef-462f-8dde-9e891ada27e5",
+            "id": "2016--Beland-L-K--Ni-Co--LAMMPS--ipr2",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2016--Beland-L-K--Ni-Co--LAMMPS--ipr2",
+            "potential": {
+                "key": "8435450a-75e2-4c19-885f-ad2bb8ca34e6",
+                "id": "2016--Beland-L-K-Lu-C-Osetskiy-Y-N-et-al--Ni-Co",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2016--Beland-L-K-Lu-C-Osetskiy-Y-N-et-al--Ni-Co"
+            }
+        },
+        "system-info": {
+            "family": "A3--Mg--hcp",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/A3--Mg--hcp",
+            "parent_key": "9ad4edb7-967e-485c-bfe4-964b974ee952",
+            "symbol": "Co",
+            "composition": "Co",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 1.483819110600393,
+                "b": 1.483819110600393,
+                "c": 2.4183184826708604,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        1.483819110600393,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -0.7419095553001969,
+                        1.2850250444007718,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.4183184826708604
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Co",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -1.4743092341767567e-16,
+                                0.856683362933848,
+                                1.2091592413354304
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -344.003217899835,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -343.986081810855,
+            "unit": "eV"
+        }
+    }
+}

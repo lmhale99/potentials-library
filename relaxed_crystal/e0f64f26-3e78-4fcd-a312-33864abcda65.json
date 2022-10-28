@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "e0f64f26-3e78-4fcd-a312-33864abcda65",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/e0f64f26-3e78-4fcd-a312-33864abcda65",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_171585019474_002",
+            "id": "Tersoff_LAMMPS_Tersoff_1989_SiC__MO_171585019474_002",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_171585019474",
+            "potential": {
+                "key": "f6b04d63-2165-423d-bfe6-15c606e09b82",
+                "id": "1989--Tersoff-J--Si-C",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1989--Tersoff-J--Si-C"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1215728",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1215728",
+            "parent_key": "b1394954-1bd3-4bfa-9e8b-70f0ee6c7b4b",
+            "symbol": "Si",
+            "composition": "Si",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 1,
+                "a": 2.76859783395839,
+                "b": 2.76859783395839,
+                "c": 3.86217842988373,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.76859783395839,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.76859783395839,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.86217842988373
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Si",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.3842989169791948,
+                                1.3842989169791948,
+                                1.931089214941865
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.8676438195521996,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.8676438195521996,
+            "unit": "eV"
+        }
+    }
+}

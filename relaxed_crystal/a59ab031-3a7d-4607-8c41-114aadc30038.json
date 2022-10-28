@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "a59ab031-3a7d-4607-8c41-114aadc30038",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/a59ab031-3a7d-4607-8c41-114aadc30038",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_128703483589_005",
+            "id": "EAM_Dynamo_WilliamsMishinHamilton_2006_CuAg__MO_128703483589_005",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_128703483589",
+            "potential": {
+                "key": "cfe3a54f-c3b2-4b61-8b03-165613bdd829",
+                "id": "2006--Williams-P-L-Mishin-Y-Hamilton-J-C--Cu-Ag",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2006--Williams-P-L-Mishin-Y-Hamilton-J-C--Cu-Ag"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1227900",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1227900",
+            "parent_key": "e71ff880-39ef-41d5-8119-87837a103332",
+            "symbol": [
+                "Ag",
+                "Cu"
+            ],
+            "composition": "AgCu",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 2.7565081817240453,
+                "b": 2.7565081817240453,
+                "c": 4.49009401549948,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.7565081817240453,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.3782540908620233,
+                        2.3872061111126746,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.49009401549948
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ag",
+                "Cu"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -3.980707682639638e-16,
+                                1.5914707407417832,
+                                2.2450470077497395
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.1097469051070004,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.1097467915653643,
+            "unit": "eV"
+        }
+    }
+}

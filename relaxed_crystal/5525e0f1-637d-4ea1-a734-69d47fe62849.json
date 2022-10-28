@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "5525e0f1-637d-4ea1-a734-69d47fe62849",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/5525e0f1-637d-4ea1-a734-69d47fe62849",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "fdb66958-a6b4-4817-9a94-c3f53fd3fb79",
+            "id": "2018--Jang-H-S--Zn-Mg--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2018--Jang-H-S--Zn-Mg--LAMMPS--ipr1",
+            "potential": {
+                "key": "489cbf70-c51f-4fc8-af1d-4004a38bc9b3",
+                "id": "2018--Jang-H-S-Kim-K-M-Lee-B-J--Zn-Mg",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2018--Jang-H-S-Kim-K-M-Lee-B-J--Zn-Mg"
+            }
+        },
+        "system-info": {
+            "family": "mp-79",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/mp-79",
+            "parent_key": "ea40955b-cf55-4539-8317-d62d681b064a",
+            "symbol": "Zn",
+            "composition": "Zn",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 3.5317033850125776,
+                "b": 3.531703385012577,
+                "c": 3.4521658933635204,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.5317033850125776,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.7658516925062897,
+                        3.0585448500523857,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.4521658933635204
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Zn",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -2.7872901708960653e-16,
+                                2.039029900034924,
+                                1.7260829466817595
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -0.854926210839,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -0.854926210839,
+            "unit": "eV"
+        }
+    }
+}

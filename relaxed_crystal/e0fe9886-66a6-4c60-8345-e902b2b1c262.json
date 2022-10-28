@@ -1,0 +1,111 @@
+{
+    "relaxed-crystal": {
+        "key": "e0fe9886-66a6-4c60-8345-e902b2b1c262",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/e0fe9886-66a6-4c60-8345-e902b2b1c262",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_959249795837_003",
+            "id": "LJ_ElliottAkerson_2015_Universal__MO_959249795837_003",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_959249795837",
+            "potential": {
+                "key": "82db323b-78fb-424f-8a56-bfeb60e651f7",
+                "id": "2015--Elliott-R-S-Akerson-A--Bi",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2015--Elliott-R-S-Akerson-A--Bi"
+            }
+        },
+        "system-info": {
+            "family": "Ah--alpha-Po--sc",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/Ah--alpha-Po--sc",
+            "parent_key": "4edd3b2e-0f63-4825-8bce-70dfd7c5efe9",
+            "symbol": "Bi",
+            "composition": "Bi",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 1,
+                "a": 2.8178417244670673,
+                "b": 2.8178417244670673,
+                "c": 2.8178417244670673,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.8178417244670673,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.8178417244670673,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.8178417244670673
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Bi",
+            "atoms": {
+                "natoms": 1,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": 1
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "shape": [
+                                1,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -11.388738270857,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -11.388738270857,
+            "unit": "eV"
+        }
+    }
+}

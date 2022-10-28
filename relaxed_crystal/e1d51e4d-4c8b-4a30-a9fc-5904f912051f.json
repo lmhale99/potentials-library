@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "e1d51e4d-4c8b-4a30-a9fc-5904f912051f",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/e1d51e4d-4c8b-4a30-a9fc-5904f912051f",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "b0dce14a-77ca-4192-b4f2-6b43981a34cc",
+            "id": "2018--Jeong-G-U--Pd-Mo--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2018--Jeong-G-U--Pd-Mo--LAMMPS--ipr1",
+            "potential": {
+                "key": "4556b8d6-44f6-4201-95ab-e8ff2b3d4931",
+                "id": "2018--Jeong-G-U-Park-C-S-Do-H-S-et-al--Pd-Mo",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2018--Jeong-G-U-Park-C-S-Do-H-S-et-al--Pd-Mo"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "0c026638-57e3-47bd-bf5a-ac74f32933e2",
+            "symbol": [
+                "Mo",
+                "Pd"
+            ],
+            "composition": "MoPd",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.8160333448104153,
+                "b": 2.8160333448104153,
+                "c": 3.80203624480562,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.8160333448104153,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.8160333448104153,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.80203624480562
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Mo",
+                "Pd"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.4080166724052077,
+                                1.4080166724052077,
+                                1.90101812240281
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -5.300205926777,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -5.300205926777,
+            "unit": "eV"
+        }
+    }
+}

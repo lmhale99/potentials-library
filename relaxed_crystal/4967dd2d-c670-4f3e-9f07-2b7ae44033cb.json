@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "4967dd2d-c670-4f3e-9f07-2b7ae44033cb",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/4967dd2d-c670-4f3e-9f07-2b7ae44033cb",
+        "method": "static",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_781138671863_002",
+            "id": "EAM_QuinticHermiteSpline_ErcolessiAdams_1994_Al__MO_781138671863_002",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_781138671863",
+            "potential": {
+                "key": "2ce1cf6d-9c87-4b29-89d2-9885a928fbe7",
+                "id": "1994--Ercolessi-F-B-Adams-J--Al",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1994--Ercolessi-F-B-Adams-J--Al"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1215215",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1215215",
+            "parent_key": "6a236b99-3bee-4263-b94c-36123e72eb3f",
+            "symbol": "Al",
+            "composition": "Al",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 2.8181168219021018,
+                "b": 2.8181168219021018,
+                "c": 4.8755261793770535,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.8181168219021018,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.4090584109510516,
+                        2.4405607585994864,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.8755261793770535
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Al",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.4090584109510513,
+                                0.8135202528664955,
+                                2.437763089688527
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.3409862367745,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.3409862367745,
+            "unit": "eV"
+        }
+    }
+}

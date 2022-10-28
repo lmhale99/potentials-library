@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "63c7dd52-3e84-4add-87c2-99963dcfa832",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/63c7dd52-3e84-4add-87c2-99963dcfa832",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_145183423516_003",
+            "id": "EAM_IMD_BrommerGaehlerMihalkovic_2007_CaCd__MO_145183423516_003",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_145183423516",
+            "potential": {
+                "key": "dc6f37b4-e1bb-4a5b-a88e-106f00813678",
+                "id": "2007--Brommer-P-Gahler-F-Mihalkovic-M--Ca-Cd",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2007--Brommer-P-Gahler-F-Mihalkovic-M--Ca-Cd"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "2d3eb842-4f38-42d6-afed-280b1883568f",
+            "symbol": [
+                "Cd",
+                "Ca"
+            ],
+            "composition": "CaCd",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 2.5909724035688932,
+                "b": 2.5909724035688932,
+                "c": 2.5909724035688932,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.5909724035688932,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.5909724035688932,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.5909724035688932
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cd",
+                "Ca"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.2954862017844466,
+                                1.2954862017844466,
+                                1.2954862017844466
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": 9.8110693793815,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": 9.832306664946211,
+            "unit": "eV"
+        }
+    }
+}

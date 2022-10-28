@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "de3748d0-549c-4de5-b9a8-510b2e998799",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/de3748d0-549c-4de5-b9a8-510b2e998799",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_942551040047_005",
+            "id": "EAM_Dynamo_CaiYe_1996_AlCu__MO_942551040047_005",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_942551040047",
+            "potential": {
+                "key": "c6699783-22bb-40e4-8605-e4babb0feb99",
+                "id": "1996--Cai-J-Ye-Y-Y--Al-Cu",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1996--Cai-J-Ye-Y-Y--Al-Cu"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "52b90f20-59f7-4714-908f-88e5b28140a8",
+            "symbol": [
+                "Cu",
+                "Al"
+            ],
+            "composition": "AlCu",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 3.0277072904104068,
+                "b": 3.0277072904104068,
+                "c": 3.0277072904104068,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.0277072904104068,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.0277072904104068,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.0277072904104068
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cu",
+                "Al"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5138536452052034,
+                                1.5138536452052034,
+                                1.5138536452052034
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.6107439986366496,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.6107439986366496,
+            "unit": "eV"
+        }
+    }
+}

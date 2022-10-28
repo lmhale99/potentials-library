@@ -1,0 +1,125 @@
+{
+    "relaxed-crystal": {
+        "key": "3c090356-7924-47be-81b1-321e4c8885f8",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/3c090356-7924-47be-81b1-321e4c8885f8",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_587469264453_004",
+            "id": "Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Na__MO_587469264453_004",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_587469264453",
+            "potential": {
+                "key": "5866f662-95f0-4d00-aedf-0869c6b28236",
+                "id": "1959--Girifalco-L-A-Weizer-V-G--Na",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1959--Girifalco-L-A-Weizer-V-G--Na"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1215437",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1215437",
+            "parent_key": "0ca741ff-8969-402d-8c21-71c8d0020655",
+            "symbol": "Na",
+            "composition": "Na",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 3.831448081012897,
+                "b": 3.831448081012897,
+                "c": 12.520570571734352,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.831448081012897,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.9157240405064493,
+                        3.318131371438306,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        12.520570571734352
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Na",
+            "atoms": {
+                "natoms": 4,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -2.220446049250313e-16,
+                                2.2120875809588703,
+                                3.130142642933588,
+                                0.0,
+                                0.0,
+                                6.260285285867176,
+                                1.915724040506449,
+                                1.1060437904794354,
+                                9.390427928800761
+                            ],
+                            "shape": [
+                                4,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -1.1315744609544127,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -1.1315744609544127,
+            "unit": "eV"
+        }
+    }
+}

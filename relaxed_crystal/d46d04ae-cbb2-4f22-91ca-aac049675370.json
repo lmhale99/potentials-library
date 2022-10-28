@@ -1,0 +1,125 @@
+{
+    "relaxed-crystal": {
+        "key": "d46d04ae-cbb2-4f22-91ca-aac049675370",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/d46d04ae-cbb2-4f22-91ca-aac049675370",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_381861218831_003",
+            "id": "Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ni__MO_381861218831_003",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_381861218831",
+            "potential": {
+                "key": "b5951518-9b95-49aa-8827-41a01aef956a",
+                "id": "1959--Girifalco-L-A-Weizer-V-G--Ni",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1959--Girifalco-L-A-Weizer-V-G--Ni"
+            }
+        },
+        "system-info": {
+            "family": "mp-1094136",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/mp-1094136",
+            "parent_key": "8a55abcd-7444-4dc8-915e-f4a59d3dbf06",
+            "symbol": "Ni",
+            "composition": "Ni",
+            "cell": {
+                "crystal-family": "orthorhombic",
+                "natypes": 1,
+                "a": 2.5582027349319203,
+                "b": 4.4307340267242505,
+                "c": 15.933996062940672,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.5582027349319203,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        4.4307340267242505,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        15.933996062940672
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Ni",
+            "atoms": {
+                "natoms": 4,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.4227322333781354,
+                                1.2791013674659601,
+                                2.2153670133621253,
+                                2.404742751823112,
+                                1.2791013674659601,
+                                2.2153670133621253,
+                                15.916006581385648
+                            ],
+                            "shape": [
+                                4,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.4232651586431246,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.4232651586431246,
+            "unit": "eV"
+        }
+    }
+}

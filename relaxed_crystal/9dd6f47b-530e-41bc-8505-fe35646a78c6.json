@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "9dd6f47b-530e-41bc-8505-fe35646a78c6",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/9dd6f47b-530e-41bc-8505-fe35646a78c6",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "6a9a08f8-11be-4e37-bfbc-84044f8ecf7a",
+            "id": "2012--Jelinek-B--Al-Si-Mg-Cu-Fe--LAMMPS--ipr2",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2012--Jelinek-B--Al-Si-Mg-Cu-Fe--LAMMPS--ipr2",
+            "potential": {
+                "key": "1515dd80-1984-49de-bc92-d5724059ff56",
+                "id": "2012--Jelinek-B-Groh-S-Horstemeyer-M-F-et-al--Al-Si-Mg-Cu-Fe",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2012--Jelinek-B-Groh-S-Horstemeyer-M-F-et-al--Al-Si-Mg-Cu-Fe"
+            }
+        },
+        "system-info": {
+            "family": "A3--Mg--hcp",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/A3--Mg--hcp",
+            "parent_key": "a59a927a-662d-43a6-a2d7-9e2661a71807",
+            "symbol": "CuS",
+            "composition": "CuS",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 2.553744292598121,
+                "b": 2.5537442925981204,
+                "c": 4.20741986670659,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.553744292598121,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.2768721462990609,
+                        2.2116074321594925,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.20741986670659
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "CuS",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -2.055298262174329e-16,
+                                1.4744049547729952,
+                                2.1037099333532954
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.5274052790183,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.5274052790183,
+            "unit": "eV"
+        }
+    }
+}

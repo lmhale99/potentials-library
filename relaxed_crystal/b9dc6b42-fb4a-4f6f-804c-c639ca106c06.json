@@ -1,0 +1,111 @@
+{
+    "relaxed-crystal": {
+        "key": "b9dc6b42-fb4a-4f6f-804c-c639ca106c06",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/b9dc6b42-fb4a-4f6f-804c-c639ca106c06",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_228280943430_000",
+            "id": "EAM_Dynamo_Olsson_2010_Au__MO_228280943430_000",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_228280943430",
+            "potential": {
+                "key": "5b382441-b1b6-4734-aaa8-bdffe573b55e",
+                "id": "2010--Olsson-P-A-T--Au",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2010--Olsson-P-A-T--Au"
+            }
+        },
+        "system-info": {
+            "family": "Ah--alpha-Po--sc",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/Ah--alpha-Po--sc",
+            "parent_key": "e7a36026-a0dc-45a9-beb7-1e7fea0a61c3",
+            "symbol": "Au",
+            "composition": "Au",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 1,
+                "a": 2.699070762515197,
+                "b": 2.699070762515197,
+                "c": 2.699070762515197,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.699070762515197,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.699070762515197,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.699070762515197
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Au",
+            "atoms": {
+                "natoms": 1,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": 1
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "shape": [
+                                1,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.4184778928534003,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.4184779928534,
+            "unit": "eV"
+        }
+    }
+}

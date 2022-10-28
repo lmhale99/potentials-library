@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "1f3c5142-ea06-40f8-a21b-6699b51fa302",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/1f3c5142-ea06-40f8-a21b-6699b51fa302",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_574574915905_000",
+            "id": "EAM_Dynamo_WilsonMendelev_2016_Mg__MO_574574915905_000",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_574574915905",
+            "potential": {
+                "key": "2a6e9260-0a82-4041-852b-88e69bfbd79d",
+                "id": "2016--Wilson-S-R-Mendelev-M-I--Mg",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2016--Wilson-S-R-Mendelev-M-I--Mg"
+            }
+        },
+        "system-info": {
+            "family": "A3--Mg--hcp",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/A3--Mg--hcp",
+            "parent_key": "ec0b851b-fd07-4707-a209-13b6cff14f1d",
+            "symbol": "Mg",
+            "composition": "Mg",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 5.713340027117328,
+                "b": 5.713340027117326,
+                "c": 9.329845195612469,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        5.713340027117328,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -2.8566700135586647,
+                        4.947897603942077,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        9.329845195612469
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Mg",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -3.594657914706267e-16,
+                                3.2985984026280515,
+                                4.664922597806235
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -0.15069493853616497,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -0.15069493853616497,
+            "unit": "eV"
+        }
+    }
+}

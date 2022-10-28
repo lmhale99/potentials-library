@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "62a49d08-0ac4-4e68-a93d-c85d61a12396",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/62a49d08-0ac4-4e68-a93d-c85d61a12396",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "00976d5c-140b-417f-b0db-694ddc5cf8f2",
+            "id": "2021--Deluigi-O-R--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2021--Deluigi-O-R--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr1",
+            "potential": {
+                "key": "f9d8adb8-1bcf-442d-9f1c-130a94f32b16",
+                "id": "2021--Deluigi-O-R-Pasianot-R-C-Valencia-F-J-et-al--Fe-Ni-Cr-Co-Cu",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Deluigi-O-R-Pasianot-R-C-Valencia-F-J-et-al--Fe-Ni-Cr-Co-Cu"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "fd838b56-8f1c-499e-a0d6-31ff2a057f39",
+            "symbol": [
+                "Fe",
+                "Co"
+            ],
+            "composition": "CoFe",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 5.629528213961676,
+                "b": 5.629528213961676,
+                "c": 6.359857648003661,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        5.629528213961676,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        5.629528213961676,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        6.359857648003661
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Fe",
+                "Co"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.814764106980838,
+                                2.814764106980838,
+                                3.1799288240018297
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -0.42405674379345004,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -0.42405674379345004,
+            "unit": "eV"
+        }
+    }
+}

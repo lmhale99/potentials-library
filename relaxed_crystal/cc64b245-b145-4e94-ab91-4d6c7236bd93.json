@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "cc64b245-b145-4e94-ab91-4d6c7236bd93",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/cc64b245-b145-4e94-ab91-4d6c7236bd93",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "54a5d6a4-1b5a-4641-a438-f7b951637907",
+            "id": "2022--Xu-Y--Ni-Pd--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2022--Xu-Y--Ni-Pd--LAMMPS--ipr1",
+            "potential": {
+                "key": "fb4207e5-4d66-481e-b409-640b4f9004b0",
+                "id": "2022--Xu-Y-Wang-G-Qian-P-Su-Y--Ni-Pd",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2022--Xu-Y-Wang-G-Qian-P-Su-Y--Ni-Pd"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "640af11b-281e-40ea-b145-bef0b7d3244f",
+            "symbol": [
+                "Pd",
+                "Ni"
+            ],
+            "composition": "NiPd",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.68913064250323,
+                "b": 2.68913064250323,
+                "c": 3.5224044152070904,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.68913064250323,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.68913064250323,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.5224044152070904
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Pd",
+                "Ni"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.344565321251615,
+                                1.344565321251615,
+                                1.7612022076035452
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.16389250901585,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.16389250901585,
+            "unit": "eV"
+        }
+    }
+}

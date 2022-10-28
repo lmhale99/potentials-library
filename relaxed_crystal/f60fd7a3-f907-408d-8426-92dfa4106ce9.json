@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "f60fd7a3-f907-408d-8426-92dfa4106ce9",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/f60fd7a3-f907-408d-8426-92dfa4106ce9",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_946831081299_000",
+            "id": "EAM_Dynamo_OBrienBarrPrice_2018_PtAu__MO_946831081299_000",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_946831081299",
+            "potential": {
+                "key": "702f778d-fe20-45b2-8494-910be7453f48",
+                "id": "2017--OBrien-C-J-Barr-C-M-Price-P-M-et-al--Pt-Au",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2017--OBrien-C-J-Barr-C-M-Price-P-M-et-al--Pt-Au"
+            }
+        },
+        "system-info": {
+            "family": "mp-1186779",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/mp-1186779",
+            "parent_key": "9fe8a54f-df9e-4040-81c1-669bd95e19d6",
+            "symbol": [
+                "Au",
+                "Pt"
+            ],
+            "composition": "AuPt",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 2.920078780134176,
+                "b": 2.920078780134176,
+                "c": 4.6399005490299,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.920078780134176,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.4600393900670887,
+                        2.5288624046480708,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.6399005490299
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Au",
+                "Pt"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -4.440892098500626e-16,
+                                1.6859082697653807,
+                                2.3199502745149503
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.1603454115334495,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.1603454115334495,
+            "unit": "eV"
+        }
+    }
+}

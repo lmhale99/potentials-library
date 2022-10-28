@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "77682b73-8251-4374-b220-3a7b9d2e21f8",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/77682b73-8251-4374-b220-3a7b9d2e21f8",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "ffc7b5b2-8c0a-4c80-a576-6345050944b5",
+            "id": "2018--Farkas-D--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr2",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2018--Farkas-D--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr2",
+            "potential": {
+                "key": "78392771-83e9-491c-bf4c-39175befd072",
+                "id": "2018--Farkas-D-Caro-A--Fe-Ni-Cr-Co-Cu",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2018--Farkas-D-Caro-A--Fe-Ni-Cr-Co-Cu"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "093895b7-eb95-4152-b388-d22291144455",
+            "symbol": [
+                "Ni",
+                "Fe"
+            ],
+            "composition": "FeNi",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 6.697741509643606,
+                "b": 6.697741509643606,
+                "c": 6.697741509643606,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        6.697741509643606,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        6.697741509643606,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        6.697741509643606
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ni",
+                "Fe"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                3.348870754821802,
+                                3.348870754821802,
+                                3.348870754821802
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.83388280181425e-09,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.83388280181425e-09,
+            "unit": "eV"
+        }
+    }
+}

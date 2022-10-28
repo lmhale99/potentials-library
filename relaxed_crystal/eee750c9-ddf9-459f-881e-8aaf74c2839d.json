@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "eee750c9-ddf9-459f-881e-8aaf74c2839d",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/eee750c9-ddf9-459f-881e-8aaf74c2839d",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "f8f52d2e-597d-435a-926a-09f38094b1da",
+            "id": "2021--Wang-G--Au-Rh--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2021--Wang-G--Au-Rh--LAMMPS--ipr1",
+            "potential": {
+                "key": "ccd7fceb-a257-40df-812b-b1326955bff1",
+                "id": "2021--Wang-G-Xu-Y-Qian-P-Su-Y--Au-Rh",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Wang-G-Xu-Y-Qian-P-Su-Y--Au-Rh"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "b4b9ae97-3142-440b-8556-8d5871dd1ff6",
+            "symbol": [
+                "Au",
+                "Rh"
+            ],
+            "composition": "AuRh",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 3.2076151060928866,
+                "b": 3.2076151060928866,
+                "c": 3.2076151060928866,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.2076151060928866,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.2076151060928866,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.2076151060928866
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Au",
+                "Rh"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.6038075530464433,
+                                1.6038075530464433,
+                                1.6038075530464433
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.460700429251601,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.460700429251601,
+            "unit": "eV"
+        }
+    }
+}

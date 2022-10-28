@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "a45adada-fb93-4ea0-ad9c-0da41ae52182",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/a45adada-fb93-4ea0-ad9c-0da41ae52182",
+        "method": "dynamic",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "6476776e-e89d-42c8-95a8-8bab90888cfb",
+            "id": "2008--Sa-I--Fe-Ti--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2008--Sa-I--Fe-Ti--LAMMPS--ipr1",
+            "potential": {
+                "key": "9fc5b06c-627b-4358-a0af-ca6ded9f04c5",
+                "id": "2008--Sa-I-Lee-B--Fe-Ti",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2008--Sa-I-Lee-B--Fe-Ti"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "3b6bf331-c4a3-412b-9bac-2ef23442cc35",
+            "symbol": [
+                "Ti",
+                "Fe"
+            ],
+            "composition": "FeTi",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.824207801533421,
+                "b": 2.824207801533421,
+                "c": 3.3268932942019447,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.824207801533421,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.824207801533421,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.3268932942019447
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ti",
+                "Fe"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.4121039007667104,
+                                1.4121039007667104,
+                                1.6634466471009723
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.7971664731656,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.7971664731656,
+            "unit": "eV"
+        }
+    }
+}

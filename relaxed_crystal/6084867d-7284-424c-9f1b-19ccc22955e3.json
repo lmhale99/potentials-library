@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "6084867d-7284-424c-9f1b-19ccc22955e3",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/6084867d-7284-424c-9f1b-19ccc22955e3",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "12d6acfc-5373-467a-85e4-ebb48b1ca79f",
+            "id": "2003--Zope-R-R--Ti-Al--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2003--Zope-R-R--Ti-Al--LAMMPS--ipr1",
+            "potential": {
+                "key": "274cbc15-b7c1-4701-a3e8-07b0b046ad7b",
+                "id": "2003--Zope-R-R-Mishin-Y--Ti-Al",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2003--Zope-R-R-Mishin-Y--Ti-Al"
+            }
+        },
+        "system-info": {
+            "family": "mp-1953",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/mp-1953",
+            "parent_key": "7f8e8876-a626-43fc-8ea0-a092b379f665",
+            "symbol": [
+                "Al",
+                "Ti"
+            ],
+            "composition": "AlTi",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.82693695014018,
+                "b": 2.82693695014018,
+                "c": 4.18664911920166,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.82693695014018,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.82693695014018,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.18664911920166
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Al",
+                "Ti"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.41346847507009,
+                                1.41346847507009,
+                                2.09332455960083
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.50855144579825,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.477934586352545,
+            "unit": "eV"
+        }
+    }
+}

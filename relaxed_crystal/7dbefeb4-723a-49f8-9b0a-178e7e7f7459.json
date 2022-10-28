@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "7dbefeb4-723a-49f8-9b0a-178e7e7f7459",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/7dbefeb4-723a-49f8-9b0a-178e7e7f7459",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "1c89550d-d2e0-4777-bd13-98cd3cb3c620",
+            "id": "2018--Smirnova-D-E--Mg-H--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2018--Smirnova-D-E--Mg-H--LAMMPS--ipr1",
+            "potential": {
+                "key": "9b94d565-98d8-4a45-ba5b-f45944960751",
+                "id": "2018--Smirnova-D-E-Starikov-S-V-Vlasova-A-M--Mg-H",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2018--Smirnova-D-E-Starikov-S-V-Vlasova-A-M--Mg-H"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-306631",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-306631",
+            "parent_key": "cfd457fb-c877-442f-ae02-0d5439421063",
+            "symbol": [
+                "H",
+                "Mg"
+            ],
+            "composition": "HMg",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 2.97106512079894,
+                "b": 2.97106512079894,
+                "c": 2.97106512079894,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.97106512079894,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.97106512079894,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.97106512079894
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "H",
+                "Mg"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.48553256039947,
+                                1.48553256039947,
+                                1.48553256039947
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.1090414438334,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.1090414438334,
+            "unit": "eV"
+        }
+    }
+}

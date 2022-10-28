@@ -1,0 +1,111 @@
+{
+    "relaxed-crystal": {
+        "key": "26698640-c494-4dca-ba1e-54d723839d1a",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/26698640-c494-4dca-ba1e-54d723839d1a",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_749732139672_004",
+            "id": "Morse_Shifted_GirifalcoWeizer_1959LowCutoff_K__MO_749732139672_004",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_749732139672",
+            "potential": {
+                "key": "4a0e4ca0-051d-48dc-81b9-eb6af527628a",
+                "id": "1959--Girifalco-L-A-Weizer-V-G--K",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1959--Girifalco-L-A-Weizer-V-G--K"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-20089",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-20089",
+            "parent_key": "344ec152-e9a1-4a51-98d0-ba9a6a4a9050",
+            "symbol": "K",
+            "composition": "K",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 1,
+                "a": 4.33387755432004,
+                "b": 4.33387755432004,
+                "c": 4.33387755432004,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        4.33387755432004,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        4.33387755432004,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.33387755432004
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "K",
+            "atoms": {
+                "natoms": 1,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": 1
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "shape": [
+                                1,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -0.73968724557015,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -0.73968724557015,
+            "unit": "eV"
+        }
+    }
+}

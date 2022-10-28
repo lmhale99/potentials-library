@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "ca5249a6-5157-4ce5-9eef-edeffee26e08",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/ca5249a6-5157-4ce5-9eef-edeffee26e08",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "ef3c968c-5e47-45bb-836c-8d8703d44edb",
+            "id": "2013--Onat-B--Cu-Ni--LAMMPS--ipr2",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2013--Onat-B--Cu-Ni--LAMMPS--ipr2",
+            "potential": {
+                "key": "31a90189-5dd6-43bc-ba69-78c94fca1bd1",
+                "id": "2013--Onat-B-Durukanoglu-S--Cu-Ni",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2013--Onat-B-Durukanoglu-S--Cu-Ni"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "23e0eae2-543b-458d-a382-f4619beecb93",
+            "symbol": [
+                "Ni",
+                "Cu"
+            ],
+            "composition": "CuNi",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.497535781420355,
+                "b": 2.497535781420355,
+                "c": 3.7038949488418,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.497535781420355,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.497535781420355,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.7038949488418
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ni",
+                "Cu"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.2487678907101776,
+                                1.2487678907101776,
+                                1.8519474744209
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.9728512907426996,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.9728512907426996,
+            "unit": "eV"
+        }
+    }
+}

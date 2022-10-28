@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "3e92bdc6-58b5-4afa-bc2b-55d99bd06506",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/3e92bdc6-58b5-4afa-bc2b-55d99bd06506",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "e7356dbd-e450-4bba-9089-262409407c0e",
+            "id": "2004--Zhou-X-W--Ta-Cu--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2004--Zhou-X-W--Ta-Cu--LAMMPS--ipr1",
+            "potential": {
+                "key": "f12498d1-1560-4fcf-af65-7ec9934b0b95",
+                "id": "2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ta-Cu",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Ta-Cu"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1229192",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1229192",
+            "parent_key": "10fa4a26-47a2-4a8a-abe6-f551d83d719e",
+            "symbol": [
+                "Cu",
+                "Ta"
+            ],
+            "composition": "CuTa",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 2.753919809896202,
+                "b": 2.753919809896202,
+                "c": 4.3573485124808204,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.753919809896202,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.3769599049481016,
+                        2.3849645153553225,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.3573485124808204
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cu",
+                "Ta"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -2.821091543722453e-16,
+                                1.589976343570215,
+                                2.1786742562404102
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -5.82075853729025,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -5.820758894918119,
+            "unit": "eV"
+        }
+    }
+}

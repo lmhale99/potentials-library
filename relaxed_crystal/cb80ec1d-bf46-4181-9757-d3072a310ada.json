@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "cb80ec1d-bf46-4181-9757-d3072a310ada",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/cb80ec1d-bf46-4181-9757-d3072a310ada",
+        "method": "static",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_426403318662_000",
+            "id": "EAM_Dynamo_GolaPastewka_2018_CuAu__MO_426403318662_000",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_426403318662",
+            "potential": {
+                "key": "8e9359a7-ac59-4570-a38a-2852089e9a7c",
+                "id": "2018--Gola-A-Pastewka-L--Au-Cu",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2018--Gola-A-Pastewka-L--Au-Cu"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "85f31e75-7547-4569-a9e1-13caf40b66d8",
+            "symbol": [
+                "Cu",
+                "Au"
+            ],
+            "composition": "AuCu",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 3.072044569285193,
+                "b": 3.072044569285193,
+                "c": 3.072044569285193,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.072044569285193,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.072044569285193,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.072044569285193
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cu",
+                "Au"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5360222846425966,
+                                1.5360222846425966,
+                                1.5360222846425966
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.78023455352045,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.78023705352045,
+            "unit": "eV"
+        }
+    }
+}

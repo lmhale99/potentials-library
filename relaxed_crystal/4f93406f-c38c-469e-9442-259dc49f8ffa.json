@@ -1,0 +1,121 @@
+{
+    "relaxed-crystal": {
+        "key": "4f93406f-c38c-469e-9442-259dc49f8ffa",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/4f93406f-c38c-469e-9442-259dc49f8ffa",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_370271093517_004",
+            "id": "Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Pb__MO_370271093517_004",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_370271093517",
+            "potential": {
+                "key": "4dc4b4ea-0590-4990-930b-03eee8de3c09",
+                "id": "1959--Girifalco-L-A-Weizer-V-G--Pb",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1959--Girifalco-L-A-Weizer-V-G--Pb"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1215892",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1215892",
+            "parent_key": "5fe20611-3020-4bf3-a521-890b9a7b9de4",
+            "symbol": "Pb",
+            "composition": "Pb",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 4.679370925847849,
+                "b": 4.6793709258478495,
+                "c": 5.730801745062095,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        4.679370925847849,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -2.339685462923925,
+                        4.052454095514546,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.730801745062095
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Pb",
+            "atoms": {
+                "natoms": 3,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.3396854629239243,
+                                1.341435494557263,
+                                1.910267248354032,
+                                0.008125515637229075,
+                                2.6969447950359045,
+                                3.820534496708064
+                            ],
+                            "shape": [
+                                3,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -1.5021032335408666,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -1.5021032335408666,
+            "unit": "eV"
+        }
+    }
+}

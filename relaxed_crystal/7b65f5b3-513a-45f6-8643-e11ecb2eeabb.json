@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "7b65f5b3-513a-45f6-8643-e11ecb2eeabb",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/7b65f5b3-513a-45f6-8643-e11ecb2eeabb",
+        "method": "dynamic",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "e61b2089-4a6e-4d54-a3b9-d7feedccecbb",
+            "id": "2018--Jang-H-S--Mg-Pb--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2018--Jang-H-S--Mg-Pb--LAMMPS--ipr1",
+            "potential": {
+                "key": "5d9a561f-ea6a-461a-9ed6-8f7c4ac3a1da",
+                "id": "2017--Kim-K-H-Lee-B-J--Mg-Pb",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2017--Kim-K-H-Lee-B-J--Mg-Pb"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1215357",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1215357",
+            "parent_key": "92ef3433-276e-4423-99b0-c130934e8dbc",
+            "symbol": "Pb",
+            "composition": "Pb",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 3.4967627927029756,
+                "b": 3.4967627927029756,
+                "c": 5.728806433574343,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.4967627927029756,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.7483813963514885,
+                        3.0282854094889955,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.728806433574343
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Pb",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -6.661338147750939e-16,
+                                2.0188569396593308,
+                                2.864403216787171
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.0370456081319,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.0370456081319,
+            "unit": "eV"
+        }
+    }
+}

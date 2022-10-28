@@ -1,0 +1,111 @@
+{
+    "relaxed-crystal": {
+        "key": "5aedea00-ddb7-471c-9cb4-a773efdb6eaf",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/5aedea00-ddb7-471c-9cb4-a773efdb6eaf",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_522239651961_000",
+            "id": "EAM_Dynamo_Mendelev_2018_Tb__MO_522239651961_000",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_522239651961",
+            "potential": {
+                "key": "ed3a1bb7-3c6c-47f6-b3ca-e05870435610",
+                "id": "2018--Mendelev-M-I-Zhang-F-Song-H-et-al--Tb",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2018--Mendelev-M-I-Zhang-F-Song-H-et-al--Tb"
+            }
+        },
+        "system-info": {
+            "family": "Ah--alpha-Po--sc",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/Ah--alpha-Po--sc",
+            "parent_key": "320ac518-f994-4ed7-99ef-fd849fe117a4",
+            "symbol": "Tb",
+            "composition": "Tb",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 1,
+                "a": 3.35848949843137,
+                "b": 3.35848949843137,
+                "c": 3.35848949843137,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.35848949843137,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.35848949843137,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.35848949843137
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Tb",
+            "atoms": {
+                "natoms": 1,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": 1
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "shape": [
+                                1,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.5296011825304,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.5296011825304,
+            "unit": "eV"
+        }
+    }
+}

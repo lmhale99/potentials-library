@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "96fe204e-2e58-4c8b-a564-f300dbd97585",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/96fe204e-2e58-4c8b-a564-f300dbd97585",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "0aa503db-7ba0-429c-b0d6-e212438c124b",
+            "id": "2017--Smirnova-D-E--Zr-Nb--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2017--Smirnova-D-E--Zr-Nb--LAMMPS--ipr1",
+            "potential": {
+                "key": "c571702e-8d42-433b-8678-c48b1868178d",
+                "id": "2017--Smirnova-D-E-Starikov-S-V--Zr-Nb",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2017--Smirnova-D-E-Starikov-S-V--Zr-Nb"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-758451",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-758451",
+            "parent_key": "05840df6-816e-46df-8e1e-f343f64e75a4",
+            "symbol": "Zr",
+            "composition": "Zr",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 3.2148903273557314,
+                "b": 3.2148903273557314,
+                "c": 5.172576677310601,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.2148903273557314,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.6074451636778664,
+                        2.784176693870933,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.172576677310601
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Zr",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.6074451636778653,
+                                0.9280588979569779,
+                                2.586288338655301
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -6.4692838045259,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -6.4692838045259,
+            "unit": "eV"
+        }
+    }
+}

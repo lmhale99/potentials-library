@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "56683d42-43e2-4ab5-a375-0654e8859756",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/56683d42-43e2-4ab5-a375-0654e8859756",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "e61b2089-4a6e-4d54-a3b9-d7feedccecbb",
+            "id": "2018--Jang-H-S--Mg-Pb--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2018--Jang-H-S--Mg-Pb--LAMMPS--ipr1",
+            "potential": {
+                "key": "5d9a561f-ea6a-461a-9ed6-8f7c4ac3a1da",
+                "id": "2017--Kim-K-H-Lee-B-J--Mg-Pb",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2017--Kim-K-H-Lee-B-J--Mg-Pb"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "cfce443c-bb04-424b-a37a-5de50aa61d79",
+            "symbol": [
+                "Mg",
+                "Pb"
+            ],
+            "composition": "MgPb",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 3.3049218520969132,
+                "b": 3.3049218520969132,
+                "c": 4.575584631315751,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.3049218520969132,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.3049218520969132,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.575584631315751
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Mg",
+                "Pb"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.6524609260484566,
+                                1.6524609260484566,
+                                2.2877923156578754
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -1.88227242191155,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -1.88227242191155,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "relaxed-crystal": {
+        "key": "fb42a932-d142-49fe-bf1d-f68e5bb46b77",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/fb42a932-d142-49fe-bf1d-f68e5bb46b77",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "00976d5c-140b-417f-b0db-694ddc5cf8f2",
+            "id": "2021--Deluigi-O-R--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2021--Deluigi-O-R--Fe-Ni-Cr-Co-Cu--LAMMPS--ipr1",
+            "potential": {
+                "key": "f9d8adb8-1bcf-442d-9f1c-130a94f32b16",
+                "id": "2021--Deluigi-O-R-Pasianot-R-C-Valencia-F-J-et-al--Fe-Ni-Cr-Co-Cu",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Deluigi-O-R-Pasianot-R-C-Valencia-F-J-et-al--Fe-Ni-Cr-Co-Cu"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1225682",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1225682",
+            "parent_key": "c9db6b47-1bbe-453b-bbca-989ab2d28b11",
+            "symbol": [
+                "Cu",
+                "Ni"
+            ],
+            "composition": "CuNi",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 4.103663194031539,
+                "b": 4.103663194031538,
+                "c": 4.8604234225317,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        4.103663194031539,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -2.05183159701577,
+                        3.5538765746065013,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.8604234225317
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cu",
+                "Ni"
+            ],
+            "atoms": {
+                "natoms": 4,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                2,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.0518315970157697,
+                                1.1846255248688342,
+                                2.4302117112658497,
+                                2.0518315970157692,
+                                1.184625524868834,
+                                0.0,
+                                4.4408920985006257e-16,
+                                2.2204460492503123e-16,
+                                2.4302117112658497
+                            ],
+                            "shape": [
+                                4,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.8258940471015,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.8258940471015,
+            "unit": "eV"
+        }
+    }
+}

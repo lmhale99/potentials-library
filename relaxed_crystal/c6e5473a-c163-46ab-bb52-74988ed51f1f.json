@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "c6e5473a-c163-46ab-bb52-74988ed51f1f",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/c6e5473a-c163-46ab-bb52-74988ed51f1f",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_699137396381_005",
+            "id": "EAM_Dynamo_LandaWynblattSiegel_2000_AlPb__MO_699137396381_005",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_699137396381",
+            "potential": {
+                "key": "df6401e2-2541-484c-bf5d-1b0ff4b1ac39",
+                "id": "2000--Landa-A-Wynblatt-P-Siegel-D-J-et-al--Al-Pb",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2000--Landa-A-Wynblatt-P-Siegel-D-J-et-al--Al-Pb"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1228014",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1228014",
+            "parent_key": "8a4b4300-8eec-408c-9228-a2c2dc426063",
+            "symbol": [
+                "Al",
+                "Pb"
+            ],
+            "composition": "AlPb",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 3.1390676393957513,
+                "b": 3.1390676393957513,
+                "c": 5.151990311940572,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.1390676393957513,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.5695338196978763,
+                        2.7185123199143697,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.151990311940572
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Al",
+                "Pb"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.5390550257128876e-16,
+                                1.81234154660958,
+                                2.575995155970286
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.4496090059715496,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.4496090059715496,
+            "unit": "eV"
+        }
+    }
+}

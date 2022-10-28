@@ -1,0 +1,131 @@
+{
+    "relaxed-crystal": {
+        "key": "6680eed9-0202-4d0c-b949-5436e6c510db",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/6680eed9-0202-4d0c-b949-5436e6c510db",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_612061685362_002",
+            "id": "Tersoff_LAMMPS_NordAlbeErhart_2003_GaN__MO_612061685362_002",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_612061685362",
+            "potential": {
+                "key": "21fd9cb3-626b-4c40-b049-ecccd27f4646",
+                "id": "2003--Nord-J-Albe-K-Erhart-P-Nordlund-K--Ga-N",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2003--Nord-J-Albe-K-Erhart-P-Nordlund-K--Ga-N"
+            }
+        },
+        "system-info": {
+            "family": "mp-804",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/mp-804",
+            "parent_key": "f1c9c80e-ce08-49d4-9829-d3c495ae4e32",
+            "symbol": [
+                "Ga",
+                "N"
+            ],
+            "composition": "GaN",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 3.185960898867612,
+                "b": 3.1859608988676116,
+                "c": 5.177891448286831,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.185960898867612,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.5929804494338067,
+                        2.759123073883256,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.177891448286831
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ga",
+                "N"
+            ],
+            "atoms": {
+                "natoms": 4,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                2,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5929804494338058,
+                                0.919707691294419,
+                                2.5889457241434157,
+                                0.0,
+                                0.0,
+                                3.227069066230321,
+                                1.5929804494338058,
+                                0.919707691294419,
+                                0.6381233420869061
+                            ],
+                            "shape": [
+                                4,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.5277059540895,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.5277059540895,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "relaxed-crystal": {
+        "key": "632a8e63-7257-449a-964c-5cf8e63472b6",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/632a8e63-7257-449a-964c-5cf8e63472b6",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_137964310702_002",
+            "id": "Tersoff_LAMMPS_MuellerErhartAlbe_2007_Fe__MO_137964310702_002",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_137964310702",
+            "potential": {
+                "key": "3c73b662-4916-453b-b5ad-852a216b635e",
+                "id": "2007--Muller-M-Erhart-P-Albe-K--Fe",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2007--Muller-M-Erhart-P-Albe-K--Fe"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1215594",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1215594",
+            "parent_key": "e43df7b7-201c-4000-9c34-3b5bd1e6e8e1",
+            "symbol": "Fe",
+            "composition": "Fe",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 1,
+                "a": 4.59645657686045,
+                "b": 4.59645657686045,
+                "c": 2.4196911121112374,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        4.59645657686045,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        4.59645657686045,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.4196911121112374
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Fe",
+            "atoms": {
+                "natoms": 4,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.298228288430225,
+                                0.0,
+                                0.6049227780278099,
+                                2.298228288430225,
+                                2.298228288430225,
+                                1.209845556055619,
+                                0.0,
+                                2.298228288430225,
+                                1.814768334083428
+                            ],
+                            "shape": [
+                                4,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.69306211876125,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.69306211876125,
+            "unit": "eV"
+        }
+    }
+}

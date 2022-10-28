@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "31f1c6f5-bb54-45bb-8d4b-e047abce4c86",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/31f1c6f5-bb54-45bb-8d4b-e047abce4c86",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "3ce61fa3-46f5-4fe7-9d0b-d50812ea814e",
+            "id": "2018--Zhou-X-W--Fe-Ni-Cr--LAMMPS--ipr2",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2018--Zhou-X-W--Fe-Ni-Cr--LAMMPS--ipr2",
+            "potential": {
+                "key": "7d63cde1-4ef1-499b-84bf-cfbd63a8acec",
+                "id": "2018--Zhou-X-W-Foster-M-E-Sills-R-B--Fe-Ni-Cr",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2018--Zhou-X-W-Foster-M-E-Sills-R-B--Fe-Ni-Cr"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-1229478",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-1229478",
+            "parent_key": "b3031c58-46e7-4c06-b447-1d9f2527c3a0",
+            "symbol": [
+                "Fe",
+                "Ni"
+            ],
+            "composition": "FeNi",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 2,
+                "a": 2.5162149029379606,
+                "b": 2.5162149029379597,
+                "c": 4.23788170294488,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.5162149029379606,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.2581074514689807,
+                        2.1791060273252683,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.23788170294488
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Fe",
+                "Ni"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.2581074514689805,
+                                0.7263686757750892,
+                                2.11894085147244
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.3599442171891996,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.3599442171891996,
+            "unit": "eV"
+        }
+    }
+}

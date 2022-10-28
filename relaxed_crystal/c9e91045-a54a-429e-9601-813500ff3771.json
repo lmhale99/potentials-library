@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "c9e91045-a54a-429e-9601-813500ff3771",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/c9e91045-a54a-429e-9601-813500ff3771",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "61b4794b-9cff-41e0-84cf-f9437f365648",
+            "id": "2011--Zhou-X-W--Li-Na-K-Rb-Cs-F-Cl-Br-I--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2011--Zhou-X-W--Li-Na-K-Rb-Cs-F-Cl-Br-I--LAMMPS--ipr1",
+            "potential": {
+                "key": "49f401da-b208-401f-a629-0ed1cababd20",
+                "id": "2011--Zhou-X-W-Doty-F-P-Yang-P--Li-Na-K-Rb-Cs-F-Cl-Br-I",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2011--Zhou-X-W-Doty-F-P-Yang-P--Li-Na-K-Rb-Cs-F-Cl-Br-I"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "9e6332c2-54fb-4db1-a51c-13d525f38d8d",
+            "symbol": [
+                "Id",
+                "K"
+            ],
+            "composition": "IdK",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 4.186775013160776,
+                "b": 4.186775013160776,
+                "c": 4.186775013160776,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        4.186775013160776,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        4.186775013160776,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.186775013160776
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Id",
+                "K"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.093387506580388,
+                                2.093387506580388,
+                                2.093387506580388
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.4136177498836,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.4136177498836,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "29bc1ddc-b442-4d02-aa80-dd4cb912fde9",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/29bc1ddc-b442-4d02-aa80-dd4cb912fde9",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "51eb2d42-0053-44fc-a139-64c4c19571a7",
+            "id": "2021--Starikov-S--Zr-Nb--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2021--Starikov-S--Zr-Nb--LAMMPS--ipr1",
+            "potential": {
+                "key": "fa000d07-cf5d-474f-8407-5fa5b41a79f1",
+                "id": "2021--Starikov-S-Smirnova-D--Zr-Nb",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Starikov-S-Smirnova-D--Zr-Nb"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "e392c31f-937e-4eae-b1eb-0ab3af25197c",
+            "symbol": [
+                "Zr",
+                "Nb"
+            ],
+            "composition": "NbZr",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 5.448082148785222,
+                "b": 5.448082148785222,
+                "c": 5.448082148785222,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        5.448082148785222,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        5.448082148785222,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.448082148785222
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Zr",
+                "Nb"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.724041074392611,
+                                2.724041074392611,
+                                2.724041074392611
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": 1.32120328651495,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": 1.32120328651495,
+            "unit": "eV"
+        }
+    }
+}

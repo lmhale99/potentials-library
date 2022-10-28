@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "ab90253e-a1fb-4c02-9901-479ac40f8d10",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/ab90253e-a1fb-4c02-9901-479ac40f8d10",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "6fa1f0f0-38ef-4bf2-92df-fc6b34c92b7a",
+            "id": "2008--Kim-Y-M--Cu-Zr--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2008--Kim-Y-M--Cu-Zr--LAMMPS--ipr1",
+            "potential": {
+                "key": "75483860-e510-4433-9de0-ba9a3b44983c",
+                "id": "2008--Kim-Y-M-Lee-B-J--Cu-Zr",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2008--Kim-Y-M-Lee-B-J--Cu-Zr"
+            }
+        },
+        "system-info": {
+            "family": "mp-2210",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/mp-2210",
+            "parent_key": "627f42a6-2d91-4d8a-96ab-c5b152d5714d",
+            "symbol": [
+                "Cu",
+                "Zr"
+            ],
+            "composition": "CuZr",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 3.2586803970743934,
+                "b": 3.2586803970743934,
+                "c": 3.2586803970743934,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.2586803970743934,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.2586803970743934,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.2586803970743934
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cu",
+                "Zr"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.6293401985371967,
+                                1.6293401985371967,
+                                1.6293401985371967
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -5.070000000066501,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -5.070000000066501,
+            "unit": "eV"
+        }
+    }
+}

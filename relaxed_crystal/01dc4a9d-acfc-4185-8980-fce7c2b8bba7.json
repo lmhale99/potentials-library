@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "01dc4a9d-acfc-4185-8980-fce7c2b8bba7",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/01dc4a9d-acfc-4185-8980-fce7c2b8bba7",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "4b6610d8-b6ae-48a1-bdbc-9cfb761364a8",
+            "id": "2009--Do-E-C--Ga-In-N--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2009--Do-E-C--Ga-In-N--LAMMPS--ipr1",
+            "potential": {
+                "key": "eecd46ec-19c2-44e7-b46d-b8ec1c476add",
+                "id": "2009--Do-E-C-Shin-Y-H-Lee-B-J--Ga-In-N",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2009--Do-E-C-Shin-Y-H-Lee-B-J--Ga-In-N"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "56b5480e-d128-4536-8a82-603494e30458",
+            "symbol": [
+                "In",
+                "Ga"
+            ],
+            "composition": "GaIn",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 3.0856470738087953,
+                "b": 3.0856470738087953,
+                "c": 5.164697527920604,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.0856470738087953,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.0856470738087953,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.164697527920604
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "In",
+                "Ga"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5428235369043977,
+                                1.5428235369043977,
+                                2.582348763960302
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.2069832741708,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.2069832741708,
+            "unit": "eV"
+        }
+    }
+}

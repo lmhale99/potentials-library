@@ -1,0 +1,111 @@
+{
+    "relaxed-crystal": {
+        "key": "64133e5e-e8c6-4409-921d-46507d174b67",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/64133e5e-e8c6-4409-921d-46507d174b67",
+        "method": "static",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "d45b6e62-e69e-4c4a-b0f4-8a6f147f19f0",
+            "id": "2021--Wen-M--Fe-H--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2021--Wen-M--Fe-H--LAMMPS--ipr1",
+            "potential": {
+                "key": "a32373ef-05b0-419e-b346-6ba5c6b36f61",
+                "id": "2021--Wen-M--Fe-H",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Wen-M--Fe-H"
+            }
+        },
+        "system-info": {
+            "family": "Ah--alpha-Po--sc",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/Ah--alpha-Po--sc",
+            "parent_key": "287b27fb-f559-440b-b954-3b1ba9b6d9b3",
+            "symbol": "H",
+            "composition": "H",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 1,
+                "a": 1.664591608825875,
+                "b": 1.664591608825875,
+                "c": 1.664591608825875,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        1.664591608825875,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        1.664591608825875,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        1.664591608825875
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "H",
+            "atoms": {
+                "natoms": 1,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": 1
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "shape": [
+                                1,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.0590920080831,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.0547104408671895,
+            "unit": "eV"
+        }
+    }
+}

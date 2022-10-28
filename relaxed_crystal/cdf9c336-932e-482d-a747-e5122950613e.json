@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "cdf9c336-932e-482d-a747-e5122950613e",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/cdf9c336-932e-482d-a747-e5122950613e",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "d4dfb98d-87dc-4647-8ab6-87378120456f",
+            "id": "2013--Hale-L-M--Pd-Ag-H-Hybrid--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2013--Hale-L-M--Pd-Ag-H-Hybrid--LAMMPS--ipr1",
+            "potential": {
+                "key": "41f2bbbd-bc48-420e-8c2b-6bec9cf00afc",
+                "id": "2013--Hale-L-M-Wong-B-M-Zimmerman-J-A-Zhou-X-W--Pd-Ag-H-Hybrid",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2013--Hale-L-M-Wong-B-M-Zimmerman-J-A-Zhou-X-W--Pd-Ag-H-Hybrid"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "a039669b-fbb4-4004-88d2-db188da243a2",
+            "symbol": [
+                "Ag",
+                "H"
+            ],
+            "composition": "AgH",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.7801554852682253,
+                "b": 2.7801554852682253,
+                "c": 3.08627675185667,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.7801554852682253,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.7801554852682253,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.08627675185667
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ag",
+                "H"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.3900777426341127,
+                                1.3900777426341127,
+                                1.543138375928335
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.7960151878917,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.7960122608417,
+            "unit": "eV"
+        }
+    }
+}

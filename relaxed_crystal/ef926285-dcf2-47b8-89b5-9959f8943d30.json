@@ -1,0 +1,111 @@
+{
+    "relaxed-crystal": {
+        "key": "ef926285-dcf2-47b8-89b5-9959f8943d30",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/ef926285-dcf2-47b8-89b5-9959f8943d30",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_128703483589_005",
+            "id": "EAM_Dynamo_WilliamsMishinHamilton_2006_CuAg__MO_128703483589_005",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_128703483589",
+            "potential": {
+                "key": "cfe3a54f-c3b2-4b61-8b03-165613bdd829",
+                "id": "2006--Williams-P-L-Mishin-Y-Hamilton-J-C--Cu-Ag",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2006--Williams-P-L-Mishin-Y-Hamilton-J-C--Cu-Ag"
+            }
+        },
+        "system-info": {
+            "family": "Ah--alpha-Po--sc",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/Ah--alpha-Po--sc",
+            "parent_key": "f19d6d70-e980-4072-b1b2-43b49f556395",
+            "symbol": "Ag",
+            "composition": "Ag",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 1,
+                "a": 2.73415829174823,
+                "b": 2.73415829174823,
+                "c": 2.73415829174823,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.73415829174823,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.73415829174823,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.73415829174823
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Ag",
+            "atoms": {
+                "natoms": 1,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": 1
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "shape": [
+                                1,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -2.4504155927822,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -2.450415566629452,
+            "unit": "eV"
+        }
+    }
+}

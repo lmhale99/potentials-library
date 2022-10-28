@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "cf1c46e0-1e57-4849-ab92-0f1eceb52199",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/cf1c46e0-1e57-4849-ab92-0f1eceb52199",
+        "method": "dynamic",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_710767216198_003",
+            "id": "EAM_IMD_BrommerBoissieuEuchner_2009_MgZn__MO_710767216198_003",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_710767216198",
+            "potential": {
+                "key": "25ca22d1-ef58-4c65-9398-8cf65f0bb11d",
+                "id": "2009--Brommer-P-Boissieu-M-Euchner-H-et-al--Mg-Zn",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2009--Brommer-P-Boissieu-M-Euchner-H-et-al--Mg-Zn"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "dd6ef2b2-59ed-489f-bf41-8e33cc3caae3",
+            "symbol": [
+                "Mg",
+                "Zn"
+            ],
+            "composition": "MgZn",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 3.2364613982271595,
+                "b": 3.2364613982271595,
+                "c": 3.2364613982271595,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.2364613982271595,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.2364613982271595,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.2364613982271595
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Mg",
+                "Zn"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.6182306991135798,
+                                1.6182306991135798,
+                                1.6182306991135798
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -1.3997724964634501,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -1.1956440783113402,
+            "unit": "eV"
+        }
+    }
+}

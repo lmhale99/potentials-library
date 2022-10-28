@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "62839982-b11c-4cf6-a7c1-62abb30e28b7",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/62839982-b11c-4cf6-a7c1-62abb30e28b7",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_616776018688_002",
+            "id": "Tersoff_LAMMPS_ErhartJuslinGoy_2006_ZnO__MO_616776018688_002",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_616776018688",
+            "potential": {
+                "key": "75bc55d1-cec4-4e3e-99f4-baa66066147c",
+                "id": "2006--Erhart-P-Juslin-N-Goy-O-et-al--Zn-O",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2006--Erhart-P-Juslin-N-Goy-O-et-al--Zn-O"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "1dec81f8-be0a-470c-b7a5-bd0fd23ba58e",
+            "symbol": [
+                "O",
+                "Zn"
+            ],
+            "composition": "OZn",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.66553745781153,
+                "b": 2.66553745781153,
+                "c": 3.7385213619719004,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.66553745781153,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.66553745781153,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.7385213619719004
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "O",
+                "Zn"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.332768728905765,
+                                1.332768728905765,
+                                1.8692606809859502
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -0.61182738511675,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -0.61182738511675,
+            "unit": "eV"
+        }
+    }
+}

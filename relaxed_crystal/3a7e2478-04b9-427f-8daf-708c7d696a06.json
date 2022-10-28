@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "3a7e2478-04b9-427f-8daf-708c7d696a06",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/3a7e2478-04b9-427f-8daf-708c7d696a06",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_104806802344_005",
+            "id": "EAM_Dynamo_HaleWongZimmerman_2008PairHybrid_PdAgH__MO_104806802344_005",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_104806802344",
+            "potential": {
+                "key": "41f2bbbd-bc48-420e-8c2b-6bec9cf00afc",
+                "id": "2013--Hale-L-M-Wong-B-M-Zimmerman-J-A-Zhou-X-W--Pd-Ag-H-Hybrid",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2013--Hale-L-M-Wong-B-M-Zimmerman-J-A-Zhou-X-W--Pd-Ag-H-Hybrid"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "fdcec79c-4c3a-44da-8106-e3acea61a906",
+            "symbol": [
+                "Ag",
+                "Pd"
+            ],
+            "composition": "AgPd",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 5.9851601139162804,
+                "b": 5.9851601139162804,
+                "c": 6.5703451572305696,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        5.9851601139162804,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        5.9851601139162804,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        6.5703451572305696
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ag",
+                "Pd"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.9925800569581402,
+                                2.9925800569581402,
+                                3.2851725786152848
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": 0.0012024649188284,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": 0.0012053919688284455,
+            "unit": "eV"
+        }
+    }
+}

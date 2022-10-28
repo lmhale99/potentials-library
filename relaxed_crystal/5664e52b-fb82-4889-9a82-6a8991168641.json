@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "5664e52b-fb82-4889-9a82-6a8991168641",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/5664e52b-fb82-4889-9a82-6a8991168641",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "ae5f9b23-95bf-4f3a-83d8-0c3daac46992",
+            "id": "2007--Mendelev-M-I--Cu-Zr--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2007--Mendelev-M-I--Cu-Zr--LAMMPS--ipr1",
+            "potential": {
+                "key": "fbb1e782-509e-4103-a735-db0050ad7477",
+                "id": "2007--Mendelev-M-I-Sordelet-D-J-Kramer-M-J--Cu-Zr",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2007--Mendelev-M-I-Sordelet-D-J-Kramer-M-J--Cu-Zr"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "929b3793-ec3e-4056-bf65-54d0003fa64c",
+            "symbol": [
+                "Zr",
+                "Cu"
+            ],
+            "composition": "CuZr",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 3.0152639591671253,
+                "b": 3.0152639591671253,
+                "c": 4.0135331313626,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.0152639591671253,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.0152639591671253,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.0135331313626
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Zr",
+                "Cu"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5076319795835627,
+                                1.5076319795835627,
+                                2.0067665656813
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.8951690330116,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.8951690330116,
+            "unit": "eV"
+        }
+    }
+}

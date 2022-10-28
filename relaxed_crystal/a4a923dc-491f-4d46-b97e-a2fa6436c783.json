@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "a4a923dc-491f-4d46-b97e-a2fa6436c783",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/a4a923dc-491f-4d46-b97e-a2fa6436c783",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_242741380554_004",
+            "id": "LJ_Shifted_Bernardes_1958HighCutoff_Ar__MO_242741380554_004",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_242741380554",
+            "potential": {
+                "key": "24c37060-bdcd-47a9-ba96-33efe0691930",
+                "id": "1958--Bernardes-N--Ar",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1958--Bernardes-N--Ar"
+            }
+        },
+        "system-info": {
+            "family": "A3--Mg--hcp",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/A3--Mg--hcp",
+            "parent_key": "1f439988-543b-43fe-842b-6b18267e02c8",
+            "symbol": "Ar",
+            "composition": "Ar",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 3.7084062948390395,
+                "b": 3.7084062948390395,
+                "c": 6.0548950893926605,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.7084062948390395,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.8542031474195206,
+                        3.211574058884733,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        6.0548950893926605
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Ar",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.220446049250313e-16,
+                                2.1410493725898223,
+                                3.027447544696331
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -0.088608306900835,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -0.088608306900835,
+            "unit": "eV"
+        }
+    }
+}

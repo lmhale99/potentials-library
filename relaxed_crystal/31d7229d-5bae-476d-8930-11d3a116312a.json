@@ -1,0 +1,111 @@
+{
+    "relaxed-crystal": {
+        "key": "31d7229d-5bae-476d-8930-11d3a116312a",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/31d7229d-5bae-476d-8930-11d3a116312a",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_103054252769_005",
+            "id": "EAM_Dynamo_LiSiegelAdams_2003_Ta__MO_103054252769_005",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_103054252769",
+            "potential": {
+                "key": "f981e581-ca81-43ba-9c24-dc5f8ef0a908",
+                "id": "2003--Li-Y-Siegel-D-J-Adams-J-B-Liu-X-Y--Ta",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2003--Li-Y-Siegel-D-J-Adams-J-B-Liu-X-Y--Ta"
+            }
+        },
+        "system-info": {
+            "family": "Ah--alpha-Po--sc",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/Ah--alpha-Po--sc",
+            "parent_key": "554e68f6-fbf3-46ff-bc93-721104bb7e2b",
+            "symbol": "Ta",
+            "composition": "Ta",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 1,
+                "a": 2.66376967476691,
+                "b": 2.66376967476691,
+                "c": 2.66376967476691,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.66376967476691,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.66376967476691,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.66376967476691
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Ta",
+            "atoms": {
+                "natoms": 1,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": 1
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "shape": [
+                                1,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -6.7074919805392,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -6.7074919805392,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "20e43fb0-eb0d-4a92-b62e-221ea9603cfe",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/20e43fb0-eb0d-4a92-b62e-221ea9603cfe",
+        "method": "static",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "MO_306032198193_000",
+            "id": "EAM_Dynamo_WilsonMendelev_2015_NiZr__MO_306032198193_000",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_306032198193",
+            "potential": {
+                "key": "ee7b64fc-4e6e-4b43-8de1-082b8f85bd91",
+                "id": "2015--Wilson-S-R-Mendelev-M-I--Ni-Zr",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2015--Wilson-S-R-Mendelev-M-I--Ni-Zr"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "c70e9c78-88df-440a-b17b-8e2eda36f7d8",
+            "symbol": [
+                "Zr",
+                "Ni"
+            ],
+            "composition": "NiZr",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 3.0196646383285275,
+                "b": 3.0196646383285275,
+                "c": 3.47544993203786,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.0196646383285275,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.0196646383285275,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.47544993203786
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Zr",
+                "Ni"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5098323191642637,
+                                1.5098323191642637,
+                                1.73772496601893
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -5.842184848578,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -5.842184848578,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "relaxed-crystal": {
+        "key": "80000340-f67f-42fe-86b1-0ced190ff998",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/80000340-f67f-42fe-86b1-0ced190ff998",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "6a9a08f8-11be-4e37-bfbc-84044f8ecf7a",
+            "id": "2012--Jelinek-B--Al-Si-Mg-Cu-Fe--LAMMPS--ipr2",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2012--Jelinek-B--Al-Si-Mg-Cu-Fe--LAMMPS--ipr2",
+            "potential": {
+                "key": "1515dd80-1984-49de-bc92-d5724059ff56",
+                "id": "2012--Jelinek-B-Groh-S-Horstemeyer-M-F-et-al--Al-Si-Mg-Cu-Fe",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2012--Jelinek-B-Groh-S-Horstemeyer-M-F-et-al--Al-Si-Mg-Cu-Fe"
+            }
+        },
+        "system-info": {
+            "family": "mp-1073300",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/mp-1073300",
+            "parent_key": "01b34192-28d7-4003-ab9f-966cabbc0392",
+            "symbol": [
+                "MgS",
+                "SiS"
+            ],
+            "composition": "MgSSiS2",
+            "cell": {
+                "crystal-family": "triclinic",
+                "natypes": 2,
+                "a": 3.9288560017795398,
+                "b": 6.428403613643551,
+                "c": 10.166037742807973,
+                "alpha": 94.71798860051486,
+                "beta": 90.09112892781305,
+                "gamma": 90.10498160349685
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.9288560017795398,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -0.011778594294520514,
+                        6.428392822830752,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        -0.016169074526770726,
+                        -0.8362019598128001,
+                        10.13157580199795
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "MgS",
+                "SiS"
+            ],
+            "atoms": {
+                "natoms": 12,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                2,
+                                2,
+                                2,
+                                2,
+                                2,
+                                2,
+                                2,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                3.9102037251169732,
+                                4.223126351456736,
+                                3.256166883852433,
+                                1.9526300346027712,
+                                0.20614794782204185,
+                                4.825264291459386,
+                                1.9432763432610662,
+                                3.1940944398238753,
+                                8.279999929455256,
+                                -0.0065348328045964875,
+                                1.1710785558519954,
+                                3.1530578369154774,
+                                1.9495279392837344,
+                                4.315249803301171,
+                                1.0771283498135058,
+                                -0.014940864383181039,
+                                0.9529337260300476,
+                                7.585997118594206,
+                                1.951834430213462,
+                                4.060639960408352,
+                                5.571637217640986,
+                                3.89783087297762,
+                                2.1165019405417693,
+                                10.11410896531538,
+                                1.963796743119572,
+                                1.7601461781878922,
+                                1.7243435436209196,
+                                3.91369201918602,
+                                2.492769907051708,
+                                5.624341674962955,
+                                1.9463952776288567,
+                                -0.5715284573952666,
+                                7.6982448469045055
+                            ],
+                            "shape": [
+                                12,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.1562572372391666,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.1562572372391666,
+            "unit": "eV"
+        }
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "30bb26c0-b139-4d38-a91f-4aa00b849452",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/30bb26c0-b139-4d38-a91f-4aa00b849452",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "MO_117656786760_005",
+            "id": "EAM_Dynamo_ZopeMishin_2003_TiAl__MO_117656786760_005",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/MO_117656786760",
+            "potential": {
+                "key": "274cbc15-b7c1-4701-a3e8-07b0b046ad7b",
+                "id": "2003--Zope-R-R-Mishin-Y--Ti-Al",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2003--Zope-R-R-Mishin-Y--Ti-Al"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-755820",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-755820",
+            "parent_key": "87f36c7b-6372-4bfa-a413-4ab2fea38f73",
+            "symbol": "Ti",
+            "composition": "Ti",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 2.9526284415653334,
+                "b": 2.952628441565333,
+                "c": 4.680803056562371,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.9526284415653334,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.4763142207826672,
+                        2.557051238332035,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        4.680803056562371
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Ti",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.4763142207826667,
+                                0.8523504127773452,
+                                2.340401528281185
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.85000966538825,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.85000966460884,
+            "unit": "eV"
+        }
+    }
+}

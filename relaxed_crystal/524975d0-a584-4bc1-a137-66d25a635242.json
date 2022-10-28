@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "524975d0-a584-4bc1-a137-66d25a635242",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/524975d0-a584-4bc1-a137-66d25a635242",
+        "method": "box",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "7a0fc5db-0c9f-44f0-a005-4d6d6862a7aa",
+            "id": "1989--Tersoff-J--Si-Ge--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/1989--Tersoff-J--Si-Ge--LAMMPS--ipr1",
+            "potential": {
+                "key": "866a3898-fa41-42e0-9b2c-7a25beb42604",
+                "id": "1989--Tersoff-J--Si-Ge",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.1989--Tersoff-J--Si-Ge"
+            }
+        },
+        "system-info": {
+            "family": "oqmd-305646",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/oqmd-305646",
+            "parent_key": "a3201772-090c-40ef-b733-c1b1af397747",
+            "symbol": [
+                "Ge",
+                "Si"
+            ],
+            "composition": "GeSi",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 3.1414800082513135,
+                "b": 3.1414800082513135,
+                "c": 3.1414800082513135,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.1414800082513135,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.1414800082513135,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.1414800082513135
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ge",
+                "Si"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5707400041256567,
+                                1.5707400041256567,
+                                1.5707400041256567
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.83850290905225,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.83850290905225,
+            "unit": "eV"
+        }
+    }
+}

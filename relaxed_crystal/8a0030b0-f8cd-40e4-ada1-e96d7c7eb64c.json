@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "8a0030b0-f8cd-40e4-ada1-e96d7c7eb64c",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/8a0030b0-f8cd-40e4-ada1-e96d7c7eb64c",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "5370ee3a-6553-45d0-a368-de88d3761c03",
+            "id": "2020--Groger-R--Co-Cr-Fe-Mn-Ni--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2020--Groger-R--Co-Cr-Fe-Mn-Ni--LAMMPS--ipr1",
+            "potential": {
+                "key": "d953d8af-5b8e-4d00-9607-084f0462e586",
+                "id": "2020--Groger-R-Vitek-V-Dlouhy-A--Co-Cr-Fe-Mn-Ni",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2020--Groger-R-Vitek-V-Dlouhy-A--Co-Cr-Fe-Mn-Ni"
+            }
+        },
+        "system-info": {
+            "family": "B2--CsCl",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/B2--CsCl",
+            "parent_key": "d1aee3ad-5512-4c7d-bedc-a916c5b1d692",
+            "symbol": [
+                "Cr",
+                "Mn"
+            ],
+            "composition": "CrMn",
+            "cell": {
+                "crystal-family": "cubic",
+                "natypes": 2,
+                "a": 2.990033708648704,
+                "b": 2.990033708648704,
+                "c": 2.990033708648704,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.990033708648704,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.990033708648704,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        2.990033708648704
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Cr",
+                "Mn"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.495016854324352,
+                                1.495016854324352,
+                                1.495016854324352
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -1.2520725007775,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -1.2520725007775,
+            "unit": "eV"
+        }
+    }
+}

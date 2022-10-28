@@ -1,0 +1,117 @@
+{
+    "relaxed-crystal": {
+        "key": "0091e468-e5fe-42aa-ac2c-e632708eafd1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/0091e468-e5fe-42aa-ac2c-e632708eafd1",
+        "method": "box",
+        "standing": "good",
+        "potential-LAMMPS": {
+            "key": "85606d14-8972-4282-ac8b-3d0c5acc94d6",
+            "id": "2015--Kim-K-H--Mg-Sn--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2015--Kim-K-H--Mg-Sn--LAMMPS--ipr1",
+            "potential": {
+                "key": "a58dcca2-3f6c-4e52-a2a4-e5abe1bd7b48",
+                "id": "2015--Kim-K-H-Jeon-J-B-Lee-B-J--Mg-Sn",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2015--Kim-K-H-Jeon-J-B-Lee-B-J--Mg-Sn"
+            }
+        },
+        "system-info": {
+            "family": "A3--Mg--hcp",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/A3--Mg--hcp",
+            "parent_key": "d0839e04-80d9-4c9a-ad92-dfad967c577a",
+            "symbol": "Sn",
+            "composition": "Sn",
+            "cell": {
+                "crystal-family": "hexagonal",
+                "natypes": 1,
+                "a": 3.4407913362467735,
+                "b": 3.440791336246774,
+                "c": 5.6137968952390205,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 120.00000000000001
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.4407913362467735,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        -1.7203956681233874,
+                        2.97981270631111,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        5.6137968952390205
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Sn",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                -1.0347438901144964e-17,
+                                1.9865418042074066,
+                                2.80689844761951
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -3.08065479777455,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -3.08065479777455,
+            "unit": "eV"
+        }
+    }
+}

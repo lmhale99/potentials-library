@@ -1,0 +1,123 @@
+{
+    "relaxed-crystal": {
+        "key": "f6c883b2-26e3-4a7e-a3e9-e349157e02a0",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/f6c883b2-26e3-4a7e-a3e9-e349157e02a0",
+        "method": "dynamic",
+        "standing": "bad",
+        "potential-LAMMPS": {
+            "key": "eee195be-4fb1-4673-a2a9-c8c8060c555a",
+            "id": "2017--Wu-C--Ni-Cr--LAMMPS--ipr1",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2017--Wu-C--Ni-Cr--LAMMPS--ipr1",
+            "potential": {
+                "key": "9aca9e91-3024-487c-afb5-032816e5033b",
+                "id": "2017--Wu-C-Lee-B-J-Su-X--Ni-Cr",
+                "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2017--Wu-C-Lee-B-J-Su-X--Ni-Cr"
+            }
+        },
+        "system-info": {
+            "family": "L1_0--AuCu",
+            "family-URL": "https://potentials.nist.gov/pid/rest/local/potentials/L1_0--AuCu",
+            "parent_key": "4c0a2f25-137a-4ed5-a914-66acf6a1a04e",
+            "symbol": [
+                "Ni",
+                "Cr"
+            ],
+            "composition": "CrNi",
+            "cell": {
+                "crystal-family": "tetragonal",
+                "natypes": 2,
+                "a": 2.5568416672582615,
+                "b": 2.5568416672582615,
+                "c": 3.4867219131126457,
+                "alpha": 90.0,
+                "beta": 90.0,
+                "gamma": 90.0
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        2.5568416672582615,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        2.5568416672582615,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.4867219131126457
+                    ],
+                    "unit": "angstrom"
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "unit": "angstrom"
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": [
+                "Ni",
+                "Cr"
+            ],
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "atype",
+                        "data": {
+                            "value": [
+                                1,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.2784208336291307,
+                                1.2784208336291307,
+                                1.7433609565563228
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "potential-energy": {
+            "value": -4.23116331380825,
+            "unit": "eV"
+        },
+        "cohesive-energy": {
+            "value": -4.23116331380825,
+            "unit": "eV"
+        }
+    }
+}
