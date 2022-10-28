@@ -1,0 +1,71 @@
+{
+    "interatomic-potential": {
+        "key": "226a6b8c-134e-4987-aa4f-0b89c9ac7871",
+        "id": "2022--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe-Cr-H",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2022--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe-Cr-H",
+        "record-version": "2022-05-03",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Angular-dependent interatomic potential for large-scale atomistic simulation of the Fe-Cr-H ternary system",
+                "author": [
+                    {
+                        "given-name": "S.",
+                        "surname": "Starikov"
+                    },
+                    {
+                        "given-name": "D.",
+                        "surname": "Smirnova"
+                    },
+                    {
+                        "given-name": "T.",
+                        "surname": "Pradhan"
+                    },
+                    {
+                        "given-name": "I.",
+                        "surname": "Gordeev"
+                    },
+                    {
+                        "given-name": "R.",
+                        "surname": "Drautz"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Mrovec"
+                    }
+                ],
+                "publication-name": "Physical Review Materials",
+                "publication-date": {
+                    "year": 2022
+                },
+                "volume": 6,
+                "issue": 4,
+                "abstract": "The recently developed angular-dependent potential for pure iron was advanced to the interatomic potential of the Fe-Cr-H ternary system. The new potential allows to simulate Fe-Cr alloys for a wide range of compositions and different concentrations of hydrogen. The angular-dependent format of the model and the development procedure based on the machine learning approach allow to achieve a favorable balance between the computation cost and the reliability of the created parametrization. As part of potential validation, we performed a large number of tests of both the binary metallic alloys and hydrogen interactions. The applicability of the potential is demonstrated by large-scale simulations of hydrogen diffusion in the vicinity of crystal defects.",
+                "pages": "043604",
+                "DOI": "10.1103/physrevmaterials.6.043604",
+                "bibtex": "@article{Starikov_2022,\n abstract = {The recently developed angular-dependent potential for pure iron was advanced to the interatomic potential of the Fe-Cr-H ternary system. The new potential allows to simulate Fe-Cr alloys for a wide range of compositions and different concentrations of hydrogen. The angular-dependent format of the model and the development procedure based on the machine learning approach allow to achieve a favorable balance between the computation cost and the reliability of the created parametrization. As part of potential validation, we performed a large number of tests of both the binary metallic alloys and hydrogen interactions. The applicability of the potential is demonstrated by large-scale simulations of hydrogen diffusion in the vicinity of crystal defects.},\n author = {Sergei Starikov and Daria Smirnova and Tapaswani Pradhan and Ilia Gordeev and Ralf Drautz and Matous Mrovec},\n doi = {10.1103/physrevmaterials.6.043604},\n journal = {Physical Review Materials},\n month = {apr},\n number = {4},\n pages = {043604},\n publisher = {American Physical Society (APS)},\n title = {Angular-dependent interatomic potential for large-scale atomistic simulation of the Fe-Cr-H ternary system},\n url = {https://doi.org/10.1103%2Fphysrevmaterials.6.043604},\n volume = {6},\n year = {2022}\n}\n\n"
+            }
+        },
+        "implementation": {
+            "key": "1088509f-d07b-4596-be0f-3269d28ae74f",
+            "id": "2022--Starikov-S--Fe-Cr-H--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2022-05-03",
+            "type": "LAMMPS pair_style adp",
+            "notes": {
+                "text": "This file was provided by Sergei Starikov on April 26, 2022 and posted with his permission."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Starikov-S-Smirnova-D-Pradhan-T-et-al--Fe-Cr-H/1/Fe_Cr_H.adp.txt",
+                    "link-text": "Fe_Cr_H.adp.txt"
+                }
+            }
+        },
+        "element": [
+            "Fe",
+            "Cr",
+            "H"
+        ]
+    }
+}

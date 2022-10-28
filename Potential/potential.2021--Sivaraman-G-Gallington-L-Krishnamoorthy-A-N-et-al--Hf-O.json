@@ -1,0 +1,87 @@
+{
+    "interatomic-potential": {
+        "key": "572290c9-38f7-4525-b54d-9e0b25b03376",
+        "id": "2021--Sivaraman-G-Gallington-L-Krishnamoorthy-A-N-et-al--Hf-O",
+        "record-version": "2022-08-09",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Experimentally Driven Automated Machine-Learned Interatomic Potential for a Refractory Oxide",
+                "author": [
+                    {
+                        "given-name": "G.",
+                        "surname": "Sivaraman"
+                    },
+                    {
+                        "given-name": "L.",
+                        "surname": "Gallington"
+                    },
+                    {
+                        "given-name": "A.N.",
+                        "surname": "Krishnamoorthy"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Stan"
+                    },
+                    {
+                        "given-name": "G.",
+                        "surname": "Csányi"
+                    },
+                    {
+                        "given-name": null,
+                        "surname": "Vázquez-Mayagoitia"
+                    },
+                    {
+                        "given-name": "C.J.",
+                        "surname": "Benmore"
+                    }
+                ],
+                "publication-name": "Physical Review Letters",
+                "publication-date": {
+                    "year": 2021
+                },
+                "volume": 126,
+                "issue": 15,
+                "abstract": "Understanding the structure and properties of refractory oxides is critical for high temperature applications. In this work, a combined experimental and simulation approach uses an automated closed loop via an active learner, which is initialized by x-ray and neutron diffraction measurements, and sequentially improves a machine-learning model until the experimentally predetermined phase space is covered. A multiphase potential is generated for a canonical example of the archetypal refractory oxide, HfO<sub>2</sub>, by drawing a minimum number of training configurations from room temperature to the liquid state at ~2900°C. The method significantly reduces model development time and human effort.",
+                "pages": 156002,
+                "DOI": "10.1103/physrevlett.126.156002",
+                "bibtex": "@article{Sivaraman_2021,\n abstract = {Understanding the structure and properties of refractory oxides is critical for high temperature applications. In this work, a combined experimental and simulation approach uses an automated closed loop via an active learner, which is initialized by x-ray and neutron diffraction measurements, and sequentially improves a machine-learning model until the experimentally predetermined phase space is covered. A multiphase potential is generated for a canonical example of the archetypal refractory oxide, HfO<sub>2</sub>, by drawing a minimum number of training configurations from room temperature to the liquid state at ~2900°C. The method significantly reduces model development time and human effort.},\n author = {Ganesh Sivaraman and Leighanne Gallington and Anand Narayanan Krishnamoorthy and Marius Stan and Gábor Csányi and Álvaro Vázquez-Mayagoitia and Chris J. Benmore},\n doi = {10.1103/physrevlett.126.156002},\n journal = {Physical Review Letters},\n month = {apr},\n number = {15},\n pages = {156002},\n publisher = {American Physical Society (APS)},\n title = {Experimentally Driven Automated Machine-Learned Interatomic Potential for a Refractory Oxide},\n url = {https://doi.org/10.1103%2Fphysrevlett.126.156002},\n volume = {126},\n year = {2021}\n}\n\n"
+            }
+        },
+        "implementation": {
+            "key": "51f13f7e-5df9-426c-9624-720e1059972a",
+            "id": "2021--Sivaraman-G--Hf-O--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2022-08-09",
+            "type": "GAP",
+            "notes": {
+                "text": "These files were provided by Ganesh Sivaraman on August 6, 2022. The files are also hosted at the link below."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Sivaraman-G-Gallington-L-Krishnamoorthy-A-N-et-al--Hf-O/1/Hafnia_MF_GAP.tar.gz",
+                        "link-text": "Hafnia_MF_GAP.tar.gz"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Sivaraman-G-Gallington-L-Krishnamoorthy-A-N-et-al--Hf-O/1/train.xyz",
+                        "link-text": "train.xyz"
+                    }
+                }
+            ],
+            "link": {
+                "web-link": {
+                    "URL": "https://figshare.com/articles/dataset/Multiphase_GAP_Model_and_Training_Dataset_for_Hafnium_dioxide/14601579",
+                    "link-text": "https://figshare.com/articles/dataset/Multiphase_GAP_Model_and_Training_Dataset_for_Hafnium_dioxide/14601579"
+                }
+            }
+        },
+        "element": [
+            "Hf",
+            "O"
+        ]
+    }
+}

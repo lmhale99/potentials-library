@@ -1,0 +1,81 @@
+{
+    "interatomic-potential": {
+        "key": "7d3b6324-7a69-42f8-b6bb-1cba357b7f77",
+        "id": "2022--Tang-H-Zhang-Y-Li-Q-et-al--Ni-Ti-v2",
+        "record-version": "2022-08-09",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "High accuracy neural network interatomic potential for NiTi shape memory alloy",
+                "author": [
+                    {
+                        "given-name": "H.",
+                        "surname": "Tang"
+                    },
+                    {
+                        "given-name": "Y.",
+                        "surname": "Zhang"
+                    },
+                    {
+                        "given-name": "Q.",
+                        "surname": "Li"
+                    },
+                    {
+                        "given-name": "H.",
+                        "surname": "Xu"
+                    },
+                    {
+                        "given-name": "Y.",
+                        "surname": "Wang"
+                    },
+                    {
+                        "given-name": "Y.",
+                        "surname": "Wang"
+                    },
+                    {
+                        "given-name": "J.",
+                        "surname": "Li"
+                    }
+                ],
+                "publication-name": "Acta Materialia",
+                "publication-date": {
+                    "year": 2022
+                },
+                "abstract": "Nickel-titanium (NiTi) shape memory alloys (SMA) are widely used, however simulating the martensitic transformation of NiTi from first principles remains challenging. In this work, we developed a neural network interatomic potential (NNIP) for near-equiatomic Ni-Ti system through active-learning based acquisitions of density functional theory (DFT) training data, which achieves state-of-the-art accuracy. Phonon dispersion and potential-of-mean-force calculations of the temperature-dependent free energy have been carried out. This NNIP predicts temperature-induced, stress-induced, and deformation twinning-induced martensitic transformations from atomic simulations, in significant agreement with experiments. The NNIP can directly simulate the superelasticity of NiTi nanowires, providing a tool to guide their design.",
+                "pages": 118217,
+                "DOI": "10.1016/j.actamat.2022.118217",
+                "bibtex": "@article{Tang_2022,\n abstract = {Nickel-titanium (NiTi) shape memory alloys (SMA) are widely used, however simulating the martensitic transformation of NiTi from first principles remains challenging. In this work, we developed a neural network interatomic potential (NNIP) for near-equiatomic Ni-Ti system through active-learning based acquisitions of density functional theory (DFT) training data, which achieves state-of-the-art accuracy. Phonon dispersion and potential-of-mean-force calculations of the temperature-dependent free energy have been carried out. This NNIP predicts temperature-induced, stress-induced, and deformation twinning-induced martensitic transformations from atomic simulations, in significant agreement with experiments. The NNIP can directly simulate the superelasticity of NiTi nanowires, providing a tool to guide their design.},\n author = {Hao Tang and Yin Zhang and Qingjie Li and Haowei Xu and Yuchi Wang and Yunzhi Wang and Ju Li},\n doi = {10.1016/j.actamat.2022.118217},\n journal = {Acta Materialia},\n month = {jul},\n pages = {118217},\n publisher = {Elsevier BV},\n title = {High accuracy neural network interatomic potential for NiTi shape memory alloy},\n url = {https://doi.org/10.1016%2Fj.actamat.2022.118217},\n year = {2022}\n}\n\n"
+            },
+            "notes": {
+                "text": "This is the parameterization of the potential as used by the associated publication. This potential was designed for equiatomic NiTi shape memory alloy and can be used for NiTi alloy with slight off-stoichiometry. The potential should not be used for pure Ni, pure Ti, or Ni-Ti alloy far from the equiatomic composition."
+            }
+        },
+        "implementation": {
+            "key": "927b4bb6-4b7c-4a5a-b5f4-7da6c9e10c65",
+            "id": "2022--Tang-H--Ni-Ti-v2--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2022-08-09",
+            "type": "deepmd-kit",
+            "notes": {
+                "text": "These files were provided by Hao Tang on August 3, 2022. Detailed instructions on using this potential in MD simulations can be found at the link below. We suggest users compress the model (see the documentation) before using it for MD simulation, as this will make the calculation significantly faster with limited influence on accuracy."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Tang-H-Zhang-Y-Li-Q-et-al--Ni-Ti-v2/1/NiTi_graph_v2.pb",
+                    "link-text": "NiTi_graph_v2.pb"
+                }
+            },
+            "link": {
+                "web-link": {
+                    "URL": "https://docs.deepmodeling.com/projects/deepmd/en/master/index.html",
+                    "label": "DeePMD-kit documentation",
+                    "link-text": "https://docs.deepmodeling.com/projects/deepmd/en/master/index.html"
+                }
+            }
+        },
+        "element": [
+            "Ni",
+            "Ti"
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "interatomic-potential": {
+        "key": "3c66420a-7a44-424a-a845-7839c77fdd2a",
+        "id": "2019--Yang-C-Qi-L--Nb",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2019--Yang-C-Qi-L--Nb",
+        "record-version": "2022-07-07",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Modified embedded-atom method potential of niobium for studies on mechanical properties",
+                "author": [
+                    {
+                        "given-name": "C.",
+                        "surname": "Yang"
+                    },
+                    {
+                        "given-name": "L.",
+                        "surname": "Qi"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2019
+                },
+                "volume": 161,
+                "abstract": "Niobium (Nb) as a refractory metal has appealing mechanical properties due to high ductility at room temperature. Density functional theory (DFT) calculations confirmed its intrinsic ductility by showing its perfect lattice generates an elastic shear deformation preceding its cleavage fracture under <100> ideal tensile deformation. Based on DFT calculations of simple atomic configurations, we applied an evolution strategy method to build a modified embedded-atom method (MEAM) spline-interpolation potential that can reproduce the intrinsic ductility of Nb during ideal tensile deformation. Further examinations show that simulations based on this MEAM potential can exhibit other essential characteristics of deformation behavior, such as ideal shear strengths, generalized stacking fault energies, twin boundary energies, phonon spectrum, etc., that are consistent with DFT calculations. This potential also outputs the structures, energetic stability and glide mechanism of 1/2<111> screw dislocations, such as dislocation core structures, core energies, migration barriers and dislocation core trajectories, consistent with DFT calculations. Therefore, this MEAM potential is suitable to study the mechanical behaviors of Nb, especially those under extreme loading conditions and considering non-Schmid effects.",
+                "pages": "351-363",
+                "DOI": "10.1016/j.commatsci.2019.01.047",
+                "bibtex": "@article{Yang_2019,\n abstract = {Niobium (Nb) as a refractory metal has appealing mechanical properties due to high ductility at room temperature. Density functional theory (DFT) calculations confirmed its intrinsic ductility by showing its perfect lattice generates an elastic shear deformation preceding its cleavage fracture under <100> ideal tensile deformation. Based on DFT calculations of simple atomic configurations, we applied an evolution strategy method to build a modified embedded-atom method (MEAM) spline-interpolation potential that can reproduce the intrinsic ductility of Nb during ideal tensile deformation. Further examinations show that simulations based on this MEAM potential can exhibit other essential characteristics of deformation behavior, such as ideal shear strengths, generalized stacking fault energies, twin boundary energies, phonon spectrum, etc., that are consistent with DFT calculations. This potential also outputs the structures, energetic stability and glide mechanism of 1/2<111> screw dislocations, such as dislocation core structures, core energies, migration barriers and dislocation core trajectories, consistent with DFT calculations. Therefore, this MEAM potential is suitable to study the mechanical behaviors of Nb, especially those under extreme loading conditions and considering non-Schmid effects.},\n author = {Chaoming Yang and Liang Qi},\n doi = {10.1016/j.commatsci.2019.01.047},\n journal = {Computational Materials Science},\n month = {apr},\n pages = {351--363},\n publisher = {Elsevier BV},\n title = {Modified embedded-atom method potential of niobium for studies on mechanical properties},\n url = {https://doi.org/10.1016%2Fj.commatsci.2019.01.047},\n volume = {161},\n year = {2019}\n}\n\n"
+            }
+        },
+        "implementation": {
+            "key": "b1d8ba5b-0700-4259-b069-f3c4634ccfae",
+            "id": "2019--Yang-C--Nb--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2022-07-07",
+            "type": "LAMMPS pair_style meam/spline",
+            "notes": {
+                "text": "This file was provided by Liang Qi on July 7, 2022."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2019--Yang-C-Qi-L--Nb/1/Nb.meam.spline",
+                    "link-text": "Nb.meam.spline"
+                }
+            }
+        },
+        "element": "Nb"
+    }
+}
