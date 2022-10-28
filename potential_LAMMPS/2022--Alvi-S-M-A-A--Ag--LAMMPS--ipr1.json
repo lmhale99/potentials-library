@@ -1,0 +1,53 @@
+{
+    "potential-LAMMPS": {
+        "key": "b271a628-8786-4149-947f-e4e9c608cd63",
+        "id": "2022--Alvi-S-M-A-A--Ag--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2022--Alvi-S-M-A-A--Ag--LAMMPS--ipr1",
+        "potential": {
+            "key": "22642765-5ace-47d3-9af9-072bda5e8ae8",
+            "id": "2022--Alvi-S-M-A-A-Faiyad-A-Munshi-M-A-M-et-al--Ag",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2022--Alvi-S-M-A-A-Faiyad-A-Munshi-M-A-M-et-al--Ag"
+        },
+        "comments": "Potential 2022--Alvi-S-M-A-A--Ag--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Alvi-S-M-A-A-Faiyad-A-Munshi-M-A-M-et-al--Ag/2022--Alvi-S-M-A-A--Ag--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "symbol": "Ag",
+            "element": "Ag",
+            "mass": 107.87
+        },
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "AgAu.library.meam"
+                },
+                {
+                    "option": "Ag"
+                },
+                {
+                    "file": "Ag.parameter.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Alvi-S-M-A-A-Faiyad-A-Munshi-M-A-M-et-al--Ag/1/AgAu.library.meam",
+                    "link-text": "AgAu.library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Alvi-S-M-A-A-Faiyad-A-Munshi-M-A-M-et-al--Ag/1/Ag.parameter.meam",
+                    "link-text": "Ag.parameter.meam"
+                }
+            }
+        ]
+    }
+}

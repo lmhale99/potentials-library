@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "0c44f637-2338-4c39-9125-d4d58b12162c",
+        "id": "2022--Fereidonnejad-R--Al-Ta--LAMMPS--ipr1",
+        "potential": {
+            "key": "13e73158-9921-40c4-8f4a-6c948a735149",
+            "id": "2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Ta"
+        },
+        "comments": "Potential 2022--Fereidonnejad-R--Al-Ta--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Ta/2022--Fereidonnejad-R--Al-Ta--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.982
+            },
+            {
+                "symbol": "Ta",
+                "element": "Ta",
+                "mass": 180.948
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Al Ta"
+                },
+                {
+                    "file": "AlTa.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Ta/1/AlTa.meam",
+                    "link-text": "AlTa.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Ta/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            }
+        ]
+    }
+}

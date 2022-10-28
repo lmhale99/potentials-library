@@ -1,0 +1,44 @@
+{
+    "potential-LAMMPS": {
+        "key": "cbe06ce2-c349-476d-8311-c9ed5caa783d",
+        "id": "2011--Daw-M-S--Hf-B--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2011--Daw-M-S--Hf-B--LAMMPS--ipr1",
+        "potential": {
+            "key": "b3261dd4-bf38-491f-b2aa-b5e5d8d57a70",
+            "id": "2011--Daw-M-S-Lawson-J-W-Bauschlicher-C-W--Hf-B",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2011--Daw-M-S-Lawson-J-W-Bauschlicher-C-W--Hf-B"
+        },
+        "comments": "Potential 2011--Daw-M-S--Hf-B--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2011--Daw-M-S-Lawson-J-W-Bauschlicher-C-W--Hf-B/2011--Daw-M-S--Hf-B--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Hf",
+                "element": "Hf"
+            },
+            {
+                "symbol": "B",
+                "element": "B"
+            }
+        ],
+        "pair_style": {
+            "type": "tersoff"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "HfB_DLB2011.lbtrsff"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2011--Daw-M-S-Lawson-J-W-Bauschlicher-C-W--Hf-B/1/HfB_DLB2011.lbtrsff",
+                "link-text": "HfB_DLB2011.lbtrsff"
+            }
+        }
+    }
+}

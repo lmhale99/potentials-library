@@ -1,0 +1,60 @@
+{
+    "potential-LAMMPS": {
+        "key": "94880090-262f-458e-a285-3911a7c5c6b8",
+        "id": "2022--Alvi-S-M-A-A--Ag-Au--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2022--Alvi-S-M-A-A--Ag-Au--LAMMPS--ipr1",
+        "potential": {
+            "key": "8935ea3d-c46c-446d-8103-0c38771d92a1",
+            "id": "2022--Alvi-S-M-A-A-Faiyad-A-Munshi-M-A-M-et-al--Ag-Au",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2022--Alvi-S-M-A-A-Faiyad-A-Munshi-M-A-M-et-al--Ag-Au"
+        },
+        "comments": "Potential 2022--Alvi-S-M-A-A--Ag-Au--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Alvi-S-M-A-A-Faiyad-A-Munshi-M-A-M-et-al--Ag-Au/2022--Alvi-S-M-A-A--Ag-Au--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Ag",
+                "element": "Ag",
+                "mass": 107.87
+            },
+            {
+                "symbol": "Au",
+                "element": "Au",
+                "mass": 196.967
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "AgAu.library.meam"
+                },
+                {
+                    "option": "Ag Au"
+                },
+                {
+                    "file": "AgAu.parameter.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Alvi-S-M-A-A-Faiyad-A-Munshi-M-A-M-et-al--Ag-Au/1/AgAu.library.meam",
+                    "link-text": "AgAu.library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Alvi-S-M-A-A-Faiyad-A-Munshi-M-A-M-et-al--Ag-Au/1/AgAu.parameter.meam",
+                    "link-text": "AgAu.parameter.meam"
+                }
+            }
+        ]
+    }
+}

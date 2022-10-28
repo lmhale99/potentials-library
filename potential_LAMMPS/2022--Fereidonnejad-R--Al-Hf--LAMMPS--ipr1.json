@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "e36e86c3-9701-4084-a1a1-87c1a580a8a1",
+        "id": "2022--Fereidonnejad-R--Al-Hf--LAMMPS--ipr1",
+        "potential": {
+            "key": "692a8c60-e575-4bfd-ae25-39a19b6df550",
+            "id": "2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Hf"
+        },
+        "comments": "Potential 2022--Fereidonnejad-R--Al-Hf--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Hf/2022--Fereidonnejad-R--Al-Hf--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.982
+            },
+            {
+                "symbol": "Hf",
+                "element": "Hf",
+                "mass": 178.49
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Al Hf"
+                },
+                {
+                    "file": "AlHf.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Hf/1/AlHf.meam",
+                    "link-text": "AlHf.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Hf/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            }
+        ]
+    }
+}

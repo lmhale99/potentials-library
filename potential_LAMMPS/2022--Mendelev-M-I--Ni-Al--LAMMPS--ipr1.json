@@ -1,0 +1,44 @@
+{
+    "potential-LAMMPS": {
+        "key": "d81c459b-52e2-4410-b348-d5e3867a82b6",
+        "id": "2022--Mendelev-M-I--Ni-Al--LAMMPS--ipr1",
+        "potential": {
+            "key": "823a6d81-0f2c-4a5b-b3b4-41a995576a0f",
+            "id": "2022--Mendelev-M-I--Ni-Al"
+        },
+        "comments": "Potential 2022--Mendelev-M-I--Ni-Al--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Mendelev-M-I--Ni-Al/2022--Mendelev-M-I--Ni-Al--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.6934
+            },
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.98154
+            }
+        ],
+        "pair_style": {
+            "type": "eam/fs"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "Ni-Al.eam.fs"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Mendelev-M-I--Ni-Al/1/Ni-Al.eam.fs",
+                "link-text": "Ni-Al.eam.fs"
+            }
+        }
+    }
+}
