@@ -1,0 +1,12 @@
+# DFT
+train.xyz : Training dataset
+test.xyz : Indendent validation dataset
+
+# GAP-ML prediction for configurations in test.xyz
+quip_train.xyz
+
+
+# Validation Errors obtained by running `validate.py` 
+E MAE: 0.24 eV (i.e. ~ 3.8 meV/atom)
+
+F metrics {'rmse': 0.13, 'std': 0.04}

@@ -12,6 +12,17 @@ Repository. The purpose of this archive is to allow heavy users to easily
 download a personal copy of the NIST repository and be able to keep it updated
 using git commands.
 
+IMPORTANT SETUP INFO!
+---------------------
+
+Some of the newer machine-learning potentials have parameter files larger than
+what github likes.  Because of this, there are some parameter files that will
+need to be unzipped and extracted to the potential's directory after you
+download the repository if you wish to use them.  These files are
+
+- potential_LAMMPS/2022--Erhard-L-C--Si-O--LAMMPS--ipr1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3364.zip
+- potential_LAMMPS/2022--Erhard-L-C--Si-O--LAMMPS--ipr1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3365.zip
+
 Python APIs
 -----------
 

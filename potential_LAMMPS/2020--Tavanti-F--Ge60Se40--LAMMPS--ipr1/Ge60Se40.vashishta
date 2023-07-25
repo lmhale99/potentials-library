@@ -1,0 +1,38 @@
+# DATE: 2023-04-24 CONTRIBUTOR: Francesco Tavanti CITATION: ACS Appl. Electron. Mater. 2020, 2, 2961−2969
+#
+# Hierarchical Short- and Medium-Range Order Structures in Amorphous GexSe1−x for Selectors Applications
+# Francesco Tavanti,* Behnood Dianat, Alessandra Catellani, and Arrigo Calzolari
+#
+# These entries are in LAMMPS "metal" units:
+#   H = eV*Angstroms^eta; Zi, Zj = |e| (e = electronic charge); 
+#   lambda1, lambda4, rc, r0, gamma = Angstroms; 
+#   D = eV*Angstroms^4; W = eV*Angstroms^6; B = eV; 
+#   other quantities are unitless
+#
+# element1  element2  element3
+#           H  eta  Zi  Zj  lambda1  D  lambda4
+#           W  rc  B  gamma  r0  C  cos(theta)
+
+Ge  Ge  Ge   16.043  11  0.300  0.300  100.0  0.0  4.43
+             0.0 16.00  0.0  0.0  0.0  0.0  0.0
+
+Se  Se  Se   4091.08   7 -0.450  -0.450  10.0 1.4175  4.43
+             0.0 16.00  0.0  0.0  0.0  0.0  0.0
+
+Ge  Se  Se   2103.20   9  0.300  -0.450  10.0  0.70875  4.43
+             0.0 16.00  0.000  1.0  3.00    0.0  -0.1045
+  
+Se  Ge  Ge   2103.20   9 -0.450   0.300  10.0  0.70875  4.43
+             0.0 16.00  0.000  1.0  3.00    0.0  -0.1045
+
+Se  Ge  Se   0.0  0.0  0.0  0.0  0.0  0.0  0.0
+             0.0  0.0  0.0  0.0  0.0  0.0  0.0 
+ 
+Se  Se  Ge   0.0  0.0  0.0  0.0  0.0  0.0  0.0
+             0.0  0.0  0.0  0.0  0.0  0.0  0.0            
+
+Ge  Se  Ge   0.0  0.0  0.0  0.0  0.0  0.0  0.0
+             0.0  0.0  0.0  0.0  0.0  0.0  0.0     
+
+Ge  Ge  Se   0.0  0.0  0.0  0.0  0.0  0.0  0.0
+             0.0  0.0  0.0  0.0  0.0  0.0  0.0
