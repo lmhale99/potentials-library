@@ -1,0 +1,8 @@
+# Example pair_style and pair_coeff lines for atom types 1=He, 2=Ta
+
+units metal
+
+pair_style hybrid table linear 1000 eam/alloy
+pair_coeff 1 1 table He.Aziz.table HeHe_Aziz
+pair_coeff 1 2 table TaHe.Juslin.table TaHe_Juslin
+pair_coeff * * eam/alloy Ta_Zhou04.eam.alloy NULL Ta
