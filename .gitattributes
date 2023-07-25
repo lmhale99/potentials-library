@@ -1,3 +1,5 @@
 # Only convert line endings for json files
 * binary
 *.json text
+*.csv filter=lfs diff=lfs merge=lfs -text
+potential_LAMMPS/*/* filter=lfs diff=lfs merge=lfs -text
