@@ -1,0 +1,72 @@
+{
+    "interatomic-potential": {
+        "key": "088db7f3-9e5c-48fb-9f6a-7450ac1cd862",
+        "id": "2022--Allera-A-Ribeiro-F-Perez-M-Rodney-D--Fe-C",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2022--Allera-A-Ribeiro-F-Perez-M-Rodney-D--Fe-C",
+        "record-version": "2023-05-16",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Carbon-induced strengthening of bcc iron at the atomic scale",
+                "author": [
+                    {
+                        "given-name": "A.",
+                        "surname": "Allera"
+                    },
+                    {
+                        "given-name": "F.",
+                        "surname": "Ribeiro"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Perez"
+                    },
+                    {
+                        "given-name": "D.",
+                        "surname": "Rodney"
+                    }
+                ],
+                "publication-name": "Physical Review Materials",
+                "publication-date": {
+                    "year": 2022
+                },
+                "volume": 6,
+                "issue": 1,
+                "abstract": "In steels, the interaction between screw dislocations and carbon solutes has a great influence on the yield strength. Fe-C potentials used in molecular dynamics (MD) simulations yield a poor description of screw dislocation properties-their core structure and Peierls barrier-compared to ab initio calculations. Here we combine two EAM potentials from the literature, which greatly improves dislocation property accuracy in FeC alloys. Using this hybrid potential, MD simulations of dislocation glide in random solid solutions confirm a powerful solute strengthening, caused by complex interaction processes. We analyze these processes in a model geometry, where a row of carbon atoms is inserted in the dislocation core with varying separations. We use a combination of MD simulations, minimum-energy path calculations, and a statistical model based on the harmonic transition state theory to explain the strengthening induced by carbon. We unveil that carbon disrupts the glide process, as unpinning requires the successive nucleation of two kink pairs. When solute separation is below about 100 Burgers vectors, the activation enthalpy of both kink pairs are markedly increased compared to pure iron, resulting in a strong dependence of the unpinning stress on solute spacing. Our simulations also suggest an effect of carbon spacing on the kink-pair activation entropy. This work provides elementary processes and parameters that will be useful for larger-scale models and, in particular, kinetic Monte Carlo simulations.",
+                "pages": "013608",
+                "DOI": "10.1103/physrevmaterials.6.013608",
+                "bibtex": "@article{Allera_2022,\n abstract = {In steels, the interaction between screw dislocations and carbon solutes has a great influence on the yield strength. Fe-C potentials used in molecular dynamics (MD) simulations yield a poor description of screw dislocation properties-their core structure and Peierls barrier-compared to ab initio calculations. Here we combine two EAM potentials from the literature, which greatly improves dislocation property accuracy in FeC alloys. Using this hybrid potential, MD simulations of dislocation glide in random solid solutions confirm a powerful solute strengthening, caused by complex interaction processes. We analyze these processes in a model geometry, where a row of carbon atoms is inserted in the dislocation core with varying separations. We use a combination of MD simulations, minimum-energy path calculations, and a statistical model based on the harmonic transition state theory to explain the strengthening induced by carbon. We unveil that carbon disrupts the glide process, as unpinning requires the successive nucleation of two kink pairs. When solute separation is below about 100 Burgers vectors, the activation enthalpy of both kink pairs are markedly increased compared to pure iron, resulting in a strong dependence of the unpinning stress on solute spacing. Our simulations also suggest an effect of carbon spacing on the kink-pair activation entropy. This work provides elementary processes and parameters that will be useful for larger-scale models and, in particular, kinetic Monte Carlo simulations.},\n author = {Arnaud Allera and Fabienne Ribeiro and Michel Perez and David Rodney},\n doi = {10.1103/physrevmaterials.6.013608},\n journal = {Physical Review Materials},\n month = {jan},\n number = {1},\n pages = {013608},\n publisher = {American Physical Society (APS)},\n title = {Carbon-induced strengthening of bcc iron at the atomic scale},\n url = {https://doi.org/10.1103%2Fphysrevmaterials.6.013608},\n volume = {6},\n year = {2022}\n}\n\n"
+            },
+            "notes": {
+                "text": "This interatomic potential is a combination of the Fe-Fe interaction from <a href=\"https://www.ctcms.nist.gov/potentials/entry/2012--Proville-L-Rodney-D-Marinica-M-C--Fe/\">2012--Proville-L-Rodney-D-Marinica-M-C--Fe</a> and the Fe-C interaction from <a href=\"https://doi.org/10.1016/j.commatsci.2013.09.048\">10.1016/j.commatsci.2013.09.048</a>. It was adjusted for screw dislocation-carbon interaction, in the dilute limit (details in the paper). Authors recommend using it in reasonably similar settings."
+            }
+        },
+        "implementation": {
+            "key": "e71a4c88-b3e2-4d10-ad9a-5d5fabd1b745",
+            "id": "2022--Allera-A--Fe-C--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2023-05-16",
+            "type": "LAMMPS pair_style eam/alloy",
+            "notes": {
+                "text": "This file was taken from the github repository listed below at the request of Arnaud Allera on 16 May 2023"
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Allera-A-Ribeiro-F-Perez-M-Rodney-D--Fe-C/1/FeC.eam",
+                    "link-text": "FeC.eam"
+                }
+            },
+            "link": {
+                "web-link": {
+                    "URL": "https://github.com/arn-all/FeC-EAM-potential",
+                    "label": "Companion repository for the paper",
+                    "link-text": "https://github.com/arn-all/FeC-EAM-potential"
+                }
+            }
+        },
+        "element": [
+            "Fe",
+            "C"
+        ]
+    }
+}

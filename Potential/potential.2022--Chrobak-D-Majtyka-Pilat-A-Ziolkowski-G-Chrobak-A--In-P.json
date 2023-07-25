@@ -1,0 +1,64 @@
+{
+    "interatomic-potential": {
+        "key": "253a2b34-c84d-49d7-954d-660862251a47",
+        "id": "2022--Chrobak-D-Majtyka-Pilat-A-Ziolkowski-G-Chrobak-A--In-P",
+        "record-version": "2023-02-01",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Interatomic Potential for InP",
+                "author": [
+                    {
+                        "given-name": "D.",
+                        "surname": "Chrobak"
+                    },
+                    {
+                        "given-name": "A.",
+                        "surname": "Majtyka-Piłat"
+                    },
+                    {
+                        "given-name": "G.",
+                        "surname": "Ziółkowski"
+                    },
+                    {
+                        "given-name": "A.",
+                        "surname": "Chrobak"
+                    }
+                ],
+                "publication-name": "Materials",
+                "publication-date": {
+                    "year": 2022
+                },
+                "volume": 15,
+                "issue": 14,
+                "abstract": "Classical modeling of structural phenomena occurring in InP crystal, for example plastic deformation caused by contact force, requires an interatomic interaction potential that correctly describes not only the elastic properties of indium phosphide but also the pressure-induced reversible phase transition B3↔B1. In this article, a new parametrization of the analytical bond-order potential has been developed for InP. The potential reproduces fundamental physical properties (lattice parameters, cohesive energy, stiffness coefficients) of the B3 and B1 phases in good agreement with first-principles calculations. The proposed interaction model describes the reversibility of the pressure-induced B3↔B1 phase transition as well as the formation of native point defects in the B3 phase.",
+                "pages": "4960",
+                "DOI": "10.3390/ma15144960",
+                "bibtex": "@article{Chrobak_2022,\n abstract = {Classical modeling of structural phenomena occurring in InP crystal, for example plastic deformation caused by contact force, requires an interatomic interaction potential that correctly describes not only the elastic properties of indium phosphide but also the pressure-induced reversible phase transition B3↔B1. In this article, a new parametrization of the analytical bond-order potential has been developed for InP. The potential reproduces fundamental physical properties (lattice parameters, cohesive energy, stiffness coefficients) of the B3 and B1 phases in good agreement with first-principles calculations. The proposed interaction model describes the reversibility of the pressure-induced B3↔B1 phase transition as well as the formation of native point defects in the B3 phase.},\n author = {Dariusz Chrobak and Anna Majtyka-Piłat and Grzegorz Ziółkowski and Artur Chrobak},\n doi = {10.3390/ma15144960},\n journal = {Materials},\n month = {jul},\n number = {14},\n pages = {4960},\n publisher = {MDPI AG},\n title = {Interatomic Potential for InP},\n url = {https://doi.org/10.3390%2Fma15144960},\n volume = {15},\n year = {2022}\n}\n\n"
+            },
+            "notes": {
+                "text": "Due to the short-range nature of interactions, this potential should not be used for the vibrational properties of the InP description. The proposed potential also fails in modeling indium phosphide's melting temperature because this property was not included in reference data for the fitting procedure."
+            }
+        },
+        "implementation": {
+            "key": "c2a8e721-f7af-4c6c-a85d-7a84923688a7",
+            "id": "2022--Chrobak-D--In-P--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2023-02-01",
+            "type": "LAMMPS pair_style tersoff",
+            "notes": {
+                "text": "This file was provided by Anna Majtyka-Piłat on 25 Jan 2023."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Chrobak-D-Majtyka-Pilat-A-Ziolkowski-G-Chrobak-A--In-P/1/InP_Materials_2022_Chrobak_Majtyka.tersoff",
+                    "link-text": "InP_Materials_2022_Chrobak_Majtyka.tersoff"
+                }
+            }
+        },
+        "element": [
+            "In",
+            "P"
+        ]
+    }
+}

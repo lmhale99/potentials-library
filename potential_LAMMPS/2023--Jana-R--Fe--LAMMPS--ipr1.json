@@ -1,0 +1,65 @@
+{
+    "potential-LAMMPS": {
+        "key": "afed1cba-bdc8-4732-b54d-3bff3fc6b943",
+        "id": "2023--Jana-R--Fe--LAMMPS--ipr1",
+        "potential": {
+            "key": "7c04d286-ff7b-4115-b950-881f2eb8fe0d",
+            "id": "2023--Jana-R-Caro-M-A--Fe"
+        },
+        "comments": "Potential 2023--Jana-R--Fe--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2023--Jana-R-Caro-M-A--Fe/2023--Jana-R--Fe--LAMMPS--ipr1\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "symbol": "26",
+            "element": "Fe"
+        },
+        "pair_style": {
+            "type": "quip"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "iron.xml"
+                },
+                {
+                    "option": "\"Potential xml_label=GAP_2022_12_5_120_12_28_45_644\""
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Jana-R-Caro-M-A--Fe/1/iron.xml",
+                    "link-text": "iron.xml"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Jana-R-Caro-M-A--Fe/1/iron.xml.sparseX.GAP_2022_12_5_120_12_28_45_6441",
+                    "link-text": "iron.xml.sparseX.GAP_2022_12_5_120_12_28_45_6441"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Jana-R-Caro-M-A--Fe/1/iron.xml.sparseX.GAP_2022_12_5_120_12_28_45_6442",
+                    "link-text": "iron.xml.sparseX.GAP_2022_12_5_120_12_28_45_6442"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Jana-R-Caro-M-A--Fe/1/iron.xml.sparseX.GAP_2022_12_5_120_12_28_45_6443",
+                    "link-text": "iron.xml.sparseX.GAP_2022_12_5_120_12_28_45_6443"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Jana-R-Caro-M-A--Fe/1/compress.dat",
+                    "link-text": "compress.dat"
+                }
+            }
+        ]
+    }
+}

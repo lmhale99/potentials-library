@@ -1,0 +1,49 @@
+{
+    "potential-LAMMPS": {
+        "key": "23eb6fd1-3b73-4440-87e6-e789a13452d4",
+        "id": "2023--Tramontina-D-R--Fe-Cu-Ni--LAMMPS--ipr1",
+        "potential": {
+            "key": "eb4116db-dee0-4d09-94c5-96001c44ef91",
+            "id": "2023--Tramontina-D-R-Deluigi-O-R-Pinzon-R-et-al--Fe-Cu-Ni"
+        },
+        "comments": "Potential 2023--Tramontina-D-R--Fe-Cu-Ni--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2023--Tramontina-D-R-Deluigi-O-R-Pinzon-R-et-al--Fe-Cu-Ni/2023--Tramontina-D-R--Fe-Cu-Ni--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "symbol": "Cu",
+                "element": "Cu",
+                "mass": 63.546
+            },
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.693
+            }
+        ],
+        "pair_style": {
+            "type": "eam/alloy"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "FeCuNi-with-ZBL.eam.alloy"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Tramontina-D-R-Deluigi-O-R-Pinzon-R-et-al--Fe-Cu-Ni/1/FeCuNi-with-ZBL.eam.alloy",
+                "link-text": "FeCuNi-with-ZBL.eam.alloy"
+            }
+        }
+    }
+}

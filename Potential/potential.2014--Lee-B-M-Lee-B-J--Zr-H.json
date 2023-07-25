@@ -27,33 +27,59 @@
                 "abstract": "A comparative study on hydrogen diffusion in amorphous and simple crystalline structures  has been carried out using molecular dynamics simulations. The Cu-Zr bulk metallic glass (BMG) system is selected as the model material and a modified embedded-atom method (MEAM) interatomic potential for the Cu-Zr-H ternary system is developed for the atomistic  simulation. It is found that the diffusivity of hydrogen in amorphous alloys is lower  than that in open structured crystals but higher than that in close-packed crystals.  The hydrogen diffusion in amorphous alloys is strongly hydrogen concentration dependent compared to crystals, increasing as the hydrogen content increases, and the Arrhenius  plot of hydrogen diffusion in  amorphous alloys shows an upward curvature. The reasons to rationalize all the findings are discussed based on the variety of energy state and  migration energy barrier for interstitial sites in amorphous alloys.",
                 "pages": "2906-2915",
                 "DOI": "10.1007/s11661-014-2230-4",
-                "bibtex": "@article{Lee_2014,\n abstract = {A comparative study on hydrogen diffusion in amorphous and simple crystalline structures  has been carried out using molecular dynamics simulations. The Cu-Zr bulk metallic glass (BMG) system is selected as the model material and a modified embedded-atom method (MEAM) interatomic potential for the Cu-Zr-H ternary system is developed for the atomistic  simulation. It is found that the diffusivity of hydrogen in amorphous alloys is lower  than that in open structured crystals but higher than that in close-packed crystals.  The hydrogen diffusion in amorphous alloys is strongly hydrogen concentration dependent compared to crystals, increasing as the hydrogen content increases, and the Arrhenius  plot of hydrogen diffusion in  amorphous alloys shows an upward curvature. The reasons to rationalize all the findings are discussed based on the variety of energy state and  migration energy barrier for interstitial sites in amorphous alloys.},\n author = {Byeong-Moon Lee and Byeong-Joo Lee},\n doi = {10.1007/s11661-014-2230-4},\n journal = {Metallurgical and Materials Transactions A},\n month = {feb},\n number = {6},\n pages = {2906--2915},\n publisher = {Springer Nature},\n title = {A Comparative Study on Hydrogen Diffusion in Amorphous and Crystalline Metals Using a Molecular Dynamics Simulation},\n url = {https://doi.org/10.1007%2Fs11661-014-2230-4},\n volume = {45},\n year = {2014}\n}\n\n"
+                "bibtex": "@article{Lee_2014,\n abstract = {A comparative study on hydrogen diffusion in amorphous and simple crystalline structures  has been carried out using molecular dynamics simulations. The Cu-Zr bulk metallic glass (BMG) system is selected as the model material and a modified embedded-atom method (MEAM) interatomic potential for the Cu-Zr-H ternary system is developed for the atomistic  simulation. It is found that the diffusivity of hydrogen in amorphous alloys is lower  than that in open structured crystals but higher than that in close-packed crystals.  The hydrogen diffusion in amorphous alloys is strongly hydrogen concentration dependent compared to crystals, increasing as the hydrogen content increases, and the Arrhenius  plot of hydrogen diffusion in  amorphous alloys shows an upward curvature. The reasons to rationalize all the findings are discussed based on the variety of energy state and  migration energy barrier for interstitial sites in amorphous alloys.},\n author = {Byeong-Moon Lee and Byeong-Joo Lee},\n doi = {10.1007/s11661-014-2230-4},\n journal = {Metallurgical and Materials Transactions A},\n month = {feb},\n number = {6},\n pages = {2906--2915},\n publisher = {Springer Nature},\n title = {A Comparative Study on Hydrogen Diffusion in Amorphous and Crystalline Metals Using a Molecular Dynamics Simulation},\n url = {https://doi.org/10.1007%2Fs11661-014-2230-4},\n volume = {45},\n year = {2014}\n}\n"
             }
         },
-        "implementation": {
-            "key": "9a52f45c-61b3-4f94-afe7-b2a4824734f3",
-            "id": "2014--Lee-B-M--Zr-H--LAMMPS--ipr1",
-            "status": "active",
-            "date": "2019-05-06",
-            "type": "LAMMPS pair_style meam",
-            "notes": {
-                "text": "These potential files were obtained from http://cmse.postech.ac.kr/home_2nnmeam, accessed Nov 9, 2020."
-            },
-            "artifact": [
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2014--Lee-B-M-Lee-B-J--Zr-H/1/ZrH.meam",
-                        "link-text": "ZrH.meam"
-                    }
+        "implementation": [
+            {
+                "key": "9a52f45c-61b3-4f94-afe7-b2a4824734f3",
+                "id": "2014--Lee-B-M--Zr-H--LAMMPS--ipr1",
+                "status": "superseded",
+                "date": "2019-05-06",
+                "type": "LAMMPS pair_style meam",
+                "notes": {
+                    "text": "These potential files were obtained from http://cmse.postech.ac.kr/home_2nnmeam, accessed Nov 9, 2020. Update July 19 2023: This version has been superseded as it had the incorrect atomic mass for H."
                 },
-                {
-                    "web-link": {
-                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2014--Lee-B-M-Lee-B-J--Zr-H/1/library.meam",
-                        "link-text": "library.meam"
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2014--Lee-B-M-Lee-B-J--Zr-H/1/ZrH.meam",
+                            "link-text": "ZrH.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2014--Lee-B-M-Lee-B-J--Zr-H/1/library.meam",
+                            "link-text": "library.meam"
+                        }
                     }
-                }
-            ]
-        },
+                ]
+            },
+            {
+                "key": "7a2e3aa3-39dc-4bb9-ac9a-33a34d77396d",
+                "id": "2014--Lee-B-M--Zr-H--LAMMPS--ipr2",
+                "status": "active",
+                "date": "2023-07-19",
+                "type": "LAMMPS pair_style ream (custom)",
+                "notes": {
+                    "text": "This version corrects the atomic mass of H from 51.008 to 1.008.  Thanks to Jaemin Wang for catching this."
+                },
+                "artifact": [
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2014--Lee-B-M-Lee-B-J--Zr-H/2/ZrH.meam",
+                            "link-text": "ZrH.meam"
+                        }
+                    },
+                    {
+                        "web-link": {
+                            "URL": "https://www.ctcms.nist.gov/potentials/Download/2014--Lee-B-M-Lee-B-J--Zr-H/2/library.meam",
+                            "link-text": "library.meam"
+                        }
+                    }
+                ]
+            }
+        ],
         "element": [
             "Zr",
             "H"

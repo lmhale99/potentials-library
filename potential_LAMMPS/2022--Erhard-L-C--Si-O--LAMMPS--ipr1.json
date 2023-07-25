@@ -1,0 +1,83 @@
+{
+    "potential-LAMMPS": {
+        "key": "e66b9a15-b868-499e-9ea1-ed1122415159",
+        "id": "2022--Erhard-L-C--Si-O--LAMMPS--ipr1",
+        "potential": {
+            "key": "5afaaa5e-2bd3-425d-a896-6913a4c8575c",
+            "id": "2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O"
+        },
+        "comments": "Potential 2022--Erhard-L-C--Si-O--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/2022--Erhard-L-C--Si-O--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "8",
+                "element": "O"
+            },
+            {
+                "symbol": "14",
+                "element": "Si"
+            }
+        ],
+        "pair_style": {
+            "type": "quip"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "silica_gap.xml"
+                },
+                {
+                    "option": "\"Potential xml_label=GAP_2021_4_19_120_7_32_55_336\""
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/pot.in",
+                    "link-text": "pot.in"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml",
+                    "link-text": "silica_gap.xml"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3361",
+                    "link-text": "silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3361"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3362",
+                    "link-text": "silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3362"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3363",
+                    "link-text": "silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3363"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3364",
+                    "link-text": "silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3364"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3365",
+                    "link-text": "silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3365"
+                }
+            }
+        ]
+    }
+}

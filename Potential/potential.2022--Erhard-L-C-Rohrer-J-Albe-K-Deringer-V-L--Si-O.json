@@ -1,0 +1,109 @@
+{
+    "interatomic-potential": {
+        "key": "5afaaa5e-2bd3-425d-a896-6913a4c8575c",
+        "id": "2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O",
+        "record-version": "2022-11-02",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "A machine-learned interatomic potential for silica and its relation to empirical models",
+                "author": [
+                    {
+                        "given-name": "L.C.",
+                        "surname": "Erhard"
+                    },
+                    {
+                        "given-name": "J.",
+                        "surname": "Rohrer"
+                    },
+                    {
+                        "given-name": "K.",
+                        "surname": "Albe"
+                    },
+                    {
+                        "given-name": "V.L.",
+                        "surname": "Deringer"
+                    }
+                ],
+                "publication-name": "npj Computational Materials",
+                "publication-date": {
+                    "year": 2022
+                },
+                "volume": 8,
+                "issue": 1,
+                "abstract": "Silica (SiO<sub>2</sub>) is an abundant material with a wide range of applications. Despite much progress, the atomistic modelling of the different forms of silica has remained a challenge. Here we show that by combining density-functional theory at the SCAN functional level with machine-learning-based interatomic potential fitting, a range of condensed phases of silica can be accurately described. We present a Gaussian approximation potential model that achieves high accuracy for the thermodynamic properties of the crystalline phases, and we compare its performance (and performance-cost trade-off) with that of multiple empirically fitted interatomic potentials for silica. We also include amorphous phases, assessing the ability of the potentials to describe structures of melt-quenched glassy silica, their energetic stability, and the high-pressure structural transition to a mainly sixfold-coordinated phase. We suggest that rather than standing on their own, machine-learned potentials for silica may be used in conjunction with suitable empirical models, each having a distinct role and complementing the other, by combining the advantages of the long simulation times afforded by empirical potentials and the near-quantum-mechanical accuracy of machine-learned potentials. This way, our work is expected to advance atomistic simulations of this key material and to benefit further computational studies in the field.",
+                "pages": "90",
+                "DOI": "10.1038/s41524-022-00768-w",
+                "bibtex": "@article{Erhard_2022,\n abstract = {Silica (SiO<sub>2</sub>) is an abundant material with a wide range of applications. Despite much progress, the atomistic modelling of the different forms of silica has remained a challenge. Here we show that by combining density-functional theory at the SCAN functional level with machine-learning-based interatomic potential fitting, a range of condensed phases of silica can be accurately described. We present a Gaussian approximation potential model that achieves high accuracy for the thermodynamic properties of the crystalline phases, and we compare its performance (and performance-cost trade-off) with that of multiple empirically fitted interatomic potentials for silica. We also include amorphous phases, assessing the ability of the potentials to describe structures of melt-quenched glassy silica, their energetic stability, and the high-pressure structural transition to a mainly sixfold-coordinated phase. We suggest that rather than standing on their own, machine-learned potentials for silica may be used in conjunction with suitable empirical models, each having a distinct role and complementing the other, by combining the advantages of the long simulation times afforded by empirical potentials and the near-quantum-mechanical accuracy of machine-learned potentials. This way, our work is expected to advance atomistic simulations of this key material and to benefit further computational studies in the field.},\n author = {Linus C. Erhard and Jochen Rohrer and Karsten Albe and Volker L. Deringer},\n doi = {10.1038/s41524-022-00768-w},\n journal = {npj Computational Materials},\n month = {apr},\n number = {1},\n pages = {90},\n publisher = {Springer Science and Business Media LLC},\n title = {A machine-learned interatomic potential for silica and its relation to empirical models},\n url = {https://doi.org/10.1038%2Fs41524-022-00768-w},\n volume = {8},\n year = {2022}\n}\n\n"
+            },
+            "notes": {
+                "text": "The potential was designed for crystalline, amorphous and liquid silica and shows also good behavior for certain high-pressure phases. It is not tested for silica surfaces and non stoichiometric phases (non SiO<sub>2</sub>)."
+            }
+        },
+        "implementation": {
+            "key": "e66b9a15-b868-499e-9ea1-ed1122415159",
+            "id": "2022--Erhard-L-C--Si-O--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2022-11-02",
+            "type": "GAP",
+            "notes": {
+                "text": "These files were provided by Linus Erhard on Nov 1, 2022, and are alternatively available at the links listed below. For running the potential the <a href=\"https://libatoms.github.io/QUIP/\">QUIP package</a> within LAMMPS is necessary. The file pot.in gives an example of the LAMMPS inputs to use to run this potential. Alternatively, the potential can be used in a python-ase interface called quippy."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/pot.in",
+                        "link-text": "pot.in"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml",
+                        "link-text": "silica_gap.xml"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3361",
+                        "link-text": "silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3361"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3362",
+                        "link-text": "silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3362"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3363",
+                        "link-text": "silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3363"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3364",
+                        "link-text": "silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3364"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3365",
+                        "link-text": "silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3365"
+                    }
+                }
+            ],
+            "link": {
+                "web-link": {
+                    "URL": "https://doi.org/10.5281/zenodo.6353684",
+                    "label": "zenodo, includes training data",
+                    "link-text": "https://doi.org/10.5281/zenodo.6353684"
+                }
+            }
+        },
+        "element": [
+            "Si",
+            "O"
+        ]
+    }
+}

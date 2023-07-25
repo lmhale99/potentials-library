@@ -1,0 +1,87 @@
+{
+    "interatomic-potential": {
+        "key": "d7a13cd5-010c-4686-9710-f51978598686",
+        "id": "2023--Sikorski-E-L-Cusentino-M-A-McCarthy-M-J-et-al--W-Zr-C",
+        "record-version": "2023-04-10",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Machine learned interatomic potential for dispersion strengthened plasma facing components",
+                "author": [
+                    {
+                        "given-name": "E.L.",
+                        "surname": "Sikorski"
+                    },
+                    {
+                        "given-name": "M.A.",
+                        "surname": "Cusentino"
+                    },
+                    {
+                        "given-name": "M.J.",
+                        "surname": "McCarthy"
+                    },
+                    {
+                        "given-name": "J.",
+                        "surname": "Tranchida"
+                    },
+                    {
+                        "given-name": "M.A.",
+                        "surname": "Wood"
+                    },
+                    {
+                        "given-name": "A.P.",
+                        "surname": "Thompson"
+                    }
+                ],
+                "publication-name": "The Journal of Chemical Physics",
+                "publication-date": {
+                    "year": 2023
+                },
+                "volume": 158,
+                "issue": 11,
+                "abstract": "Tungsten (W) is a material of choice for the divertor material due to its high melting temperature, thermal conductivity, and sputtering threshold. However, W has a very high brittle-to-ductile transition temperature, and at fusion reactor temperatures (≥1000 K), it may undergo recrystallization and grain growth. Dispersion-strengthening W with zirconium carbide (ZrC) can improve ductility and limit grain growth, but much of the effects of the dispersoids on microstructural evolution and thermomechanical properties at high temperatures are still unknown. We present a machine learned Spectral Neighbor Analysis Potential for W-ZrC that can now be used to study these materials. In order to construct a potential suitable for large-scale atomistic simulations at fusion reactor temperatures, it is necessary to train on <i>ab initio</i> data generated for a diverse set of structures, chemical environments, and temperatures. Further accuracy and stability tests of the potential were achieved using objective functions for both material properties and high temperature stability. Validation of lattice parameters, surface energies, bulk moduli, and thermal expansion is confirmed on the optimized potential. Tensile tests of W/ZrC bicrystals show that although the W(110)-ZrC(111) C-terminated bicrystal has the highest ultimate tensile strength (UTS) at room temperature, observed strength decreases with increasing temperature. At 2500 K, the terminating C layer diffuses into the W, resulting in a weaker W-Zr interface. Meanwhile, the W(110)-ZrC(111) Zr-terminated bicrystal has the highest UTS at 2500 K.",
+                "pages": "114101",
+                "DOI": "10.1063/5.0135269",
+                "bibtex": "@article{Sikorski_2023,\n abstract = {Tungsten (W) is a material of choice for the divertor material due to its high melting temperature, thermal conductivity, and sputtering threshold. However, W has a very high brittle-to-ductile transition temperature, and at fusion reactor temperatures (≥1000 K), it may undergo recrystallization and grain growth. Dispersion-strengthening W with zirconium carbide (ZrC) can improve ductility and limit grain growth, but much of the effects of the dispersoids on microstructural evolution and thermomechanical properties at high temperatures are still unknown. We present a machine learned Spectral Neighbor Analysis Potential for W-ZrC that can now be used to study these materials. In order to construct a potential suitable for large-scale atomistic simulations at fusion reactor temperatures, it is necessary to train on <i>ab initio</i> data generated for a diverse set of structures, chemical environments, and temperatures. Further accuracy and stability tests of the potential were achieved using objective functions for both material properties and high temperature stability. Validation of lattice parameters, surface energies, bulk moduli, and thermal expansion is confirmed on the optimized potential. Tensile tests of W/ZrC bicrystals show that although the W(110)-ZrC(111) C-terminated bicrystal has the highest ultimate tensile strength (UTS) at room temperature, observed strength decreases with increasing temperature. At 2500 K, the terminating C layer diffuses into the W, resulting in a weaker W-Zr interface. Meanwhile, the W(110)-ZrC(111) Zr-terminated bicrystal has the highest UTS at 2500 K.},\n author = {E. L. Sikorski and M. A. Cusentino and M. J. McCarthy and J. Tranchida and M. A. Wood and A. P. Thompson},\n doi = {10.1063/5.0135269},\n journal = {The Journal of Chemical Physics},\n month = {mar},\n number = {11},\n pages = {114101},\n publisher = {AIP Publishing},\n title = {Machine learned interatomic potential for dispersion strengthened plasma facing components},\n url = {https://doi.org/10.1063%2F5.0135269},\n volume = {158},\n year = {2023}\n}\n\n"
+            },
+            "notes": {
+                "text": "This potential was optimized for bulk and surface structures for both W and ZrC. No optimization was performed on pure C structures, and no physical performance should be expected for pure C simulations. We expect the potential to perform well in the temperature range of 300 - 2500K. Primary optimization was performed on bulk modulus, (100) and (110) surface energies, thermal expansion, and several stability checks detailed in the publication."
+            }
+        },
+        "implementation": {
+            "key": "f76a4b5b-2da9-476d-9826-7fed4a589f10",
+            "id": "2023--Sikorski-E-L--W-Zr-C--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2023-04-10",
+            "type": "LAMMPS pair_style hybrid/overlay zbl snap",
+            "notes": {
+                "text": "These files were provided by Ember Sikorski on 28 March 2023.  This potential can be used by adding \"include in.pot_snapWZrC\" to a LAMMPS input script.  The zbl parameters in in.pot_snapWZrC must be included to achieve the accuracy and performance described in the publication."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Sikorski-E-L-Cusentino-M-A-McCarthy-M-J-et-al--W-Zr-C/1/WZrC_pot.snapcoeff",
+                        "link-text": "WZrC_pot.snapcoeff"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Sikorski-E-L-Cusentino-M-A-McCarthy-M-J-et-al--W-Zr-C/1/WZrC_pot.snapparam",
+                        "link-text": "WZrC_pot.snapparam"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Sikorski-E-L-Cusentino-M-A-McCarthy-M-J-et-al--W-Zr-C/1/in.pot_snapWZrC",
+                        "link-text": "in.pot_snapWZrC"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "W",
+            "Zr",
+            "C"
+        ]
+    }
+}

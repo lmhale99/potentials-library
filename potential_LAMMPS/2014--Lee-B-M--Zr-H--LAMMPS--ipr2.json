@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "7a2e3aa3-39dc-4bb9-ac9a-33a34d77396d",
+        "id": "2014--Lee-B-M--Zr-H--LAMMPS--ipr2",
+        "potential": {
+            "key": "ebea64e3-886d-4005-9966-0d7e2bad13cc",
+            "id": "2014--Lee-B-M-Lee-B-J--Zr-H"
+        },
+        "comments": "Potential 2014--Lee-B-M--Zr-H--LAMMPS--ipr2 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2014--Lee-B-M-Lee-B-J--Zr-H/2014--Lee-B-M--Zr-H--LAMMPS--ipr2.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Zr",
+                "element": "Zr",
+                "mass": 91.22
+            },
+            {
+                "symbol": "H",
+                "element": "H",
+                "mass": 1.008
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Zr H"
+                },
+                {
+                    "file": "ZrH.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2014--Lee-B-M-Lee-B-J--Zr-H/2/ZrH.meam",
+                    "link-text": "ZrH.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2014--Lee-B-M-Lee-B-J--Zr-H/2/library.meam",
+                    "link-text": "library.meam"
+                }
+            }
+        ]
+    }
+}

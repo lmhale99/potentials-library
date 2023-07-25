@@ -1,0 +1,44 @@
+{
+    "potential-LAMMPS": {
+        "key": "45148fab-5638-406e-8cc5-2ea87b38244a",
+        "id": "2019--Chen-Y--W-Re--LAMMPS--ipr1",
+        "potential": {
+            "key": "58cc8383-a1ef-49ec-8c96-7c5a00505075",
+            "id": "2019--Chen-Y-Fang-J-Liu-L-et-al--W-Re"
+        },
+        "comments": "Potential 2019--Chen-Y--W-Re--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2019--Chen-Y-Fang-J-Liu-L-et-al--W-Re/2019--Chen-Y--W-Re--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "W",
+                "element": "W",
+                "mass": 183.85
+            },
+            {
+                "symbol": "Re",
+                "element": "Re",
+                "mass": 186.207
+            }
+        ],
+        "pair_style": {
+            "type": "eam/fs"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "WRe_YC2.eam.fs"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2019--Chen-Y-Fang-J-Liu-L-et-al--W-Re/1/WRe_YC2.eam.fs",
+                "link-text": "WRe_YC2.eam.fs"
+            }
+        }
+    }
+}

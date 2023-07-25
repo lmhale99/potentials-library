@@ -1,0 +1,51 @@
+{
+    "potential-LAMMPS": {
+        "key": "25bc4501-9b95-4c31-992c-53371cf1e74e",
+        "id": "2023--Li-P--Pb--LAMMPS--ipr1",
+        "potential": {
+            "key": "872084c4-9cd1-4dbf-a2de-68e1aa8ee13e",
+            "id": "2023--Li-P-Huang-Y-Wang-K-et-al--Pb"
+        },
+        "comments": "Potential 2023--Li-P--Pb--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2023--Li-P-Huang-Y-Wang-K-et-al--Pb/2023--Li-P--Pb--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "symbol": "Pb",
+            "element": "Pb",
+            "mass": 207.2
+        },
+        "pair_style": {
+            "type": "ream"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "Pb_wang.ream"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Li-P-Huang-Y-Wang-K-et-al--Pb/1/Pb_wang.ream",
+                    "link-text": "Pb_wang.ream"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Li-P-Huang-Y-Wang-K-et-al--Pb/1/pair_ream.cpp",
+                    "link-text": "pair_ream.cpp"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Li-P-Huang-Y-Wang-K-et-al--Pb/1/pair_ream.h",
+                    "link-text": "pair_ream.h"
+                }
+            }
+        ]
+    }
+}
