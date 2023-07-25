@@ -1,0 +1,5 @@
+# Note: The numbers at the end of the pair_coeff line map the LAMMPS atom types to the element models.
+# Here, type 1 is mapped to O (8) and type 2 is mapped to Si (14).
+
+pair_style quip
+pair_coeff * * path_to_potential_file/silica_gap.xml "Potential xml_label=GAP_2021_4_19_120_7_32_55_336" 8 14
