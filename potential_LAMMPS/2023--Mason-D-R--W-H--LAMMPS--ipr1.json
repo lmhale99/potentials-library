@@ -1,0 +1,46 @@
+{
+    "potential-LAMMPS": {
+        "key": "3a06b726-7b95-4a0b-ba14-699ccb38d5d3",
+        "id": "2023--Mason-D-R--W-H--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2023--Mason-D-R--W-H--LAMMPS--ipr1",
+        "potential": {
+            "key": "ce59e61d-cfee-45bd-a4ee-965537c042ff",
+            "id": "2023--Mason-D-R-Nguyen-Manh-D-Lindblad-V-W-et-al--W-H",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2023--Mason-D-R-Nguyen-Manh-D-Lindblad-V-W-et-al--W-H"
+        },
+        "comments": "Potential 2023--Mason-D-R--W-H--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2023--Mason-D-R-Nguyen-Manh-D-Lindblad-V-W-et-al--W-H/2023--Mason-D-R--W-H--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "W",
+                "element": "W",
+                "mass": 183.84
+            },
+            {
+                "symbol": "H",
+                "element": "H",
+                "mass": 1.008
+            }
+        ],
+        "pair_style": {
+            "type": "eam/alloy"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "MNL6_WH.eam.alloy"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Mason-D-R-Nguyen-Manh-D-Lindblad-V-W-et-al--W-H/1/MNL6_WH.eam.alloy",
+                "link-text": "MNL6_WH.eam.alloy"
+            }
+        }
+    }
+}

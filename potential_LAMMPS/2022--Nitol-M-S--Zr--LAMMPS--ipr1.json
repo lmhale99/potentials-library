@@ -1,0 +1,38 @@
+{
+    "potential-LAMMPS": {
+        "key": "3a60e05e-82d6-4cc9-88d7-04e2aa8c91e8",
+        "id": "2022--Nitol-M-S--Zr--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2022--Nitol-M-S--Zr--LAMMPS--ipr1",
+        "potential": {
+            "key": "0075cb9b-b6ae-41a8-a642-b92bb48f1687",
+            "id": "2022--Nitol-M-S-Dickel-D-E-Barrett-C-D--Zr",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2022--Nitol-M-S-Dickel-D-E-Barrett-C-D--Zr"
+        },
+        "comments": "Potential 2022--Nitol-M-S--Zr--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Nitol-M-S-Dickel-D-E-Barrett-C-D--Zr/2022--Nitol-M-S--Zr--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "symbol": "Zr",
+            "element": "Zr"
+        },
+        "pair_style": {
+            "type": "rann"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "Zr.rann"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Nitol-M-S-Dickel-D-E-Barrett-C-D--Zr/1/Zr.rann",
+                "link-text": "Zr.rann"
+            }
+        }
+    }
+}

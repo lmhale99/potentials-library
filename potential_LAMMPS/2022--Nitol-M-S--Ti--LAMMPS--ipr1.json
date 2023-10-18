@@ -1,0 +1,38 @@
+{
+    "potential-LAMMPS": {
+        "key": "3753e210-a365-46c8-a415-b7dcbb919c67",
+        "id": "2022--Nitol-M-S--Ti--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2022--Nitol-M-S--Ti--LAMMPS--ipr1",
+        "potential": {
+            "key": "fd4e7415-dae0-4770-966e-56872558ce4f",
+            "id": "2022--Nitol-M-S-Dickel-D-E-Barrett-C-D--Ti",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2022--Nitol-M-S-Dickel-D-E-Barrett-C-D--Ti"
+        },
+        "comments": "Potential 2022--Nitol-M-S--Ti--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Nitol-M-S-Dickel-D-E-Barrett-C-D--Ti/2022--Nitol-M-S--Ti--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "symbol": "Ti",
+            "element": "Ti"
+        },
+        "pair_style": {
+            "type": "rann"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "Ti.rann"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Nitol-M-S-Dickel-D-E-Barrett-C-D--Ti/1/Ti.rann",
+                "link-text": "Ti.rann"
+            }
+        }
+    }
+}

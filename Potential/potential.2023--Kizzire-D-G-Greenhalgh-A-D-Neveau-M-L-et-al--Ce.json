@@ -1,0 +1,81 @@
+{
+    "interatomic-potential": {
+        "key": "74c83b95-1d9d-443b-9735-8c91780655f6",
+        "id": "2023--Kizzire-D-G-Greenhalgh-A-D-Neveau-M-L-et-al--Ce",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2023--Kizzire-D-G-Greenhalgh-A-D-Neveau-M-L-et-al--Ce",
+        "record-version": "2023-08-29",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Modified embedded atom method interatomic potential for FCC γ-cerium",
+                "author": [
+                    {
+                        "given-name": "D.G.",
+                        "surname": "Kizzire"
+                    },
+                    {
+                        "given-name": "A.D.",
+                        "surname": "Greenhalgh"
+                    },
+                    {
+                        "given-name": "M.L.",
+                        "surname": "Neveau"
+                    },
+                    {
+                        "given-name": "C.M.",
+                        "surname": "Pekol"
+                    },
+                    {
+                        "given-name": "M.J.",
+                        "surname": "Thompson"
+                    },
+                    {
+                        "given-name": "O.",
+                        "surname": "Rios"
+                    },
+                    {
+                        "given-name": "D.J.",
+                        "surname": "Keffer"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2023
+                },
+                "volume": 230,
+                "abstract": "As interest in Cerium containing alloys and Al-Ce alloys in particular grows, the need to generate predictions of mechanical, thermodynamic and transport properties across a compositional space becomes more pronounced. The absence of a reliable interaction potential to be used in classical molecular dynamics (MD) simulation of γ-Ce is a fundamental bottleneck to subsequent alloy simulation. In this work, a Modified Embedded Atom Method (MEAM) potential to be used in MD simulation for γ-Ce has been generated. The parameterization process involved two steps. First, the iterative Latin hypercube sampling (LHS) method was used to generate MEAM parameter sets based on an automated optimization of energies and forces relative to a training set of small configurations evaluated through Density Functional Theory (DFT). Second, a human-guided optimization in that local parameter space was performed to refine the parameters to satisfy an array of mechanical, thermodynamic and transport properties available from the experimental literature. When used in an MD simulation, the resulting potential provides excellent estimates of all tested material properties across a broad temperature range. This γ-Ce potential, when combined with existing MEAM potential for Al, will form the necessary foundation for the subsequent development of a mixture potential, enabling the simulation of Al-Ce and Al-Ce-X alloys.",
+                "pages": "112454",
+                "DOI": "10.1016/j.commatsci.2023.112454",
+                "bibtex": "@article{Kizzire_2023,\n abstract = {As interest in Cerium containing alloys and Al-Ce alloys in particular grows, the need to generate predictions of mechanical, thermodynamic and transport properties across a compositional space becomes more pronounced. The absence of a reliable interaction potential to be used in classical molecular dynamics (MD) simulation of γ-Ce is a fundamental bottleneck to subsequent alloy simulation. In this work, a Modified Embedded Atom Method (MEAM) potential to be used in MD simulation for γ-Ce has been generated. The parameterization process involved two steps. First, the iterative Latin hypercube sampling (LHS) method was used to generate MEAM parameter sets based on an automated optimization of energies and forces relative to a training set of small configurations evaluated through Density Functional Theory (DFT). Second, a human-guided optimization in that local parameter space was performed to refine the parameters to satisfy an array of mechanical, thermodynamic and transport properties available from the experimental literature. When used in an MD simulation, the resulting potential provides excellent estimates of all tested material properties across a broad temperature range. This γ-Ce potential, when combined with existing MEAM potential for Al, will form the necessary foundation for the subsequent development of a mixture potential, enabling the simulation of Al-Ce and Al-Ce-X alloys.},\n author = {Dayton G. Kizzire and Alex D. Greenhalgh and Max L. Neveau and Collin M. Pekol and Michael J. Thompson and Orlando Rios and David J. Keffer},\n doi = {10.1016/j.commatsci.2023.112454},\n journal = {Computational Materials Science},\n month = {oct},\n pages = {112454},\n publisher = {Elsevier BV},\n title = {Modified embedded atom method interatomic potential for FCC γ-cerium},\n url = {https://doi.org/10.1016%2Fj.commatsci.2023.112454},\n volume = {230},\n year = {2023}\n}\n"
+            },
+            "notes": {
+                "text": "This interaction potential is to be used for classical molecular dynamics simulation of FCC γ-Ce."
+            }
+        },
+        "implementation": {
+            "key": "b06090a0-0685-425d-ac56-51786512cb05",
+            "id": "2023--Kizzire-D-G--Ce--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2023-08-29",
+            "type": "LAMMPS pair_style meam",
+            "notes": {
+                "text": "These files were provided by David Keffer on August 29, 2023."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Kizzire-D-G-Greenhalgh-A-D-Neveau-M-L-et-al--Ce/1/Ce.meam",
+                        "link-text": "Ce.meam"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Kizzire-D-G-Greenhalgh-A-D-Neveau-M-L-et-al--Ce/1/library_Ce.meam",
+                        "link-text": "library_Ce.meam"
+                    }
+                }
+            ]
+        },
+        "element": "Ce"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "interatomic-potential": {
+        "key": "63ac71b9-4542-4a2b-a693-eed5b1d0d650",
+        "id": "2021--Nitol-M-S-Mun-S-Dickel-D-E-Barrett-C-D--Mg",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Nitol-M-S-Mun-S-Dickel-D-E-Barrett-C-D--Mg",
+        "record-version": "2023-08-24",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Unraveling Mg &lt;c + a&gt; slip using neural network potential",
+                "author": [
+                    {
+                        "given-name": "M.S.",
+                        "surname": "Nitol"
+                    },
+                    {
+                        "given-name": "S.",
+                        "surname": "Mun"
+                    },
+                    {
+                        "given-name": "D.E.",
+                        "surname": "Dickel"
+                    },
+                    {
+                        "given-name": "C.D.",
+                        "surname": "Barrett"
+                    }
+                ],
+                "publication-name": "Philosophical Magazine",
+                "publication-date": {
+                    "year": 2021
+                },
+                "volume": 102,
+                "issue": 8,
+                "abstract": "Magnesium (Mg) activates &lt;c + a&gt; dislocation slip on the second order pyramidal slip plane. This slip mode is very complex compared to other modes including several metastable structures. Due to the complexity and very similar energies of the different structures, reliably modelling this slip mode is challenging. The problem is exacerbated when considering alloying, in which a combination of 1st order and 2nd order pyramidal slip is usually observed. Motivated by the need for a high fidelity potential for Mg alloys, we have developed first a highly accuracy potential for pure Mg. The new potential shows better agreement with density functional theory and experimental calculations than previous interatomic potentials for Mg. With the help of this new potential, we demonstrate that the basal dissociated &lt;c + a&gt; core is not sessile, as previously thought, and that constant stress molecular dynamics demonstrate clear preference for the 2nd order pyramidal system over the 1st order system.",
+                "pages": "651-673",
+                "DOI": "10.1080/14786435.2021.2012289",
+                "bibtex": "@article{Nitol_2021,\n abstract = {Magnesium (Mg) activates &lt;c + a&gt; dislocation slip on the second order pyramidal slip plane. This slip mode is very complex compared to other modes including several metastable structures. Due to the complexity and very similar energies of the different structures, reliably modelling this slip mode is challenging. The problem is exacerbated when considering alloying, in which a combination of 1st order and 2nd order pyramidal slip is usually observed. Motivated by the need for a high fidelity potential for Mg alloys, we have developed first a highly accuracy potential for pure Mg. The new potential shows better agreement with density functional theory and experimental calculations than previous interatomic potentials for Mg. With the help of this new potential, we demonstrate that the basal dissociated &lt;c + a&gt; core is not sessile, as previously thought, and that constant stress molecular dynamics demonstrate clear preference for the 2nd order pyramidal system over the 1st order system.},\n author = {Mashroor S. Nitol and Sungkwang Mun and Doyl E. Dickel and Christopher D. Barrett},\n doi = {10.1080/14786435.2021.2012289},\n journal = {Philosophical Magazine},\n month = {dec},\n number = {8},\n pages = {651--673},\n publisher = {Informa UK Limited},\n title = {Unraveling Mg &lt;c + a&gt; slip using neural network potential},\n url = {https://doi.org/10.1080%2F14786435.2021.2012289},\n volume = {102},\n year = {2021}\n}\n"
+            },
+            "notes": {
+                "text": "This potential was trained to study &lt;c + a&gt; dislocation mobility and core structures."
+            }
+        },
+        "implementation": {
+            "key": "7947e520-c5c9-4bf7-bfea-536e0a68d402",
+            "id": "2021--Nitol-M-S--Mg--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2023-08-24",
+            "type": "LAMMPS pair_style rann",
+            "notes": {
+                "text": "This file and the github link were provided by Mashroor Nitol on July 13, 2023."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Nitol-M-S-Mun-S-Dickel-D-E-Barrett-C-D--Mg/1/Mg-2.nn",
+                    "link-text": "Mg-2.nn"
+                }
+            },
+            "link": {
+                "web-link": {
+                    "URL": "https://github.com/ranndip/RANN-potentials",
+                    "label": "RANN potential github repository",
+                    "link-text": "https://github.com/ranndip/RANN-potentials"
+                }
+            }
+        },
+        "element": "Mg"
+    }
+}

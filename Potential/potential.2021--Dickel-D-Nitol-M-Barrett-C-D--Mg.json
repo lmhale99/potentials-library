@@ -1,0 +1,64 @@
+{
+    "interatomic-potential": {
+        "key": "7522822c-3636-4d16-9f70-7faa3a220263",
+        "id": "2021--Dickel-D-Nitol-M-Barrett-C-D--Mg",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Dickel-D-Nitol-M-Barrett-C-D--Mg",
+        "record-version": "2023-08-24",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "LAMMPS implementation of rapid artificial neural network derived interatomic potentials",
+                "author": [
+                    {
+                        "given-name": "D.",
+                        "surname": "Dickel"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Nitol"
+                    },
+                    {
+                        "given-name": "C.D.",
+                        "surname": "Barrett"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2021
+                },
+                "volume": 196,
+                "abstract": "While machine learning approaches have been successfully used to represent interatomic potentials, their speed has typically lagged behind conventional formalisms. This is often due to the complexity of the structural fingerprints used to describe the local atomic environment and the large cutoff radii and neighbor lists used in the calculation of these fingerprints. Even recent machine learned methods are at least 10 times slower than traditional formalisms. An implementation of a rapid artificial neural network (RANN) style potential in the LAMMPS molecular dynamics package is presented here which utilizes angular screening to reduce computational complexity without reducing accuracy. For the smallest neural network architectures, this formalism rivals the modified embedded atom method (MEAM) for speed and accuracy, while the networks approximately one third as fast as MEAM were capable of reproducing the training database with chemical accuracy. The numerical accuracy of the LAMMPS implementation is assessed by verifying conservation of energy and agreement between calculated forces and pressures and the observed derivatives of the energy as well as by assessing the stability of the potential in dynamic simulation. The potential style is tested using a force field for magnesium and the computational efficiency for a variety of architectures is compared to a traditional potential models as well as alternative ANN formalisms. The predictive accuracy is found to rival that of slower methods. Additionally, the transferability of the formalism is demonstrated by correctly predicting the Mg phase diagram include the pressure dependence on melting temperature and the presence of a high pressure BCC phase.",
+                "pages": "110481",
+                "DOI": "10.1016/j.commatsci.2021.110481",
+                "bibtex": "@article{Dickel_2021,\n abstract = {While machine learning approaches have been successfully used to represent interatomic potentials, their speed has typically lagged behind conventional formalisms. This is often due to the complexity of the structural fingerprints used to describe the local atomic environment and the large cutoff radii and neighbor lists used in the calculation of these fingerprints. Even recent machine learned methods are at least 10 times slower than traditional formalisms. An implementation of a rapid artificial neural network (RANN) style potential in the LAMMPS molecular dynamics package is presented here which utilizes angular screening to reduce computational complexity without reducing accuracy. For the smallest neural network architectures, this formalism rivals the modified embedded atom method (MEAM) for speed and accuracy, while the networks approximately one third as fast as MEAM were capable of reproducing the training database with chemical accuracy. The numerical accuracy of the LAMMPS implementation is assessed by verifying conservation of energy and agreement between calculated forces and pressures and the observed derivatives of the energy as well as by assessing the stability of the potential in dynamic simulation. The potential style is tested using a force field for magnesium and the computational efficiency for a variety of architectures is compared to a traditional potential models as well as alternative ANN formalisms. The predictive accuracy is found to rival that of slower methods. Additionally, the transferability of the formalism is demonstrated by correctly predicting the Mg phase diagram include the pressure dependence on melting temperature and the presence of a high pressure BCC phase.},\n author = {D. Dickel and M. Nitol and C.D. Barrett},\n doi = {10.1016/j.commatsci.2021.110481},\n journal = {Computational Materials Science},\n month = {aug},\n pages = {110481},\n publisher = {Elsevier BV},\n title = {LAMMPS implementation of rapid artificial neural network derived interatomic potentials},\n url = {https://doi.org/10.1016%2Fj.commatsci.2021.110481},\n volume = {196},\n year = {2021}\n}\n"
+            },
+            "notes": {
+                "text": "This potential fitting is useful for studying HCP to BCC phase transformation. While not trained over BCC Mg, it still captures the phase transformation."
+            }
+        },
+        "implementation": {
+            "key": "d0a1d7a9-cc2e-40e3-9383-8d32d3366b57",
+            "id": "2021--Dickel-D--Mg--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2023-08-24",
+            "type": "LAMMPS pair_style rann",
+            "notes": {
+                "text": "This file and the github link were provided by Mashroor Nitol on July 13, 2023."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Dickel-D-Nitol-M-Barrett-C-D--Mg/1/Mg.rann",
+                    "link-text": "Mg.rann"
+                }
+            },
+            "link": {
+                "web-link": {
+                    "URL": "https://github.com/ranndip/RANN-potentials",
+                    "label": "RANN potential github repository",
+                    "link-text": "https://github.com/ranndip/RANN-potentials"
+                }
+            }
+        },
+        "element": "Mg"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "potential-LAMMPS": {
+        "key": "7947e520-c5c9-4bf7-bfea-536e0a68d402",
+        "id": "2021--Nitol-M-S--Mg--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2021--Nitol-M-S--Mg--LAMMPS--ipr1",
+        "potential": {
+            "key": "63ac71b9-4542-4a2b-a693-eed5b1d0d650",
+            "id": "2021--Nitol-M-S-Mun-S-Dickel-D-E-Barrett-C-D--Mg",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2021--Nitol-M-S-Mun-S-Dickel-D-E-Barrett-C-D--Mg"
+        },
+        "comments": "Potential 2021--Nitol-M-S--Mg--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2021--Nitol-M-S-Mun-S-Dickel-D-E-Barrett-C-D--Mg/2021--Nitol-M-S--Mg--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "symbol": "Mg",
+            "element": "Mg",
+            "mass": 24.305
+        },
+        "pair_style": {
+            "type": "rann"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "Mg-2.nn"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Nitol-M-S-Mun-S-Dickel-D-E-Barrett-C-D--Mg/1/Mg-2.nn",
+                "link-text": "Mg-2.nn"
+            }
+        }
+    }
+}
