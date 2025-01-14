@@ -1,0 +1,90 @@
+{
+    "interatomic-potential": {
+        "key": "52e6cc2d-6b6c-470f-999f-4bfeeca25c61",
+        "id": "2024--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O",
+        "record-version": "2024-03-13",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Modelling atomic and nanoscale structure in the silicon–oxygen system through active machine learning",
+                "author": [
+                    {
+                        "given-name": "L.C.",
+                        "surname": "Erhard"
+                    },
+                    {
+                        "given-name": "J.",
+                        "surname": "Rohrer"
+                    },
+                    {
+                        "given-name": "K.",
+                        "surname": "Albe"
+                    },
+                    {
+                        "given-name": "V.L.",
+                        "surname": "Deringer"
+                    }
+                ],
+                "publication-name": "Nature Communications",
+                "publication-date": {
+                    "year": 2024
+                },
+                "volume": 15,
+                "issue": 1,
+                "abstract": "Silicon-oxygen compounds are among the most important ones in the natural sciences, occurring as building blocks in minerals and being used in semiconductors and catalysis. Beyond the well-known silicon dioxide, there are phases with different stoichiometric composition and nanostructured composites. One of the key challenges in understanding the Si-O system is therefore to accurately account for its nanoscale heterogeneity beyond the length scale of individual atoms. Here we show that a unified computational description of the full Si-O system is indeed possible, based on atomistic machine learning coupled to an active-learning workflow. We showcase applications to very-high-pressure silica, to surfaces and aerogels, and to the structure of amorphous silicon monoxide. In a wider context, our work illustrates how structural complexity in functional materials beyond the atomic and few-nanometre length scales can be captured with active machine learning.",
+                "pages": "1927",
+                "DOI": "10.1038/s41467-024-45840-9",
+                "bibtex": "@article{Erhard_2024,\n abstract = {Silicon-oxygen compounds are among the most important ones in the natural sciences, occurring as building blocks in minerals and being used in semiconductors and catalysis. Beyond the well-known silicon dioxide, there are phases with different stoichiometric composition and nanostructured composites. One of the key challenges in understanding the Si-O system is therefore to accurately account for its nanoscale heterogeneity beyond the length scale of individual atoms. Here we show that a unified computational description of the full Si-O system is indeed possible, based on atomistic machine learning coupled to an active-learning workflow. We showcase applications to very-high-pressure silica, to surfaces and aerogels, and to the structure of amorphous silicon monoxide. In a wider context, our work illustrates how structural complexity in functional materials beyond the atomic and few-nanometre length scales can be captured with active machine learning.},\n author = {Linus C. Erhard and Jochen Rohrer and Karsten Albe and Volker L. Deringer},\n doi = {10.1038/s41467-024-45840-9},\n issn = {2041-1723},\n journal = {Nature Communications},\n month = {March},\n number = {1},\n pages = {1927},\n publisher = {Springer Science and Business Media LLC},\n title = {Modelling atomic and nanoscale structure in the silicon–oxygen system through active machine learning},\n url = {http://dx.doi.org/10.1038/s41467-024-45840-9},\n volume = {15},\n year = {2024}\n}\n"
+            },
+            "notes": {
+                "text": "The potential is well suited for Si, SiO<sub>2</sub> and mixtures of both under ambient conditions (crystalline as well as amorphous). Moreover, it is trained for surfaces of SiO<sub>2</sub> and all high-pressure phases of SiO<sub>2</sub> including the amorphous phase (at least up to 200 GPa). It can be also used for Si surfaces. It should not be used for high-pressure Si and mixtures of Si-SiO<sub>2</sub> under high pressures."
+            }
+        },
+        "implementation": [
+            {
+                "key": "7035c886-0a8b-433a-bf06-6c53f56e17ef",
+                "id": "2024--Erhard-L-C--Si-O--LAMMPS--ipr1",
+                "status": "active",
+                "date": "2024-03-13",
+                "type": "LAMMPS pair_style pace",
+                "notes": {
+                    "text": "This file was provided by Linus Erhard on March 6, 2024. The LAMMPS pace pair_style is available by building LAMMPS with the ML-PACE package, and can be ran with CPUs and GPUs. The Zenodo link contains additional files, such as training data, parameter files, example scripts and simulation results."
+                },
+                "artifact": {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/1/SiOx_potential.yace",
+                        "link-text": "SiOx_potential.yace"
+                    }
+                },
+                "link": {
+                    "web-link": {
+                        "URL": "https://zenodo.org/records/10419194",
+                        "label": "Zenodo",
+                        "link-text": "https://zenodo.org/records/10419194"
+                    }
+                }
+            },
+            {
+                "key": "730bf4b9-d84e-43cb-bfe1-4c9ade849db4",
+                "id": "2024--Erhard-L-C--Si-O--ase--ipr1",
+                "status": "active",
+                "date": "2024-03-13",
+                "type": "ASE calculator",
+                "notes": {
+                    "text": "This file was provided by Linus Erhard on March 6, 2024.  It can be used for an ASE calculator with the python-ace package <a href=\"https://pacemaker.readthedocs.io\">https://pacemaker.readthedocs.io</a>."
+                },
+                "artifact": {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Erhard-L-C-Rohrer-J-Albe-K-Deringer-V-L--Si-O/2/SiOx_potential.yaml",
+                        "link-text": "SiOx_potential.yaml"
+                    }
+                }
+            }
+        ],
+        "element": [
+            "Si",
+            "O"
+        ]
+    }
+}

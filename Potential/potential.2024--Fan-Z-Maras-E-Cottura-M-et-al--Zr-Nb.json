@@ -1,0 +1,69 @@
+{
+    "interatomic-potential": {
+        "key": "76e78499-bf9c-481c-8aba-01e5778d96c0",
+        "id": "2024--Fan-Z-Maras-E-Cottura-M-et-al--Zr-Nb",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Fan-Z-Maras-E-Cottura-M-et-al--Zr-Nb",
+        "record-version": "2024-11-08",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Structure and coherency of bcc Nb precipitates in hcp Zr matrix from atomistic simulations",
+                "author": [
+                    {
+                        "given-name": "Z.",
+                        "surname": "Fan"
+                    },
+                    {
+                        "given-name": "É.",
+                        "surname": "Maras"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Cottura"
+                    },
+                    {
+                        "given-name": "M.-C.",
+                        "surname": "Marinica"
+                    },
+                    {
+                        "given-name": "E.",
+                        "surname": "Clouet"
+                    }
+                ],
+                "publication-name": "Physical Review Materials",
+                "publication-date": {
+                    "year": 2024
+                },
+                "volume": 8,
+                "issue": 11,
+                "abstract": "We use atomistic simulations to study the structure and shape of niobium precipitates with a body-centered cubic crystallographic structure in a zirconium matrix with a hexagonal close-packed structure. We consider a Pitsch-Schrader orientation relationship, which is observed experimentally for Nb precipitates appearing under irradiation in zirconium alloys. In this regard, we have developed a Zr-Nb empirical potential using the embedded atom method. This parametrization offers a good description of the interfaces between Nb precipitates and the Zr matrix. The potential includes all the necessary physical ingredients to account for the coherency strain between both phases. The atomistic simulations reveal a significant decrease in the precipitate formation energy when they become semicoherent, with enough misfit dislocations at the interface to eliminate the lattice misfit between the Nb precipitates and the Zr matrix. The \"idealized\" equilibrium shape that minimizes the formation energy of these semicoherent precipitates matches the experimental shape: platelets lying in the Zr basal planes with a reduced dimension along the [0001] axis. Our simulations suggest that the platelet shape observed in zirconium for irradiation-induced Nb-enriched precipitates simply results from a minimization of their energy cost.",
+                "pages": "113601",
+                "DOI": "10.1103/physrevmaterials.8.113601",
+                "bibtex": "@article{Fan_2024,\n abstract = {We use atomistic simulations to study the structure and shape of niobium precipitates with a body-centered cubic crystallographic structure in a zirconium matrix with a hexagonal close-packed structure. We consider a Pitsch-Schrader orientation relationship, which is observed experimentally for Nb precipitates appearing under irradiation in zirconium alloys. In this regard, we have developed a Zr-Nb empirical potential using the embedded atom method. This parametrization offers a good description of the interfaces between Nb precipitates and the Zr matrix. The potential includes all the necessary physical ingredients to account for the coherency strain between both phases. The atomistic simulations reveal a significant decrease in the precipitate formation energy when they become semicoherent, with enough misfit dislocations at the interface to eliminate the lattice misfit between the Nb precipitates and the Zr matrix. The \"idealized\" equilibrium shape that minimizes the formation energy of these semicoherent precipitates matches the experimental shape: platelets lying in the Zr basal planes with a reduced dimension along the [0001] axis. Our simulations suggest that the platelet shape observed in zirconium for irradiation-induced Nb-enriched precipitates simply results from a minimization of their energy cost.},\n author = {Fan, Zhengxuan and Maras, Émile and Cottura, Maeva and Marinica, Mihai-Cosmin and Clouet, Emmanuel},\n doi = {10.1103/physrevmaterials.8.113601},\n issn = {2475-9953},\n journal = {Physical Review Materials},\n month = {November},\n number = {11},\n pages = {113601},\n publisher = {American Physical Society (APS)},\n title = {Structure and coherency of bcc Nb precipitates in hcp Zr matrix from atomistic simulations},\n url = {http://dx.doi.org/10.1103/PhysRevMaterials.8.113601},\n volume = {8},\n year = {2024}\n}\n"
+            },
+            "notes": {
+                "text": "This potential is intended to model bcc Nb precipitates in hcp Zr."
+            }
+        },
+        "implementation": {
+            "key": "7431a47c-231b-4f97-b0d6-2d331561c515",
+            "id": "2024--Fan-Z--Zr-Nb--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-11-08",
+            "type": "LAMMPS pair_style eam/alloy",
+            "notes": {
+                "text": "This file was provided by Emmanuel Clouet on November 8, 2024."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Fan-Z-Maras-E-Cottura-M-et-al--Zr-Nb/1/ZrNb5.eam.alloy",
+                    "link-text": "ZrNb5.eam.alloy"
+                }
+            }
+        },
+        "element": [
+            "Zr",
+            "Nb"
+        ]
+    }
+}

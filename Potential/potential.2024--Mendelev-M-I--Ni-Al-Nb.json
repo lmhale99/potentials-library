@@ -1,0 +1,48 @@
+{
+    "interatomic-potential": {
+        "key": "893fa69a-d9c2-4899-ade1-a907ddcf396d",
+        "id": "2024--Mendelev-M-I--Ni-Al-Nb",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Mendelev-M-I--Ni-Al-Nb",
+        "record-version": "2024-04-09",
+        "description": {
+            "citation": {
+                "document-type": "unspecified",
+                "title": "to be published",
+                "author": [
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Mendelev"
+                    }
+                ],
+                "publication-date": {
+                    "year": "2024"
+                },
+                "bibtex": "@unpublished{2024--Mendelev-M-I--Ni-Al-Nb,\n author = {M. I. Mendelev},\n note = {2024--Mendelev-M-I--Ni-Al-Nb},\n title = {to be published},\n year = {2024}\n}\n"
+            },
+            "notes": {
+                "text": "This Ni-Al-Nb potential is designed to simulate the effect of Nb on the dislocation migration in the γ (Ni solution in the fcc Al) and L1<sub>2</sub> (Ni<sub>3</sub>Al) phases. The potential correctly reproduces the Nb partitioning between γ and γ' phases."
+            }
+        },
+        "implementation": {
+            "key": "aabb557a-0fa4-4be3-9788-af598d2f03ff",
+            "id": "2024--Mendelev-M-I--Ni-Al-Nb--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-04-09",
+            "type": "LAMMPS pair_style eam/fs",
+            "notes": {
+                "text": "This file was provided by Mikhail Mendelev on April 5, 2024."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Mendelev-M-I--Ni-Al-Nb/1/Ni-Al-Nb.eam.fs",
+                    "link-text": "Ni-Al-Nb.eam.fs"
+                }
+            }
+        },
+        "element": [
+            "Ni",
+            "Al",
+            "Nb"
+        ]
+    }
+}

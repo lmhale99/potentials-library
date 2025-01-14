@@ -1,0 +1,73 @@
+{
+    "interatomic-potential": {
+        "key": "9eec0a3b-e8b5-4ff6-b36e-24e60e7e5200",
+        "id": "2024--Plummer-G-Tavenner-J-P-Mendelev-M-I-et-al--Ni-O",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Plummer-G-Tavenner-J-P-Mendelev-M-I-et-al--Ni-O",
+        "record-version": "2024-10-29",
+        "description": {
+            "citation": {
+                "document-type": "unspecified",
+                "title": "to be published",
+                "author": [
+                    {
+                        "given-name": "G.",
+                        "surname": "Plummer"
+                    },
+                    {
+                        "given-name": "J.P.",
+                        "surname": "Tavenner"
+                    },
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Mendelev"
+                    },
+                    {
+                        "given-name": "Z.",
+                        "surname": "Wu"
+                    },
+                    {
+                        "given-name": "J.W.",
+                        "surname": "Lawson"
+                    }
+                ],
+                "publication-date": {
+                    "year": "2024"
+                },
+                "bibtex": "@unpublished{2024--Mendelev-M-I-Plummer-G--Ni-O,\n author = {Gabriel Plummer and Jacob P. Tavenner and Mikhail I. Mendelev and Zhigang Wu and John W. Lawson},\n note = {2024--Mendelev-M-I-Plummer-G--Ni-O},\n title = {to be published},\n year = {2024}\n}\n"
+            },
+            "notes": {
+                "text": "This potential was developed to simulate the solidification of the Ni rich Ni-O alloys, oxidation of Ni and the interaction between dislocation and NiO precipitates in fcc Ni."
+            }
+        },
+        "implementation": {
+            "key": "fa883973-51e8-4d88-b68a-a6b6c47f8155",
+            "id": "2024--Plummer-G--Ni-O--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-10-29",
+            "type": "LAMMPS pair_style hybrid/overlay eam/fs coul/ctip",
+            "notes": {
+                "text": "These files were provided by Mikhail Mendelev on October 22, 2024. Update: coul/ctip is available in LAMMPS starting with the 19Nov2024 release."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Plummer-G-Tavenner-J-P-Mendelev-M-I-et-al--Ni-O/1/v5_10_NiO_T=0.eam.fs",
+                        "label": "eam/fs parameters:",
+                        "link-text": "v5_10_NiO_T=0.eam.fs"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Plummer-G-Tavenner-J-P-Mendelev-M-I-et-al--Ni-O/1/v5_10_NiO_T=0.ctip",
+                        "label": "coul/ctip parameters:",
+                        "link-text": "v5_10_NiO_T=0.ctip"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Ni",
+            "O"
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "interatomic-potential": {
+        "key": "cc333bb0-6e41-46ad-828c-06dd468f35a8",
+        "id": "2023--Kumar-S-Tahmasbi-H-Ramakrishna-K-et-al--Al",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2023--Kumar-S-Tahmasbi-H-Ramakrishna-K-et-al--Al",
+        "record-version": "2024-11-06",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Transferable interatomic potential for aluminum from ambient conditions to warm dense matter",
+                "author": [
+                    {
+                        "given-name": "S.",
+                        "surname": "Kumar"
+                    },
+                    {
+                        "given-name": "H.",
+                        "surname": "Tahmasbi"
+                    },
+                    {
+                        "given-name": "K.",
+                        "surname": "Ramakrishna"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Lokamani"
+                    },
+                    {
+                        "given-name": "S.",
+                        "surname": "Nikolov"
+                    },
+                    {
+                        "given-name": "J.",
+                        "surname": "Tranchida"
+                    },
+                    {
+                        "given-name": "M.A.",
+                        "surname": "Wood"
+                    },
+                    {
+                        "given-name": "A.",
+                        "surname": "Cangi"
+                    }
+                ],
+                "publication-name": "Physical Review Research",
+                "publication-date": {
+                    "year": 2023
+                },
+                "volume": 5,
+                "issue": 3,
+                "abstract": "We present a study on the transport and material properties of aluminum spanning from ambient to warm dense matter conditions using a machine-learned interatomic potential (ML-IAP). Prior research has utilized ML-IAPs to simulate phenomena in warm dense matter, but these potentials have often been calibrated for a narrow range of temperatures and pressures. In contrast, we train a single ML-IAP over a wide range of temperatures, using density functional theory molecular dynamics (DFT-MD) data. Our approach overcomes the computational limitations of DFT-MD simulations, enabling us to study the transport and material properties of matter at higher temperatures and longer time scales. We demonstrate the ML-IAP transferability across a wide range of temperatures using molecular dynamics by examining the ionic part of thermal conductivity, shear viscosity, self-diffusion coefficient, sound velocity, and structure factor of aluminum up to about 60000 K, where we find good agreement with previous theoretical data.",
+                "pages": "033162",
+                "DOI": "10.1103/physrevresearch.5.033162",
+                "bibtex": "@article{Kumar_2023,\n abstract = {We present a study on the transport and material properties of aluminum spanning from ambient to warm dense matter conditions using a machine-learned interatomic potential (ML-IAP). Prior research has utilized ML-IAPs to simulate phenomena in warm dense matter, but these potentials have often been calibrated for a narrow range of temperatures and pressures. In contrast, we train a single ML-IAP over a wide range of temperatures, using density functional theory molecular dynamics (DFT-MD) data. Our approach overcomes the computational limitations of DFT-MD simulations, enabling us to study the transport and material properties of matter at higher temperatures and longer time scales. We demonstrate the ML-IAP transferability across a wide range of temperatures using molecular dynamics by examining the ionic part of thermal conductivity, shear viscosity, self-diffusion coefficient, sound velocity, and structure factor of aluminum up to about 60000 K, where we find good agreement with previous theoretical data.},\n author = {Kumar, Sandeep and Tahmasbi, Hossein and Ramakrishna, Kushal and Lokamani, Mani and Nikolov, Svetoslav and Tranchida, Julien and Wood, Mitchell A. and Cangi, Attila},\n doi = {10.1103/physrevresearch.5.033162},\n issn = {2643-1564},\n journal = {Physical Review Research},\n month = {September},\n number = {3},\n pages = {033162},\n publisher = {American Physical Society (APS)},\n title = {Transferable interatomic potential for aluminum from ambient conditions to warm dense matter},\n url = {http://dx.doi.org/10.1103/PhysRevResearch.5.033162},\n volume = {5},\n year = {2023}\n}\n"
+            }
+        },
+        "implementation": {
+            "key": "aa159414-de88-429b-8a9f-18618ad60838",
+            "id": "2023--Kumar-S--Al--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-11-06",
+            "type": "LAMMPS pair_style hybrid/overlay zbl snap",
+            "notes": {
+                "text": "These files were provided by Kushal Ramakrishna on October 30, 2024."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Kumar-S-Tahmasbi-H-Ramakrishna-K-et-al--Al/1/Al.snap",
+                        "link-text": "Al.snap"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Kumar-S-Tahmasbi-H-Ramakrishna-K-et-al--Al/1/Al_pot.snapcoeff",
+                        "link-text": "Al_pot.snapcoeff"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Kumar-S-Tahmasbi-H-Ramakrishna-K-et-al--Al/1/Al_pot.snapparam",
+                        "link-text": "Al_pot.snapparam"
+                    }
+                }
+            ],
+            "link": {
+                "web-link": {
+                    "URL": "https://doi.org/10.14278/rodare.2368",
+                    "label": "Rodare training data",
+                    "link-text": "https://doi.org/10.14278/rodare.2368"
+                }
+            }
+        },
+        "element": "Al"
+    }
+}

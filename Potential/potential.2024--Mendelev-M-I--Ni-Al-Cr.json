@@ -1,0 +1,48 @@
+{
+    "interatomic-potential": {
+        "key": "b2383bef-e0f3-45ba-a328-13a1c71b5e31",
+        "id": "2024--Mendelev-M-I--Ni-Al-Cr",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Mendelev-M-I--Ni-Al-Cr",
+        "record-version": "2024-04-09",
+        "description": {
+            "citation": {
+                "document-type": "unspecified",
+                "title": "to be published",
+                "author": [
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Mendelev"
+                    }
+                ],
+                "publication-date": {
+                    "year": "2024"
+                },
+                "bibtex": "@unpublished{2024--Mendelev-M-I--Ni-Al-Cr,\n author = {M. I. Mendelev},\n note = {2024--Mendelev-M-I--Ni-Al-Cr},\n title = {to be published},\n year = {2024}\n}\n"
+            },
+            "notes": {
+                "text": "This Ni-Al-Cr potential is designed to simulate the effect of Cr on the dislocation migration in the γ (Ni solution in the fcc Al) and L1<sub>2</sub> (Ni<sub>3</sub>Al) phases. The potential correctly reproduces the Cr partitioning between γ and γ' phases."
+            }
+        },
+        "implementation": {
+            "key": "b6a99428-5fa1-46ca-9cdb-166f0a252bee",
+            "id": "2024--Mendelev-M-I--Ni-Al-Cr--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-04-09",
+            "type": "LAMMPS pair_style eam/fs",
+            "notes": {
+                "text": "This file was provided by Mikhail Mendelev on April 5, 2024."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Mendelev-M-I--Ni-Al-Cr/1/Ni-Al-Cr.eam.fs",
+                    "link-text": "Ni-Al-Cr.eam.fs"
+                }
+            }
+        },
+        "element": [
+            "Ni",
+            "Al",
+            "Cr"
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "interatomic-potential": {
+        "key": "99e807c6-d7af-4764-8ce1-6e7435e3fb4c",
+        "id": "2023--Al-Awad-A-S-Batet-L-Sedano-L--Li",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2023--Al-Awad-A-S-Batet-L-Sedano-L--Li",
+        "record-version": "2023-10-23",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Parametrization of embedded-atom method potential for liquid lithium and lead-lithium eutectic alloy",
+                "author": [
+                    {
+                        "given-name": "A.S.",
+                        "surname": "Al-Awad"
+                    },
+                    {
+                        "given-name": "L.",
+                        "surname": "Batet"
+                    },
+                    {
+                        "given-name": "L.",
+                        "surname": "Sedano"
+                    }
+                ],
+                "publication-name": "Journal of Nuclear Materials",
+                "publication-date": {
+                    "year": 2023
+                },
+                "volume": 587,
+                "abstract": "Liquid lead-lithium eutectic remains as a promising candidate for various breeding-blanket designs in future nuclear-fusion technologies. The lack of a generalized theory of interatomic forces in the liquid state is reflected on the wide variety of proposed functional forms to describe interatomic interactions even in simple liquids. Computer simulations facilitate the study of liquid metal properties, due to mathematical and experimental challenges. A classical-MD EAM potential is parametrized using mechanical and non-mechanical (melting-point) properties to minimize the arbitrariness of functional forms, where the employed pair potential stems from the liquid-state theory to avoid the issue of the uniqueness of the potential. Enhanced performance is obtained for liquid density, energy, structure, diffusivity and shear viscosity of Li, and their temperature-dependencies. In a similar manner, reference experimental and ab initio MD data are used to parametrize a functional to describe Pb-Li pairwise interactions in liquid Pb-Li alloy, which is used with the derived EAM of liquid Li and a reference EAM of liquid Pb to investigate properties of liquid Pb-Li alloy. Enhanced transferability characteristics are obtained for low-in-lithium liquid Pb-Li melts, where Coulombic interactions are negligible. In specific, the exhibited behaviour of Li in liquid lead-lithium eutectic is consistent with findings from ab initio MD methods, and drastically different from predictions of previous C-MD studies which suggested a substantial segregation of Li atoms instead of dispersion. It is concluded that the functional form of the pair potential and its uniqueness influence both the pure liquid-metal properties and the validity of the potential transferability in multi-component systems, where a theoretical functional results in enhanced performance in pure and alloyed liquid systems.",
+                "pages": "154735",
+                "DOI": "10.1016/j.jnucmat.2023.154735",
+                "bibtex": "@article{Al_Awad_2023,\n abstract = {Liquid lead-lithium eutectic remains as a promising candidate for various breeding-blanket designs in future nuclear-fusion technologies. The lack of a generalized theory of interatomic forces in the liquid state is reflected on the wide variety of proposed functional forms to describe interatomic interactions even in simple liquids. Computer simulations facilitate the study of liquid metal properties, due to mathematical and experimental challenges. A classical-MD EAM potential is parametrized using mechanical and non-mechanical (melting-point) properties to minimize the arbitrariness of functional forms, where the employed pair potential stems from the liquid-state theory to avoid the issue of the uniqueness of the potential. Enhanced performance is obtained for liquid density, energy, structure, diffusivity and shear viscosity of Li, and their temperature-dependencies. In a similar manner, reference experimental and ab initio MD data are used to parametrize a functional to describe Pb-Li pairwise interactions in liquid Pb-Li alloy, which is used with the derived EAM of liquid Li and a reference EAM of liquid Pb to investigate properties of liquid Pb-Li alloy. Enhanced transferability characteristics are obtained for low-in-lithium liquid Pb-Li melts, where Coulombic interactions are negligible. In specific, the exhibited behaviour of Li in liquid lead-lithium eutectic is consistent with findings from ab initio MD methods, and drastically different from predictions of previous C-MD studies which suggested a substantial segregation of Li atoms instead of dispersion. It is concluded that the functional form of the pair potential and its uniqueness influence both the pure liquid-metal properties and the validity of the potential transferability in multi-component systems, where a theoretical functional results in enhanced performance in pure and alloyed liquid systems.},\n author = {Abdulrahman S. Al-Awad and Lluis Batet and Luis Sedano},\n doi = {10.1016/j.jnucmat.2023.154735},\n journal = {Journal of Nuclear Materials},\n month = {dec},\n pages = {154735},\n publisher = {Elsevier BV},\n title = {Parametrization of embedded-atom method potential for liquid lithium and lead-lithium eutectic alloy},\n url = {https://doi.org/10.1016%2Fj.jnucmat.2023.154735},\n volume = {587},\n year = {2023}\n}\n"
+            },
+            "notes": {
+                "text": "This potential is parameterized for the liquid-state specifically. The associated publication has a supplementary information document which includes thorough testing of library appropriateness of liquid properties, and comments and analyses on numerical stability and convergence"
+            }
+        },
+        "implementation": {
+            "key": "d373f568-072d-495e-9e2b-3c418922fabc",
+            "id": "2023--Al-Awad-A-S--Li--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2023-10-23",
+            "type": "LAMMPS pair_style eam/alloy",
+            "notes": {
+                "text": "This files were provided by Abdulrahman Al-Awad on October 18, 2023."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Al-Awad-A-S-Batet-L-Sedano-L--Li/1/Liquid-Li-EAM-LRO.eam.alloy",
+                    "link-text": "Liquid-Li-EAM-LRO.eam.alloy"
+                }
+            }
+        },
+        "element": "Li"
+    }
+}

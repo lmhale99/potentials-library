@@ -1,0 +1,76 @@
+{
+    "interatomic-potential": {
+        "key": "d797bdc1-7f32-449b-b2f9-d618b8168d70",
+        "id": "2024--Leimeroth-N-Rohrer-J-Albe-K--Cu-Zr",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Leimeroth-N-Rohrer-J-Albe-K--Cu-Zr",
+        "record-version": "2024-10-29",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "General purpose potential for glassy and crystalline phases of Cu-Zr alloys based on the ACE formalism",
+                "author": [
+                    {
+                        "given-name": "N.",
+                        "surname": "Leimeroth"
+                    },
+                    {
+                        "given-name": "J.",
+                        "surname": "Rohrer"
+                    },
+                    {
+                        "given-name": "K.",
+                        "surname": "Albe"
+                    }
+                ],
+                "publication-name": "Physical Review Materials",
+                "publication-date": {
+                    "year": 2024
+                },
+                "volume": 8,
+                "issue": 4,
+                "abstract": "A general purpose machine-learning interatomic potential (MLIP) for the Cu-Zr system is presented based on the atomic cluster expansion formalism [R. Drautz, Phys. Rev. B 99, 014104 (2019)]. By using an extensive set of Cu-Zr training data generated withdensity functional theory, this potential describes a wide range of properties of crystalline as well as amorphous phases within the whole compositional range. Therefore, the machine learning interatomic potential (MLIP) can reproduce the experimental phase diagram and amorphous structure with considerably improved accuracy. A massively different short-range order compared to classica interatomic potentials is found in glassy Cu-Zr samples, shedding light on the role of the full icosahedral motif in the material. Tensile tests of B2-CuZr inclusions in an Cu<sub>50</sub>⁢Zr<sub>50</sub> amorphous matrix reveal the occurrence of martensitic phase transformations in this crystal-glass nanocomposite.",
+                "pages": "043602",
+                "DOI": "10.1103/physrevmaterials.8.043602",
+                "bibtex": "@article{Leimeroth_2024,\n abstract = {A general purpose machine-learning interatomic potential (MLIP) for the Cu-Zr system is presented based on the atomic cluster expansion formalism [R. Drautz, Phys. Rev. B 99, 014104 (2019)]. By using an extensive set of Cu-Zr training data generated withdensity functional theory, this potential describes a wide range of properties of crystalline as well as amorphous phases within the whole compositional range. Therefore, the machine learning interatomic potential (MLIP) can reproduce the experimental phase diagram and amorphous structure with considerably improved accuracy. A massively different short-range order compared to classica interatomic potentials is found in glassy Cu-Zr samples, shedding light on the role of the full icosahedral motif in the material. Tensile tests of B2-CuZr inclusions in an Cu<sub>50</sub>⁢Zr<sub>50</sub> amorphous matrix reveal the occurrence of martensitic phase transformations in this crystal-glass nanocomposite.},\n author = {Leimeroth, Niklas and Rohrer, Jochen and Albe, Karsten},\n doi = {10.1103/physrevmaterials.8.043602},\n issn = {2475-9953},\n journal = {Physical Review Materials},\n month = {April},\n number = {4},\n pages = {043602},\n publisher = {American Physical Society (APS)},\n title = {General purpose potential for glassy and crystalline phases of Cu-Zr alloys based on the ACE formalism},\n url = {http://dx.doi.org/10.1103/PhysRevMaterials.8.043602},\n volume = {8},\n year = {2024}\n}\n"
+            },
+            "notes": {
+                "text": "This potential was designed to model both glassy and crystalline phases across the whole compositional range."
+            }
+        },
+        "implementation": {
+            "key": "73222a1c-f83f-4cee-9250-70fddcaafb00",
+            "id": "2024--Leimeroth-N--Cu-Zr--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-10-29",
+            "type": "LAMMPS pair_style pace",
+            "notes": {
+                "text": "These files were provided by Niklas Leimeroth on October 23, 2024."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Leimeroth-N-Rohrer-J-Albe-K--Cu-Zr/1/CuZr_ACE.yace",
+                        "link-text": "CuZr_ACE.yace"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Leimeroth-N-Rohrer-J-Albe-K--Cu-Zr/1/CuZr_ACE.yaml",
+                        "link-text": "CuZr_ACE.yaml"
+                    }
+                }
+            ],
+            "link": {
+                "web-link": {
+                    "URL": "https://doi.org/10.5281/zenodo.8137853",
+                    "label": "Zenodo training data",
+                    "link-text": "https://doi.org/10.5281/zenodo.8137853"
+                }
+            }
+        },
+        "element": [
+            "Cu",
+            "Zr"
+        ]
+    }
+}

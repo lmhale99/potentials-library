@@ -1,0 +1,47 @@
+{
+    "interatomic-potential": {
+        "key": "4f3e628c-5272-4889-8fbc-2540523a2877",
+        "id": "2024--Mendelev-M-I--Ni-Ti",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Mendelev-M-I--Ni-Ti",
+        "record-version": "2024-04-09",
+        "description": {
+            "citation": {
+                "document-type": "unspecified",
+                "title": "to be published",
+                "author": [
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Mendelev"
+                    }
+                ],
+                "publication-date": {
+                    "year": "2024"
+                },
+                "bibtex": "@unpublished{2024--Mendelev-M-I--Ni-Ti,\n author = {M. I. Mendelev},\n note = {2024--Mendelev-M-I--Ni-Ti},\n title = {to be published},\n year = {2024}\n}\n"
+            },
+            "notes": {
+                "text": "This Ni-Ti potential is designed to simulate the solidification of the Ni50Ti50 alloy. It also reasonably well reproduces the thermodynamics of the austenite-martensite transformation."
+            }
+        },
+        "implementation": {
+            "key": "d7fcb345-f694-449c-a2f5-8c3da174c0cc",
+            "id": "2024--Mendelev-M-I--Ni-Ti--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-04-09",
+            "type": "LAMMPS pair_style eam/fs",
+            "notes": {
+                "text": "This file was provided by Mikhail Mendelev on April 5, 2024."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Mendelev-M-I--Ni-Ti/1/Ni-Ti.eam.fs",
+                    "link-text": "Ni-Ti.eam.fs"
+                }
+            }
+        },
+        "element": [
+            "Ni",
+            "Ti"
+        ]
+    }
+}

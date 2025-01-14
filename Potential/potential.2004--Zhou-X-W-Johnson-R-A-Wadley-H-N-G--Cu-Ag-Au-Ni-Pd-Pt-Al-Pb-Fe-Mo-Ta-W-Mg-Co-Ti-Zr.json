@@ -1,0 +1,75 @@
+{
+    "interatomic-potential": {
+        "key": "ea0e3268-af73-4ecf-8fab-c55ba2fb33af",
+        "id": "2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Cu-Ag-Au-Ni-Pd-Pt-Al-Pb-Fe-Mo-Ta-W-Mg-Co-Ti-Zr",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Cu-Ag-Au-Ni-Pd-Pt-Al-Pb-Fe-Mo-Ta-W-Mg-Co-Ti-Zr",
+        "record-version": "2024-04-04",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Misfit-energy-increasing dislocations in vapor-deposited CoFe/NiFe multilayers",
+                "author": [
+                    {
+                        "given-name": "X.W.",
+                        "surname": "Zhou"
+                    },
+                    {
+                        "given-name": "R.A.",
+                        "surname": "Johnson"
+                    },
+                    {
+                        "given-name": "H.N.G.",
+                        "surname": "Wadley"
+                    }
+                ],
+                "publication-name": "Physical Review B",
+                "publication-date": {
+                    "year": 2004
+                },
+                "volume": 69,
+                "issue": 14,
+                "abstract": "Recent molecular dynamics simulations of the growth of [Ni0.8Fe0.2/Au] multilayers have revealed the formation of misfit-strain-reducing dislocation structures very similar to those observed experimentally. Here we report similar simulations showing the formation of edge dislocations near the interfaces of vapor-deposited (111) [NiFe/CoFe/Cu] multilayers. Unlike misfit dislocations that accommodate lattice mismatch, the dislocation structures observed here increase the mismatch strain energy. Stop-action observations of the dynamically evolving atomic structures indicate that during deposition on the (111) surface of a fcc lattice, adatoms may occupy either fcc sites or hcp sites. This results in the random formation of fcc and hcp domains, with dislocations at the domain boundaries. These dislocations enable atoms to undergo a shift from fcc to hcp sites, or vice versa. These shifts lead to missing atoms, and therefore a later deposited layer can have missing planes compared to a previously deposited layer. This dislocation formation mechanism can create tensile stress in fcc films. The probability that such dislocations are formed was found to quickly diminish under energetic deposition conditions.",
+                "pages": "144113",
+                "DOI": "10.1103/physrevb.69.144113",
+                "bibtex": "@article{Zhou_2004,\n abstract = {Recent molecular dynamics simulations of the growth of [Ni0.8Fe0.2/Au] multilayers have revealed the formation of misfit-strain-reducing dislocation structures very similar to those observed experimentally. Here we report similar simulations showing the formation of edge dislocations near the interfaces of vapor-deposited (111) [NiFe/CoFe/Cu] multilayers. Unlike misfit dislocations that accommodate lattice mismatch, the dislocation structures observed here increase the mismatch strain energy. Stop-action observations of the dynamically evolving atomic structures indicate that during deposition on the (111) surface of a fcc lattice, adatoms may occupy either fcc sites or hcp sites. This results in the random formation of fcc and hcp domains, with dislocations at the domain boundaries. These dislocations enable atoms to undergo a shift from fcc to hcp sites, or vice versa. These shifts lead to missing atoms, and therefore a later deposited layer can have missing planes compared to a previously deposited layer. This dislocation formation mechanism can create tensile stress in fcc films. The probability that such dislocations are formed was found to quickly diminish under energetic deposition conditions.},\n author = {X. W. Zhou and R. A. Johnson and H. N. G. Wadley},\n doi = {10.1103/physrevb.69.144113},\n journal = {Physical Review B},\n month = {apr},\n number = {14},\n numpages = {10},\n pages = {144113},\n publisher = {American Physical Society (APS)},\n title = {Misfit-energy-increasing dislocations in vapor-deposited CoFe/NiFe multilayers},\n url = {https://doi.org/10.1103%2Fphysrevb.69.144113},\n volume = {69},\n year = {2004}\n}\n"
+            },
+            "notes": {
+                "text": "This is a combined potential that contains all 16 elements from the source reference.  It is provided here due to various requests for more elemental combinations often for high entropy simulations.  As a caution, note that all of the cross interactions are determined through a universal mixing function and that most elemental systems were not thoroughly explored and tested by the original authors meaning that most binary and higher-order systems may not be well optimized."
+            }
+        },
+        "implementation": {
+            "key": "066dd206-3d44-46f9-ace0-5cf4a93977b1",
+            "id": "2004--Zhou-X-W--Cu-Ag-Au-Ni-Pd-Pt-Al-Pb-Fe-Mo-Ta-W-Mg-Co-Ti-Zr--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-04-04",
+            "type": "LAMMPS pair_style eam/alloy",
+            "notes": {
+                "text": "This file was generated by Ilia Nikiforov using the Zhou04_create_v2.f FORTRAN code which can be found on the associated elemental listings. The code was slightly modified to increase the tabulation points to 3000 to ensure good interpolations of the embedding energy function for all elements as W has a noticeably larger delta rho than the other elements.  Also, the header was fixed to include all 16 element symbol tags."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2004--Zhou-X-W-Johnson-R-A-Wadley-H-N-G--Cu-Ag-Au-Ni-Pd-Pt-Al-Pb-Fe-Mo-Ta-W-Mg-Co-Ti-Zr/1/CuAgAuNiPdPtAlPbFeMoTaWMgCoTiZr_Zhou04.eam.alloy",
+                    "link-text": "CuAgAuNiPdPtAlPbFeMoTaWMgCoTiZr_Zhou04.eam.alloy"
+                }
+            }
+        },
+        "element": [
+            "Cu",
+            "Ag",
+            "Au",
+            "Ni",
+            "Pd",
+            "Pt",
+            "Al",
+            "Pb",
+            "Fe",
+            "Mo",
+            "Ta",
+            "W",
+            "Mg",
+            "Co",
+            "Ti",
+            "Zr"
+        ]
+    }
+}

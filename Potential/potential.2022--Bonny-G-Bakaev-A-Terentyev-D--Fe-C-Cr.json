@@ -1,0 +1,75 @@
+{
+    "interatomic-potential": {
+        "key": "573a717f-1d42-42bc-89e0-382fe18be59c",
+        "id": "2022--Bonny-G-Bakaev-A-Terentyev-D--Fe-C-Cr",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2022--Bonny-G-Bakaev-A-Terentyev-D--Fe-C-Cr",
+        "record-version": "2023-10-31",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "The combined effect of carbon and chromium enrichment on <1 0 0> loop absorption in iron",
+                "author": [
+                    {
+                        "given-name": "G.",
+                        "surname": "Bonny"
+                    },
+                    {
+                        "given-name": "A.",
+                        "surname": "Bakaev"
+                    },
+                    {
+                        "given-name": "D.",
+                        "surname": "Terentyev"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2022
+                },
+                "volume": 211,
+                "abstract": "In this work we study the effects of C and Cr enrichment of <1 0 0> dislocation loops (DL) on their absorption and obstacle strength when interacting with an edge dislocation. To do so, we have i) developed a C-Cr cross potential based on density functional theory data as part of a ternary FeCrC interatomic potential; ii) performed exchange Monte Carlo simulations employing the developed interatomic potential to obtain the distribution of the solutes enriching the DL in the energetically optimum configurations; iii) performed large scale molecular dynamics simulations employing the interatomic potential to characterize the interaction between an edge dislocation line and the decorated DL. We found that the obstacle stress scales to the same obstacle strength regardless the DL density. On the other hand, we found that C, the level of Cr enrichment, loop size and interaction temperature have a significant impact on the obstacle strength and level of absorption of the loops. The presented results can be used to help parameterize and validate discrete dislocation dynamics codes and therein integrated constitutive laws to enable accounting for irradiation-induced chemical segregation effects.",
+                "pages": "111533",
+                "DOI": "10.1016/j.commatsci.2022.111533",
+                "bibtex": "@article{Bonny_2022,\n abstract = {In this work we study the effects of C and Cr enrichment of <1 0 0> dislocation loops (DL) on their absorption and obstacle strength when interacting with an edge dislocation. To do so, we have i) developed a C-Cr cross potential based on density functional theory data as part of a ternary FeCrC interatomic potential; ii) performed exchange Monte Carlo simulations employing the developed interatomic potential to obtain the distribution of the solutes enriching the DL in the energetically optimum configurations; iii) performed large scale molecular dynamics simulations employing the interatomic potential to characterize the interaction between an edge dislocation line and the decorated DL. We found that the obstacle stress scales to the same obstacle strength regardless the DL density. On the other hand, we found that C, the level of Cr enrichment, loop size and interaction temperature have a significant impact on the obstacle strength and level of absorption of the loops. The presented results can be used to help parameterize and validate discrete dislocation dynamics codes and therein integrated constitutive laws to enable accounting for irradiation-induced chemical segregation effects.},\n author = {G. Bonny and A. Bakaev and D. Terentyev},\n doi = {10.1016/j.commatsci.2022.111533},\n journal = {Computational Materials Science},\n month = {aug},\n pages = {111533},\n publisher = {Elsevier BV},\n title = {The combined effect of carbon and chromium enrichment on <1 0 0> loop absorption in iron},\n url = {https://doi.org/10.1016%2Fj.commatsci.2022.111533},\n volume = {211},\n year = {2022}\n}\n"
+            }
+        },
+        "implementation": {
+            "key": "0e3de6f0-a264-4ec3-86b8-5fb5a88f868b",
+            "id": "2022--Bonny-G--Fe-C-Cr--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2023-10-31",
+            "type": "LAMMPS pair_style hybrid/overlay eam/alloy eam/fs",
+            "notes": {
+                "text": "These files were provided by Giovanni Bonny on October 31, 2023."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Bonny-G-Bakaev-A-Terentyev-D--Fe-C-Cr/1/READ_ME.txt",
+                        "label": "Documentation",
+                        "link-text": "READ_ME.txt"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Bonny-G-Bakaev-A-Terentyev-D--Fe-C-Cr/1/FeCCr_d.eam.alloy",
+                        "label": "d_band",
+                        "link-text": "FeCCr_d.eam.alloy"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Bonny-G-Bakaev-A-Terentyev-D--Fe-C-Cr/1/FeCCr_s.eam.fs",
+                        "label": "s_band",
+                        "link-text": "FeCCr_s.eam.fs"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Fe",
+            "C",
+            "Cr"
+        ]
+    }
+}

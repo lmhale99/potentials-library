@@ -1,0 +1,87 @@
+{
+    "interatomic-potential": {
+        "key": "c56ba741-8d37-4d5d-be3b-b8cf23d10606",
+        "id": "2017--Bonny-G-Bakaev-A-Olsson-P-et-al--Fe-Cr-Ni",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2017--Bonny-G-Bakaev-A-Olsson-P-et-al--Fe-Cr-Ni",
+        "record-version": "2023-10-31",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Interatomic potential to study the formation of NiCr clusters in high Cr ferritic steels",
+                "author": [
+                    {
+                        "given-name": "G.",
+                        "surname": "Bonny"
+                    },
+                    {
+                        "given-name": "A.",
+                        "surname": "Bakaev"
+                    },
+                    {
+                        "given-name": "P.",
+                        "surname": "Olsson"
+                    },
+                    {
+                        "given-name": "C.",
+                        "surname": "Domain"
+                    },
+                    {
+                        "given-name": "E.E.",
+                        "surname": "Zhurkin"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Posselt"
+                    }
+                ],
+                "publication-name": "Journal of Nuclear Materials",
+                "publication-date": {
+                    "year": 2017
+                },
+                "volume": 484,
+                "abstract": "Under irradiation NiSiPCr clusters are formed in high-Cr ferritic martensitic steels as well as in FeCr model alloys. In the literature little is known about the origin and contribution to the hardening of these clusters. In this work we performed density functional theory (DFT) calculations to study the stability of small substitutional NiCr-vacancy clusters and interstitial configurations in bcc Fe. Based on DFT data and experimental considerations a ternary potential for the ferritic FeNiCr system was developed. The potential was applied to study the thermodynamic stability of NiCr clusters by means of Metropolis Monte Carlo (MMC) simulations. The results of our simulations show that Cr and Ni precipitate as separate fractions and suggest only a limited synergetic effect between Ni and Cr. Therefore our results suggest that the NiCrSiP clusters observed in experiments must be the result of other mechanisms than the synergy of Cr and Ni at thermal equilibrium.",
+                "pages": "42-50",
+                "DOI": "10.1016/j.jnucmat.2016.11.017",
+                "bibtex": "@article{Bonny_2017,\n abstract = {Under irradiation NiSiPCr clusters are formed in high-Cr ferritic martensitic steels as well as in FeCr model alloys. In the literature little is known about the origin and contribution to the hardening of these clusters. In this work we performed density functional theory (DFT) calculations to study the stability of small substitutional NiCr-vacancy clusters and interstitial configurations in bcc Fe. Based on DFT data and experimental considerations a ternary potential for the ferritic FeNiCr system was developed. The potential was applied to study the thermodynamic stability of NiCr clusters by means of Metropolis Monte Carlo (MMC) simulations. The results of our simulations show that Cr and Ni precipitate as separate fractions and suggest only a limited synergetic effect between Ni and Cr. Therefore our results suggest that the NiCrSiP clusters observed in experiments must be the result of other mechanisms than the synergy of Cr and Ni at thermal equilibrium.},\n author = {G. Bonny and A. Bakaev and P. Olsson and C. Domain and E.E. Zhurkin and M. Posselt},\n doi = {10.1016/j.jnucmat.2016.11.017},\n journal = {Journal of Nuclear Materials},\n month = {feb},\n pages = {42--50},\n publisher = {Elsevier BV},\n title = {Interatomic potential to study the formation of NiCr clusters in high Cr ferritic steels},\n url = {https://doi.org/10.1016%2Fj.jnucmat.2016.11.017},\n volume = {484},\n year = {2017}\n}\n"
+            }
+        },
+        "implementation": {
+            "key": "529e440c-7611-4736-9139-a136cdd89e95",
+            "id": "2017--Bonny-G--Fe-Cr-Ni--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2023-10-31",
+            "type": "LAMMPS pair_style hybrid/overlay eam/alloy eam/fs",
+            "notes": {
+                "text": "These files were provided by Giovanni Bonny on October 31, 2023. The files were modified to be compatible with newer versions of LAMMPS by replacing inf and nan values at r=0 in the d file, and adding values of 0.0 to the s file for the missing and unused rphi tables."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2017--Bonny-G-Bakaev-A-Olsson-P-et-al--Fe-Cr-Ni/1/READ_ME.txt",
+                        "label": "Documentation",
+                        "link-text": "READ_ME.txt"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2017--Bonny-G-Bakaev-A-Olsson-P-et-al--Fe-Cr-Ni/1/FeCrNi_d.eam.alloy",
+                        "label": "d_band",
+                        "link-text": "FeCrNi_d.eam.alloy"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2017--Bonny-G-Bakaev-A-Olsson-P-et-al--Fe-Cr-Ni/1/FeCrNi_s.eam.fs",
+                        "label": "s_band",
+                        "link-text": "FeCrNi_s.eam.fs"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Fe",
+            "Cr",
+            "Ni"
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "interatomic-potential": {
+        "key": "41acece7-9989-443f-a62c-a6b28c42f255",
+        "id": "2024--Mendelev-M-I--Ni-Co-Cr",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Mendelev-M-I--Ni-Co-Cr",
+        "record-version": "2024-07-11",
+        "description": {
+            "citation": {
+                "document-type": "unspecified",
+                "title": "to be published",
+                "author": [
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Mendelev"
+                    }
+                ],
+                "publication-date": {
+                    "year": "2024"
+                },
+                "bibtex": "@unpublished{2024--Mendelev-M-I--Ni-Co-Cr,\n author = {M. I. Mendelev},\n note = {2024--Mendelev-M-I--Ni-Co-Cr},\n title = {to be published},\n year = {2024}\n}\n"
+            },
+            "notes": {
+                "text": "Mikhail Mendelev notes \"This Ni-Co-Cr potential is designed to simulate the plastic deformation in the NiCoCr HEA. The potential correctly reproduces all element ground states and melting temperature as well as hcp-fcc transformation in pure Co. Note that the potential was fit to the PBEsol VASP data, therefore, it systematically underestimates the lattice parameters.\""
+            }
+        },
+        "implementation": {
+            "key": "4c887080-c294-447e-aa2c-c3071c8fe372",
+            "id": "2024--Mendelev-M-I--Ni-Co-Cr--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-07-11",
+            "type": "LAMMPS pair_style eam/fs",
+            "notes": {
+                "text": "This file was provided by Mikhail Mendelev on July 9, 2024."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Mendelev-M-I--Ni-Co-Cr/1/Ni-Co-Cr_v1.eam.fs",
+                    "link-text": "Ni-Co-Cr_v1.eam.fs"
+                }
+            }
+        },
+        "element": [
+            "Ni",
+            "Co",
+            "Cr"
+        ]
+    }
+}

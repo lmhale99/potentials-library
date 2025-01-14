@@ -1,0 +1,76 @@
+{
+    "interatomic-potential": {
+        "key": "82f7d5ce-952f-4e23-83bc-693493b24cc2",
+        "id": "2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr",
+        "record-version": "2024-03-01",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "New modified embedded-atom method interatomic potential to understand deformation behavior in VNbTaTiZr refractory high entropy alloy",
+                "author": [
+                    {
+                        "given-name": "M.S.",
+                        "surname": "Nitol"
+                    },
+                    {
+                        "given-name": "M.J.",
+                        "surname": "Echeverria"
+                    },
+                    {
+                        "given-name": "K.",
+                        "surname": "Dang"
+                    },
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Baskes"
+                    },
+                    {
+                        "given-name": "S.J.",
+                        "surname": "Fensin"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2024
+                },
+                "volume": 237,
+                "abstract": "High Entropy Alloys (HEAs) have attracted much interest over the past 20 years because of their remarkable mechanical properties. Recent works on BCC refractory HEAs have demonstrated high strength even at extreme temperatures with an unusual mix of strength and ductility. They also show excellent strain-hardening behavior. This study focuses on the VNbTaTiZr alloy, which stands out for its favorable qualities including relatively low density, impressive yield strength, and ductility at room temperature. To better understand the atomic behavior and microstructural features inherent to this alloy, a Modified Embedded Atom Method (MEAM) potential is developed, based on first-principles computations. Through accurate modeling of lattice constants, elastic constants, and formation enthalpies, a hybrid Molecular Dynamics/Monte Carlo (MD/MC) simulation of an equimolar VNbTaTiZr refractory HEA was performed to explore the role of local chemical compositions to its mechanical response. The current MEAM potential aligns closely with recent experimental work, validating its effectiveness. Adding Zr to the VNbTaTi alloy induces more lattice distortion, matching recent experimental observations. The potential also predicts that for RHEAs, deformation behavior is dominated by edge dislocations, unlike in pure BCC elements where screw dislocations prevail. Overall, this potential will be useful for unraveling the intricate atomic-level processes that give this alloy its remarkable mechanical performance.",
+                "pages": "112886",
+                "DOI": "10.1016/j.commatsci.2024.112886",
+                "bibtex": "@article{Nitol_2024,\n abstract = {High Entropy Alloys (HEAs) have attracted much interest over the past 20 years because of their remarkable mechanical properties. Recent works on BCC refractory HEAs have demonstrated high strength even at extreme temperatures with an unusual mix of strength and ductility. They also show excellent strain-hardening behavior. This study focuses on the VNbTaTiZr alloy, which stands out for its favorable qualities including relatively low density, impressive yield strength, and ductility at room temperature. To better understand the atomic behavior and microstructural features inherent to this alloy, a Modified Embedded Atom Method (MEAM) potential is developed, based on first-principles computations. Through accurate modeling of lattice constants, elastic constants, and formation enthalpies, a hybrid Molecular Dynamics/Monte Carlo (MD/MC) simulation of an equimolar VNbTaTiZr refractory HEA was performed to explore the role of local chemical compositions to its mechanical response. The current MEAM potential aligns closely with recent experimental work, validating its effectiveness. Adding Zr to the VNbTaTi alloy induces more lattice distortion, matching recent experimental observations. The potential also predicts that for RHEAs, deformation behavior is dominated by edge dislocations, unlike in pure BCC elements where screw dislocations prevail. Overall, this potential will be useful for unraveling the intricate atomic-level processes that give this alloy its remarkable mechanical performance.},\n author = {Mashroor S. Nitol and  Marco J. Echeverria and Khanh Dang and Michael I. Baskes and Saryu J. Fensin},\n doi = {10.1016/j.commatsci.2024.112886},\n issn = {0927-0256},\n journal = {Computational Materials Science},\n month = {March},\n pages = {112886},\n publisher = {Elsevier BV},\n title = {New modified embedded-atom method interatomic potential to understand deformation behavior in VNbTaTiZr refractory high entropy alloy},\n url = {http://dx.doi.org/10.1016/j.commatsci.2024.112886},\n volume = {237},\n year = {2024}\n}\n"
+            }
+        },
+        "implementation": {
+            "key": "3507b120-f4b0-48fe-8402-f2b044ffbeea",
+            "id": "2024--Nitol-M-S--V-Nb-Ta-Ti-Zr--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-03-01",
+            "type": "LAMMPS pair_style meam",
+            "notes": {
+                "text": "This file was provided by Mashroor Nitol on February 28, 2024."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr/1/VNbTaTiZr.parameter",
+                        "link-text": "VNbTaTiZr.parameter"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr/1/VNbTaTiZr.library",
+                        "link-text": "VNbTaTiZr.library"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "V",
+            "Nb",
+            "Ta",
+            "Ti",
+            "Zr"
+        ]
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "interatomic-potential": {
+        "key": "218bdf34-7b3d-4f1a-91d6-b6c387418157",
+        "id": "2024--Leimeroth-N-Rohrer-J-Albe-K--Si-O-C",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Leimeroth-N-Rohrer-J-Albe-K--Si-O-C",
+        "record-version": "2024-10-29",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Structure–property relations of silicon oxycarbides studied using a machine learning interatomic potential",
+                "author": [
+                    {
+                        "given-name": "N.",
+                        "surname": "Leimeroth"
+                    },
+                    {
+                        "given-name": "J.",
+                        "surname": "Rohrer"
+                    },
+                    {
+                        "given-name": "K.",
+                        "surname": "Albe"
+                    }
+                ],
+                "publication-name": "Journal of the American Ceramic Society",
+                "publication-date": {
+                    "year": 2024
+                },
+                "volume": 107,
+                "issue": 10,
+                "abstract": "Silicon oxycarbides show outstanding versatility due to their highly tunable composition and microstructure. Consequently, a key challenge is a thorough knowledge of structure–property relations in the system. In this work, we fit an atomic cluster expansion potential to a set of actively learned density-functional theory training data spanning a wide configurational space. We demonstrate the ability of the potential to produce realistic amorphous structures and rationalize the formation of different morphologies of the turbostratic free carbon phase. Finally, we relate the materials stiffness to its composition and microstructure, finding a delicate dependence on Si-C bonds that contradicts commonly assumed relations to the free carbon phase.",
+                "pages": "6896–6910",
+                "DOI": "10.1111/jace.19932",
+                "bibtex": "@article{Leimeroth_2024,\n abstract = {Silicon oxycarbides show outstanding versatility due to their highly tunable composition and microstructure. Consequently, a key challenge is a thorough knowledge of structure–property relations in the system. In this work, we fit an atomic cluster expansion potential to a set of actively learned density-functional theory training data spanning a wide configurational space. We demonstrate the ability of the potential to produce realistic amorphous structures and rationalize the formation of different morphologies of the turbostratic free carbon phase. Finally, we relate the materials stiffness to its composition and microstructure, finding a delicate dependence on Si-C bonds that contradicts commonly assumed relations to the free carbon phase.},\n author = {Leimeroth, Niklas and Rohrer, Jochen and Albe, Karsten},\n doi = {10.1111/jace.19932},\n issn = {1551-2916},\n journal = {Journal of the American Ceramic Society},\n month = {June},\n number = {10},\n pages = {6896–6910},\n publisher = {Wiley},\n title = {Structure–property relations of silicon oxycarbides studied using a machine learning interatomic potential},\n url = {http://dx.doi.org/10.1111/jace.19932},\n volume = {107},\n year = {2024}\n}\n"
+            },
+            "notes": {
+                "text": "This potential was designed to model model glass-ceramics. It is not thoroughly tested for pure Si, C or Si-C phases, but should still do reasonably well due the employed active learning strategy in the fitting process."
+            }
+        },
+        "implementation": {
+            "key": "d5e09cdf-1c6c-423d-94a9-fbec621bd5ee",
+            "id": "2024--Leimeroth-N--Si-O-C--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-10-29",
+            "type": "LAMMPS pair_style pace",
+            "notes": {
+                "text": "These files were provided by Niklas Leimeroth on October 23, 2024."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Leimeroth-N-Rohrer-J-Albe-K--Si-O-C/1/SiOC_ACE.yace",
+                        "link-text": "SiOC_ACE.yace"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Leimeroth-N-Rohrer-J-Albe-K--Si-O-C/1/SiOC_ACE.yaml",
+                        "link-text": "SiOC_ACE.yaml"
+                    }
+                }
+            ],
+            "link": {
+                "web-link": {
+                    "URL": "https://doi.org/10.5281/zenodo.10131449",
+                    "label": "Zenodo training data",
+                    "link-text": "https://doi.org/10.5281/zenodo.10131449"
+                }
+            }
+        },
+        "element": [
+            "Si",
+            "O",
+            "C"
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "interatomic-potential": {
+        "key": "735ef857-c5d4-4d68-b00b-2bf34408d12a",
+        "id": "2024--Sun-Y-Mendelev-M-I-Zhang-F-et-al--Fe-Ni",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2024--Sun-Y-Mendelev-M-I-Zhang-F-et-al--Fe-Ni",
+        "record-version": "2024-02-21",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Unveiling the effect of Ni on the formation and structure of Earth’s inner core",
+                "author": [
+                    {
+                        "given-name": "Y.",
+                        "surname": "Sun"
+                    },
+                    {
+                        "given-name": "M.I.",
+                        "surname": "Mendelev"
+                    },
+                    {
+                        "given-name": "F.",
+                        "surname": "Zhang"
+                    },
+                    {
+                        "given-name": "X.",
+                        "surname": "Liu"
+                    },
+                    {
+                        "given-name": "B.",
+                        "surname": "Da"
+                    },
+                    {
+                        "given-name": "C.-Z.",
+                        "surname": "Wang"
+                    },
+                    {
+                        "given-name": "R.M.",
+                        "surname": "Wentzcovitch"
+                    },
+                    {
+                        "given-name": "K.-M.",
+                        "surname": "Ho"
+                    }
+                ],
+                "publication-name": "Proceedings of the National Academy of Sciences",
+                "publication-date": {
+                    "year": 2024
+                },
+                "volume": 121,
+                "issue": 4,
+                "abstract": "Ni is the second most abundant element in the Earth’s core. Yet, its effects on the inner core’s structure and formation process are usually disregarded because of its electronic and size similarity with Fe. Using ab initio molecular dynamics simulations, we find that the bcc phase can spontaneously crystallize in liquid Ni at temperatures above Fe’s melting point at inner core pressures. The melting temperature of Ni is shown to be 700 to 800 K higher than that of Fe at 323 to 360 GPa. hcp, bcc, and liquid phase relations differ for Fe and Ni. Ni can be a bcc stabilizer for Fe at high temperatures and inner core pressures. A small amount of Ni can accelerate Fe’s crystallization at core pressures. These results suggest that Ni may substantially impact the structure and formation process of the solid inner core.",
+                "pages": "e2316477121",
+                "DOI": "10.1073/pnas.2316477121",
+                "bibtex": "@article{Sun_2024,\n abstract = {Ni is the second most abundant element in the Earth’s core. Yet, its effects on the inner core’s structure and formation process are usually disregarded because of its electronic and size similarity with Fe. Using ab initio molecular dynamics simulations, we find that the bcc phase can spontaneously crystallize in liquid Ni at temperatures above Fe’s melting point at inner core pressures. The melting temperature of Ni is shown to be 700 to 800 K higher than that of Fe at 323 to 360 GPa. hcp, bcc, and liquid phase relations differ for Fe and Ni. Ni can be a bcc stabilizer for Fe at high temperatures and inner core pressures. A small amount of Ni can accelerate Fe’s crystallization at core pressures. These results suggest that Ni may substantially impact the structure and formation process of the solid inner core.},\n author = {Yang Sun and Mikhail I. Mendelev and Feng Zhang and Xun Liu and Bo Da and Cai-Zhuang Wang and Renata M. Wentzcovitch and Kai-Ming Ho},\n doi = {10.1073/pnas.2316477121},\n issn = {1091-6490},\n journal = {Proceedings of the National Academy of Sciences},\n month = {January},\n number = {4},\n pages = {e2316477121},\n publisher = {Proceedings of the National Academy of Sciences},\n title = {Unveiling the effect of Ni on the formation and structure of Earth’s inner core},\n url = {http://dx.doi.org/10.1073/pnas.2316477121},\n volume = {121},\n year = {2024}\n}\n"
+            },
+            "notes": {
+                "text": "The potential was employed in the TI calculations in the above reference. It can be used as an initial approximation for MD simulations under the Earth’s inner core conditions."
+            }
+        },
+        "implementation": {
+            "key": "c69e5f2b-9b0f-4c61-a916-a60c6f2101eb",
+            "id": "2024--Sun-Y--Fe-Ni--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2024-02-21",
+            "type": "LAMMPS pair_style eam/fs",
+            "notes": {
+                "text": "This file was provided by Mikhail Mendelev on February 16, 2024."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Sun-Y-Mendelev-M-I-Zhang-F-et-al--Fe-Ni/1/Fe-Ni.eam.fs",
+                    "link-text": "Fe-Ni.eam.fs"
+                }
+            }
+        },
+        "element": [
+            "Fe",
+            "Ni"
+        ]
+    }
+}
