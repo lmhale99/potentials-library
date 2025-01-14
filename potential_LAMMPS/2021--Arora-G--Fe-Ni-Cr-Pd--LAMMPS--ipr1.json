@@ -1,0 +1,54 @@
+{
+    "potential-LAMMPS": {
+        "key": "a87a2d57-399a-4d0b-b09a-e5f21afc92ee",
+        "id": "2021--Arora-G--Fe-Ni-Cr-Pd--LAMMPS--ipr1",
+        "potential": {
+            "key": "d66c7197-16c2-47a1-bef6-ffeb9d76a66e",
+            "id": "2021--Arora-G-Bonny-G-Castin-N-Aidhy-D-S--Fe-Ni-Cr-Pd"
+        },
+        "comments": "Potential 2021--Arora-G--Fe-Ni-Cr-Pd--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2021--Arora-G-Bonny-G-Castin-N-Aidhy-D-S--Fe-Ni-Cr-Pd/2021--Arora-G--Fe-Ni-Cr-Pd--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.71
+            },
+            {
+                "symbol": "Cr",
+                "element": "Cr",
+                "mass": 51.996
+            },
+            {
+                "symbol": "Pd",
+                "element": "Pd",
+                "mass": 106.4
+            }
+        ],
+        "pair_style": {
+            "type": "eam/alloy"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "FeNiCrPd-new.eam.alloy"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2021--Arora-G-Bonny-G-Castin-N-Aidhy-D-S--Fe-Ni-Cr-Pd/1/FeNiCrPd-new.eam.alloy",
+                "link-text": "FeNiCrPd-new.eam.alloy"
+            }
+        }
+    }
+}

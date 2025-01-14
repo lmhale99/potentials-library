@@ -1,0 +1,59 @@
+{
+    "potential-LAMMPS": {
+        "key": "2fdee8e5-3223-4bb5-804c-e64647832b1b",
+        "id": "2023--Liang-A--Fe-Ni-Cr-Co-Ti--LAMMPS--ipr1",
+        "potential": {
+            "key": "f7cd9afd-6550-48ed-b05e-14b82758ab5c",
+            "id": "2023--Liang-A-Goodelman-D-C-Hodge-A-M-et-al--Fe-Ni-Cr-Co-Ti"
+        },
+        "comments": "Potential 2023--Liang-A--Fe-Ni-Cr-Co-Ti--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2023--Liang-A-Goodelman-D-C-Hodge-A-M-et-al--Fe-Ni-Cr-Co-Ti/2023--Liang-A--Fe-Ni-Cr-Co-Ti--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.8
+            },
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.7
+            },
+            {
+                "symbol": "Cr",
+                "element": "Cr",
+                "mass": 52.0
+            },
+            {
+                "symbol": "Co",
+                "element": "Co",
+                "mass": 59.0
+            },
+            {
+                "symbol": "Ti",
+                "element": "Ti",
+                "mass": 45.0
+            }
+        ],
+        "pair_style": {
+            "type": "eam/alloy"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "FeNiCrCoTi-heamix.setfl"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2023--Liang-A-Goodelman-D-C-Hodge-A-M-et-al--Fe-Ni-Cr-Co-Ti/1/FeNiCrCoTi-heamix.setfl",
+                "link-text": "FeNiCrCoTi-heamix.setfl"
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "potential-LAMMPS": {
+        "key": "3507b120-f4b0-48fe-8402-f2b044ffbeea",
+        "id": "2024--Nitol-M-S--V-Nb-Ta-Ti-Zr--LAMMPS--ipr1",
+        "potential": {
+            "key": "82f7d5ce-952f-4e23-83bc-693493b24cc2",
+            "id": "2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr"
+        },
+        "comments": "Potential 2024--Nitol-M-S--V-Nb-Ta-Ti-Zr--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr/2024--Nitol-M-S--V-Nb-Ta-Ti-Zr--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "V",
+                "element": "V",
+                "mass": 50.942
+            },
+            {
+                "symbol": "Nb",
+                "element": "Nb",
+                "mass": 92.906
+            },
+            {
+                "symbol": "Ta",
+                "element": "Ta",
+                "mass": 180.948
+            },
+            {
+                "symbol": "Ti",
+                "element": "Ti",
+                "mass": 47.88
+            },
+            {
+                "symbol": "Zr",
+                "element": "Zr",
+                "mass": 91.22
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "VNbTaTiZr.library"
+                },
+                {
+                    "option": "V Nb Ta Ti Zr"
+                },
+                {
+                    "file": "VNbTaTiZr.parameter"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr/1/VNbTaTiZr.parameter",
+                    "link-text": "VNbTaTiZr.parameter"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr/1/VNbTaTiZr.library",
+                    "link-text": "VNbTaTiZr.library"
+                }
+            }
+        ]
+    }
+}

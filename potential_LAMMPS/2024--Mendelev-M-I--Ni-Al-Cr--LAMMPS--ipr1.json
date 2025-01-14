@@ -1,0 +1,49 @@
+{
+    "potential-LAMMPS": {
+        "key": "b6a99428-5fa1-46ca-9cdb-166f0a252bee",
+        "id": "2024--Mendelev-M-I--Ni-Al-Cr--LAMMPS--ipr1",
+        "potential": {
+            "key": "b2383bef-e0f3-45ba-a328-13a1c71b5e31",
+            "id": "2024--Mendelev-M-I--Ni-Al-Cr"
+        },
+        "comments": "Potential 2024--Mendelev-M-I--Ni-Al-Cr--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2024--Mendelev-M-I--Ni-Al-Cr/2024--Mendelev-M-I--Ni-Al-Cr--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.6934
+            },
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.98154
+            },
+            {
+                "symbol": "Cr",
+                "element": "Cr",
+                "mass": 51.9961
+            }
+        ],
+        "pair_style": {
+            "type": "eam/fs"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "Ni-Al-Cr.eam.fs"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Mendelev-M-I--Ni-Al-Cr/1/Ni-Al-Cr.eam.fs",
+                "link-text": "Ni-Al-Cr.eam.fs"
+            }
+        }
+    }
+}

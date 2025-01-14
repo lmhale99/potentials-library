@@ -1,0 +1,78 @@
+{
+    "potential-LAMMPS": {
+        "key": "32408c5a-c59c-4e09-8b61-80097540d00b",
+        "id": "2022--Fereidonnejad-R--Al-Hf-Nb-Ta-Ti-Zr--LAMMPS--ipr1",
+        "potential": {
+            "key": "a5846a22-f5aa-4c7c-8ce6-c26d87a9b8ac",
+            "id": "2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Hf-Nb-Ta-Ti-Zr"
+        },
+        "comments": "Potential 2022--Fereidonnejad-R--Al-Hf-Nb-Ta-Ti-Zr--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Hf-Nb-Ta-Ti-Zr/2022--Fereidonnejad-R--Al-Hf-Nb-Ta-Ti-Zr--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.9815
+            },
+            {
+                "symbol": "Hf",
+                "element": "Hf",
+                "mass": 178.49
+            },
+            {
+                "symbol": "Nb",
+                "element": "Nb",
+                "mass": 92.906
+            },
+            {
+                "symbol": "Ta",
+                "element": "Ta",
+                "mass": 180.9
+            },
+            {
+                "symbol": "Ti",
+                "element": "Ti",
+                "mass": 47.88
+            },
+            {
+                "symbol": "Zr",
+                "element": "Zr",
+                "mass": 91.22
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Al Hf Nb Ta Ti Zr"
+                },
+                {
+                    "file": "AlHfNbTaTiZr.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Hf-Nb-Ta-Ti-Zr/1/AlHfNbTaTiZr.meam",
+                    "link-text": "AlHfNbTaTiZr.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Fereidonnejad-R-Moghaddam-A-O-Moaddeli-M--Al-Hf-Nb-Ta-Ti-Zr/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            }
+        ]
+    }
+}

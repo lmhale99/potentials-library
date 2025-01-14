@@ -1,0 +1,44 @@
+{
+    "potential-LAMMPS": {
+        "key": "9c378079-7482-4998-8657-60ef3f4aadeb",
+        "id": "2024--Pal-S--Ba-Pd--LAMMPS--ipr1",
+        "potential": {
+            "key": "c69cad00-42fa-4679-9d09-5a2f12539682",
+            "id": "2024--Pal-S-Mukhopadhyay-S--Ba-Pd"
+        },
+        "comments": "Potential 2024--Pal-S--Ba-Pd--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2024--Pal-S-Mukhopadhyay-S--Ba-Pd/2024--Pal-S--Ba-Pd--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Ba",
+                "element": "Ba",
+                "mass": 137.34
+            },
+            {
+                "symbol": "Pd",
+                "element": "Pd",
+                "mass": 106.4
+            }
+        ],
+        "pair_style": {
+            "type": "eam/alloy"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "BaPd_SPSM.EAM"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Pal-S-Mukhopadhyay-S--Ba-Pd/1/BaPd_SPSM.EAM",
+                "link-text": "BaPd_SPSM.EAM"
+            }
+        }
+    }
+}

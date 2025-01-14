@@ -1,0 +1,44 @@
+{
+    "potential-LAMMPS": {
+        "key": "c69e5f2b-9b0f-4c61-a916-a60c6f2101eb",
+        "id": "2024--Sun-Y--Fe-Ni--LAMMPS--ipr1",
+        "potential": {
+            "key": "735ef857-c5d4-4d68-b00b-2bf34408d12a",
+            "id": "2024--Sun-Y-Mendelev-M-I-Zhang-F-et-al--Fe-Ni"
+        },
+        "comments": "Potential 2024--Sun-Y--Fe-Ni--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2024--Sun-Y-Mendelev-M-I-Zhang-F-et-al--Fe-Ni/2024--Sun-Y--Fe-Ni--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.71
+            }
+        ],
+        "pair_style": {
+            "type": "eam/fs"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "Fe-Ni.eam.fs"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2024--Sun-Y-Mendelev-M-I-Zhang-F-et-al--Fe-Ni/1/Fe-Ni.eam.fs",
+                "link-text": "Fe-Ni.eam.fs"
+            }
+        }
+    }
+}

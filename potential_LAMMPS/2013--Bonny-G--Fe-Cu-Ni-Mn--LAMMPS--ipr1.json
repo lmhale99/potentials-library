@@ -1,0 +1,54 @@
+{
+    "potential-LAMMPS": {
+        "key": "5087dc46-62c9-472d-8bc2-e06edf43d69e",
+        "id": "2013--Bonny-G--Fe-Cu-Ni-Mn--LAMMPS--ipr1",
+        "potential": {
+            "key": "802fa55b-d214-4456-bfd7-23834863f174",
+            "id": "2013--Bonny-G-Terentyev-D-Bakaev-A-et-al--Fe-Cu-Ni-Mn"
+        },
+        "comments": "Potential 2013--Bonny-G--Fe-Cu-Ni-Mn--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2013--Bonny-G-Terentyev-D-Bakaev-A-et-al--Fe-Cu-Ni-Mn/2013--Bonny-G--Fe-Cu-Ni-Mn--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "symbol": "Cu",
+                "element": "Cu",
+                "mass": 63.546
+            },
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.6934
+            },
+            {
+                "symbol": "Mn",
+                "element": "Mn",
+                "mass": 54.93805
+            }
+        ],
+        "pair_style": {
+            "type": "eam/alloy"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "FeCuNiMn.eam.alloy"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2013--Bonny-G-Terentyev-D-Bakaev-A-et-al--Fe-Cu-Ni-Mn/2/FeCuNiMn.eam.alloy",
+                "link-text": "FeCuNiMn.eam.alloy"
+            }
+        }
+    }
+}
