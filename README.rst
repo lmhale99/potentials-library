@@ -23,6 +23,7 @@ download the repository if you wish to use them.  These files are
 - potential_LAMMPS/2022--Erhard-L-C--Si-O--LAMMPS--ipr1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3364.zip
 - potential_LAMMPS/2022--Erhard-L-C--Si-O--LAMMPS--ipr1/silica_gap.xml.sparseX.GAP_2021_4_19_120_7_32_55_3365.zip
 
+
 Python APIs
 -----------
 
@@ -112,6 +113,15 @@ iprPy.
   generating crystal structures.  The records are uniquely named through a
   combination of the available associated Strukturbericht symbol, compositional
   prototype and/or a common descriptor.
+
+- **relaxed_crystal** HAVE BEEN REMOVED!!! The relaxed_crystal records describe
+  potential-specific relaxed crystals.  These have been removed from
+  this library repository, but can still be found at https://potentials.nist.gov.
+  The large number of relaxed_crystal records was causing issues with git,
+  accessing the records locally was prohibitively too slow, and a large number of
+  such records are routinely added/updated.  Records can be downloaded from there
+  for offline operations.  If you plan on using a large number of relaxed_crystal
+  records, it is recommended to use a MongoDB instance for performance reasons.
 
 iprPy records
 `````````````
