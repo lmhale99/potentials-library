@@ -1,0 +1,67 @@
+{
+    "interatomic-potential": {
+        "key": "5a350704-ba3e-480a-87cf-d2311f946220",
+        "id": "2025--Sharifi-H-Wick-C-D--Cr-Ni-Co-W",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Sharifi-H-Wick-C-D--Cr-Ni-Co-W",
+        "record-version": "2025-04-30",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "The effects of the W on the phase segregation and shear strength of CrNiCo: A molecular dynamics study",
+                "author": [
+                    {
+                        "given-name": "H.",
+                        "surname": "Sharifi"
+                    },
+                    {
+                        "given-name": "C.D.",
+                        "surname": "Wick"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2025,
+                    "month": "--05"
+                },
+                "volume": "253",
+                "abstract": "The effects of W content on phase segregation and the shear strength of CrNiCo were studied using a set of newly developed modified embedded atom method interatomic potentials. The models were fit to the physical and mechanical properties of unary, binary, and ternary systems to reproduce experiment and density functional theory results. Calculations showed that phase segregation occurred at 6–10 % W content, consistent with experiment. For fully mixed systems, the simulations demonstrated that W content had little impact on the shear strength of crystals without a dislocation. However, in cases with a dislocation, a small amount of W significantly increased the shear strength in a similar manner as experiment. The presence of W was shown to cause dislocation pinning effects that hindered shear displacement.",
+                "pages": "113877",
+                "DOI": "10.1016/j.commatsci.2025.113877",
+                "bibtex": "@article{2025--Sharifi-H-Wick-C-D,\n author = {Sharifi, H. and Wick, C.D.},\n doi = {10.1016/j.commatsci.2025.113877},\n journal = {Computational Materials Science},\n month = {May},\n pages = {113877},\n title = {The effects of the W on the phase segregation and shear strength of CrNiCo: A molecular dynamics study},\n volume = {253},\n year = {2025}\n}\n"
+            },
+            "notes": {
+                "text": "The fitting procedure for this potential involved developing all included unary, binary and ternary systems so it can be used for any alloy subset. This potential focuses on the structural analysis of alloys including shear strength and elastic constants, dislocation dynamics and their impact on alloy strength, and the analysis of defect effects, such as voids, on material properties. However, the potential was not optimized for temperature-dependent properties and was not fit to density, thermal expansion coefficients, or thermal conductivity data. More details on the fitting and properties can be found in the paper and the paper's supplementary materials."
+            }
+        },
+        "implementation": {
+            "key": "7014e819-888d-4d0d-ad35-9b6802bcc0be",
+            "id": "2025--Sharifi-H--Cr-Ni-Co-W--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2025-04-30",
+            "type": "LAMMPS pair_style meam",
+            "notes": {
+                "text": "These files were provided by Hamid Sharifi on April 22, 2025."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Cr-Ni-Co-W/1/library.meam",
+                        "link-text": "library.meam"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Cr-Ni-Co-W/1/CrNiCoW.meam",
+                        "link-text": "CrNiCoW.meam"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Cr",
+            "Ni",
+            "Co",
+            "W"
+        ]
+    }
+}

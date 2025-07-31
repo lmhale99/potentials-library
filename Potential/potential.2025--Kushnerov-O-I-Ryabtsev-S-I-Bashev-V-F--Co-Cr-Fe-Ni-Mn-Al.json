@@ -1,0 +1,65 @@
+{
+    "interatomic-potential": {
+        "key": "268e3258-9e89-4808-bf5c-36383d117a5c",
+        "id": "2025--Kushnerov-O-I-Ryabtsev-S-I-Bashev-V-F--Co-Cr-Fe-Ni-Mn-Al",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Kushnerov-O-I-Ryabtsev-S-I-Bashev-V-F--Co-Cr-Fe-Ni-Mn-Al",
+        "record-version": "2025-06-02",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Molecular dynamic simulation of multicomponent CoCrFeNiMn high-entropy alloy thin film deposition",
+                "author": [
+                    {
+                        "given-name": "O.I.",
+                        "surname": "Kushnerov"
+                    },
+                    {
+                        "given-name": "S.I.",
+                        "surname": "Ryabtsev"
+                    },
+                    {
+                        "given-name": "V.F.",
+                        "surname": "Bashev"
+                    }
+                ],
+                "publication-name": "Molecular Crystals and Liquid Crystals",
+                "publication-date": {
+                    "year": 2025,
+                    "month": "--05"
+                },
+                "abstract": "Molecular dynamics simulations were used to study the deposition and growth of a thin film of high-entropy CoCrFeMnNi alloy on an Al(100) substrate. Interatomic interactions were modeled using Morse potentials, which were developed with mixing rules adopted for regular solutions. A total of 50000 atoms with an incident energy of 10 eV were deposited for 100 ns, forming a film with a thickness of 6.1 nm. The resulting film exhibited face-centered cubic, body-centered cubic, hexagonal close-packed, and amorphous phases. Radial distribution function analysis determined the nearest neighbor distances and lattice parameters, which showed good agreement with experimental data.",
+                "pages": "1–11",
+                "DOI": "10.1080/15421406.2025.2504044",
+                "bibtex": "@article{2025--Kushnerov-O-I-Ryabtsev-S-I-Bashev-V-F,\n author = {Kushnerov, O.I. and Ryabtsev, S.I. and Bashev, V.F.},\n doi = {10.1080/15421406.2025.2504044},\n journal = {Molecular Crystals and Liquid Crystals},\n month = {May},\n pages = {1–11},\n title = {Molecular dynamic simulation of multicomponent CoCrFeNiMn high-entropy alloy thin film deposition},\n year = {2025}\n}\n"
+            },
+            "notes": {
+                "text": "Oleksandr Kushnerov states \"We propose a Morse potential parameter set to describe all pairwise interactions between alloy components in the compositionally complex quinary fcc CoCrFeNiMn high entropy alloy (with spatially random elemental distributions), as well as between this HEA and an aluminium substrate. Parameters were fitted to the values of the lattice constant and cohesive energy of the constituent elements.\""
+            }
+        },
+        "implementation": {
+            "key": "375ef462-3975-451b-9852-0289a210396d",
+            "id": "2025--Kushnerov-O-I--Co-Cr-Fe-Ni-Mn-Al--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2025-06-02",
+            "type": "LAMMPS pair_style morse",
+            "notes": {
+                "text": "These parameters were provided by Oleksandr Kushnerov on May 29, 2025."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Kushnerov-O-I-Ryabtsev-S-I-Bashev-V-F--Co-Cr-Fe-Ni-Mn-Al/1/CoCrFeNiMnAl_morse.txt",
+                    "label": "LAMMPS input",
+                    "link-text": "CoCrFeNiMnAl_morse.txt"
+                }
+            }
+        },
+        "element": [
+            "Co",
+            "Cr",
+            "Fe",
+            "Ni",
+            "Mn",
+            "Al"
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "d6a837c2-246d-4f2c-930c-2c28984b9001",
+        "id": "2025--Sharifi-H--Co-Al--LAMMPS--ipr1",
+        "potential": {
+            "key": "9f748b17-df47-4661-885c-66da3b4819e1",
+            "id": "2025--Sharifi-H-Wick-C-D--Co-Al"
+        },
+        "comments": "Potential 2025--Sharifi-H--Co-Al--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Co-Al/2025--Sharifi-H--Co-Al--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Co",
+                "element": "Co",
+                "mass": 58.933
+            },
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.9815
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Co Al"
+                },
+                {
+                    "file": "CoAl.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Co-Al/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Co-Al/1/CoAl.meam",
+                    "link-text": "CoAl.meam"
+                }
+            }
+        ]
+    }
+}

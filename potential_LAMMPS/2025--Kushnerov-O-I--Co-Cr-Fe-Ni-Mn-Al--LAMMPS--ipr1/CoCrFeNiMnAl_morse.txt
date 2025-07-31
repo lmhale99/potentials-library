@@ -1,0 +1,40 @@
+mass            1    58.933 #Co
+mass            2    51.996 #Cr
+mass            3    55.845 #Fe
+mass            4    58.693 #Ni
+mass            5    54.938 #Mn
+mass            6    26.982 #Al
+
+
+pair_style	morse 6.3
+
+pair_coeff	1 1 0.4349 1.380 2.794   #Co
+pair_coeff	2 2 0.4271 1.409 2.8248  #Cr
+pair_coeff	3 3 0.4198 1.335 2.8544  #Fe
+pair_coeff	4 4 0.4301 1.361 2.7919  #Ni
+pair_coeff	5 5 0.293 1.3708 2.877   #Mn
+pair_coeff	6 6 0.3370 1.160 3.1823  #Al
+
+
+pair_coeff	1 2 0.431 1.3945 2.8093 #CoCr
+pair_coeff	1 3 0.4273 1.3575 2.824  #CoFe
+pair_coeff	1 4 0.4325 1.3705 2.7929 #CoNi
+pair_coeff	1 5 0.357 1.3754 2.8352 #CoMn
+pair_coeff	1 6 0.3828 1.27 2.9793   #CoAl
+
+pair_coeff	2 3 0.4234 1.372 2.8392  #CrFe
+pair_coeff	2 4 0.4286 1.385 2.8081  #CrNi
+pair_coeff	2 5 0.3538 1.3899 2.8507 #CrMn
+pair_coeff	2 6 0.3794 1.2845 2.9952 #CrAl
+
+pair_coeff	3 4 0.4249 1.348 2.823   #FeNi
+pair_coeff	3 5 0.3507 1.3529 2.8655 #FeMn
+pair_coeff	3 6 0.3761 1.2475 3.0124 #FeAl
+
+pair_coeff	4 5 0.355 1.3659 2.834   #NiMn
+pair_coeff	4 6 0.3807 1.2605 3.028  #NiAl
+
+pair_coeff	5 6 0.3142 1.2654 3.0235 #MnAl
+
+neighbor	2.0 bin
+neigh_modify	every 1 delay 0 check yes 

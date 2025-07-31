@@ -1,0 +1,61 @@
+{
+    "potential-LAMMPS": {
+        "key": "43b4538c-f632-4be1-b125-53d00f8449dc",
+        "id": "2025--Sharifi-H--Cr-W--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2025--Sharifi-H--Cr-W--LAMMPS--ipr1",
+        "potential": {
+            "key": "ac329145-68ea-4298-995d-983555d38fe8",
+            "id": "2025--Sharifi-H-Wick-C-D--Cr-W",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Sharifi-H-Wick-C-D--Cr-W",
+            "doi": "10.1016/j.commatsci.2025.113877"
+        },
+        "comments": "Potential 2025--Sharifi-H--Cr-W--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Cr-W/2025--Sharifi-H--Cr-W--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Cr",
+                "element": "Cr",
+                "mass": 51.96
+            },
+            {
+                "symbol": "W",
+                "element": "W",
+                "mass": 183.85
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Cr W"
+                },
+                {
+                    "file": "CrW.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Cr-W/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Cr-W/1/CrW.meam",
+                    "link-text": "CrW.meam"
+                }
+            }
+        ]
+    }
+}

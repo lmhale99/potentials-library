@@ -1,0 +1,65 @@
+{
+    "interatomic-potential": {
+        "key": "25031fb0-85b6-439b-8270-11de196c8914",
+        "id": "2025--Sharifi-H-Wick-C-D--Fe-Ti-Ni",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Sharifi-H-Wick-C-D--Fe-Ti-Ni",
+        "record-version": "2025-03-05",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Developing interatomic potentials for complex concentrated alloys of Cu, Ti, Ni, Cr, Co, Al, Fe, and Mn",
+                "author": [
+                    {
+                        "given-name": "H.",
+                        "surname": "Sharifi"
+                    },
+                    {
+                        "given-name": "C.D.",
+                        "surname": "Wick"
+                    }
+                ],
+                "publication-name": "Computational Materials Science",
+                "publication-date": {
+                    "year": 2025
+                },
+                "volume": 248,
+                "abstract": "Complex concentrated alloys (CCAs) are a new generation of metallic alloys composed of three or more principal elements with physical and mechanical properties that can be tuned by adjusting their compositions. The extensive compositional workspace of CCAs makes it impractical to perform a comprehensive search for a specific material property using experimental measurements. The use of computational methods can rapidly narrow down the search span, improving the efficiency of the design process. We carried out a high-throughput parameterization of modified embedded atom method (MEAM) interatomic potentials for combinations of Cu, Ti, Ni, Cr, Co, Al, Fe, and Mn using a genetic algorithm. Unary systems were parameterized based on DFT calculations and experimental results. MEAM potentials for 28 binary and 56 ternary combinations of the elements were parameterized to DFT results that were carried out with semi-automated frameworks. Specific attention was made to reproduce properties that impact compositional segregation, material strength, and mechanics.",
+                "pages": "113595",
+                "DOI": "10.1016/j.commatsci.2024.113595",
+                "bibtex": "@article{Sharifi_2025,\n abstract = {Complex concentrated alloys (CCAs) are a new generation of metallic alloys composed of three or more principal elements with physical and mechanical properties that can be tuned by adjusting their compositions. The extensive compositional workspace of CCAs makes it impractical to perform a comprehensive search for a specific material property using experimental measurements. The use of computational methods can rapidly narrow down the search span, improving the efficiency of the design process. We carried out a high-throughput parameterization of modified embedded atom method (MEAM) interatomic potentials for combinations of Cu, Ti, Ni, Cr, Co, Al, Fe, and Mn using a genetic algorithm. Unary systems were parameterized based on DFT calculations and experimental results. MEAM potentials for 28 binary and 56 ternary combinations of the elements were parameterized to DFT results that were carried out with semi-automated frameworks. Specific attention was made to reproduce properties that impact compositional segregation, material strength, and mechanics.},\n author = {Sharifi, Hamid and Wick, Collin D.},\n doi = {10.1016/j.commatsci.2024.113595},\n issn = {0927-0256},\n journal = {Computational Materials Science},\n month = {February},\n pages = {113595},\n publisher = {Elsevier BV},\n title = {Developing interatomic potentials for complex concentrated alloys of Cu, Ti, Ni, Cr, Co, Al, Fe, and Mn},\n url = {http://dx.doi.org/10.1016/j.commatsci.2024.113595},\n volume = {248},\n year = {2025}\n}\n"
+            },
+            "notes": {
+                "text": "This is a ternary listing for the 2025--Sharifi-H-Wick-C-D--Fe-Mn-Ni-Ti-Cu-Cr-Co-Al potential.  This potential focuses on the structural analysis of alloys including shear strength and elastic constants, dislocation dynamics and their impact on alloy strength, and the analysis of defect effects, such as voids, on material properties. However, the potential was not optimized for temperature-dependent properties and was not fit to density, thermal expansion coefficients, or thermal conductivity data."
+            }
+        },
+        "implementation": {
+            "key": "1742485c-d088-43c4-b57f-c5872c9a55be",
+            "id": "2025--Sharifi-H--Fe-Ti-Ni--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2025-03-05",
+            "type": "LAMMPS pair_style meam",
+            "notes": {
+                "text": "These files were provided by Hamid Sharifi on February 11, 2025."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Fe-Ti-Ni/1/library.meam",
+                        "link-text": "library.meam"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Fe-Ti-Ni/1/FeTiNi.meam",
+                        "link-text": "FeTiNi.meam"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Fe",
+            "Ti",
+            "Ni"
+        ]
+    }
+}

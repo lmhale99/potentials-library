@@ -1,0 +1,47 @@
+{
+    "potential-LAMMPS": {
+        "key": "0d130438-d1fb-4d1c-9b49-8e3207b84a6f",
+        "id": "2025--Oliveira-D-S--Ga-P--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2025--Oliveira-D-S--Ga-P--LAMMPS--ipr1",
+        "potential": {
+            "key": "f975ac9b-c8fe-4587-acb8-27faebd80949",
+            "id": "2025--Oliveira-D-S-Kuritza-D-P-Zavarize-M-et-al--Ga-P",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Oliveira-D-S-Kuritza-D-P-Zavarize-M-et-al--Ga-P",
+            "doi": "10.1021/acsanm.5c01892"
+        },
+        "comments": "Potential 2025--Oliveira-D-S--Ga-P--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Oliveira-D-S-Kuritza-D-P-Zavarize-M-et-al--Ga-P/2025--Oliveira-D-S--Ga-P--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Ga",
+                "element": "Ga",
+                "mass": 69.723
+            },
+            {
+                "symbol": "P",
+                "element": "P",
+                "mass": 30.973762
+            }
+        ],
+        "pair_style": {
+            "type": "adp"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "GaP.lammps"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Oliveira-D-S-Kuritza-D-P-Zavarize-M-et-al--Ga-P/1/GaP.lammps",
+                "link-text": "GaP.lammps"
+            }
+        }
+    }
+}

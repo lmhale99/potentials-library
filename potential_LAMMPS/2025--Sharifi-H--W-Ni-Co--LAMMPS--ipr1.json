@@ -1,0 +1,66 @@
+{
+    "potential-LAMMPS": {
+        "key": "245fdfa6-4cb5-4478-8339-5895e9e3209b",
+        "id": "2025--Sharifi-H--W-Ni-Co--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2025--Sharifi-H--W-Ni-Co--LAMMPS--ipr1",
+        "potential": {
+            "key": "40d176e1-0765-41c4-af19-8bf50304cfe9",
+            "id": "2025--Sharifi-H-Wick-C-D--W-Ni-Co",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Sharifi-H-Wick-C-D--W-Ni-Co",
+            "doi": "10.1016/j.commatsci.2025.113877"
+        },
+        "comments": "Potential 2025--Sharifi-H--W-Ni-Co--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--W-Ni-Co/2025--Sharifi-H--W-Ni-Co--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "W",
+                "element": "W",
+                "mass": 183.85
+            },
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.6934
+            },
+            {
+                "symbol": "Co",
+                "element": "Co",
+                "mass": 58.933
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "W Ni Co"
+                },
+                {
+                    "file": "WNiCo.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--W-Ni-Co/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--W-Ni-Co/1/WNiCo.meam",
+                    "link-text": "WNiCo.meam"
+                }
+            }
+        ]
+    }
+}

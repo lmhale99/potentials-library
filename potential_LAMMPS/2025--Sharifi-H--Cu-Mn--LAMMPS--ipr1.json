@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "82cacf3f-7b1d-466e-b917-0edf6e3d4d5a",
+        "id": "2025--Sharifi-H--Cu-Mn--LAMMPS--ipr1",
+        "potential": {
+            "key": "ce2c1a57-fb5a-49d8-b1bf-fa171042ab71",
+            "id": "2025--Sharifi-H-Wick-C-D--Cu-Mn"
+        },
+        "comments": "Potential 2025--Sharifi-H--Cu-Mn--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Cu-Mn/2025--Sharifi-H--Cu-Mn--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Cu",
+                "element": "Cu",
+                "mass": 63.546
+            },
+            {
+                "symbol": "Mn",
+                "element": "Mn",
+                "mass": 54.94
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Cu Mn"
+                },
+                {
+                    "file": "CuMn.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Cu-Mn/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Cu-Mn/1/CuMn.meam",
+                    "link-text": "CuMn.meam"
+                }
+            }
+        ]
+    }
+}

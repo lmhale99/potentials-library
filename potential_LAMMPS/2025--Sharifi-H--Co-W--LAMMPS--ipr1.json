@@ -1,0 +1,61 @@
+{
+    "potential-LAMMPS": {
+        "key": "f3268c5c-64e6-4b14-a3ec-7909a73bc312",
+        "id": "2025--Sharifi-H--Co-W--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2025--Sharifi-H--Co-W--LAMMPS--ipr1",
+        "potential": {
+            "key": "bb73b76e-961e-4ddb-a66d-56007cd838ca",
+            "id": "2025--Sharifi-H-Wick-C-D--Co-W",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Sharifi-H-Wick-C-D--Co-W",
+            "doi": "10.1016/j.commatsci.2025.113877"
+        },
+        "comments": "Potential 2025--Sharifi-H--Co-W--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Co-W/2025--Sharifi-H--Co-W--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Co",
+                "element": "Co",
+                "mass": 58.933
+            },
+            {
+                "symbol": "W",
+                "element": "W",
+                "mass": 183.85
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Co W"
+                },
+                {
+                    "file": "CoW.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Co-W/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Co-W/1/CoW.meam",
+                    "link-text": "CoW.meam"
+                }
+            }
+        ]
+    }
+}

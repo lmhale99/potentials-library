@@ -1,0 +1,69 @@
+{
+    "interatomic-potential": {
+        "key": "f975ac9b-c8fe-4587-acb8-27faebd80949",
+        "id": "2025--Oliveira-D-S-Kuritza-D-P-Zavarize-M-et-al--Ga-P",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Oliveira-D-S-Kuritza-D-P-Zavarize-M-et-al--Ga-P",
+        "record-version": "2025-06-27",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Atomistic Modeling of GaP Nanowire Growth and Heat Transport via Interatomic Potential: Implications for Thermoelectric Applications",
+                "author": [
+                    {
+                        "given-name": "D.S.",
+                        "surname": "Oliveira"
+                    },
+                    {
+                        "given-name": "D.P.",
+                        "surname": "Kuritza"
+                    },
+                    {
+                        "given-name": "M.",
+                        "surname": "Zavarize"
+                    },
+                    {
+                        "given-name": "J.E.",
+                        "surname": "Padilha"
+                    },
+                    {
+                        "given-name": "M.A.",
+                        "surname": "Cotta"
+                    }
+                ],
+                "publication-name": "ACS Applied Nano Materials",
+                "publication-date": {
+                    "year": 2025,
+                    "month": "--06"
+                },
+                "volume": "8",
+                "abstract": "Atomistic simulations of gallium phosphide (GaP) nanomaterials are limited by the absence of reliable and publicly available interatomic potentials. In this work, we develop and parametrize a classical angular-dependent potential for GaP based on force-matching against density functional theory reference data, enabling accurate large-scale simulations of GaP-based nanoscale systems. The developed potential effectively reproduces essential structural, elastic, and energetic properties of bulk GaP in both zinc-blende and wurtzite phases, despite some deviations from experimental reference values. Through molecular dynamics simulations, we demonstrate the potential’s ability to describe key aspects of self-catalyzed vapor–liquid–solid growth in GaP nanowires, such as nucleation dynamics, temperature stability limits, and the influence of catalyst geometry. Furthermore, thermal transport simulations reveal that the model accurately captures qualitative trends regarding the impact of nanostructure size and surface morphology on thermal conductivity. Additionally, we investigate thermal rectification effects in telescopic GaP nanowires, observing measurable heat-flow asymmetries. These findings provide insights into phonon engineering strategies at the nanoscale, highlighting the relevance of GaP nanostructures for next-generation thermoelectric applications. The interatomic potential presented here will be made publicly available, offering a valuable computational tool for future investigations of GaP nanomaterials.",
+                "pages": "13340-13348",
+                "DOI": "10.1021/acsanm.5c01892",
+                "bibtex": "@article{2025--Oliveira-D-S-Kuritza-D-P-Zavarize-M-et-al,\n author = {Oliveira, D.S. and Kuritza, D.P. and Zavarize, M. and Padilha, J.E. and Cotta, M.A.},\n doi = {10.1021/acsanm.5c01892},\n journal = {ACS Applied Nano Materials},\n month = {June},\n pages = {13340-13348},\n title = {Atomistic Modeling of GaP Nanowire Growth and Heat Transport via Interatomic Potential: Implications for Thermoelectric Applications},\n volume = {8},\n year = {2025}\n}\n"
+            },
+            "notes": {
+                "text": "Prof. Dr. Douglas Soares Oliveira notes \"This ADP potential was developed to simulate the vapor−liquid−solid growth of self-catalyzed GaP nanowires, as well as their thermal transport properties. It performs well in zinc-blende and wurtzite phases and has been validated against DFT for energies, forces, and phonon behavior. However, it is not recommended for simulations involving highly strained configurations or extremely high temperatures, as these conditions were not extensively included in the training dataset. It should not be used for simulations involving interatomic distances below 1.8 Å, as the fitting was optimized for larger distances. A cutoff radius of 6 Å was used in the parametrization.\""
+            }
+        },
+        "implementation": {
+            "key": "0d130438-d1fb-4d1c-9b49-8e3207b84a6f",
+            "id": "2025--Oliveira-D-S--Ga-P--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2025-06-27",
+            "type": "LAMMPS pair_style adp",
+            "notes": {
+                "text": "This file was provided by Douglas Soares Oliveira on June 25, 2025."
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Oliveira-D-S-Kuritza-D-P-Zavarize-M-et-al--Ga-P/1/GaP.lammps",
+                    "link-text": "GaP.lammps"
+                }
+            }
+        },
+        "element": [
+            "Ga",
+            "P"
+        ]
+    }
+}

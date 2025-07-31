@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "3eec9963-b080-42f6-9a6f-75c49278daca",
+        "id": "2025--Sharifi-H--Fe-Ti--LAMMPS--ipr1",
+        "potential": {
+            "key": "944cfa98-af71-4d15-9928-b632941706ef",
+            "id": "2025--Sharifi-H-Wick-C-D--Fe-Ti"
+        },
+        "comments": "Potential 2025--Sharifi-H--Fe-Ti--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Fe-Ti/2025--Sharifi-H--Fe-Ti--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "symbol": "Ti",
+                "element": "Ti",
+                "mass": 47.88
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Fe Ti"
+                },
+                {
+                    "file": "FeTi.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Fe-Ti/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Fe-Ti/1/FeTi.meam",
+                    "link-text": "FeTi.meam"
+                }
+            }
+        ]
+    }
+}

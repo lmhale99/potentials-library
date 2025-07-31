@@ -1,0 +1,63 @@
+{
+    "potential-LAMMPS": {
+        "key": "45b606c7-d8f4-4e78-85e1-943d6cbbf1f2",
+        "id": "2025--Sharifi-H--Cr-Co-Al--LAMMPS--ipr1",
+        "potential": {
+            "key": "bf01ab6d-7b0f-480a-ad45-327fc8211556",
+            "id": "2025--Sharifi-H-Wick-C-D--Cr-Co-Al"
+        },
+        "comments": "Potential 2025--Sharifi-H--Cr-Co-Al--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Cr-Co-Al/2025--Sharifi-H--Cr-Co-Al--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Cr",
+                "element": "Cr",
+                "mass": 51.96
+            },
+            {
+                "symbol": "Co",
+                "element": "Co",
+                "mass": 58.933
+            },
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.9815
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Cr Co Al"
+                },
+                {
+                    "file": "CrCoAl.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Cr-Co-Al/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Cr-Co-Al/1/CrCoAl.meam",
+                    "link-text": "CrCoAl.meam"
+                }
+            }
+        ]
+    }
+}

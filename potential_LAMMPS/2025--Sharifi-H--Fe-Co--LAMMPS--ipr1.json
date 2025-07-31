@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "74ae3c08-1752-4920-9745-5b87b9e0a1f2",
+        "id": "2025--Sharifi-H--Fe-Co--LAMMPS--ipr1",
+        "potential": {
+            "key": "994c25eb-b799-440e-9ca5-269084301642",
+            "id": "2025--Sharifi-H-Wick-C-D--Fe-Co"
+        },
+        "comments": "Potential 2025--Sharifi-H--Fe-Co--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Fe-Co/2025--Sharifi-H--Fe-Co--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "symbol": "Co",
+                "element": "Co",
+                "mass": 58.933
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Fe Co"
+                },
+                {
+                    "file": "FeCo.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Fe-Co/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Fe-Co/1/FeCo.meam",
+                    "link-text": "FeCo.meam"
+                }
+            }
+        ]
+    }
+}

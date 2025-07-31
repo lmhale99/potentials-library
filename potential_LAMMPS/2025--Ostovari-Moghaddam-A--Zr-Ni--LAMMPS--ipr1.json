@@ -1,0 +1,61 @@
+{
+    "potential-LAMMPS": {
+        "key": "837a7251-ce21-4a50-94e3-a2e6d59118aa",
+        "id": "2025--Ostovari-Moghaddam-A--Zr-Ni--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2025--Ostovari-Moghaddam-A--Zr-Ni--LAMMPS--ipr1",
+        "potential": {
+            "key": "44228357-78fa-4d2e-80ad-46fdd2c97b1c",
+            "id": "2025--Ostovari-Moghaddam-A-Fereidonnejad-R-Moaddeli-M-et-al--Zr-Ni",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Ostovari-Moghaddam-A-Fereidonnejad-R-Moaddeli-M-et-al--Zr-Ni",
+            "doi": "10.1016/j.commatsci.2024.113534"
+        },
+        "comments": "Potential 2025--Ostovari-Moghaddam-A--Zr-Ni--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Ostovari-Moghaddam-A-Fereidonnejad-R-Moaddeli-M-et-al--Zr-Ni/2025--Ostovari-Moghaddam-A--Zr-Ni--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Zr",
+                "element": "Zr",
+                "mass": 91.22
+            },
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.69
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Zr Ni"
+                },
+                {
+                    "file": "Zr-Ni.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Ostovari-Moghaddam-A-Fereidonnejad-R-Moaddeli-M-et-al--Zr-Ni/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Ostovari-Moghaddam-A-Fereidonnejad-R-Moaddeli-M-et-al--Zr-Ni/1/Zr-Ni.meam",
+                    "link-text": "Zr-Ni.meam"
+                }
+            }
+        ]
+    }
+}

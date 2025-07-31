@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "34bc193e-113d-43db-8ccc-19dbd72133b9",
+        "id": "2025--Sharifi-H--Cr-Co--LAMMPS--ipr1",
+        "potential": {
+            "key": "d0bac912-6aae-46ae-b5b7-2d103b79c6aa",
+            "id": "2025--Sharifi-H-Wick-C-D--Cr-Co"
+        },
+        "comments": "Potential 2025--Sharifi-H--Cr-Co--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Cr-Co/2025--Sharifi-H--Cr-Co--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Cr",
+                "element": "Cr",
+                "mass": 51.96
+            },
+            {
+                "symbol": "Co",
+                "element": "Co",
+                "mass": 58.933
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Cr Co"
+                },
+                {
+                    "file": "CrCo.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Cr-Co/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Cr-Co/1/CrCo.meam",
+                    "link-text": "CrCo.meam"
+                }
+            }
+        ]
+    }
+}

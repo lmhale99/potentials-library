@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "9a1c33ba-1cff-4665-a78f-618fa5e932aa",
+        "id": "2025--Sharifi-H--Ti-Al--LAMMPS--ipr1",
+        "potential": {
+            "key": "12993c83-2355-4edb-b18c-94fafabb6aca",
+            "id": "2025--Sharifi-H-Wick-C-D--Ti-Al"
+        },
+        "comments": "Potential 2025--Sharifi-H--Ti-Al--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Ti-Al/2025--Sharifi-H--Ti-Al--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Ti",
+                "element": "Ti",
+                "mass": 47.88
+            },
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.9815
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ti Al"
+                },
+                {
+                    "file": "TiAl.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Ti-Al/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Ti-Al/1/TiAl.meam",
+                    "link-text": "TiAl.meam"
+                }
+            }
+        ]
+    }
+}

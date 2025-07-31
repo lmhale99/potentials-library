@@ -1,0 +1,86 @@
+{
+    "interatomic-potential": {
+        "key": "796b4d2c-6817-4289-a1a6-edbe932b4742",
+        "id": "2025--Meng-FS-Shinzato-S-Matsubara-K-et-al--Fe-C-H",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Meng-FS-Shinzato-S-Matsubara-K-et-al--Fe-C-H",
+        "record-version": "2025-07-17",
+        "description": {
+            "citation": {
+                "document-type": "unspecified",
+                "title": "A Neural Network Interatomic Potential for the Ternary α-Fe-C-H System: Toward Million-Atom Simulations of Hydrogen Embrittlement in Steel",
+                "author": [
+                    {
+                        "given-name": "F-S",
+                        "surname": "Meng"
+                    },
+                    {
+                        "given-name": "S",
+                        "surname": "Shinzato"
+                    },
+                    {
+                        "given-name": "K",
+                        "surname": "Matsubara"
+                    },
+                    {
+                        "given-name": "J-P",
+                        "surname": "Du"
+                    },
+                    {
+                        "given-name": "P",
+                        "surname": "Yu"
+                    },
+                    {
+                        "given-name": "S",
+                        "surname": "Ogata"
+                    }
+                ],
+                "publication-date": {
+                    "year": 2025
+                },
+                "abstract": "A neural network interatomic potential (NNIP) has been developed for the ternary system of α-iron, carbon, and hydrogen to clarify the degradation behavior of Fe-C steels in hydrogen-rich environments. The NNIP was trained on an extensive reference database generated from spin-polarized density functional theory (DFT) calculations. It demonstrates remarkable performance in various scenarios relevant to Fe and Fe-C systems under hydrogen, including the diffusion kinetics of H and C in Fe and their thermodynamic interactions with iron vacancies, grain boundaries, screw dislocations, cementite, and cementite-ferrite interfaces. Using this NNIP, we conducted large-scale (one-million-atom) molecular dynamics (MD) simulations of uniaxial tensile tests on C-containing α-Fe both with and without H, showing that hydrogen enhances defect accumulation during plastic deformation, which may eventually lead to material failure.",
+                "pages": "nearing accepted",
+                "bibtex": "@unpublished{2025--Meng-FS-Shinzato-S-Matsubara-K-et-al,\n author = {Meng, F-S and Shinzato, S and Matsubara, K and Du, J-P and Yu, P and Ogata, S},\n pages = {nearing accepted},\n title = {A Neural Network Interatomic Potential for the Ternary α-Fe-C-H System: Toward Million-Atom Simulations of Hydrogen Embrittlement in Steel},\n year = {2025}\n}\n"
+            },
+            "notes": {
+                "text": "Fan-Shun Meng notes that \"This neural network interatomic potential was trained using the n2p2 package and validated in the associated publication. This potential was designed for the ternary system of 𝛼-Fe-C-H. Additionally, the potential can also be used for pure 𝛼-Fe, 𝛼-Fe-C, 𝛼-Fe-H.\""
+            }
+        },
+        "implementation": {
+            "key": "436871b6-6a96-41b8-bd2f-13e017bd16d4",
+            "id": "2025--Meng-FS--Fe-C-H--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2025-07-17",
+            "type": "LAMMPS pair_style hdnnp",
+            "notes": {
+                "text": "This file was provided by Fan-Shun Meng on July 13, 2025.  To use the potential in LAMMPS, the pair_style of hdnnp should be adopted, and the package of ML-HDNNP should be compiled (see ML-HDNNP documentation)"
+            },
+            "artifact": {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Meng-FS-Shinzato-S-Matsubara-K-et-al--Fe-C-H/1/NNIP-FeCH.zip",
+                    "link-text": "NNIP-FeCH.zip"
+                }
+            },
+            "link": [
+                {
+                    "web-link": {
+                        "URL": "https://github.com/mengfsou/NNIP-FeCH",
+                        "label": "github repository",
+                        "link-text": "https://github.com/mengfsou/NNIP-FeCH"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://docs.lammps.org/Packages_details.html#pkg-ml-hdnnp",
+                        "label": "LAMMPS package details",
+                        "link-text": "https://docs.lammps.org/Packages_details.html#pkg-ml-hdnnp"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Fe",
+            "C",
+            "H"
+        ]
+    }
+}

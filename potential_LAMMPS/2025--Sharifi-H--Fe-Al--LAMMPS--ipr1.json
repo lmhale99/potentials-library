@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "58ea0f9a-0642-4973-ae47-7f3c2643f3a7",
+        "id": "2025--Sharifi-H--Fe-Al--LAMMPS--ipr1",
+        "potential": {
+            "key": "3918b1e5-a8b9-44d0-aa9f-b54fa9533b38",
+            "id": "2025--Sharifi-H-Wick-C-D--Fe-Al"
+        },
+        "comments": "Potential 2025--Sharifi-H--Fe-Al--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Fe-Al/2025--Sharifi-H--Fe-Al--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.9815
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Fe Al"
+                },
+                {
+                    "file": "FeAl.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Fe-Al/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Fe-Al/1/FeAl.meam",
+                    "link-text": "FeAl.meam"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "potential-LAMMPS": {
+        "key": "2d3cd610-37b0-4bdb-afb4-b7da500df1d3",
+        "id": "2025--Sharifi-H--Ni-Ti--LAMMPS--ipr1",
+        "potential": {
+            "key": "e12fb7c3-87d0-456d-a6e7-5c3ec1e1efbb",
+            "id": "2025--Sharifi-H-Wick-C-D--Ni-Ti"
+        },
+        "comments": "Potential 2025--Sharifi-H--Ni-Ti--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Ni-Ti/2025--Sharifi-H--Ni-Ti--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.6934
+            },
+            {
+                "symbol": "Ti",
+                "element": "Ti",
+                "mass": 47.88
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Ni Ti"
+                },
+                {
+                    "file": "NiTi.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Ni-Ti/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Ni-Ti/1/NiTi.meam",
+                    "link-text": "NiTi.meam"
+                }
+            }
+        ]
+    }
+}

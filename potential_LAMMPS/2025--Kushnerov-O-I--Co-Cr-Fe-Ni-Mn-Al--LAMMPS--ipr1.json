@@ -1,0 +1,462 @@
+{
+    "potential-LAMMPS": {
+        "key": "375ef462-3975-451b-9852-0289a210396d",
+        "id": "2025--Kushnerov-O-I--Co-Cr-Fe-Ni-Mn-Al--LAMMPS--ipr1",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2025--Kushnerov-O-I--Co-Cr-Fe-Ni-Mn-Al--LAMMPS--ipr1",
+        "potential": {
+            "key": "268e3258-9e89-4808-bf5c-36383d117a5c",
+            "id": "2025--Kushnerov-O-I-Ryabtsev-S-I-Bashev-V-F--Co-Cr-Fe-Ni-Mn-Al",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Kushnerov-O-I-Ryabtsev-S-I-Bashev-V-F--Co-Cr-Fe-Ni-Mn-Al",
+            "doi": "10.1080/15421406.2025.2504044"
+        },
+        "comments": "Potential 2025--Kushnerov-O-I--Co-Cr-Fe-Ni-Mn-Al--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Kushnerov-O-I-Ryabtsev-S-I-Bashev-V-F--Co-Cr-Fe-Ni-Mn-Al/2025--Kushnerov-O-I--Co-Cr-Fe-Ni-Mn-Al--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Co",
+                "element": "Co",
+                "mass": 58.933
+            },
+            {
+                "symbol": "Cr",
+                "element": "Cr",
+                "mass": 51.996
+            },
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.693
+            },
+            {
+                "symbol": "Mn",
+                "element": "Mn",
+                "mass": 54.938
+            },
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.982
+            }
+        ],
+        "pair_style": {
+            "type": "morse",
+            "term": {
+                "parameter": 6.3
+            }
+        },
+        "pair_coeff": [
+            {
+                "interaction": {
+                    "symbol": [
+                        "Co",
+                        "Co"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.4349
+                    },
+                    {
+                        "parameter": 1.38
+                    },
+                    {
+                        "parameter": 2.794
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Cr",
+                        "Cr"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.4271
+                    },
+                    {
+                        "parameter": 1.409
+                    },
+                    {
+                        "parameter": 2.8248
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Fe",
+                        "Fe"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.4198
+                    },
+                    {
+                        "parameter": 1.335
+                    },
+                    {
+                        "parameter": 2.8544
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Ni",
+                        "Ni"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.4301
+                    },
+                    {
+                        "parameter": 1.361
+                    },
+                    {
+                        "parameter": 2.7919
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Mn",
+                        "Mn"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.293
+                    },
+                    {
+                        "parameter": 1.3708
+                    },
+                    {
+                        "parameter": 2.877
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Al",
+                        "Al"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.337
+                    },
+                    {
+                        "parameter": 1.16
+                    },
+                    {
+                        "parameter": 3.1823
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Co",
+                        "Cr"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.431
+                    },
+                    {
+                        "parameter": 1.3945
+                    },
+                    {
+                        "parameter": 2.8093
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Co",
+                        "Fe"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.4273
+                    },
+                    {
+                        "parameter": 1.3575
+                    },
+                    {
+                        "parameter": 2.824
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Co",
+                        "Ni"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.4325
+                    },
+                    {
+                        "parameter": 1.3705
+                    },
+                    {
+                        "parameter": 2.7929
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Co",
+                        "Mn"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.357
+                    },
+                    {
+                        "parameter": 1.3754
+                    },
+                    {
+                        "parameter": 2.8352
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Co",
+                        "Al"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.3828
+                    },
+                    {
+                        "parameter": 1.27
+                    },
+                    {
+                        "parameter": 2.9793
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Cr",
+                        "Fe"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.4234
+                    },
+                    {
+                        "parameter": 1.372
+                    },
+                    {
+                        "parameter": 2.8392
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Cr",
+                        "Ni"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.4286
+                    },
+                    {
+                        "parameter": 1.385
+                    },
+                    {
+                        "parameter": 2.8081
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Cr",
+                        "Mn"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.3538
+                    },
+                    {
+                        "parameter": 1.3899
+                    },
+                    {
+                        "parameter": 2.8507
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Cr",
+                        "Al"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.3794
+                    },
+                    {
+                        "parameter": 1.2845
+                    },
+                    {
+                        "parameter": 2.9952
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Fe",
+                        "Ni"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.4249
+                    },
+                    {
+                        "parameter": 1.348
+                    },
+                    {
+                        "parameter": 2.823
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Fe",
+                        "Mn"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.3507
+                    },
+                    {
+                        "parameter": 1.3529
+                    },
+                    {
+                        "parameter": 2.8655
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Fe",
+                        "Al"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.3761
+                    },
+                    {
+                        "parameter": 1.2475
+                    },
+                    {
+                        "parameter": 3.0124
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Ni",
+                        "Mn"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.355
+                    },
+                    {
+                        "parameter": 1.3659
+                    },
+                    {
+                        "parameter": 2.834
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Ni",
+                        "Al"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.3807
+                    },
+                    {
+                        "parameter": 1.2605
+                    },
+                    {
+                        "parameter": 3.028
+                    }
+                ]
+            },
+            {
+                "interaction": {
+                    "symbol": [
+                        "Mn",
+                        "Al"
+                    ]
+                },
+                "term": [
+                    {
+                        "parameter": 0.3142
+                    },
+                    {
+                        "parameter": 1.2654
+                    },
+                    {
+                        "parameter": 3.0235
+                    }
+                ]
+            }
+        ],
+        "artifact": {
+            "web-link": {
+                "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Kushnerov-O-I-Ryabtsev-S-I-Bashev-V-F--Co-Cr-Fe-Ni-Mn-Al/1/CoCrFeNiMnAl_morse.txt",
+                "label": "LAMMPS commands",
+                "link-text": "CoCrFeNiMnAl_morse.txt"
+            }
+        }
+    }
+}

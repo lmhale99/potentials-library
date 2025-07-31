@@ -1,0 +1,54 @@
+{
+    "potential-LAMMPS": {
+        "key": "b161c039-d287-4ea5-b053-a24215ba6a1d",
+        "id": "2022--Hiremath-P--W--LAMMPS--ipr2",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/2022--Hiremath-P--W--LAMMPS--ipr2",
+        "potential": {
+            "key": "117bd46d-2b06-48ce-97c0-c1d94dcb89b4",
+            "id": "2022--Hiremath-P-Melin-S-Bitzek-E-Olsson-P-A-T--W",
+            "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2022--Hiremath-P-Melin-S-Bitzek-E-Olsson-P-A-T--W",
+            "doi": "10.1016/j.commatsci.2022.111283"
+        },
+        "comments": "Potential 2022--Hiremath-P--W--LAMMPS--ipr2 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2022--Hiremath-P-Melin-S-Bitzek-E-Olsson-P-A-T--W/2022--Hiremath-P--W--LAMMPS--ipr2.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": {
+            "symbol": "W",
+            "element": "W",
+            "mass": 183.85
+        },
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "W.library.meam"
+                },
+                {
+                    "option": "W"
+                },
+                {
+                    "file": "W.parameter.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Hiremath-P-Melin-S-Bitzek-E-Olsson-P-A-T--W/2/W.library.meam",
+                    "link-text": "W.library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2022--Hiremath-P-Melin-S-Bitzek-E-Olsson-P-A-T--W/2/W.parameter.meam",
+                    "link-text": "W.parameter.meam"
+                }
+            }
+        ]
+    }
+}

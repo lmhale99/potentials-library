@@ -1,0 +1,101 @@
+{
+    "interatomic-potential": {
+        "key": "eddd2c97-1783-460a-a394-edf07407098f",
+        "id": "2025--Nitol-M-S-Mishra-A-Xu-S-Fensin-S-J--Al-Ti-V",
+        "URL": "https://potentials.nist.gov/pid/rest/local/potentials/potential.2025--Nitol-M-S-Mishra-A-Xu-S-Fensin-S-J--Al-Ti-V",
+        "record-version": "2025-06-12",
+        "description": {
+            "citation": {
+                "document-type": "journal",
+                "title": "Moment tensor potential and its application in the Ti-Al-V multicomponent system",
+                "author": [
+                    {
+                        "given-name": "M.S.",
+                        "surname": "Nitol"
+                    },
+                    {
+                        "given-name": "A.",
+                        "surname": "Mishra"
+                    },
+                    {
+                        "given-name": "S.",
+                        "surname": "Xu"
+                    },
+                    {
+                        "given-name": "S.J.",
+                        "surname": "Fensin"
+                    }
+                ],
+                "publication-name": "Physical Review Materials",
+                "publication-date": {
+                    "year": 2025,
+                    "month": "--06"
+                },
+                "volume": "9",
+                "issue": "6",
+                "abstract": "Titanium (Ti) alloys such as Ti-6Al-4V are recognized as critical materials for aerospace and biomedical applications due to their exceptional strength-to-weight ratio and high-temperature performance. Traditional interatomic potentials are known to struggle in capturing their complex phase behavior, limiting atomistic modeling capabilities. In this work, a machine learning (ML)-based moment tensor potential (MTP) is developed using first-principles data from diverse configurations that span the unary, binary, and ternary systems of Ti, Al, and V. The optimized MTP is shown to achieve accuracy of density functional theory (DFT) level for lattice parameters (errors <1.2%), elastic constants (errors <10% for most components), and stack fault energies, while having computational efficiency comparable to non-ML potentials. Phase stability across composition-temperature space is predicted through hybrid Monte Carlo (MC)/molecular dynamics simulations, including α/β transitions in pure Ti (1083 K vs. experimental 1155 K), α-to-D⁢0<sub>19</sub> transitions in Ti-Al (8.5-25 at.% Al), and β+ω coexistence in Ti-V alloys. In particular, the evolution of the β precipitate in Ti-6Al-4V is captured by MTP without explicit training on ternary DFT-MC data. This work establishes the MTP framework as a powerful tool for modeling complex phase transformations in multicomponent Ti alloys, enabling atomistic insights into microstructural evolution and alloy design.",
+                "pages": "063601",
+                "DOI": "10.1103/physrevmaterials.9.063601",
+                "bibtex": "@article{2025--Nitol-M-S-Mishra-A-Xu-S-Fensin-S-J,\n author = {Nitol, M.S. and Mishra, A. and Xu, S. and Fensin, S.J.},\n doi = {10.1103/physrevmaterials.9.063601},\n journal = {Physical Review Materials},\n month = {June},\n number = {6},\n pages = {063601},\n title = {Moment tensor potential and its application in the Ti-Al-V multicomponent system},\n volume = {9},\n year = {2025}\n}\n"
+            }
+        },
+        "implementation": {
+            "key": "9aceb4e7-0e5e-4ce8-b2f0-550de0dfd500",
+            "id": "2025--Nitol-M-S--Al-Ti-V--LAMMPS--ipr1",
+            "status": "active",
+            "date": "2025-06-12",
+            "type": "LAMMPS pair_style mlip (custom)",
+            "notes": {
+                "text": "These parameters were provided by Mashroor Nitol on June 3, 2025.  See the links below for training data and information on how to install MLIP and the LAMMPS-MLIP interface."
+            },
+            "artifact": [
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Nitol-M-S-Mishra-A-Xu-S-Fensin-S-J--Al-Ti-V/1/mlip.ini",
+                        "link-text": "mlip.ini"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Nitol-M-S-Mishra-A-Xu-S-Fensin-S-J--Al-Ti-V/1/AlTiV.mtp",
+                        "link-text": "AlTiV.mtp"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Nitol-M-S-Mishra-A-Xu-S-Fensin-S-J--Al-Ti-V/1/potential.mod",
+                        "link-text": "potential.mod"
+                    }
+                }
+            ],
+            "link": [
+                {
+                    "web-link": {
+                        "URL": "https://gitlab.com/mtp_potentials/tialv",
+                        "label": "gitlab for potential",
+                        "link-text": "https://gitlab.com/mtp_potentials/tialv"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://gitlab.com/ashapeev/interface-lammps-mlip-2",
+                        "label": "LAMMPS-MLIP interface",
+                        "link-text": "https://gitlab.com/ashapeev/interface-lammps-mlip-2"
+                    }
+                },
+                {
+                    "web-link": {
+                        "URL": "https://mlip.skoltech.ru/download/",
+                        "label": "MLIP download",
+                        "link-text": "https://mlip.skoltech.ru/download/"
+                    }
+                }
+            ]
+        },
+        "element": [
+            "Al",
+            "Ti",
+            "V"
+        ]
+    }
+}

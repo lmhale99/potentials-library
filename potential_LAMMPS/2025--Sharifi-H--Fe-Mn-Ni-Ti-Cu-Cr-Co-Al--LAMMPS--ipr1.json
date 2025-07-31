@@ -1,0 +1,88 @@
+{
+    "potential-LAMMPS": {
+        "key": "b50bad1d-f70c-42c8-8205-320eb181ca84",
+        "id": "2025--Sharifi-H--Fe-Mn-Ni-Ti-Cu-Cr-Co-Al--LAMMPS--ipr1",
+        "potential": {
+            "key": "3f1437f6-f3ad-4326-a186-505cbfef79d9",
+            "id": "2025--Sharifi-H-Wick-C-D--Fe-Mn-Ni-Ti-Cu-Cr-Co-Al"
+        },
+        "comments": "Potential 2025--Sharifi-H--Fe-Mn-Ni-Ti-Cu-Cr-Co-Al--LAMMPS--ipr1 listed in the NIST Interatomic Potentials Repository:\nhttps://www.ctcms.nist.gov/potentials/entry/2025--Sharifi-H-Wick-C-D--Fe-Mn-Ni-Ti-Cu-Cr-Co-Al/2025--Sharifi-H--Fe-Mn-Ni-Ti-Cu-Cr-Co-Al--LAMMPS--ipr1.html\n",
+        "units": "metal",
+        "atom_style": "atomic",
+        "atom": [
+            {
+                "symbol": "Fe",
+                "element": "Fe",
+                "mass": 55.845
+            },
+            {
+                "symbol": "Mn",
+                "element": "Mn",
+                "mass": 54.94
+            },
+            {
+                "symbol": "Ni",
+                "element": "Ni",
+                "mass": 58.6934
+            },
+            {
+                "symbol": "Ti",
+                "element": "Ti",
+                "mass": 47.88
+            },
+            {
+                "symbol": "Cu",
+                "element": "Cu",
+                "mass": 63.546
+            },
+            {
+                "symbol": "Cr",
+                "element": "Cr",
+                "mass": 51.96
+            },
+            {
+                "symbol": "Co",
+                "element": "Co",
+                "mass": 58.933
+            },
+            {
+                "symbol": "Al",
+                "element": "Al",
+                "mass": 26.9815
+            }
+        ],
+        "pair_style": {
+            "type": "meam"
+        },
+        "pair_coeff": {
+            "term": [
+                {
+                    "file": "library.meam"
+                },
+                {
+                    "option": "Fe Mn Ni Ti Cu Cr Co Al"
+                },
+                {
+                    "file": "FeMnNiTiCuCrCoAl.meam"
+                },
+                {
+                    "symbols": true
+                }
+            ]
+        },
+        "artifact": [
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Fe-Mn-Ni-Ti-Cu-Cr-Co-Al/1/library.meam",
+                    "link-text": "library.meam"
+                }
+            },
+            {
+                "web-link": {
+                    "URL": "https://www.ctcms.nist.gov/potentials/Download/2025--Sharifi-H-Wick-C-D--Fe-Mn-Ni-Ti-Cu-Cr-Co-Al/1/FeMnNiTiCuCrCoAl.meam",
+                    "link-text": "FeMnNiTiCuCrCoAl.meam"
+                }
+            }
+        ]
+    }
+}
