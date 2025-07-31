@@ -113,12 +113,6 @@ iprPy.
   combination of the available associated Strukturbericht symbol, compositional
   prototype and/or a common descriptor.
 
-- **relaxed_crystal** contains records for each potential-dependent relaxed
-  crystal structure found by the iprPy framework for relaxations done at 0K.
-  The records detail the unit cell for the relaxed crystal structure which are
-  then useful for constructing atomic configurations using the correct lattice
-  constants for a given crystal structure and interatomic potential.
-
 iprPy records
 `````````````
 These are the record styles in the library that are supported by only iprPy.
@@ -132,6 +126,11 @@ These are the record styles in the library that are supported by only iprPy.
   calculations to generate atomic systems with an ideally sliced free surface
   along a crystal plane.  The records are uniquely named based on crystal
   prototype and surface plane family.
+
+- **grain_boundary**  contains records that provide input parameter sets for
+  iprPy calculations to generate grain boundary atomic configurations.  The
+  records are uniquely named based on crystal protoype and grain boundary
+  descriptors.
 
 - **point_defect** contains records that provide input parameter sets for iprPy
   calculations to generate atomic systems containing a point defect or point
